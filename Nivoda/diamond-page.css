@@ -1,0 +1,375 @@
+/* ==========================================================================
+   ORLOFF OF DENMARK — Diamond Search / Listing Page
+   Brand system: navy #091b36, gold #b08d57 accent
+   Headings: Cormorant Garamond | Body: Inter
+   Give this file to Claude Code alongside your diamond page markup.
+   ========================================================================== */
+
+:root {
+  --orloff-navy: #091b36;
+  --orloff-gold: #b08d57;
+  --orloff-white: #ffffff;
+  --orloff-off-white: #faf9f7;
+  --orloff-border: #e2ddd4;
+  --orloff-text-muted: #6b7280;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* --------------------------------------------------------------------
+   Eyebrow labels — small-caps gold section headers
+   e.g. "LOOSE DIAMONDS", "FILTER BY", "CERTIFICATE"
+   -------------------------------------------------------------------- */
+.orloff-eyebrow {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--orloff-gold);
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* --------------------------------------------------------------------
+   Page header
+   -------------------------------------------------------------------- */
+.diamond-page-header {
+  text-align: center;
+  padding: 64px 24px 40px;
+  border-bottom: 1px solid var(--orloff-border);
+}
+
+.diamond-page-header h1 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 42px;
+  color: var(--orloff-navy);
+  letter-spacing: 0.02em;
+  margin: 0 0 12px;
+}
+
+.diamond-page-header p {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--orloff-text-muted);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* --------------------------------------------------------------------
+   Layout: filter sidebar + result grid
+   -------------------------------------------------------------------- */
+.diamond-page-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 24px 96px;
+}
+
+@media (max-width: 900px) {
+  .diamond-page-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --------------------------------------------------------------------
+   Filters
+   -------------------------------------------------------------------- */
+.diamond-filters {
+  font-family: var(--font-body);
+}
+
+.diamond-filter-group {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--orloff-border);
+}
+
+.diamond-filter-group:first-child {
+  padding-top: 0;
+}
+
+.diamond-filter-group__title {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--orloff-navy);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 14px;
+}
+
+.diamond-filter-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 34px;
+  padding: 0 10px;
+  margin: 0 6px 6px 0;
+  border: 1px solid var(--orloff-border);
+  border-radius: 2px;
+  background: var(--orloff-white);
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--orloff-navy);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.diamond-filter-chip:hover {
+  border-color: var(--orloff-gold);
+}
+
+.diamond-filter-chip.is-active {
+  background: var(--orloff-navy);
+  border-color: var(--orloff-navy);
+  color: var(--orloff-white);
+}
+
+/* Range slider track (carat / price) */
+.diamond-filter-range {
+  width: 100%;
+  accent-color: var(--orloff-gold);
+  margin-top: 8px;
+}
+
+.diamond-filter-range-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--orloff-text-muted);
+  margin-top: 6px;
+}
+
+/* --------------------------------------------------------------------
+   Result grid + cards
+   -------------------------------------------------------------------- */
+.diamond-results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--orloff-text-muted);
+}
+
+.diamond-results-bar select {
+  font-family: var(--font-body);
+  font-size: 13px;
+  border: 1px solid var(--orloff-border);
+  border-radius: 2px;
+  padding: 6px 10px;
+  color: var(--orloff-navy);
+  background: var(--orloff-white);
+}
+
+.diamond-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.diamond-card {
+  background: var(--orloff-white);
+  border: 1px solid var(--orloff-border);
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.diamond-card:hover {
+  box-shadow: 0 8px 24px rgba(9, 27, 54, 0.08);
+  transform: translateY(-2px);
+}
+
+.diamond-card__image-wrap {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--orloff-off-white);
+  overflow: hidden;
+}
+
+.diamond-card__image-wrap img,
+.diamond-card__image-wrap video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.diamond-card__lab-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: var(--orloff-navy);
+  color: var(--orloff-white);
+}
+
+.diamond-card__body {
+  padding: 16px 18px 20px;
+}
+
+.diamond-card__title {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--orloff-navy);
+  margin: 0 0 4px;
+}
+
+.diamond-card__specs {
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  color: var(--orloff-text-muted);
+  margin: 0 0 12px;
+  letter-spacing: 0.01em;
+}
+
+.diamond-card__specs span {
+  color: var(--orloff-navy);
+}
+
+/* Price — the one element on the page that should command attention */
+.diamond-card__price {
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--orloff-navy);
+  letter-spacing: 0.01em;
+}
+
+.diamond-card__price sup {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--orloff-text-muted);
+  margin-left: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* --------------------------------------------------------------------
+   Empty / loading states
+   -------------------------------------------------------------------- */
+.diamond-grid-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 24px;
+  font-family: var(--font-body);
+  color: var(--orloff-text-muted);
+  font-size: 14px;
+}
+
+.diamond-card--skeleton {
+  background: linear-gradient(90deg, var(--orloff-off-white) 0%, #f0ede8 50%, var(--orloff-off-white) 100%);
+  background-size: 200% 100%;
+  animation: orloff-shimmer 1.4s ease-in-out infinite;
+  aspect-ratio: 3 / 4;
+}
+
+@keyframes orloff-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* --------------------------------------------------------------------
+   Diamond detail view (single stone)
+   -------------------------------------------------------------------- */
+.diamond-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 56px 24px 96px;
+}
+
+@media (max-width: 900px) {
+  .diamond-detail {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.diamond-detail__price {
+  font-family: var(--font-heading);
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--orloff-navy);
+  margin: 4px 0 24px;
+}
+
+.diamond-detail__specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+}
+
+.diamond-detail__specs-table tr {
+  border-bottom: 1px solid var(--orloff-border);
+}
+
+.diamond-detail__specs-table td {
+  padding: 12px 0;
+}
+
+.diamond-detail__specs-table td:first-child {
+  color: var(--orloff-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+  font-weight: 600;
+  width: 40%;
+}
+
+.diamond-detail__specs-table td:last-child {
+  color: var(--orloff-navy);
+  font-weight: 500;
+  text-align: right;
+}
+
+/* Primary CTA — reuse existing site button styles if you have them;
+   this is a fallback matching the navy/gold system */
+.diamond-detail__cta {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 16px 24px;
+  margin-top: 24px;
+  background: var(--orloff-navy);
+  color: var(--orloff-white);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.diamond-detail__cta:hover {
+  background: #0d2547;
+}
+
+.diamond-detail__cta:disabled {
+  background: var(--orloff-border);
+  color: var(--orloff-text-muted);
+  cursor: not-allowed;
+}

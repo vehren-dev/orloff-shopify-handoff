@@ -1,0 +1,202 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  .orloff-ds { font-family: 'Inter', sans-serif; color: #091b36; max-width: 1200px; margin: 0 auto; }
+  .orloff-ds h1 { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 2.5rem; margin-bottom: 1.5rem; color: #091b36; }
+  .orloff-ds .filters { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; background: #f6f5f2; border: 1px solid #dcdcd6; padding: 1.25rem; border-radius: 4px; margin-bottom: 1.5rem; }
+  .orloff-ds .field { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.8rem; }
+  .orloff-ds .field label { font-weight: 500; text-transform: uppercase; letter-spacing: 0.03em; font-size: 0.72rem; color: #4a5568; }
+  .orloff-ds select, .orloff-ds input { font-family: inherit; padding: 0.45rem 0.6rem; border: 1px solid #c7c7c0; border-radius: 3px; font-size: 0.9rem; background: #fff; }
+  .orloff-ds .range { display: flex; gap: 0.4rem; align-items: center; }
+  .orloff-ds .range input { width: 70px; }
+  .orloff-ds button.search-btn { background: #091b36; color: #fff; border: none; padding: 0.6rem 1.4rem; font-size: 0.9rem; font-weight: 500; letter-spacing: 0.02em; border-radius: 3px; cursor: pointer; height: fit-content; }
+  .orloff-ds button.search-btn:hover { background: #142a4d; }
+  .orloff-ds .status { padding: 2rem 0; text-align: center; color: #4a5568; font-size: 0.95rem; }
+  .orloff-ds .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem; }
+  .orloff-ds .card { border: 1px solid #e2e1db; border-radius: 4px; overflow: hidden; background: #fff; }
+  .orloff-ds .card img { width: 100%; aspect-ratio: 1; object-fit: cover; background: #f0efea; display: block; }
+  .orloff-ds .card .body { padding: 0.85rem; }
+  .orloff-ds .card .price { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 600; color: #091b36; }
+  .orloff-ds .card .specs { font-size: 0.8rem; color: #4a5568; margin-top: 0.35rem; line-height: 1.5; }
+  .orloff-ds .card .specs strong { color: #091b36; }
+  .orloff-ds .card a.video-link { display: inline-block; margin-top: 0.5rem; font-size: 0.78rem; color: #091b36; text-decoration: underline; }
+  .orloff-ds .load-more { display: block; margin: 2rem auto 0; background: none; border: 1px solid #091b36; color: #091b36; padding: 0.6rem 1.6rem; border-radius: 3px; cursor: pointer; font-size: 0.9rem; }
+  .orloff-ds .load-more:hover { background: #091b36; color: #fff; }
+  .orloff-ds .load-more[hidden] { display: none; }
+</style>
+
+<div class="orloff-ds">
+  <h1>Loose Diamonds</h1>
+
+  <div class="filters">
+    <div class="field">
+      <label for="ds-shape">Shape</label>
+      <select id="ds-shape">
+        <option value="">Any</option>
+        <option value="ROUND">Round</option>
+        <option value="OVAL">Oval</option>
+        <option value="CUSHION">Cushion</option>
+        <option value="PRINCESS">Princess</option>
+        <option value="EMERALD">Emerald</option>
+        <option value="PEAR">Pear</option>
+        <option value="RADIANT">Radiant</option>
+        <option value="ASSCHER">Asscher</option>
+        <option value="MARQUISE">Marquise</option>
+        <option value="HEART">Heart</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Carat</label>
+      <div class="range">
+        <input type="number" id="ds-carat-min" placeholder="Min" min="0" step="0.1">
+        <span>&ndash;</span>
+        <input type="number" id="ds-carat-max" placeholder="Max" min="0" step="0.1">
+      </div>
+    </div>
+    <div class="field">
+      <label for="ds-color">Color</label>
+      <select id="ds-color" multiple size="4">
+        <option>D</option><option>E</option><option>F</option><option>G</option>
+        <option>H</option><option>I</option><option>J</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="ds-clarity">Clarity</label>
+      <select id="ds-clarity" multiple size="4">
+        <option>FL</option><option>IF</option><option>VVS1</option><option>VVS2</option>
+        <option>VS1</option><option>VS2</option><option>SI1</option><option>SI2</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Price (USD)</label>
+      <div class="range">
+        <input type="number" id="ds-price-min" placeholder="Min" min="0">
+        <span>&ndash;</span>
+        <input type="number" id="ds-price-max" placeholder="Max" min="0">
+      </div>
+    </div>
+    <div class="field">
+      <label for="ds-labgrown">Type</label>
+      <select id="ds-labgrown">
+        <option value="">Natural &amp; Lab-grown</option>
+        <option value="false">Natural only</option>
+        <option value="true">Lab-grown only</option>
+      </select>
+    </div>
+    <button class="search-btn" id="ds-search-btn">Search</button>
+  </div>
+
+  <div id="ds-status" class="status" hidden></div>
+  <div id="ds-grid" class="grid"></div>
+  <button id="ds-load-more" class="load-more" hidden>Load more</button>
+</div>
+
+<script>
+(function () {
+  var API_BASE = 'https://orloff-nivoda-proxy.orloffofdenmark.workers.dev';
+  var PAGE_SIZE = 24;
+  var offset = 0;
+  var lastQueryString = '';
+
+  var els = {
+    shape: document.getElementById('ds-shape'),
+    caratMin: document.getElementById('ds-carat-min'),
+    caratMax: document.getElementById('ds-carat-max'),
+    color: document.getElementById('ds-color'),
+    clarity: document.getElementById('ds-clarity'),
+    priceMin: document.getElementById('ds-price-min'),
+    priceMax: document.getElementById('ds-price-max'),
+    labgrown: document.getElementById('ds-labgrown'),
+    searchBtn: document.getElementById('ds-search-btn'),
+    status: document.getElementById('ds-status'),
+    grid: document.getElementById('ds-grid'),
+    loadMore: document.getElementById('ds-load-more'),
+  };
+
+  function selectedValues(select) {
+    return Array.prototype.filter.call(select.options, function (o) { return o.selected; })
+      .map(function (o) { return o.value; });
+  }
+
+  function buildQuery() {
+    var params = new URLSearchParams();
+    if (els.shape.value) params.set('shapes', els.shape.value);
+    if (els.caratMin.value) params.set('caratMin', els.caratMin.value);
+    if (els.caratMax.value) params.set('caratMax', els.caratMax.value);
+    var colors = selectedValues(els.color);
+    if (colors.length) params.set('color', colors.join(','));
+    var clarities = selectedValues(els.clarity);
+    if (clarities.length) params.set('clarity', clarities.join(','));
+    if (els.priceMin.value) params.set('priceMin', els.priceMin.value);
+    if (els.priceMax.value) params.set('priceMax', els.priceMax.value);
+    if (els.labgrown.value) params.set('labgrown', els.labgrown.value);
+    params.set('limit', PAGE_SIZE);
+    return params;
+  }
+
+  function cardHtml(item) {
+    var c = item.certificate || {};
+    var img = item.image || 'https://placehold.co/400x400?text=No+Image';
+    var price = item.price_usd != null ? '$' + item.price_usd.toLocaleString() : 'Price on request';
+    return '' +
+      '<div class="card">' +
+        '<img src="' + img + '" alt="' + (c.shape || 'Diamond') + '" loading="lazy">' +
+        '<div class="body">' +
+          '<div class="price">' + price + '</div>' +
+          '<div class="specs">' +
+            '<strong>' + (c.carats || '?') + 'ct</strong> ' + (c.shape || '') + '<br>' +
+            'Color ' + (c.color || '-') + ' &middot; Clarity ' + (c.clarity || '-') + ' &middot; Cut ' + (c.cut || '-') + '<br>' +
+            (c.lab || '') + ' ' + (c.number || '') +
+          '</div>' +
+          (item.video ? '<a class="video-link" href="' + item.video + '" target="_blank" rel="noopener">View video</a>' : '') +
+        '</div>' +
+      '</div>';
+  }
+
+  function setStatus(msg) {
+    if (msg) { els.status.hidden = false; els.status.textContent = msg; }
+    else { els.status.hidden = true; els.status.textContent = ''; }
+  }
+
+  function runSearch(reset) {
+    if (reset) { offset = 0; els.grid.innerHTML = ''; }
+    var params = buildQuery();
+    params.set('offset', offset);
+    var qs = params.toString();
+    lastQueryString = qs;
+
+    setStatus('Loading diamonds…');
+    els.loadMore.hidden = true;
+
+    fetch(API_BASE + '/api/diamonds?' + qs)
+      .then(function (res) {
+        if (!res.ok) throw new Error('Search failed (' + res.status + ')');
+        return res.json();
+      })
+      .then(function (data) {
+        if (qs !== lastQueryString) return; // stale response
+        var items = data.items || [];
+        if (items.length === 0 && offset === 0) {
+          setStatus('No diamonds match those filters.');
+          return;
+        }
+        setStatus('');
+        items.forEach(function (item) {
+          els.grid.insertAdjacentHTML('beforeend', cardHtml(item));
+        });
+        offset += items.length;
+        els.loadMore.hidden = offset >= (data.total || 0);
+      })
+      .catch(function (err) {
+        setStatus('Something went wrong loading diamonds. Please try again.');
+        console.error(err);
+      });
+  }
+
+  els.searchBtn.addEventListener('click', function () { runSearch(true); });
+  els.loadMore.addEventListener('click', function () { runSearch(false); });
+
+  runSearch(true);
+})();
+</script>

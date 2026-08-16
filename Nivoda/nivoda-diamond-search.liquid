@@ -1,0 +1,2418 @@
+{% raw %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ==========================================================================
+   ORLOFF OF DENMARK — Diamond Search / Listing Page
+   Brand system: navy #091b36, gold #bc973f accent
+   Headings: Cormorant Garamond | Body: Inter
+   ========================================================================== */
+
+:root {
+  --orloff-navy: #091b36;
+  --orloff-gold: #bc973f;
+  --orloff-white: #ffffff;
+  --orloff-off-white: #faf9f7;
+  --orloff-border: #d8d3ca;
+  --orloff-text-muted: #6b7280;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+.orloff-eyebrow {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--orloff-gold);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.diamond-page-header {
+  text-align: center;
+  padding: 104px 24px 88px;
+  position: relative;
+  /* Full-bleed banner with the brand diamond image; dark overlay guarantees
+     the light text stays readable regardless of the photo. */
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background:
+    linear-gradient(rgba(9, 27, 54, 0.55), rgba(9, 27, 54, 0.64)),
+    url('https://cdn.shopify.com/s/files/1/0852/4428/1122/files/DIAMONDS_NEW_IMAGE.png?v=1771413250') center/cover no-repeat;
+}
+
+.diamond-page-header__title {
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 46px;
+  color: var(--orloff-white);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.diamond-page-header p {
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* --------------------------------------------------------------------
+   Filter drawer — hidden by default, slides down smoothly from the top
+   of the viewport when "All filters" is clicked.
+   -------------------------------------------------------------------- */
+.ds-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  /* Above the theme header (which has its own stacking context) */
+  z-index: 9995;
+  background: rgba(9, 27, 54, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.ds-drawer-backdrop.is-open { opacity: 1; pointer-events: auto; }
+
+.ds-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9996;
+  width: min(920px, 100vw);
+  background: var(--orloff-white);
+  overflow-y: auto;
+  transform: translateX(-103%);
+  transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 18px 0 48px rgba(9, 27, 54, 0.18);
+}
+.ds-drawer.is-open { transform: translateX(0); }
+
+.ds-drawer__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 36px 0;
+  box-sizing: border-box;
+  font-family: var(--font-heading);
+  font-size: 20px;
+  color: var(--orloff-navy);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.ds-drawer__close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 1;
+  color: var(--orloff-navy);
+  padding: 4px 8px;
+}
+
+.diamond-filter-panel {
+  padding: 18px 36px 36px;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+}
+
+@media (max-width: 900px) {
+  .diamond-filter-panel { padding: 20px 20px 32px; }
+  .ds-drawer__head { padding: 16px 20px 0; }
+}
+
+.diamond-source-tabs {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.diamond-source-tab {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  color: var(--orloff-text-muted);
+  background: none;
+  border: none;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.diamond-source-tab.is-active {
+  color: var(--orloff-navy);
+  border-bottom-color: var(--orloff-navy);
+}
+
+.diamond-filter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 44px;
+}
+
+@media (max-width: 900px) {
+  .diamond-filter-grid { grid-template-columns: 1fr; gap: 24px; }
+}
+
+/* The divider sits directly ABOVE each section title (tight, 14px), so the
+   line + title read as one unit. First block per column has no line. */
+.diamond-filter-block {
+  border-top: 1px solid var(--orloff-border);
+  padding-top: 14px;
+}
+
+.diamond-filter-block:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+.diamond-filter-block__label {
+  font-family: var(--font-heading);
+  font-size: 17px;
+  color: var(--orloff-navy);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.diamond-shape-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.diamond-shape-swatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: auto;
+  padding: 12px 6px;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  background: #fff;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 11.5px;
+  color: var(--orloff-navy);
+  transition: border-color 0.15s ease;
+}
+
+.diamond-shape-swatch .ds-shape-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.diamond-shape-swatch:hover,
+.diamond-shape-swatch.is-active { border-color: var(--orloff-navy); border-width: 1.5px; }
+
+.diamond-toggle-pair {
+  display: inline-flex;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.diamond-toggle-pair button {
+  font-family: var(--font-body);
+  font-size: 13px;
+  padding: 10px 22px;
+  border: none;
+  background: #fff;
+  color: var(--orloff-navy);
+  cursor: pointer;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.diamond-toggle-pair button.is-active {
+  background: var(--orloff-navy);
+  color: #fff;
+}
+
+/* ---------------- Dual-handle range slider ---------------- */
+.orloff-range {
+  position: relative;
+  height: 20px;
+  margin: 12px 0 10px;
+}
+
+.orloff-range__track {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--orloff-border);
+  transform: translateY(-50%);
+  border-radius: 0;
+}
+
+.orloff-range__fill {
+  position: absolute;
+  top: 50%;
+  height: 3px;
+  background: var(--orloff-navy);
+  transform: translateY(-50%);
+  border-radius: 0;
+}
+
+.orloff-range input[type="range"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  margin: 0;
+  background: none;
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: none;
+}
+
+.orloff-range input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1.5px solid var(--orloff-navy);
+  box-shadow: 0 1px 3px rgba(9, 27, 54, 0.25);
+  cursor: grab;
+}
+
+.orloff-range input[type="range"]::-moz-range-thumb {
+  pointer-events: all;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1.5px solid var(--orloff-navy);
+  box-shadow: 0 1px 3px rgba(9, 27, 54, 0.25);
+  cursor: grab;
+  box-sizing: border-box;
+}
+
+.orloff-range__ticks {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--orloff-navy);
+  margin-top: 6px;
+}
+
+.orloff-range__inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.orloff-range__inputs input[type="text"],
+.orloff-range__inputs input[type="number"] {
+  width: 90px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  padding: 10px 12px;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  color: var(--orloff-navy);
+}
+
+.orloff-range__inputs span.unit {
+  font-size: 13px;
+  color: var(--orloff-text-muted);
+}
+
+.orloff-range__inputs span.sep {
+  color: var(--orloff-text-muted);
+}
+
+.diamond-advanced-toggle {
+  margin-top: 24px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--orloff-navy);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* --------------------------------------------------------------------
+   Result grid + cards
+   -------------------------------------------------------------------- */
+/* Thin sticky bar: All filters button + Natural/Lab tabs + count + sort.
+   Shopify themes wrap content in overflow containers that break
+   position: sticky, so the bar is pinned by JS (.is-stuck) instead. */
+.ds-topbar {
+  position: relative;
+  z-index: 40;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 20px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 10px 24px;
+  box-sizing: border-box;
+  background: var(--orloff-white);
+  border-bottom: 1px solid var(--orloff-border);
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--orloff-text-muted);
+}
+
+/* Pinned to the viewport by JS once scrolled past; top is set inline to sit
+   flush under however much of the theme header is currently visible. */
+.ds-topbar.is-stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin-left: 0;
+  z-index: 800;
+  box-shadow: 0 2px 12px rgba(9, 27, 54, 0.06);
+  /* Glides between the top edge and the header's lower edge as the header
+     fades out/in. Safe to keep on: while stuck, top only changes on fades. */
+  transition: top 0.3s ease;
+}
+
+.ds-allfilters-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--orloff-navy);
+  background: #fff;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  padding: 9px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+.ds-allfilters-btn:hover { border-color: var(--orloff-navy); }
+.ds-allfilters-btn svg { display: block; }
+
+/* Gold dot on the button whenever any filter is applied */
+.ds-filter-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--orloff-gold);
+  display: none;
+}
+.ds-allfilters-btn.has-filters .ds-filter-dot { display: inline-block; }
+
+.ds-topbar__count { margin-left: auto; }
+
+/* Sort dropdown, restyled to the brand (native look removed, custom chevron).
+   height/line-height are pinned with !important because the theme forces tall
+   fixed input metrics that top-align the text otherwise. */
+.ds-topbar select {
+  font-family: var(--font-body);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: var(--orloff-navy);
+  background-color: var(--orloff-white);
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  padding: 8px 32px 8px 12px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  line-height: 1.4 !important;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' fill='none' stroke='%23091b36' stroke-width='1.5' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  transition: border-color 0.15s ease;
+}
+.ds-topbar select:hover { border-color: var(--orloff-navy); }
+.ds-topbar select option { font-family: var(--font-body); color: var(--orloff-navy); }
+
+/* Tabs are compact inside the bar (they were large + centered in the old panel) */
+.ds-topbar .diamond-source-tabs {
+  margin-bottom: 0;
+  gap: 22px;
+  justify-content: flex-start;
+}
+.ds-topbar .diamond-source-tab {
+  font-size: 15px;
+  padding-bottom: 4px;
+}
+
+/* Applied-filter chips row: always visible under the bar; removing a chip
+   re-runs the search immediately (no Apply needed). */
+.ds-active-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: 10px 24px;
+  box-sizing: border-box;
+  background: var(--orloff-off-white);
+  font-family: var(--font-body);
+  font-size: 12.5px;
+}
+.ds-active-chips[hidden] { display: none; }
+
+.ds-achip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #fff;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  padding: 6px 10px;
+  color: var(--orloff-navy);
+}
+.ds-achip b { font-weight: 600; }
+.ds-achip button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1;
+  color: var(--orloff-text-muted);
+}
+.ds-achip button:hover { color: var(--orloff-navy); }
+
+.ds-clear-all {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--orloff-navy);
+  text-decoration: underline;
+  padding: 6px 4px;
+}
+
+.diamond-grid {
+  display: grid;
+  /* 5 larger cards per row on desktop, stepping down on smaller screens */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+  /* Full-bleed: feed spreads edge-to-edge on every device. Cards keep their own
+     internal padding, so diamond images still have breathing room. */
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding: 24px 48px 96px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .diamond-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (max-width: 900px) {
+  .diamond-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; padding: 16px 16px 64px; }
+}
+
+@media (max-width: 600px) {
+  .diamond-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+}
+
+.diamond-card {
+  background: var(--orloff-white);
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.diamond-card:hover {
+  box-shadow: 0 8px 24px rgba(9, 27, 54, 0.08);
+  transform: translateY(-2px);
+}
+
+.diamond-card__image-wrap {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--orloff-off-white);
+  overflow: hidden;
+}
+
+.diamond-card__image-wrap img,
+.diamond-card__image-wrap video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+.diamond-card__lab-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: var(--font-body);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 0;
+  background: var(--orloff-navy);
+  color: var(--orloff-white);
+}
+
+.diamond-card__body {
+  padding: 12px 14px 16px;
+}
+
+.diamond-card__title {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--orloff-navy);
+  margin: 0 0 3px;
+}
+
+.diamond-card__specs {
+  font-family: var(--font-body);
+  font-size: 11.5px;
+  color: var(--orloff-text-muted);
+  margin: 0 0 10px;
+  letter-spacing: 0.01em;
+}
+
+.diamond-card__specs span {
+  color: var(--orloff-navy);
+}
+
+.diamond-card__price {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--orloff-navy);
+  letter-spacing: 0.01em;
+}
+
+.diamond-card__price sup {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--orloff-text-muted);
+  margin-left: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.diamond-grid-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 80px 24px;
+  font-family: var(--font-body);
+  color: var(--orloff-text-muted);
+  font-size: 14px;
+}
+
+.diamond-card--skeleton {
+  background: linear-gradient(90deg, var(--orloff-off-white) 0%, #f0ede8 50%, var(--orloff-off-white) 100%);
+  background-size: 200% 100%;
+  animation: orloff-shimmer 1.4s ease-in-out infinite;
+  aspect-ratio: 3 / 4;
+}
+
+@keyframes orloff-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* --------------------------------------------------------------------
+   Diamond detail view (single stone) — unchanged from prior build
+   -------------------------------------------------------------------- */
+.diamond-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 56px 24px 96px;
+}
+
+@media (max-width: 900px) {
+  .diamond-detail {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.diamond-detail__price {
+  font-family: var(--font-body);
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--orloff-navy);
+  margin: 4px 0 24px;
+}
+
+.diamond-detail__price sup {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--orloff-text-muted);
+  margin-left: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.diamond-detail__specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+}
+
+.diamond-detail__specs-table tr {
+  border-bottom: 1px solid var(--orloff-border);
+}
+
+.diamond-detail__specs-table td {
+  padding: 12px 0;
+}
+
+.diamond-detail__specs-table td:first-child {
+  color: var(--orloff-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 11px;
+  font-weight: 600;
+  width: 40%;
+}
+
+.diamond-detail__specs-table td:last-child {
+  color: var(--orloff-navy);
+  font-weight: 500;
+  text-align: right;
+}
+
+.diamond-detail__cta {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 16px 24px;
+  margin-top: 24px;
+  background: var(--orloff-navy);
+  color: var(--orloff-white);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.diamond-detail__cta:hover {
+  background: #0d2547;
+}
+
+.diamond-detail__cta:disabled {
+  background: var(--orloff-border);
+  color: var(--orloff-text-muted);
+  cursor: not-allowed;
+}
+
+/* -- Supplementary rules for structure not covered above -- */
+.ds-back-link {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--orloff-navy);
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+.ds-back-link:hover { color: var(--orloff-gold); }
+.diamond-detail__media .diamond-card__image-wrap { max-width: 100%; }
+
+/* -- 360 spin viewer (Nivoda video URL, embedded as an iframe) -- */
+.diamond-card__body { cursor: pointer; }
+.diamond-card__image-wrap .ds-viewer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  z-index: 2;
+  background: var(--orloff-off-white);
+}
+/* On grid cards the hover viewer is INTERACTIVE: loupe360's own player
+   provides click-drag rotation and its two slides (360 spin / front photo,
+   via the arrows) directly on the card. Clicking the spin therefore belongs
+   to the player, not the popup — the card body still opens the detail view. */
+#diamond-grid .diamond-card__image-wrap { cursor: pointer; }
+#diamond-grid .diamond-card__image-wrap.is-playing { cursor: grab; }
+#ds-detail .diamond-card__image-wrap.is-playing { cursor: grab; }
+
+/* Small "360°" affordance badge on cards that have a video */
+.ds-360-badge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 5px 11px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(9, 27, 54, 0.82);
+  color: var(--orloff-white);
+  cursor: pointer;
+}
+.ds-360-badge:hover { background: var(--orloff-navy); }
+/* Detail-view 360 button: centered, a touch larger */
+.ds-360-detail-btn {
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  padding: 9px 18px;
+}
+.diamond-card__image-wrap.is-playing .ds-360-badge { display: none; }
+
+/* -- Media popup (lightbox), theme-matched -- */
+.ds-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.ds-lightbox[hidden] { display: none; }
+.ds-lightbox__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 27, 54, 0.55);
+  backdrop-filter: blur(2px);
+}
+.ds-lightbox__panel {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 640px;
+  max-height: 92vh;
+  overflow-y: auto;
+  background: var(--orloff-white);
+  border-radius: 0;
+  padding: 28px 28px 24px;
+  box-shadow: 0 24px 60px rgba(9, 27, 54, 0.35);
+  box-sizing: border-box;
+}
+.ds-lightbox__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--orloff-off-white);
+  color: var(--orloff-navy);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+.ds-lightbox__close:hover { background: var(--orloff-border); }
+.ds-lightbox__title {
+  font-family: var(--font-body);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--orloff-navy);
+  margin: 0 40px 16px 0;
+}
+.ds-lightbox__media {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--orloff-off-white);
+  border-radius: 0;
+  overflow: hidden;
+}
+.ds-lightbox__media iframe,
+.ds-lightbox__media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.ds-lightbox__media img { object-fit: contain; padding: 16px; box-sizing: border-box; }
+/* Quick spec summary in the popup: price line + compact fact grid */
+.ds-lightbox__specs { margin: 14px 0 4px; }
+.ds-lb-price {
+  font-family: var(--font-body);
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--orloff-navy);
+  margin-bottom: 10px;
+}
+.ds-lb-price sup {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--orloff-text-muted);
+  margin-left: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.ds-lb-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 24px;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+}
+.ds-lb-grid > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--orloff-off-white);
+  padding-bottom: 5px;
+}
+.ds-lb-grid span:first-child {
+  color: var(--orloff-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 10.5px;
+  font-weight: 600;
+}
+.ds-lb-grid span:last-child { color: var(--orloff-navy); font-weight: 500; text-align: right; }
+
+.ds-lightbox__thumbs {
+  display: flex;
+  gap: 12px;
+  margin: 16px 0 20px;
+}
+.ds-thumb {
+  flex: 0 0 auto;
+  width: 84px;
+  text-align: center;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--orloff-text-muted);
+}
+.ds-thumb__img {
+  width: 84px;
+  height: 84px;
+  border-radius: 0;
+  border: 2px solid transparent;
+  background: var(--orloff-off-white) center/contain no-repeat;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+}
+.ds-thumb.is-active .ds-thumb__img { border-color: var(--orloff-navy); }
+.ds-thumb.is-active { color: var(--orloff-navy); font-weight: 600; }
+.ds-lightbox__cta {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 0;
+  background: var(--orloff-navy);
+  color: var(--orloff-white);
+  cursor: pointer;
+}
+.ds-lightbox__cta:hover { background: #0d2547; }
+.diamond-detail__title {
+  font-family: var(--font-body);
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--orloff-navy);
+  margin: 0 0 4px;
+}
+.ds-cta-note {
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  color: var(--orloff-text-muted);
+  margin-top: 12px;
+  line-height: 1.6;
+}
+.ds-cta-note a { color: var(--orloff-navy); }
+
+/* -- Redesigned filter controls: chips, grids, min/max, apply bar -- */
+.ds-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ds-chip {
+  font-family: var(--font-body);
+  font-size: 13px;
+  padding: 8px 15px;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  background: #fff;
+  color: var(--orloff-navy);
+  cursor: pointer;
+  transition: border-color 0.12s ease, background 0.12s ease, color 0.12s ease;
+}
+.ds-chip:hover { border-color: var(--orloff-navy); }
+.ds-chip.is-active {
+  background: var(--orloff-navy);
+  color: var(--orloff-white);
+  border-color: var(--orloff-navy);
+}
+.ds-color-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+.ds-color-grid .ds-chip { padding: 8px 0; text-align: center; }
+.ds-fancy-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ds-fancy-select {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--orloff-navy);
+  padding: 12px 14px;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  background: #fff;
+  cursor: pointer;
+}
+.ds-fancy-select:invalid { color: var(--orloff-text-muted); }
+
+/* Muted one-line guidance under grading chip rows */
+.ds-hint {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--orloff-text-muted);
+  letter-spacing: 0.015em;
+  margin-top: 10px;
+}
+
+/* Fancy colour: chip rows (colour with swatch dots, intensity, overtone) */
+.ds-fancy-group { margin-bottom: 4px; }
+.ds-fancy-sublabel {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--orloff-text-muted);
+  margin-bottom: 8px;
+}
+.ds-chip--fancy {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.ds-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(9, 27, 54, 0.18);
+  flex: 0 0 auto;
+}
+/* Keep the dot visible when the chip goes navy */
+.ds-chip--fancy.is-active .ds-dot { border-color: rgba(255, 255, 255, 0.6); }
+/* The explicit display on the grid/fields overrides the [hidden] attribute's
+   display:none, so restore it — this is what makes White/Fancy actually swap. */
+.ds-color-grid[hidden],
+.ds-fancy-fields[hidden] { display: none; }
+.ds-minmax {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.ds-minmax input {
+  width: 100px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  padding: 10px 12px;
+  border: 1px solid var(--orloff-border);
+  border-radius: 0;
+  color: var(--orloff-navy);
+  /* The theme forces a tall fixed height on inputs, which top-aligns the
+     text; restore normal metrics so "$ Min" sits centered. */
+  padding: 10px 12px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  line-height: 1.4 !important;
+  box-sizing: border-box;
+  background: #fff;
+}
+.ds-minmax span {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--orloff-text-muted);
+}
+/* Reset/Apply live in the right column (level with Cut), side by side */
+.ds-filter-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* On mobile the actions are moved (by JS) to the end of the panel and pinned
+   to the drawer's bottom edge, always reachable while the drawer scrolls. */
+@media (max-width: 900px) {
+  .ds-filter-actions {
+    position: sticky;
+    bottom: 0;
+    z-index: 5;
+    background: var(--orloff-white);
+    margin: 16px -20px 0;
+    padding: 12px 20px 14px;
+    border-top: 1px solid var(--orloff-border);
+  }
+}
+.ds-btn {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 13px 30px;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.ds-btn--apply {
+  background: var(--orloff-navy);
+  color: var(--orloff-white);
+  border: 0;
+}
+.ds-btn--apply:hover { background: #0d2547; }
+.ds-btn--reset {
+  background: #fff;
+  color: var(--orloff-navy);
+  border: 1px solid var(--orloff-border);
+}
+.ds-btn--reset:hover { border-color: var(--orloff-navy); }
+</style>
+
+<div class="diamond-page-header">
+  <span class="orloff-eyebrow">Certified Diamonds</span>
+  <div class="diamond-page-header__title">Loose Diamonds</div>
+  <p>Natural and lab-grown diamonds, hand-selected and ready to set into your own design.</p>
+</div>
+
+<div id="ds-listing">
+
+  <div class="ds-topbar">
+    <button type="button" class="ds-allfilters-btn" id="ds-open-filters">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><path d="M1 4h14M1 12h14"/><circle cx="6" cy="4" r="2.2" fill="#fff"/><circle cx="10" cy="12" r="2.2" fill="#fff"/></svg>
+      All filters
+      <span class="ds-filter-dot"></span>
+    </button>
+    <div class="diamond-source-tabs">
+      <button class="diamond-source-tab is-active" data-source="natural">Natural</button>
+      <button class="diamond-source-tab" data-source="lab">Lab Grown</button>
+    </div>
+    <span class="ds-topbar__count" id="diamond-result-count">Loading&hellip;</span>
+    <select id="diamond-sort">
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+      <option value="carat-asc">Carat: Low to High</option>
+      <option value="carat-desc">Carat: High to Low</option>
+      <option value="ppc-desc">Price per Carat: High to Low</option>
+      <option value="ppc-asc">Price per Carat: Low to High</option>
+    </select>
+  </div>
+
+  <div class="ds-active-chips" id="ds-active-chips" hidden></div>
+
+  <div class="ds-drawer-backdrop" id="ds-drawer-backdrop"></div>
+  <div class="ds-drawer" id="ds-drawer">
+    <div class="ds-drawer__head">
+      Filters
+      <button type="button" class="ds-drawer__close" id="ds-drawer-close" aria-label="Close filters">&times;</button>
+    </div>
+
+  <div class="diamond-filter-panel">
+
+    <div class="diamond-filter-grid">
+
+      <!-- LEFT COLUMN -->
+      <div>
+        <div class="diamond-filter-block">
+          <div class="diamond-filter-block__label">Shape</div>
+          <div class="diamond-shape-row">
+
+            <button class="diamond-shape-swatch is-active" data-shape="round">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-round.jpg?v=1784611228" alt="Round">
+              Round
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="oval">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-oval.jpg?v=1784611228" alt="Oval">
+              Oval
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="cushion">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-cushion.jpg?v=1784611228" alt="Cushion">
+              Cushion
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="princess">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-princess.jpg?v=1784611228" alt="Princess">
+              Princess
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="emerald">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-emerald.jpg?v=1784611228" alt="Emerald">
+              Emerald
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="pear">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-pear.jpg?v=1784611228" alt="Pear">
+              Pear
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="radiant">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-radiant.jpg?v=1784611228" alt="Radiant">
+              Radiant
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="asscher">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-asscher.jpg?v=1784611228" alt="Asscher">
+              Asscher
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="marquise">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-marquise.jpg?v=1784611228" alt="Marquise">
+              Marquise
+            </button>
+
+            <button class="diamond-shape-swatch" data-shape="heart">
+              <img class="ds-shape-img" src="https://cdn.shopify.com/s/files/1/0852/4428/1122/files/orloff-shape-heart.jpg?v=1784611228" alt="Heart">
+              Heart
+            </button>
+
+          </div>
+        </div>
+
+        <div class="diamond-filter-block">
+          <div class="diamond-filter-block__label" style="display:flex; justify-content:space-between; align-items:center;">
+            Colour
+            <div class="diamond-toggle-pair">
+              <button class="is-active" data-tone="white">White</button>
+              <button data-tone="fancy">Fancy</button>
+            </div>
+          </div>
+          <div class="ds-color-grid" id="ds-color-grid">
+            <button type="button" class="ds-chip" data-color="D">D</button>
+            <button type="button" class="ds-chip" data-color="E">E</button>
+            <button type="button" class="ds-chip" data-color="F">F</button>
+            <button type="button" class="ds-chip" data-color="G">G</button>
+            <button type="button" class="ds-chip" data-color="H">H</button>
+            <button type="button" class="ds-chip" data-color="I">I</button>
+            <button type="button" class="ds-chip" data-color="J">J</button>
+            <button type="button" class="ds-chip" data-color="K">K</button>
+            <button type="button" class="ds-chip" data-color="L">L</button>
+            <button type="button" class="ds-chip" data-color="M">M</button>
+            <button type="button" class="ds-chip" data-color="N">N</button>
+            <button type="button" class="ds-chip" data-color="NO">NO</button>
+            <button type="button" class="ds-chip" data-color="PR">PR</button>
+            <button type="button" class="ds-chip" data-color="SZ">SZ</button>
+            <button type="button" class="ds-chip" data-color="OP">OP</button>
+            <button type="button" class="ds-chip" data-color="QR">QR</button>
+            <button type="button" class="ds-chip" data-color="ST">ST</button>
+            <button type="button" class="ds-chip" data-color="UV">UV</button>
+            <button type="button" class="ds-chip" data-color="WX">WX</button>
+            <button type="button" class="ds-chip" data-color="XY">XY</button>
+            <button type="button" class="ds-chip" data-color="YZ">YZ</button>
+          </div>
+          <p class="ds-hint" id="ds-color-hint">D&ndash;F Colorless &middot; G&ndash;J Near-Colorless &middot; K&ndash;M Faint Tint &middot; N&ndash;Z Tinted</p>
+          <div class="ds-fancy-fields" id="ds-fancy-fields" hidden>
+            <div class="ds-fancy-group">
+              <div class="ds-fancy-sublabel">Colour</div>
+              <div class="ds-chip-row" id="ds-fancy-color-row">
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Yellow"><span class="ds-dot" style="background:#EFD358"></span>Yellow</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Pink"><span class="ds-dot" style="background:#F2B9C8"></span>Pink</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Brown"><span class="ds-dot" style="background:#8B6743"></span>Brown</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Gray"><span class="ds-dot" style="background:#9BA0A8"></span>Gray</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Green"><span class="ds-dot" style="background:#7FAF6E"></span>Green</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Orange"><span class="ds-dot" style="background:#EE9A44"></span>Orange</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Blue"><span class="ds-dot" style="background:#6F9CD8"></span>Blue</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Purple"><span class="ds-dot" style="background:#A98BD3"></span>Purple</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Black"><span class="ds-dot" style="background:#2B2B2B"></span>Black</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="Chameleon"><span class="ds-dot" style="background:#6B8F3F"></span>Chameleon</button>
+                <button type="button" class="ds-chip ds-chip--fancy" data-fval="White"><span class="ds-dot" style="background:#FAF6EC"></span>White</button>
+              </div>
+            </div>
+            <div class="ds-fancy-group">
+              <div class="ds-fancy-sublabel">Intensity</div>
+              <div class="ds-chip-row" id="ds-fancy-intensity-row">
+                <button type="button" class="ds-chip" data-fval="Faint">Faint</button>
+                <button type="button" class="ds-chip" data-fval="Very Light">Very Light</button>
+                <button type="button" class="ds-chip" data-fval="Light">Light</button>
+                <button type="button" class="ds-chip" data-fval="Fancy Light">Fancy Light</button>
+                <button type="button" class="ds-chip" data-fval="Fancy">Fancy</button>
+                <button type="button" class="ds-chip" data-fval="Fancy Dark">Fancy Dark</button>
+                <button type="button" class="ds-chip" data-fval="Fancy Deep">Fancy Deep</button>
+                <button type="button" class="ds-chip" data-fval="Fancy Intense">Fancy Intense</button>
+                <button type="button" class="ds-chip" data-fval="Fancy Vivid">Fancy Vivid</button>
+              </div>
+            </div>
+            <div class="ds-fancy-group">
+              <div class="ds-fancy-sublabel">Overtone</div>
+              <div class="ds-chip-row" id="ds-fancy-overtone-row">
+                <button type="button" class="ds-chip" data-fval="Brownish">Brownish</button>
+                <button type="button" class="ds-chip" data-fval="Grayish">Grayish</button>
+                <button type="button" class="ds-chip" data-fval="Greenish">Greenish</button>
+                <button type="button" class="ds-chip" data-fval="Orangy">Orangy</button>
+                <button type="button" class="ds-chip" data-fval="Pinkish">Pinkish</button>
+                <button type="button" class="ds-chip" data-fval="Purplish">Purplish</button>
+                <button type="button" class="ds-chip" data-fval="Reddish">Reddish</button>
+                <button type="button" class="ds-chip" data-fval="Yellowish">Yellowish</button>
+                <button type="button" class="ds-chip" data-fval="Bluish">Bluish</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="diamond-filter-block">
+          <div class="diamond-filter-block__label">Cut, Polish &amp; Symmetry</div>
+          <div class="ds-chip-row" id="ds-cps-presets">
+            <button type="button" class="ds-chip" data-preset="3ex">3EX</button>
+            <button type="button" class="ds-chip" data-preset="excut">EX Cut</button>
+            <button type="button" class="ds-chip" data-preset="3vg">3VG+</button>
+            <button type="button" class="ds-chip" data-preset="ha">Hearts &amp; Arrows</button>
+          </div>
+          <div class="ds-fancy-group" style="margin-top:14px;">
+            <div class="ds-fancy-sublabel">Cut</div>
+            <div class="ds-chip-row" id="ds-cut-row">
+              <button type="button" class="ds-chip" data-cut="ID">Ideal</button>
+              <button type="button" class="ds-chip" data-cut="EX">Excellent</button>
+              <button type="button" class="ds-chip" data-cut="VG">Very Good</button>
+              <button type="button" class="ds-chip" data-cut="GD">Good</button>
+            </div>
+          </div>
+          <div class="ds-fancy-group" style="margin-top:12px;">
+            <div class="ds-fancy-sublabel">Polish</div>
+            <div class="ds-chip-row" id="ds-polish-row">
+              <button type="button" class="ds-chip" data-pol="EX">Excellent</button>
+              <button type="button" class="ds-chip" data-pol="VG">Very Good</button>
+              <button type="button" class="ds-chip" data-pol="GD">Good</button>
+              <button type="button" class="ds-chip" data-pol="F">Fair</button>
+              <button type="button" class="ds-chip" data-pol="P">Poor</button>
+            </div>
+          </div>
+          <div class="ds-fancy-group" style="margin-top:12px;">
+            <div class="ds-fancy-sublabel">Symmetry</div>
+            <div class="ds-chip-row" id="ds-symmetry-row">
+              <button type="button" class="ds-chip" data-sym="EX">Excellent</button>
+              <button type="button" class="ds-chip" data-sym="VG">Very Good</button>
+              <button type="button" class="ds-chip" data-sym="GD">Good</button>
+              <button type="button" class="ds-chip" data-sym="F">Fair</button>
+              <button type="button" class="ds-chip" data-sym="P">Poor</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="diamond-filter-block">
+          <div class="diamond-filter-block__label">Eye Clean</div>
+          <div class="ds-chip-row" id="ds-eyeclean-row">
+            <button type="button" class="ds-chip" data-fval="Yes">Yes</button>
+            <button type="button" class="ds-chip" data-fval="No">No</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div>
+        <div class="diamond-filter-block">
+          <div class="diamond-filter-block__label">Carat (ct)</div>
+          <div class="ds-minmax">
+            <input type="text" id="ds-carat-min" inputmode="decimal" placeholder="Min">
+            <span>to</span>
+            <input type="text" id="ds-carat-max" inputmode="decimal" placeholder="Max">
+          </div>
+          <div class="ds-chip-row" id="ds-carat-chips">
+            <button type="button" class="ds-chip" data-cmin="0.30" data-cmax="0.39">30s</button>
+            <button type="button" class="ds-chip" data-cmin="0.40" data-cmax="0.49">40s</button>
+            <button type="button" class="ds-chip" data-cmin="0.50" data-cmax="0.59">50s</button>
+            <button type="button" class="ds-chip" data-cmin="0.60" data-cmax="0.69">60s</button>
+            <button type="button" class="ds-chip" data-cmin="0.70" data-cmax="0.79">70s</button>
+            <button type="button" class="ds-chip" data-cmin="0.80" data-cmax="0.89">80s</button>
+            <button type="button" class="ds-chip" data-cmin="0.90" data-cmax="0.99">90s</button>
+            <button type="button" class="ds-chip" data-cmin="1.00" data-cmax="1.09">1ct</button>
+            <button type="button" class="ds-chip" data-cmin="1.10" data-cmax="1.19">1.1ct</button>
+            <button type="button" class="ds-chip" data-cmin="1.20" data-cmax="1.49">1.2ct</button>
+            <button type="button" class="ds-chip" data-cmin="1.50" data-cmax="1.99">1.5ct</button>
+            <button type="button" class="ds-chip" data-cmin="2.00" data-cmax="2.49">2ct</button>
+            <button type="button" class="ds-chip" data-cmin="2.50" data-cmax="2.99">2.5ct</button>
+            <button type="button" class="ds-chip" data-cmin="3.00" data-cmax="3.99">3ct</button>
+            <button type="button" class="ds-chip" data-cmin="4.00" data-cmax="4.99">4ct</button>
+            <button type="button" class="ds-chip" data-cmin="5.00" data-cmax="100">5ct+</button>
+          </div>
+        </div>
+
+        <div class="diamond-filter-block">
+          <div class="diamond-filter-block__label">Clarity</div>
+          <div class="ds-chip-row" id="ds-clarity-row">
+            <button type="button" class="ds-chip" data-clar="FL">FL</button>
+            <button type="button" class="ds-chip" data-clar="IF">IF</button>
+            <button type="button" class="ds-chip" data-clar="VVS1">VVS1</button>
+            <button type="button" class="ds-chip" data-clar="VVS2">VVS2</button>
+            <button type="button" class="ds-chip" data-clar="VS1">VS1</button>
+            <button type="button" class="ds-chip" data-clar="VS2">VS2</button>
+            <button type="button" class="ds-chip" data-clar="SI1">SI1</button>
+            <button type="button" class="ds-chip" data-clar="SI2">SI2</button>
+            <button type="button" class="ds-chip" data-clar="I1">I1</button>
+            <button type="button" class="ds-chip" data-clar="I2">I2</button>
+            <button type="button" class="ds-chip" data-clar="I3">I3</button>
+          </div>
+          <p class="ds-hint">FL&ndash;IF Flawless &middot; VVS Very Very Slight &middot; VS Very Slight &middot; SI Slight Inclusions &middot; I Included</p>
+        </div>
+
+        <div class="diamond-filter-block">
+          <div class="diamond-filter-block__label">Price (USD)</div>
+          <div class="ds-minmax">
+            <input type="text" id="ds-price-min" inputmode="numeric" placeholder="$ Min">
+            <span>to</span>
+            <input type="text" id="ds-price-max" inputmode="numeric" placeholder="$ Max">
+          </div>
+        </div>
+
+        <div class="ds-filter-actions">
+          <button type="button" class="ds-btn ds-btn--reset" id="ds-reset">Reset</button>
+          <button type="button" class="ds-btn ds-btn--apply" id="ds-apply">Apply Filters</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div><!-- /ds-drawer -->
+
+  <div class="diamond-grid" id="diamond-grid">
+    <!-- Diamond cards render here -->
+  </div>
+
+  <button id="ds-load-more" class="diamond-detail__cta" style="max-width:240px;margin:0 auto 96px;display:block;" hidden>Load more</button>
+
+</div>
+
+<div class="diamond-detail" id="ds-detail" hidden>
+  <div class="diamond-detail__media">
+    <a href="#" class="ds-back-link" id="ds-back-link">&larr; Back to results</a>
+    <div class="diamond-card__image-wrap">
+      <img id="ds-detail-image" src="" alt="">
+    </div>
+  </div>
+  <div class="diamond-detail__info">
+    <span class="orloff-eyebrow" id="ds-detail-lab"></span>
+    <div class="diamond-detail__title" id="ds-detail-title"></div>
+    <div class="diamond-detail__price" id="ds-detail-price"></div>
+    <span class="orloff-eyebrow">Certificate</span>
+    <table class="diamond-detail__specs-table" id="ds-detail-specs"></table>
+    <button class="diamond-detail__cta" id="ds-detail-cta" disabled>Enquire About This Diamond</button>
+    <p class="ds-cta-note">Instant holds and checkout are coming soon. In the meantime, email <a href="mailto:info@orloffofdenmark.com">info@orloffofdenmark.com</a> with the certificate number above to reserve this stone.</p>
+  </div>
+</div>
+
+<!-- Media popup (lightbox) -->
+<div class="ds-lightbox" id="ds-lightbox" hidden>
+  <div class="ds-lightbox__overlay" data-ds-close></div>
+  <div class="ds-lightbox__panel" role="dialog" aria-modal="true" aria-labelledby="ds-lightbox-title">
+    <button class="ds-lightbox__close" data-ds-close aria-label="Close">&times;</button>
+    <h3 class="ds-lightbox__title" id="ds-lightbox-title"></h3>
+    <div class="ds-lightbox__media" id="ds-lightbox-media"></div>
+    <div class="ds-lightbox__specs" id="ds-lightbox-specs"></div>
+    <div class="ds-lightbox__thumbs" id="ds-lightbox-thumbs"></div>
+    <button class="ds-lightbox__cta" id="ds-lightbox-cta">View Full Details</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var API_BASE = 'https://orloff-nivoda-proxy.orloffofdenmark.workers.dev';
+  var PAGE_SIZE = 24;
+
+  var COLOR_SCALE = ['K', 'J', 'I', 'H', 'G', 'F', 'E', 'D'];
+  var CLARITY_SCALE = ['VS2', 'VS1', 'VVS2', 'VVS1', 'IF', 'FL'];
+  var CUT_SCALE = ['GD', 'VG', 'EX', 'ID'];
+
+  var state = {
+    shapes: ['ROUND'],
+    labgrown: 'false',
+    colorTone: 'white',
+    color: [],
+    fancyColor: '',
+    fancyIntensity: '',
+    fancyOvertone: '',
+    clarity: [],
+    cut: [],
+    polish: [],
+    symmetry: [],
+    eyeClean: '',
+    heartsArrows: false,
+    caratMin: '',
+    caratMax: '',
+    priceMin: '',
+    priceMax: '',
+    sortBy: 'price',
+    direction: 'ASC',
+    offset: 0,
+    total: 0,
+  };
+  var lastQueryString = '';
+  var initializing = true;
+
+  var listingEl = document.getElementById('ds-listing');
+  var detailEl = document.getElementById('ds-detail');
+  var gridEl = document.getElementById('diamond-grid');
+  var countEl = document.getElementById('diamond-result-count');
+  var sortEl = document.getElementById('diamond-sort');
+  var loadMoreEl = document.getElementById('ds-load-more');
+  var itemsById = {};
+
+  /* ---------------- Filter controls (chips + batch apply) ---------------- */
+
+  // Single-select groups: shape and the Natural/Lab tabs. Update state; no search
+  // until Apply is clicked.
+  function wireSingleSelect(containerSel, itemSel, onSelect) {
+    var container = document.querySelector(containerSel);
+    if (!container) return;
+    container.addEventListener('click', function (e) {
+      var btn = e.target.closest(itemSel);
+      if (!btn) return;
+      container.querySelectorAll(itemSel).forEach(function (b) { b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      onSelect(btn);
+    });
+  }
+  // Shape: multi-select and deselectable — each click toggles that shape on/off,
+  // and state.shapes collects every active one (empty = all shapes).
+  document.querySelector('.diamond-shape-row').addEventListener('click', function (e) {
+    var btn = e.target.closest('.diamond-shape-swatch');
+    if (!btn) return;
+    btn.classList.toggle('is-active');
+    var vals = [];
+    document.querySelectorAll('.diamond-shape-row .diamond-shape-swatch.is-active').forEach(function (b) {
+      vals.push((b.getAttribute('data-shape') || '').toUpperCase());
+    });
+    state.shapes = vals;
+  });
+  // Natural / Lab stays single-select (one is always active). The tabs live in
+  // the sticky bar outside the drawer, so switching re-runs the search at once.
+  wireSingleSelect('.diamond-source-tabs', '.diamond-source-tab', function (btn) {
+    state.labgrown = btn.getAttribute('data-source') === 'lab' ? 'true' : 'false';
+    runSearch(true);
+  });
+
+  // Multi-select chip groups: colour / clarity / cut.
+  function wireMultiChips(containerId, attr, apply) {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+    container.addEventListener('click', function (e) {
+      var btn = e.target.closest('.ds-chip');
+      if (!btn) return;
+      btn.classList.toggle('is-active');
+      var vals = [];
+      container.querySelectorAll('.ds-chip.is-active').forEach(function (b) { vals.push(b.getAttribute(attr)); });
+      apply(vals);
+    });
+  }
+  wireMultiChips('ds-color-grid', 'data-color', function (v) { state.color = v; });
+  wireMultiChips('ds-clarity-row', 'data-clar', function (v) { state.clarity = v; });
+  wireMultiChips('ds-cut-row', 'data-cut', function (v) { state.cut = v; clearCpsPresets(); });
+  wireMultiChips('ds-polish-row', 'data-pol', function (v) { state.polish = v; clearCpsPresets(); });
+  wireMultiChips('ds-symmetry-row', 'data-sym', function (v) { state.symmetry = v; clearCpsPresets(); });
+
+  /* Cut/Polish/Symmetry quick presets. 3EX / EX Cut / 3VG+ are shortcuts that
+     drive the three rows below (so shoppers see exactly what they imply);
+     Hearts & Arrows is an independent boolean filter. */
+  var cpsPresetsEl = document.getElementById('ds-cps-presets');
+
+  function clearCpsPresets() {
+    if (!cpsPresetsEl) return;
+    cpsPresetsEl.querySelectorAll('.ds-chip.is-active:not([data-preset="ha"])').forEach(function (b) {
+      b.classList.remove('is-active');
+    });
+  }
+
+  function setChipRow(rowId, attr, values) {
+    var row = document.getElementById(rowId);
+    if (!row) return;
+    row.querySelectorAll('.ds-chip').forEach(function (b) {
+      b.classList.toggle('is-active', values.indexOf(b.getAttribute(attr)) !== -1);
+    });
+  }
+
+  if (cpsPresetsEl) {
+    cpsPresetsEl.addEventListener('click', function (e) {
+      var btn = e.target.closest('.ds-chip');
+      if (!btn) return;
+      var preset = btn.getAttribute('data-preset');
+      if (preset === 'ha') {
+        btn.classList.toggle('is-active');
+        state.heartsArrows = btn.classList.contains('is-active');
+        return;
+      }
+      var wasActive = btn.classList.contains('is-active');
+      clearCpsPresets();
+      if (wasActive) {
+        state.cut = []; state.polish = []; state.symmetry = [];
+      } else {
+        btn.classList.add('is-active');
+        if (preset === '3ex') { state.cut = ['EX']; state.polish = ['EX']; state.symmetry = ['EX']; }
+        else if (preset === 'excut') { state.cut = ['EX']; state.polish = []; state.symmetry = []; }
+        else if (preset === '3vg') { state.cut = ['EX', 'VG']; state.polish = ['EX', 'VG']; state.symmetry = ['EX', 'VG']; }
+      }
+      setChipRow('ds-cut-row', 'data-cut', state.cut);
+      setChipRow('ds-polish-row', 'data-pol', state.polish);
+      setChipRow('ds-symmetry-row', 'data-sym', state.symmetry);
+    });
+  }
+
+  // Colour White/Fancy toggle.
+  var colorGridEl = document.getElementById('ds-color-grid');
+  var colorHintEl = document.getElementById('ds-color-hint');
+  var fancyFieldsEl = document.getElementById('ds-fancy-fields');
+  document.querySelector('.diamond-toggle-pair').addEventListener('click', function (e) {
+    var btn = e.target.closest('button');
+    if (!btn) return;
+    document.querySelectorAll('.diamond-toggle-pair button').forEach(function (b) { b.classList.remove('is-active'); });
+    btn.classList.add('is-active');
+    state.colorTone = btn.getAttribute('data-tone') || 'white';
+    var isFancy = state.colorTone === 'fancy';
+    if (colorGridEl) colorGridEl.hidden = isFancy;
+    if (colorHintEl) colorHintEl.hidden = isFancy;
+    if (fancyFieldsEl) fancyFieldsEl.hidden = !isFancy;
+    if (isFancy && colorGridEl) {
+      colorGridEl.querySelectorAll('.ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+      state.color = [];
+    }
+  });
+
+  // Fancy colour / intensity / overtone: single-select, click again to clear.
+  function wireFancyRow(rowId, key) {
+    var row = document.getElementById(rowId);
+    if (!row) return;
+    row.addEventListener('click', function (e) {
+      var btn = e.target.closest('.ds-chip');
+      if (!btn) return;
+      var wasActive = btn.classList.contains('is-active');
+      row.querySelectorAll('.ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+      if (!wasActive) btn.classList.add('is-active');
+      state[key] = wasActive ? '' : (btn.getAttribute('data-fval') || '');
+    });
+  }
+  wireFancyRow('ds-fancy-color-row', 'fancyColor');
+  wireFancyRow('ds-fancy-intensity-row', 'fancyIntensity');
+  wireFancyRow('ds-fancy-overtone-row', 'fancyOvertone');
+  wireFancyRow('ds-eyeclean-row', 'eyeClean'); // same single-select behaviour
+
+  function clearFancyChips() {
+    document.querySelectorAll('#ds-fancy-fields .ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+  }
+
+  // Carat quick-pick chips (single-select) + free-text min/max inputs.
+  var caratMinEl = document.getElementById('ds-carat-min');
+  var caratMaxEl = document.getElementById('ds-carat-max');
+  var caratChipsEl = document.getElementById('ds-carat-chips');
+  if (caratChipsEl) {
+    caratChipsEl.addEventListener('click', function (e) {
+      var btn = e.target.closest('.ds-chip');
+      if (!btn) return;
+      var wasActive = btn.classList.contains('is-active');
+      caratChipsEl.querySelectorAll('.ds-chip').forEach(function (b) { b.classList.remove('is-active'); });
+      if (wasActive) {
+        caratMinEl.value = ''; caratMaxEl.value = '';
+      } else {
+        btn.classList.add('is-active');
+        caratMinEl.value = btn.getAttribute('data-cmin');
+        caratMaxEl.value = btn.getAttribute('data-cmax');
+      }
+    });
+  }
+  [caratMinEl, caratMaxEl].forEach(function (el) {
+    if (el) el.addEventListener('input', function () {
+      caratChipsEl.querySelectorAll('.ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+    });
+  });
+
+  var priceMinEl = document.getElementById('ds-price-min');
+  var priceMaxEl = document.getElementById('ds-price-max');
+
+  function numOrBlank(v) {
+    var n = parseFloat(String(v).replace(/[^0-9.]/g, ''));
+    return isNaN(n) ? '' : n;
+  }
+
+  // Apply / Reset.
+  document.getElementById('ds-apply').addEventListener('click', function () {
+    state.caratMin = numOrBlank(caratMinEl.value);
+    state.caratMax = numOrBlank(caratMaxEl.value);
+    state.priceMin = numOrBlank(priceMinEl.value);
+    state.priceMax = numOrBlank(priceMaxEl.value);
+    // fancy colour/intensity/overtone update state directly on chip click
+    runSearch(true);
+    closeDrawer();
+  });
+
+  document.getElementById('ds-reset').addEventListener('click', function () {
+    document.querySelectorAll('.diamond-shape-row .diamond-shape-swatch').forEach(function (b, i) {
+      b.classList.toggle('is-active', i === 0);
+    });
+    document.querySelectorAll('.diamond-source-tabs .diamond-source-tab').forEach(function (b) {
+      b.classList.toggle('is-active', b.getAttribute('data-source') === 'natural');
+    });
+    document.querySelectorAll('.diamond-toggle-pair button').forEach(function (b) {
+      b.classList.toggle('is-active', b.getAttribute('data-tone') === 'white');
+    });
+    document.querySelectorAll('.ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+    if (colorGridEl) colorGridEl.hidden = false;
+    if (colorHintEl) colorHintEl.hidden = false;
+    if (fancyFieldsEl) fancyFieldsEl.hidden = true;
+    caratMinEl.value = ''; caratMaxEl.value = '';
+    priceMinEl.value = ''; priceMaxEl.value = '';
+    state.shapes = ['ROUND']; state.labgrown = 'false'; state.colorTone = 'white';
+    state.color = []; state.clarity = []; state.cut = [];
+    state.polish = []; state.symmetry = []; state.eyeClean = ''; state.heartsArrows = false;
+    state.caratMin = ''; state.caratMax = ''; state.priceMin = ''; state.priceMax = '';
+    state.fancyColor = ''; state.fancyIntensity = ''; state.fancyOvertone = '';
+    runSearch(true);
+  });
+
+  /* ---------------- Filter drawer (slides down from the top) ---------------- */
+  var drawerEl = document.getElementById('ds-drawer');
+  var drawerBackdropEl = document.getElementById('ds-drawer-backdrop');
+  var allFiltersBtnEl = document.getElementById('ds-open-filters');
+
+  function openDrawer() {
+    drawerEl.classList.add('is-open');
+    drawerBackdropEl.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeDrawer() {
+    drawerEl.classList.remove('is-open');
+    drawerBackdropEl.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+  allFiltersBtnEl.addEventListener('click', openDrawer);
+  document.getElementById('ds-drawer-close').addEventListener('click', closeDrawer);
+  drawerBackdropEl.addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && drawerEl.classList.contains('is-open')) closeDrawer();
+  });
+
+  /* ---------------- Sticky thin bar + auto-hiding theme header ----------------
+     The theme's overflow wrappers break position:sticky, so the bar is pinned
+     with JS. Page-scoped bonus: the theme header hides when scrolling down and
+     glides back after a short scroll up, so the bar can own the top edge. */
+  var topbarEl = document.querySelector('.ds-topbar');
+  var topbarSpacer = document.createElement('div');
+  topbarSpacer.style.display = 'none';
+  topbarEl.parentNode.insertBefore(topbarSpacer, topbarEl.nextSibling);
+  var topbarStuck = false;
+
+  // The theme header section wrapper (OS 2.0 section-group ids vary by theme).
+  var headerSection = document.querySelector('#shopify-section-header') ||
+    document.querySelector('[id^="shopify-section-"][id*="header"]');
+  if (!headerSection) {
+    var themeHeader = document.querySelector('header');
+    if (themeHeader && !listingEl.contains(themeHeader)) headerSection = themeHeader;
+  }
+  var headerHidden = false;
+  var lastY = window.pageYOffset;
+  var upTravel = 0;
+  // Fade the whole header in/out (same feel as the home page header).
+  if (headerSection) headerSection.style.transition = 'opacity 0.3s ease, visibility 0.3s ease';
+
+  // How far down the visible bottom edge of the header currently is. A faded
+  // header keeps its rect, so treat it as gone the moment it starts fading;
+  // the bar's own top transition carries the movement smoothly.
+  function headerBottom() {
+    if (!headerSection || headerHidden) return 0;
+    var r = headerSection.getBoundingClientRect();
+    if (!r.height) return 0;
+    return Math.max(0, r.bottom);
+  }
+
+  function syncTopbar() {
+    var hb = headerBottom();
+    if (!topbarStuck) {
+      if (topbarEl.getBoundingClientRect().top <= hb) {
+        topbarSpacer.style.height = topbarEl.offsetHeight + 'px';
+        topbarSpacer.style.display = 'block';
+        topbarEl.classList.add('is-stuck');
+        topbarEl.style.top = hb + 'px';
+        topbarStuck = true;
+      }
+    } else {
+      topbarEl.style.top = hb + 'px';
+      if (topbarSpacer.getBoundingClientRect().top > hb) {
+        topbarEl.classList.remove('is-stuck');
+        topbarEl.style.top = '';
+        topbarSpacer.style.display = 'none';
+        topbarStuck = false;
+      }
+    }
+  }
+
+  function setHeaderHidden(hide) {
+    headerHidden = hide;
+    headerSection.style.opacity = hide ? '0' : '';
+    headerSection.style.visibility = hide ? 'hidden' : '';
+    headerSection.style.pointerEvents = hide ? 'none' : '';
+    syncTopbar(); // bar's top transition animates it to/from the header edge
+  }
+
+  window.addEventListener('scroll', function () {
+    var y = window.pageYOffset;
+    if (headerSection) {
+      var delta = y - lastY;
+      if (delta > 2) {
+        upTravel = 0;
+        if (!headerHidden && y > 160) setHeaderHidden(true);
+      } else if (delta < -2) {
+        upTravel -= delta;
+        if (headerHidden && (upTravel > 50 || y < 160)) setHeaderHidden(false);
+      }
+      lastY = y;
+    }
+    syncTopbar();
+  }, { passive: true });
+  window.addEventListener('resize', syncTopbar);
+  syncTopbar();
+
+  /* ---------------- Live result count on the Apply button ----------------
+     Any edit inside the drawer re-counts (debounced) using the PENDING
+     selections, so the button reads "Show 12,405 Diamonds" before applying. */
+  var applyBtnEl = document.getElementById('ds-apply');
+  var panelEl = document.querySelector('.diamond-filter-panel');
+  var countTimer = null;
+  var countSeq = 0;
+
+  function refreshApplyCount() {
+    clearTimeout(countTimer);
+    countTimer = setTimeout(function () {
+      var params = buildQuery(true);
+      params.set('limit', 1);
+      var seq = ++countSeq;
+      fetch(API_BASE + '/api/diamonds?' + params.toString())
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (seq !== countSeq) return;
+          if (typeof data.total === 'number') {
+            applyBtnEl.textContent = 'Show ' + data.total.toLocaleString() + ' Diamonds';
+          }
+        })
+        .catch(function () { /* keep the current label */ });
+    }, 350);
+  }
+  panelEl.addEventListener('click', function (e) {
+    if (e.target.closest('.ds-chip, .diamond-shape-swatch, .diamond-toggle-pair button, .ds-btn--reset')) refreshApplyCount();
+  });
+  [caratMinEl, caratMaxEl, priceMinEl, priceMaxEl].forEach(function (el) {
+    if (el) el.addEventListener('input', refreshApplyCount);
+  });
+  allFiltersBtnEl.addEventListener('click', refreshApplyCount);
+
+  /* ---------------- Mobile: pin Reset/Apply to the drawer's bottom ----------------
+     position:sticky needs a tall parent, so on small screens the actions move
+     from the right column to the end of the panel (and back on desktop). */
+  var actionsEl = document.querySelector('.ds-filter-actions');
+  var actionsHomeEl = actionsEl.parentElement;
+  var mq900 = window.matchMedia('(max-width: 900px)');
+  function placeActions() {
+    if (mq900.matches) panelEl.appendChild(actionsEl);
+    else actionsHomeEl.appendChild(actionsEl);
+  }
+  if (mq900.addEventListener) mq900.addEventListener('change', placeActions);
+  else if (mq900.addListener) mq900.addListener(placeActions);
+  window.addEventListener('resize', placeActions); // some engines skip mq change events
+  placeActions();
+
+  /* ---------------- Applied-filter chips ----------------
+     Rendered from the APPLIED state after every fresh search. Removing a chip
+     clears that filter group and re-runs the search immediately - no Apply. */
+  var activeChipsEl = document.getElementById('ds-active-chips');
+
+  function chipDefs() {
+    var defs = [];
+    if (state.shapes.length) {
+      defs.push({ key: 'shapes', label: 'Shape', value: state.shapes.map(titleCase).join(', ') });
+    }
+    if (state.colorTone === 'fancy') {
+      var fv = [state.fancyIntensity, state.fancyColor, state.fancyOvertone].filter(Boolean).join(' ');
+      defs.push({ key: 'fancy', label: 'Fancy colour', value: fv || 'Any' });
+    } else if (state.color.length) {
+      defs.push({ key: 'color', label: 'Colour', value: state.color.join(', ') });
+    }
+    if (state.clarity.length) defs.push({ key: 'clarity', label: 'Clarity', value: state.clarity.join(', ') });
+    if (state.cut.length) defs.push({ key: 'cut', label: 'Cut', value: state.cut.join(', ') });
+    if (state.polish.length) defs.push({ key: 'polish', label: 'Polish', value: state.polish.join(', ') });
+    if (state.symmetry.length) defs.push({ key: 'symmetry', label: 'Symmetry', value: state.symmetry.join(', ') });
+    if (state.eyeClean) defs.push({ key: 'eyeclean', label: 'Eye Clean', value: state.eyeClean });
+    if (state.heartsArrows) defs.push({ key: 'hearts', label: 'Hearts & Arrows', value: 'Yes' });
+    if (state.caratMin !== '' || state.caratMax !== '') {
+      defs.push({ key: 'carat', label: 'Carat', value: (state.caratMin === '' ? '0' : state.caratMin) + ' – ' + (state.caratMax === '' ? 'max' : state.caratMax) + ' ct' });
+    }
+    if (state.priceMin !== '' || state.priceMax !== '') {
+      var pMin = state.priceMin === '' ? '$0' : '$' + Number(state.priceMin).toLocaleString();
+      var pMax = state.priceMax === '' ? 'max' : '$' + Number(state.priceMax).toLocaleString();
+      defs.push({ key: 'price', label: 'Price', value: pMin + ' – ' + pMax });
+    }
+    return defs;
+  }
+
+  function renderChips() {
+    var defs = chipDefs();
+    allFiltersBtnEl.classList.toggle('has-filters', defs.length > 0);
+    if (!defs.length) { activeChipsEl.hidden = true; activeChipsEl.innerHTML = ''; return; }
+    activeChipsEl.hidden = false;
+    activeChipsEl.innerHTML = defs.map(function (d) {
+      return '<span class="ds-achip"><b>' + d.label + '</b> ' + d.value +
+        ' <button type="button" data-clear="' + d.key + '" aria-label="Remove ' + d.label + ' filter">&times;</button></span>';
+    }).join('') + '<button type="button" class="ds-clear-all" id="ds-clear-all">Clear all &times;</button>';
+  }
+
+  // Clears one group's state + drawer UI. Search is re-run by the caller.
+  function resetGroupUI(key) {
+    if (key === 'shapes') {
+      state.shapes = [];
+      document.querySelectorAll('.diamond-shape-row .diamond-shape-swatch.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+    } else if (key === 'color') {
+      state.color = [];
+      if (colorGridEl) colorGridEl.querySelectorAll('.ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+    } else if (key === 'fancy') {
+      state.colorTone = 'white';
+      state.fancyColor = ''; state.fancyIntensity = ''; state.fancyOvertone = '';
+      document.querySelectorAll('.diamond-toggle-pair button').forEach(function (b) {
+        b.classList.toggle('is-active', b.getAttribute('data-tone') === 'white');
+      });
+      if (colorGridEl) colorGridEl.hidden = false;
+      if (colorHintEl) colorHintEl.hidden = false;
+      if (fancyFieldsEl) fancyFieldsEl.hidden = true;
+      clearFancyChips();
+    } else if (key === 'clarity') {
+      state.clarity = [];
+      document.querySelectorAll('#ds-clarity-row .ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+    } else if (key === 'cut') {
+      state.cut = [];
+      document.querySelectorAll('#ds-cut-row .ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+      clearCpsPresets();
+    } else if (key === 'polish') {
+      state.polish = [];
+      document.querySelectorAll('#ds-polish-row .ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+      clearCpsPresets();
+    } else if (key === 'symmetry') {
+      state.symmetry = [];
+      document.querySelectorAll('#ds-symmetry-row .ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+      clearCpsPresets();
+    } else if (key === 'eyeclean') {
+      state.eyeClean = '';
+      document.querySelectorAll('#ds-eyeclean-row .ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+    } else if (key === 'hearts') {
+      state.heartsArrows = false;
+      var haBtn = document.querySelector('#ds-cps-presets [data-preset="ha"]');
+      if (haBtn) haBtn.classList.remove('is-active');
+    } else if (key === 'carat') {
+      state.caratMin = ''; state.caratMax = '';
+      caratMinEl.value = ''; caratMaxEl.value = '';
+      if (caratChipsEl) caratChipsEl.querySelectorAll('.ds-chip.is-active').forEach(function (b) { b.classList.remove('is-active'); });
+    } else if (key === 'price') {
+      state.priceMin = ''; state.priceMax = '';
+      priceMinEl.value = ''; priceMaxEl.value = '';
+    }
+  }
+
+  activeChipsEl.addEventListener('click', function (e) {
+    var clearBtn = e.target.closest('[data-clear]');
+    if (clearBtn) {
+      resetGroupUI(clearBtn.getAttribute('data-clear'));
+      runSearch(true);
+      return;
+    }
+    if (e.target.closest('#ds-clear-all')) {
+      ['shapes', 'fancy', 'color', 'clarity', 'cut', 'polish', 'symmetry', 'eyeclean', 'hearts', 'carat', 'price'].forEach(resetGroupUI);
+      runSearch(true);
+    }
+  });
+
+  sortEl.addEventListener('change', function () {
+    // Option values are "<field>-<dir>": price | carat | ppc (price per carat).
+    var parts = sortEl.value.split('-');
+    state.sortBy = parts[0];
+    state.direction = parts[1] === 'desc' ? 'DESC' : 'ASC';
+    runSearch(true);
+  });
+
+  /* ---------------- Query + fetch ---------------- */
+  // pending=true builds from what's currently EDITED in the drawer (carat and
+  // price straight from the inputs) rather than the last-applied values - used
+  // by the live count on the Apply button.
+  function buildQuery(pending) {
+    var params = new URLSearchParams();
+    var caratMin = pending ? numOrBlank(caratMinEl.value) : state.caratMin;
+    var caratMax = pending ? numOrBlank(caratMaxEl.value) : state.caratMax;
+    var priceMin = pending ? numOrBlank(priceMinEl.value) : state.priceMin;
+    var priceMax = pending ? numOrBlank(priceMaxEl.value) : state.priceMax;
+    if (state.shapes.length) params.set('shapes', state.shapes.join(','));
+    if (state.colorTone === 'fancy') {
+      params.set('fancy', 'true');
+      if (state.fancyColor) params.set('fancyColor', state.fancyColor);
+      if (state.fancyIntensity) params.set('fancyIntensity', state.fancyIntensity);
+      if (state.fancyOvertone) params.set('fancyOvertone', state.fancyOvertone);
+    } else if (state.color.length) {
+      params.set('color', state.color.join(','));
+    }
+    if (state.clarity.length) params.set('clarity', state.clarity.join(','));
+    if (state.cut.length) params.set('cut', state.cut.join(','));
+    if (state.polish.length) params.set('polish', state.polish.join(','));
+    if (state.symmetry.length) params.set('symmetry', state.symmetry.join(','));
+    if (state.eyeClean) params.set('eyeClean', state.eyeClean);
+    if (state.heartsArrows) params.set('heartsArrows', 'true');
+    params.set('labgrown', state.labgrown);
+    if (caratMin !== '' && caratMin != null) params.set('caratMin', caratMin);
+    if (caratMax !== '' && caratMax != null) params.set('caratMax', caratMax);
+    if (priceMin !== '' && priceMin != null) params.set('priceMin', priceMin);
+    if (priceMax !== '' && priceMax != null) params.set('priceMax', priceMax);
+    params.set('sortBy', state.sortBy);
+    params.set('sortDir', state.direction);
+    params.set('limit', PAGE_SIZE);
+    return params;
+  }
+
+  function skeletonHtml(n) {
+    var out = '';
+    for (var i = 0; i < n; i++) out += '<div class="diamond-card diamond-card--skeleton"></div>';
+    return out;
+  }
+
+  function escapeAttr(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function cardHtml(item) {
+    var c = item.certificate || {};
+    var img = item.image || 'https://placehold.co/400x400?text=No+Image';
+    var video = item.video || '';
+    var title = (c.carats || '?') + 'ct ' + titleCase(c.shape || '');
+    var price = item.price_usd != null ? '$' + item.price_usd.toLocaleString() : 'Price on request';
+    return '' +
+      '<div class="diamond-card" data-id="' + encodeURIComponent(item.id) + '">' +
+        '<div class="diamond-card__image-wrap"' + (video ? ' data-video="' + escapeAttr(video) + '"' : '') + '>' +
+          (c.lab ? '<span class="diamond-card__lab-badge">' + c.lab + '</span>' : '') +
+          '<img src="' + img + '" alt="' + title + '" loading="lazy">' +
+          (video ? '<button type="button" class="ds-360-badge" aria-label="View 360 spin">360&deg;</button>' : '') +
+        '</div>' +
+        '<div class="diamond-card__body">' +
+          '<h3 class="diamond-card__title">' + title + '</h3>' +
+          '<p class="diamond-card__specs">Color <span>' + (c.color || '-') + '</span> &middot; Clarity <span>' + (c.clarity || '-') + '</span> &middot; Cut <span>' + (c.cut || '-') + '</span></p>' +
+          '<div class="diamond-card__price">' + price + (item.price_usd != null ? ' <sup>USD</sup>' : '') + '</div>' +
+        '</div>' +
+      '</div>';
+  }
+
+  function titleCase(s) {
+    if (!s) return '';
+    return s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
+  }
+
+  function runSearch(reset) {
+    if (reset) { state.offset = 0; renderChips(); }
+    var params = buildQuery();
+    params.set('offset', state.offset);
+    var qs = params.toString();
+    lastQueryString = qs;
+
+    if (reset) {
+      gridEl.innerHTML = skeletonHtml(8);
+      countEl.textContent = 'Loading diamonds' + String.fromCharCode(8230);
+    }
+    loadMoreEl.hidden = true;
+
+    fetch(API_BASE + '/api/diamonds?' + qs)
+      .then(function (res) {
+        if (!res.ok) throw new Error('Search failed (' + res.status + ')');
+        return res.json();
+      })
+      .then(function (data) {
+        if (qs !== lastQueryString) return;
+        var items = data.items || [];
+        var pageCount = items.length;
+        state.total = data.total || 0;
+        // The worker returns the true match count (diamonds_by_query_count),
+        // which exceeds one page. If that count call ever fails it falls back to
+        // the page length, so also treat "got a full page" as "there may be more".
+        var totalKnown = state.total > PAGE_SIZE;
+
+        if (reset) gridEl.innerHTML = '';
+        if (pageCount === 0 && state.offset === 0) {
+          gridEl.innerHTML = '<div class="diamond-grid-empty">No diamonds match those filters. Try widening your search.</div>';
+          countEl.textContent = '0 diamonds';
+          return;
+        }
+        items.forEach(function (item) {
+          itemsById[item.id] = item;
+          gridEl.insertAdjacentHTML('beforeend', cardHtml(item));
+        });
+        state.offset += pageCount;
+        var hasMore = totalKnown ? (state.offset < state.total) : (pageCount === PAGE_SIZE);
+        loadMoreEl.hidden = !hasMore;
+        countEl.textContent = totalKnown
+          ? ('Results ' + String.fromCharCode(8212) + ' ' + state.total.toLocaleString() + ' Diamonds')
+          : ('Showing ' + state.offset.toLocaleString() + (hasMore ? '+' : '') + ' Diamonds');
+      })
+      .catch(function (err) {
+        gridEl.innerHTML = '<div class="diamond-grid-empty">Something went wrong loading diamonds. Please try again.</div>';
+        countEl.textContent = '';
+        console.error(err);
+      });
+  }
+
+  gridEl.addEventListener('click', function (e) {
+    var card = e.target.closest('.diamond-card');
+    if (!card) return;
+    var id = decodeURIComponent(card.getAttribute('data-id'));
+    // 360 is click-to-load: the badge opens the popup on the spin, the rest of
+    // the image opens it on the photo, and the body opens the detail view. The
+    // loupe360 iframe only ever loads when a shopper deliberately asks for 360.
+    if (e.target.closest('.ds-360-badge')) {
+      openMediaPopup(id, 'video');
+    } else if (e.target.closest('.diamond-card__image-wrap')) {
+      openMediaPopup(id, 'image');
+    } else {
+      showDetail(id);
+    }
+  });
+
+  /* ---------------- 360 spin viewer (click-to-load, shared mount) ---------------- */
+  function mountViewer(wrap, url) {
+    if (!wrap || wrap.querySelector('.ds-viewer')) return;
+    var f = document.createElement('iframe');
+    f.className = 'ds-viewer';
+    // The loupe360 player is NOT responsive: it renders at exactly the size
+    // requested in the URL path (default /video/500/500). Request the wrap's
+    // own size so the player fits the card natively — this also downloads
+    // smaller, faster frames. Fall back to scaling a 500px player down if
+    // the URL doesn't have the expected /video/W/H shape.
+    var w = Math.round(wrap.clientWidth);
+    if (w && w < 500) {
+      var sized = url.replace(/\/video\/\d+\/\d+/, '/video/' + w + '/' + w);
+      if (sized !== url) {
+        url = sized;
+      } else {
+        f.style.width = '500px';
+        f.style.height = '500px';
+        f.style.transformOrigin = '0 0';
+        f.style.transform = 'scale(' + (w / 500) + ')';
+      }
+    }
+    f.src = url;
+    f.setAttribute('frameborder', '0');
+    f.setAttribute('scrolling', 'no');
+    f.setAttribute('allow', 'autoplay; fullscreen');
+    f.setAttribute('allowfullscreen', '');
+    f.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+    wrap.classList.add('is-playing');
+    wrap.appendChild(f);
+  }
+
+  function unmountViewer(wrap) {
+    if (!wrap) return;
+    var f = wrap.querySelector('.ds-viewer');
+    if (f) f.remove();
+    wrap.classList.remove('is-playing');
+  }
+
+  /* Hover-to-spin on grid cards (hover-capable devices only). The loupe360
+     iframe mounts after a short dwell and then STAYS mounted, so a re-hover
+     is instant and the shopper can click-drag the spin or use the player's
+     slide arrows. Only the most recent few stay alive — the iframes are
+     heavy, so older ones are unmounted (their static image returns). */
+  if (window.matchMedia && window.matchMedia('(hover: hover)').matches) {
+    var hoverWrap = null;
+    var hoverTimer = null;
+    var mountedWraps = [];
+    gridEl.addEventListener('mouseover', function (e) {
+      var wrap = e.target.closest('.diamond-card__image-wrap');
+      if (!wrap || wrap === hoverWrap) return;
+      clearTimeout(hoverTimer);
+      hoverWrap = wrap;
+      var url = wrap.getAttribute('data-video');
+      if (!url || wrap.querySelector('.ds-viewer')) return;
+      hoverTimer = setTimeout(function () {
+        mountViewer(wrap, url);
+        mountedWraps.push(wrap);
+        while (mountedWraps.length > 6) unmountViewer(mountedWraps.shift());
+      }, 200);
+    });
+    gridEl.addEventListener('mouseout', function (e) {
+      var wrap = e.target.closest('.diamond-card__image-wrap');
+      if (!wrap) return;
+      if (e.relatedTarget && wrap.contains(e.relatedTarget)) return;
+      clearTimeout(hoverTimer);
+      hoverTimer = null;
+      if (hoverWrap === wrap) hoverWrap = null;
+    });
+  }
+
+  /* ---------------- Media popup (lightbox) ---------------- */
+  var lightboxEl = document.getElementById('ds-lightbox');
+  var lbTitleEl = document.getElementById('ds-lightbox-title');
+  var lbMediaEl = document.getElementById('ds-lightbox-media');
+  var lbSpecsEl = document.getElementById('ds-lightbox-specs');
+  var lbThumbsEl = document.getElementById('ds-lightbox-thumbs');
+  var lbCtaEl = document.getElementById('ds-lightbox-cta');
+  var lbCurrentId = null;
+
+  function openMediaPopup(id, initialView) {
+    var item = itemsById[id];
+    if (!item) { showDetail(id); return; } // no cached item -> fall straight to detail
+    lbCurrentId = id;
+    var c = item.certificate || {};
+    lbTitleEl.textContent =
+      (c.carats || '?') + 'ct ' + titleCase(c.shape || '') + ' ' +
+      [c.color, c.clarity, c.cut].filter(Boolean).join(' ');
+
+    // Price + quick spec summary, so the popup answers most questions before
+    // the shopper ever needs the full detail page.
+    if (lbSpecsEl) {
+      var m = c.measurements || {};
+      var dims = [m.length, m.width, m.depth].filter(Boolean).join(' × ');
+      var facts = [
+        ['Colour', c.color], ['Clarity', c.clarity],
+        ['Cut', c.cut], ['Polish', c.polish],
+        ['Symmetry', c.symmetry], ['Fluorescence', c.fluorescence],
+        ['Lab', c.lab], ['Certificate', c.number],
+        ['Measurements', dims || null], ['Eye Clean', item.eye_clean],
+        ['Table %', c.table_pct], ['Depth %', c.depth_pct],
+      ].filter(function (f) { return f[1]; });
+      lbSpecsEl.innerHTML =
+        '<div class="ds-lb-price">' +
+          (item.price_usd != null ? '$' + item.price_usd.toLocaleString() + '<sup>USD</sup>' : 'Price on request') +
+        '</div>' +
+        '<div class="ds-lb-grid">' +
+          facts.map(function (f) {
+            return '<div><span>' + f[0] + '</span><span>' + f[1] + '</span></div>';
+          }).join('') +
+        '</div>';
+    }
+
+    // Build the thumbnail row: 360 spin first (if any), then the front-view image.
+    var thumbs = [];
+    if (item.video) thumbs.push({ view: 'video', label: '360' + String.fromCharCode(176) + ' Video', bg: item.image });
+    if (item.image) thumbs.push({ view: 'image', label: 'Front view', bg: item.image });
+    lbThumbsEl.innerHTML = thumbs.map(function (t) {
+      return '<button type="button" class="ds-thumb" data-view="' + t.view + '">' +
+        '<span class="ds-thumb__img" style="background-image:url(\'' + (t.bg || '') + '\')"></span>' +
+        t.label + '</button>';
+    }).join('');
+    lbThumbsEl.hidden = thumbs.length < 2;
+
+    showPopupView(initialView === 'video' && item.video ? 'video' : 'image', item);
+    lightboxEl.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+
+  function showPopupView(view, item) {
+    if (view === 'video' && item.video) {
+      lbMediaEl.innerHTML =
+        '<iframe src="' + item.video + '" frameborder="0" allow="autoplay; fullscreen" ' +
+        'allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>';
+    } else {
+      lbMediaEl.innerHTML = '<img src="' + (item.image || 'https://placehold.co/600x600?text=No+Image') + '" alt="">';
+    }
+    Array.prototype.forEach.call(lbThumbsEl.querySelectorAll('.ds-thumb'), function (b) {
+      b.classList.toggle('is-active', b.getAttribute('data-view') === view);
+    });
+  }
+
+  function closeMediaPopup() {
+    lightboxEl.hidden = true;
+    lbMediaEl.innerHTML = ''; // stop the iframe
+    document.body.style.overflow = '';
+    lbCurrentId = null;
+  }
+
+  lbThumbsEl.addEventListener('click', function (e) {
+    var t = e.target.closest('.ds-thumb');
+    if (!t || !lbCurrentId) return;
+    showPopupView(t.getAttribute('data-view'), itemsById[lbCurrentId]);
+  });
+
+  lbCtaEl.addEventListener('click', function () {
+    var id = lbCurrentId;
+    closeMediaPopup();
+    if (id) showDetail(id);
+  });
+
+  lightboxEl.addEventListener('click', function (e) {
+    if (e.target.hasAttribute('data-ds-close')) closeMediaPopup();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !lightboxEl.hidden) closeMediaPopup();
+  });
+
+  loadMoreEl.addEventListener('click', function () { runSearch(false); });
+
+  /* ---------------- Detail view (unchanged) ---------------- */
+  function showDetail(id) {
+    history.pushState({ diamond: id }, '', '?diamond=' + encodeURIComponent(id));
+    renderDetail(id);
+  }
+
+  function renderDetail(id) {
+    listingEl.hidden = true;
+    detailEl.hidden = false;
+    window.scrollTo(0, 0);
+
+    document.getElementById('ds-detail-title').textContent = 'Loading' + String.fromCharCode(8230);
+    document.getElementById('ds-detail-specs').innerHTML = '';
+    document.getElementById('ds-detail-price').textContent = '';
+    document.getElementById('ds-detail-lab').textContent = '';
+    document.getElementById('ds-detail-image').src = '';
+    var dWrapReset = detailEl.querySelector('.diamond-card__image-wrap');
+    unmountViewer(dWrapReset);
+    var oldBtn = dWrapReset.querySelector('.ds-360-detail-btn');
+    if (oldBtn) oldBtn.remove();
+
+    fetch(API_BASE + '/api/diamonds/' + encodeURIComponent(id))
+      .then(function (res) {
+        if (!res.ok) throw new Error('Lookup failed (' + res.status + ')');
+        return res.json();
+      })
+      .then(function (item) {
+        var c = item.certificate || {};
+        document.getElementById('ds-detail-lab').textContent = c.lab ? c.lab + ' Certified' : 'Certified Diamond';
+        document.getElementById('ds-detail-title').textContent = (c.carats || '?') + 'ct ' + titleCase(c.shape || '');
+        document.getElementById('ds-detail-image').src = item.image || 'https://placehold.co/600x600?text=No+Image';
+        if (item.video) {
+          var dWrap = detailEl.querySelector('.diamond-card__image-wrap');
+          var btn360 = document.createElement('button');
+          btn360.type = 'button';
+          btn360.className = 'ds-360-badge ds-360-detail-btn';
+          btn360.innerHTML = 'View in 360' + String.fromCharCode(176);
+          btn360.addEventListener('click', function () {
+            mountViewer(dWrap, item.video); // loupe360 iframe loads only on this click
+            btn360.remove();
+          });
+          dWrap.appendChild(btn360);
+        }
+        document.getElementById('ds-detail-price').innerHTML = (item.price_usd != null ? '$' + item.price_usd.toLocaleString() + ' <sup>USD</sup>' : 'Price on request');
+
+        var rows = [
+          ['Shape', titleCase(c.shape)],
+          ['Carat', c.carats],
+          ['Color', c.color],
+          ['Clarity', c.clarity],
+          ['Cut', c.cut],
+          ['Polish', c.polish],
+          ['Symmetry', c.symmetry],
+          ['Fluorescence', c.fluorescence],
+          ['Lab', c.lab],
+          ['Certificate #', c.number],
+          ['Measurements', c.measurements ? [c.measurements.length, c.measurements.width, c.measurements.depth].filter(Boolean).join(' x ') : null],
+          ['Table %', c.table_pct],
+          ['Depth %', c.depth_pct],
+        ];
+        document.getElementById('ds-detail-specs').innerHTML = rows
+          .filter(function (r) { return r[1]; })
+          .map(function (r) { return '<tr><td>' + r[0] + '</td><td>' + r[1] + '</td></tr>'; })
+          .join('');
+      })
+      .catch(function (err) {
+        document.getElementById('ds-detail-title').textContent = 'Diamond not found';
+        console.error(err);
+      });
+  }
+
+  document.getElementById('ds-back-link').addEventListener('click', function (e) {
+    e.preventDefault();
+    history.pushState({}, '', location.pathname);
+    showListing();
+  });
+
+  function showListing() {
+    detailEl.hidden = true;
+    listingEl.hidden = false;
+  }
+
+  window.addEventListener('popstate', function () {
+    var params = new URLSearchParams(location.search);
+    var id = params.get('diamond');
+    if (id) renderDetail(id);
+    else showListing();
+  });
+
+  /* ---------------- Init ---------------- */
+  if (fancyFieldsEl) fancyFieldsEl.hidden = true; // colour grid is the default view
+  initializing = false;
+
+  var initialParams = new URLSearchParams(location.search);
+  var initialDiamond = initialParams.get('diamond');
+  if (initialDiamond) {
+    renderDetail(initialDiamond);
+  } else {
+    runSearch(true);
+  }
+})();
+</script>
+
+
+{% endraw %}
+{% schema %}
+{ "name": "Nivoda Diamond Search", "settings": [] }
+{% endschema %}

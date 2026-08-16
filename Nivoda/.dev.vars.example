@@ -1,0 +1,11 @@
+# Local-only secrets for `wrangler dev`. Copy this file to `.dev.vars`
+# (which is git-ignored) and fill in your real Nivoda credentials.
+#
+#   cp .dev.vars.example .dev.vars
+#
+# These are ONLY used when running the worker locally. The deployed worker
+# already has its own secrets on Cloudflare (set via `wrangler secret put`),
+# so `wrangler deploy` does NOT read this file.
+
+NIVODA_USERNAME = "your-nivoda-login-email"
+NIVODA_PASSWORD = "your-nivoda-password"

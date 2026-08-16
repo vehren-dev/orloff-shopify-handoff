@@ -1,0 +1,33 @@
+name = "orloff-nivoda-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# Create this KV namespace with: wrangler kv namespace create TOKEN_KV
+# Then paste the returned id below.
+[[kv_namespaces]]
+binding = "TOKEN_KV"
+id = "9a3510943efc40528664bb53c362af6f"
+
+[vars]
+# Production access granted 2026-07-21 (Nivoda ticket 344135)
+NIVODA_ENV = "production"
+
+# Markup is no longer a single percent. It is the tiered Orloff schedule
+# (separate Natural and Lab-Grown bands, by raw cost) defined in worker.js
+# under "Pricing" (MARKUP_NATURAL / MARKUP_LABGROWN). Edit the schedule there.
+
+# Your storefront domain, locks down who can call this Worker
+ALLOWED_ORIGIN = "https://orloffofdenmark.com"
+
+# Leave "false" until Nivoda confirms Pro API access on your account
+PRO_API_ENABLED = "false"
+
+# NIVODA_USERNAME and NIVODA_PASSWORD are NOT set here. They are secrets:
+#   wrangler secret put NIVODA_USERNAME
+#   wrangler secret put NIVODA_PASSWORD
+#
+# There is no staging fallback. Nivoda shares staging credentials on
+# request only (tech@nivoda.net). Secrets are required in both envs.
+#
+# ORDER_SHARED_KEY is a secret too, only needed once Pro is enabled:
+#   wrangler secret put ORDER_SHARED_KEY
