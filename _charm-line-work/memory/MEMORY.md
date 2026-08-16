@@ -1,0 +1,7 @@
+- [Orloff WEB 11 theme fixes](orloff-web11-theme-fixes.md) — WEB N theme versioning; what was fixed in WEB 11 and what is pending
+- [Charm line image folder structure](charm-line-image-folder-structure.md) — HD PICTURE layout traps and the Phase 1 coverage blockers
+- [Invoice PDF extraction](invoice-pdf-extraction.md) — use pdftotext -table not -layout; verified 554-row reconciliation result
+- [Invoice embedded images](invoice-embedded-images.md) — 533 product photos inside the PDF; the y-axis flip that breaks row mapping
+- [Charm line pricing](orloff-charm-line-pricing.md) — approved THB tiers, bracelet flat price, and the Pandora anchor
+- [Shopify file uploads](shopify-file-uploads.md) — bare CDN URLs work without ?v=; why bulk API upload does not scale
+- [StoreHub import schema](storehub-import-schema.md) — the 31 columns and the outlet-specific quantity column

@@ -1,0 +1,114 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "charm_breadcrumbs": {
+          "type": "breadcrumbs",
+          "settings": {}
+        },
+        "charm_title": {
+          "type": "title",
+          "settings": {
+            "uppercase": true
+          }
+        },
+        "charm_price": {
+          "type": "price",
+          "settings": {}
+        },
+        "charm_meta": {
+          "type": "meta",
+          "settings": {
+            "product_meta_collections": false,
+            "product_meta_tags": false,
+            "product_meta_vendors": false,
+            "product_meta_sku": true
+          }
+        },
+        "charm_rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "charm_description": {
+          "type": "description",
+          "settings": {}
+        },
+        "charm_variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_picker": true,
+            "color_swatch_shape": "square",
+            "variant_is_disabled": true,
+            "sizing_guide_variant": "Size",
+            "sizing_guide_text": "Bracelet sizing",
+            "sizing_guide_page": "sizing"
+          }
+        },
+        "charm_side_panel": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "FITS YOUR ORLOFF BRACELET",
+            "side_panel_1_icon": "question_mark",
+            "side_panel_1_content": "<p>Every charm in this collection threads onto the Orloff snake-chain bracelet and is compatible with most standard 3mm charm bracelets.</p>",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "MATERIALS &amp; CARE",
+            "side_panel_2_icon": "washing",
+            "side_panel_2_content": "<p>Sterling silver, stamped 925. Wipe with a soft dry cloth after wear. Remove before swimming, bathing or applying perfume. Store away from direct light to slow natural tarnishing.</p>",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "DELIVERY &amp; RETURNS",
+            "side_panel_3_icon": "box",
+            "side_panel_3_content": "",
+            "side_panel_3_page": ""
+          }
+        },
+        "charm_buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "charm_breadcrumbs",
+        "charm_title",
+        "charm_price",
+        "charm_meta",
+        "charm_rating",
+        "charm_description",
+        "charm_variant_picker",
+        "charm_side_panel",
+        "charm_buy_buttons"
+      ],
+      "custom_css": [
+        ".badge {background: #848482; display: none !important;}"
+      ],
+      "settings": {
+        "product_style": "style1",
+        "product_image_feature": "",
+        "lightbox_thumbnails": true,
+        "lightbox_product_info": true,
+        "show_taxes_included": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        ".badge {background: #848482;}"
+      ],
+      "settings": {
+        "heading": "Completes the bracelet",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "recommendations"
+  ]
+}

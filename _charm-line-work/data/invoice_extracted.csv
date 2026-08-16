@@ -1,0 +1,555 @@
+row_no,model_no,material,metal_finish,stone,size,weight_g,qty,unit_price_usd,total_price_usd,raw_desc
+1,ORSE18,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,15mmL*10mmW,3.9,10,5.36,53.60,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 15mmL*10mmW
+2,ORSE19,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,18mmD*3mmW,4.40,14,6.67,93.38,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 18mmD*3mmW
+3,ORSE22,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,12mmL*7mmW,4.56,11,8.97,98.67,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 12mmL*7mmW
+4,ORSE42,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,29mmL,5.70,15,11.59,173.85,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 29mmL
+5,ORSE46,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: white,23mmL*16mmD,5.90,13,14.22,184.86,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: white | 23mmL*16mmD
+6,ORSE71-L,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: Blue,10mmD,1.10,12,3.17,38.04,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: Blue | 10mmD
+7,ORSE71-R,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: Red,10mmD,1.10,13,3.06,39.78,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: Red | 10mmD
+8,ORSE71-W,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: white,10mmD,1.10,12,3.06,36.72,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: white | 10mmD
+9,ORSE76,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,15mmD,2.30,15,4.92,73.80,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 15mmD
+10,ORSE84,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,6mmD,1.40,22,2.84,62.48,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 6mmD
+11,ORSE102,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,10mmH,2.20,24,3.97,95.28,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 10mmH
+12,ORSE103,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,10mmH,2.00,11,3.61,39.71,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 10mmH
+13,ORSE114,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,10mmL,1.60,15,3.28,49.20,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 10mmL
+14,ORSE266,Sterling Silver + AAAA CZ,,Main stone: White,20mmH,2.10,9,3.35,30.15,Sterling Silver + AAAA CZ | Rhodium Plated | Main stone: White | 20mmH
+15,ORSN04,Sterling silver,Metal: Rhodium plated,Main stone: NA,Chain:45cm/5mmD,1.60,15,4.16,62.40,Sterling silver | Metal: Rhodium plated | Main stone: NA | Chain:45cm/5mmD
+16,ORSN38,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,Chain:45cm/Pendent:10.5mmH,2.00,15,5.10,76.50,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | Chain:45cm/Pendent:10.5mmH
+17,ORSN40,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,Chain:45cm/Pendent:15.5mmH,2.60,15,5.43,81.45,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | Chain:45cm/Pendent:15.5mmH
+18,ORSN41,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,Chain:45cm/Pendent:14.2mmH,3.60,15,5.64,84.60,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | Chain:45cm/Pendent:14.2mmH
+19,ORSN43,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,Chain:45cm/Pendent:12mmD,3.1,15,6.41,96.15,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | Chain:45cm/Pendent:12mmD
+20,ORSN44,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,Chain:45cm/Pendent:13mmH,3.1,12,5.86,70.32,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | Chain:45cm/Pendent:13mmH
+21,ORSN60,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,Chain:45cm/22mmL*14mmW,3.8,15,7.81,117.15,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | Chain:45cm/22mmL*14mmW
+22,ORSN89-P,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,15mmL/Chain:46cm,2.4,11,6.08,66.88,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 15mmL/Chain:46cm
+23,ORSN174-P,Sterling silver+AAAA CZ,Metal: Rhodium plated,Main stone: White,,2.4,15,6.62,99.30,Sterling silver+AAAA CZ | Metal: Rhodium plated | Main stone: White
+24,ORSME13,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,60mm/2.36inch,2.60,2,7.69,15.38,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 60mm/2.36inch
+25,ORSWB07,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal,15cm/5.9inch,4.40,4,15.21,60.84,925 Sterling Silver +Genuine | Swarovski Crystal | Metal: Rhodium Plated | Stone: Red | 15cm/5.9inch
+26,ORSWE07,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,32mm/1.26inch,3.80,17,8.86,150.62,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 32mm/1.26inch
+27,ORSWE08,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,19mm/0.75inch,2.40,20,8.38,167.60,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 19mm/0.75inch
+28,ORSWE09,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,13mm/0.51inch,2.9,20,7.37,147.40,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 13mm/0.51inch
+29,ORSWE10,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,10mm/0.39inch,1.60,20,6.66,133.20,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 10mm/0.39inch
+30,ORSWE11,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,11mm/0.43inch,1.7,15,4.77,71.55,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Green | 11mm/0.43inch
+31,ORSWE12,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,12mm/0.47inch,2.40,15,7.53,112.95,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 12mm/0.47inch
+32,ORSWE14-B,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal,21mm/0.83inch,2.1,15,6.84,102.60,925 Sterling Silver +Genuine | Swarovski Crystal | Metal: Rhodium Plated | Stone: Blue | 21mm/0.83inch
+33,ORSWE14-F,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal,21mm/0.83inch,2.1,20,6.84,136.80,925 Sterling Silver +Genuine | Swarovski Crystal | Metal: Rhodium Plated | Stone: Pink | 21mm/0.83inch
+34,ORSWE15,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal,10mm/0.39inch,2.30,15,5.48,82.20,925 Sterling Silver +Genuine | Swarovski Crystal | Metal: Rhodium Plated | Stone: as photo | 10mm/0.39inch
+35,ORSWE16,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,19mm/0.75inch,2.70,15,8.42,126.30,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 19mm/0.75inch
+36,ORSWB04-F,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,16.5cm/6.5inch,4.50,20,12.44,248.80,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 16.5cm/6.5inch
+37,ORSWB04-B,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,16.5cm/6.5inch,4.50,19,12.44,236.36,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 16.5cm/6.5inch
+38,ORSWB05,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,16cm/6.3inch,4.50,15,12.23,183.45,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 16cm/6.3inch
+39,ORSWB06-B,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,16cm/6.3inch,4.50,20,12.88,257.60,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 16cm/6.3inch
+40,ORSWB06-F,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,16cm/6.3inch,4.50,20,12.88,257.60,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 16cm/6.3inch
+41,ORSWB06-P,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,16cm/6.3inch,4.50,19,12.88,244.72,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Purple | 16cm/6.3inch
+42,ORSWB08,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,19.5cm/7.7inch,2.9,21,10.79,226.59,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 19.5cm/7.7inch
+43,ORSWN05-G,925 Sterling Silver +Genuine,Metal: Gold Plated,Swarovski Crystal+AAAA CZ,40cm/15.7inch+6cm extender,3.00,20,8.20,164.00,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Gold Plated | Stone: Pink | 40cm/15.7inch+6cm extender
+44,ORSWN05-P,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,40cm/15.7inch+6cm extender,3.50,20,8.20,164.00,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 40cm/15.7inch+6cm extender
+45,ORSWN06-F,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,40cm/15.7inch+5cm extender,3.50,20,8.66,173.20,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 40cm/15.7inch+5cm extender
+46,ORSWN06-B,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,40cm/15.7inch+5cm extender,3.50,18,8.66,155.88,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 40cm/15.7inch+5cm extender
+47,ORSWN07,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,42cm/16.5inch+5cm extender,2.9,20,8.38,167.60,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 42cm/16.5inch+5cm extender
+48,ORSWN08,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,40cm/15.7inch+5cm extender,2.8,20,8.16,163.20,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 40cm/15.7inch+5cm extender
+49,ORSWE01-R,925 Sterling Silver +genuine,Metal: Rose Gold Plated,Swarovski crystal,25mm/0.98inch,1.7,19,5.60,106.40,925 Sterling Silver +genuine | Swarovski crystal | Metal: Rose Gold Plated | Stone: Blue | 25mm/0.98inch
+50,ORSWE02-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal,6mmD/0.24inchD,0.90,20,4.17,83.40,925 Sterling Silver +genuine | Swarovski crystal | Metal: Rhodium Plated | Stone: green | 6mmD/0.24inchD
+51,ORSWE03-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,8.6mm,1.30,20,5.40,108.00,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Grey | 8.6mm
+52,ORSWE04-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,8mm,0.80,20,5.07,101.40,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 8mm
+53,ORSWE05-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,20mm,2.1,15,6.93,103.95,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 20mm
+54,ORSWE06-B,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,9mm,1.2,19,4.29,81.51,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 9mm
+55,ORSWE06-F,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,9mm,1.2,15,4.29,64.35,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 9mm
+56,ORSWN01-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,pendant:13mm,2.20,20,7.53,150.60,"925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | chain:41+6cm/16+2.3inch, | pendant:13mm"
+57,ORSWN02-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,pendant:8.5mm,1.7,20,6.44,128.80,"925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Grey | chain:41+6cm/16+2.3inch, | pendant:8.5mm"
+58,ORSWN03-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,pendant:18mm,2.50,18,7.63,137.34,"925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | Chain:45cm+6cm/18inch+2.3inch, | pendant:18mm"
+59,ORSWN04-B,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,pendant:12mm,2.8,19,6.96,132.24,"925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | Chain:45cm+6cm/18inch+2.3inch, | pendant:12mm"
+60,ORSWN04-F,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,pendant:12mm,2.8,20,6.96,139.20,"925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Pink | Chain:45cm+6cm/18inch+2.3inch, | pendant:12mm"
+61,ORSWN04-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,pendant:12mm,2.8,20,6.96,139.20,"925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Purple | Chain:45cm+6cm/18inch+2.3inch, | pendant:12mm"
+62,ORSWN04-G,925 Sterling Silver +genuine,Metal: Rose Gold Plated,Swarovski crystal + AAAA CZ,pendant:12mm,2.8,20,6.96,139.20,"925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rose Gold Plated | Stone: Green | Chain:45cm+6cm/18inch+2.3inch, | pendant:12mm"
+63,ORSWB01-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,16.5cm+3.8cm/6.5inch+1.5inch,4.90,20,13.23,264.60,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 16.5cm+3.8cm/6.5inch+1.5inch
+64,ORSWB02-P,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,16.5cm+3.8cm/6.5inch+1.5inch,2.30,20,7.08,141.60,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 16.5cm+3.8cm/6.5inch+1.5inch
+65,ORSWB03-B,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,16cm+4cm/6.3inch+1.6inch,3.20,20,8.71,174.20,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 16cm+4cm/6.3inch+1.6inch
+66,ORSWB03-F,925 Sterling Silver +genuine,Metal: Rhodium Plated,Swarovski crystal + AAAA CZ,16cm+4cm/6.3inch+1.6inch,3.20,20,8.71,174.20,925 Sterling Silver +genuine | Swarovski crystal + AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 16cm+4cm/6.3inch+1.6inch
+67,ORSWE17-F,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,17mm,1.30,20,6.10,122.00,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 17mm
+68,ORSWE17-B,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,17mm,1.30,20,6.10,122.00,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 17mm
+69,ORSWN15,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,Chain:40cm+6cm Extender,2.60,20,8.41,168.20,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | Pendant:13mm | Chain:40cm+6cm Extender
+70,ORSWN16,925 Sterling Silver +Genuine,Metal: Rhodium Plated,Swarovski Crystal+AAAA CZ,Chain:40cm+6cm Extender,3.10,19,8.30,157.70,925 Sterling Silver +Genuine | Swarovski Crystal+AAAA CZ | Metal: Rhodium Plated | Stone: Blue | Pendant:14mm | Chain:40cm+6cm Extender
+71,ORSB42,Sterling Silver+AAA CZ,Metal: Rhodium plated,Main stone: Multicolor,9-22cm stone size:2mm,3.35,20,8.52,170.40,Sterling Silver+AAA CZ | Metal: Rhodium plated | Main stone: Multicolor | 9-22cm stone size:2mm
+72,ORSB43,Sterling Silver+AAA CZ,Metal: Rhodium plated,Main stone: White,9-22cm stone size:2mm,3.41,20,7.71,154.20,Sterling Silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 9-22cm stone size:2mm
+73,ORSB61-16.5,925 Sterling Silver+AAA CZ,Metal: Rhodium Plated,Stone:White,16.5cmL /2mmW,4.23,20,9.41,188.20,925 Sterling Silver+AAA CZ | Metal: Rhodium Plated | Stone:White | 16.5cmL /2mmW
+74,ORSB61-18,925 Sterling Silver+AAA CZ,Metal: Rhodium Plated,Stone:White,18cmL /2mmW,4.45,19,9.84,186.96,925 Sterling Silver+AAA CZ | Metal: Rhodium Plated | Stone:White | 18cmL /2mmW
+75,ORSB62-16.5,925 Sterling Silver+AAA CZ,Metal: Rhodium Plated,Stone:multi-colors,16.5cmL /2mmW,4.05,19,11.05,209.95,925 Sterling Silver+AAA CZ | Metal: Rhodium Plated | Stone:multi-colors | 16.5cmL /2mmW
+76,ORSB62-18,925 Sterling Silver+AAA CZ,Metal: Rhodium Plated,Stone:multi-colors,18cmL /2mmW,4.11,19,11.38,216.22,925 Sterling Silver+AAA CZ | Metal: Rhodium Plated | Stone:multi-colors | 18cmL /2mmW
+77,"ORSB92-6.5""3.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,3mm CZ ; Length:16.5cm,5.90,19,10.61,201.59,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 3mm CZ ; Length:16.5cm
+78,"ORSB92-7""3.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,3mm CZ ; Length:18cm,6.35,19,11.16,212.04,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 3mm CZ ; Length:18cm
+79,"ORSB93-6.5""4.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,4mm CZ ; Length:16.5cm,7.90,20,13.34,266.80,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 4mm CZ ; Length:16.5cm
+80,"ORSB93-7""4.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,4mm CZ ; Length:18cm,8.40,19,13.56,257.64,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 4mm CZ ; Length:18cm
+81,"ORSB94-6.5""3.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,3mm CZ ; Length:16.5cm,6.02,15,11.70,175.50,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 3mm CZ ; Length:16.5cm
+82,"ORSB94-7""3.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,3mm CZ ; Length:18cm,6.54,16,12.91,206.56,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 3mm CZ ; Length:18cm
+83,"ORSB95-6.5""4.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,4mm CZ ; Length:16.5cm,8.56,13,15.97,207.61,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 4mm CZ ; Length:16.5cm
+84,"ORSB95-7""4.0",925 Sterling Silver + AAA CZ,Metal: Rhodium Plated,Stone: White,4mm CZ ; Length:18cm,9.16,14,17.28,241.92,925 Sterling Silver + AAA CZ | Metal: Rhodium Plated | Stone: White | 4mm CZ ; Length:18cm
+85,ORCB01,925 Sterling Silver,Metal: Oxidized Silver,Black CZ + Blue Enamel,14.5mm * 7mm,1.55,10,3.75,37.50,925 Sterling Silver | Metal: Oxidized Silver | Black CZ + Blue Enamel | 14.5mm * 7mm
+86,ORCB02,925 Sterling Silver,Metal: Oxidized Silver,Orange+Black+ Blue Enamel,12mm,1.69,10,3.84,38.40,925 Sterling Silver | Metal: Oxidized Silver | Orange+Black+ Blue Enamel | 12mm
+87,ORCB03,925 Sterling Silver,Metal: Oxidized Silver,Black+ Red Enamel,13mm,2,10,4.03,40.30,925 Sterling Silver | Metal: Oxidized Silver | Black+ Red Enamel | 13mm
+88,ORCB04,925 Sterling Silver,Metal: Oxidized Silver,White+ Red Enamel,11.5mm,2.79,10,4.38,43.80,925 Sterling Silver | Metal: Oxidized Silver | White+ Red Enamel | 11.5mm
+89,ORCB05,925 Sterling Silver,Metal: Oxidized Silver,Black Enamel,13mm,2.84,10,5.12,51.20,925 Sterling Silver | Metal: Oxidized Silver | Black Enamel | 13mm
+90,ORCB06,925 Sterling Silver,Metal:Rosegold plated,White Enamel,12mm,1.79,10,4.15,41.50,925 Sterling Silver | Metal:Rosegold plated | White Enamel | 12mm
+91,ORCB07,925 Sterling Silver,Metal: Oxidized Silver,,8mm,1.18,10,2.92,29.20,925 Sterling Silver | Metal: Oxidized Silver | 8mm
+92,ORCB08,925 Sterling Silver,Metal: Oxidized Silver,Black+ Pink Enamel,13.5mm,1.77,10,4.05,40.50,925 Sterling Silver | Metal: Oxidized Silver | Black+ Pink Enamel | 13.5mm
+93,ORCB09,925 Sterling Silver,Metal: Oxidized Silver,White CZ+Black Enamel,12.5mm,2.06,10,4.42,44.19,925 Sterling Silver | Metal: Oxidized Silver | White CZ+Black Enamel | 12.5mm
+94,ORCB10,925 Sterling Silver,Metal: Oxidized Silver,Stone :None,21mm,2.63,10,4.76,47.60,925 Sterling Silver | Metal: Oxidized Silver | Stone :None | 21mm
+95,ORCB11,925 Sterling Silver,Metal: Oxidized Silver,Black+ Red Enamel,12.5mm,2.62,10,5.24,52.40,925 Sterling Silver | Metal: Oxidized Silver | Black+ Red Enamel | 12.5mm
+96,ORCB12,925 Sterling Silver,Metal: Oxidized Silver,White CZ,21.5mm,1.49,10,3.54,35.40,925 Sterling Silver | Metal: Oxidized Silver | White CZ | 21.5mm
+97,ORCB13,925 Sterling Silver,Metal: Oxidized Silver,White CZ,20mm,1.45,9,3.30,29.70,925 Sterling Silver | Metal: Oxidized Silver | White CZ | 20mm
+98,ORCB14,925 Sterling Silver,Metal: Oxidized Silver,White CZ+Red &Blue Enamel,18mm,1.36,9,3.77,33.93,925 Sterling Silver | Metal: Oxidized Silver | White CZ+Red &Blue Enamel | 18mm
+99,ORCB15,925 Sterling Silver,Metal: Oxidized Silver,Black Enamel,22mm,1.97,10,3.50,35.00,925 Sterling Silver | Metal: Oxidized Silver | Black Enamel | 22mm
+100,ORCB16,925 Sterling Silver,Metal: Oxidized Silver,Blue+ Pink Enamel,11mm,1.81,10,3.72,37.20,925 Sterling Silver | Metal: Oxidized Silver | Blue+ Pink Enamel | 11mm
+101,ORCB17,925 Sterling Silver,Metal: Oxidized Silver,Blue+ Pink Enamel,10mm,2.95,10,5.48,54.80,925 Sterling Silver | Metal: Oxidized Silver | Blue+ Pink Enamel | 10mm
+102,ORCB18,925 Sterling Silver,Metal: Oxidized Silver,Black+ Red +Yellow Enamel,10.5mm,2.52,9,5.10,45.90,925 Sterling Silver | Metal: Oxidized Silver | Black+ Red +Yellow Enamel | 10.5mm
+103,ORCB20,925 Sterling Silver,Metal: Oxidized Silver,Purple Enamel,21.5mm,1.64,10,3.28,32.80,925 Sterling Silver | Metal: Oxidized Silver | Purple Enamel | 21.5mm
+104,ORCB21,925 Sterling Silver,Metal: Oxidized Silver,Green CZ,22mm,1.03,10,2.87,28.70,925 Sterling Silver | Metal: Oxidized Silver | Green CZ | 22mm
+105,ORCB22,925 Sterling Silver,Metal: Oxidized Silver,Pink+Yellow Enamel,10mm,2.23,10,4.59,45.90,925 Sterling Silver | Metal: Oxidized Silver | Pink+Yellow Enamel | 10mm
+106,ORCB23,925 Sterling Silver,Metal: Oxidized Silver,White CZ +Red &Yellow Enamel,17.5mm,1.29,10,3.52,35.20,925 Sterling Silver | Metal: Oxidized Silver | White CZ +Red &Yellow Enamel | 17.5mm
+107,ORCB25,925 Sterling Silver,Metal: Oxidized Silver,White CZ +Red &Yellow Enamel,12mm,2.01,10,4.07,40.70,925 Sterling Silver | Metal: Oxidized Silver | White CZ +Red &Yellow Enamel | 12mm
+108,ORCB26,925 Sterling Silver,Metal: Oxidized Silver,Red +Brown Enamel,10.5mm,1.79,10,3.93,39.30,925 Sterling Silver | Metal: Oxidized Silver | Red +Brown Enamel | 10.5mm
+109,ORCB27,925 Sterling Silver,Metal: Oxidized Silver,Pink CZ +Green &Yellow Enamel,12.5mm,2.64,10,4.99,49.90,925 Sterling Silver | Metal: Oxidized Silver | Pink CZ +Green &Yellow Enamel | 12.5mm
+110,ORCB28,925 Sterling Silver,Metal: Oxidized Silver,White CZ+Purple &Yellow Enamel,13mm,1.11,10,2.76,27.60,925 Sterling Silver | Metal: Oxidized Silver | White CZ+Purple &Yellow Enamel | 13mm
+111,ORCB29,925 Sterling Silver,Metal: Oxidized Silver,White CZ,12mm,1.42,10,3.59,35.90,925 Sterling Silver | Metal: Oxidized Silver | White CZ | 12mm
+112,ORCB30,925 Sterling Silver,Metal: Rhodium &Rosegold,White CZ,15mm,3.41,10,6.69,66.90,925 Sterling Silver | Metal: Rhodium &Rosegold | Plated+Electrophoretic-coated | White CZ | 15mm
+113,ORCB34,925 Sterling Silver + AAAA CZ,Metal:Oxidized Silver+Highly,Stone: Pink & White,11mm,2.1,10,5.03,50.30,925 Sterling Silver + AAAA CZ | Metal:Oxidized Silver+Highly | Polishing | Stone: Pink & White | 11mm
+114,ORCB35,925 Sterling Silver + AAAA CZ,Metal:Oxidized Silver+Highly,Stone: White,11mm,2.0,10,4.59,45.90,925 Sterling Silver + AAAA CZ | Metal:Oxidized Silver+Highly | Polishing | Stone: White | 11mm
+115,ORCB36,925 Sterling Silver+AAAA CZ,Metal:Oxidized Silver+Highly,Stone: Multicolor,12mm,3.8,10,7.22,72.20,925 Sterling Silver+AAAA CZ | Metal:Oxidized Silver+Highly | Polishing | Stone: Multicolor | 12mm
+116,ORCB37,925 Sterling Silver+Enamel,Metal:Oxidized Silver+Highly,Stone:NA / Enamel:Light Blue&White,11mm,1.2,10,3.94,39.40,925 Sterling Silver+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:NA / Enamel:Light Blue&White | 11mm
+117,ORCB38,925 Sterling Silver+Enamel,Metal:Oxidized Silver+Highly,Stone:NA / Enamel:Light Blue,10mm,2.3,10,4.92,49.20,925 Sterling Silver+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:NA / Enamel:Light Blue | 10mm
+118,ORCB39,925 Sterling Silver+AAAA,Metal:Oxidized Silver+Highly,CZ+Enamel,10mm,2.3,10,5.36,53.60,925 Sterling Silver+AAAA | CZ+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone: White / Enamel:Light Blue | 10mm
+119,ORCB40,925 Sterling Silver+Enamel,Metal:Oxidized Silver+Highly,Stone:NA / Enamel:Red,26mm,1.8,10,4.27,42.70,925 Sterling Silver+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:NA / Enamel:Red | 26mm
+120,ORCB41,925 Sterling Silver+Enamel,Metal:Oxidized Silver+Highly,Stone:NA / Enamel: Blue,24mm,2.4,9,5.58,50.22,925 Sterling Silver+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:NA / Enamel: Blue | 24mm
+121,ORCB42,925 Sterling Silver+Enamel,Metal:Oxidized Silver+Highly,Stone:NA / Enamel:Pink,30mm,1.6,10,4.16,41.60,925 Sterling Silver+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:NA / Enamel:Pink | 30mm
+122,ORCB43,925 Sterling Silver+AAAA,Metal:Oxidized Silver+Highly,CZ+Enamel,20mm,1.7,10,4.05,40.50,925 Sterling Silver+AAAA | CZ+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:White / Enamel:Pink | 20mm
+123,ORCB44,925 Sterling Silver+AAAA CZ,Metal:Oxidized Silver+Highly,Stone:Pink,20mm,1.7,10,4.92,49.20,925 Sterling Silver+AAAA CZ | Metal:Oxidized Silver+Highly | Polishing | Stone:Pink | 20mm
+124,ORCB45,925 Sterling Silver+AAAA,Metal:Oxidized Silver+Highly,CZ+Enamel,26mm,2.1,10,4.81,48.10,925 Sterling Silver+AAAA | CZ+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:White / Enamel:Pink | 26mm
+125,ORCB46,925 Sterling Silver+Enamel,Metal:Oxidized Silver+Highly,Stone:NA / Enamel:Black,27mm,2.1,10,5.14,51.40,925 Sterling Silver+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:NA / Enamel:Black | 27mm
+126,ORCB47,925 Sterling Silver+Enamel,Metal:Oxidized Silver+Highly,Stone:NA / Enamel:Brown,25mm,2.2,10,4.48,44.80,925 Sterling Silver+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:NA / Enamel:Brown | 25mm
+127,ORCB48,925 Sterling Silver+AAAA,Metal:Oxidized Silver+Highly,CZ+Enamel,27mm,3.7,10,7.22,72.20,925 Sterling Silver+AAAA | CZ+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:Blue / Enamel:Light Blue | 27mm
+128,ORCB49,925 Sterling Silver+AAAA CZ,Metal:Oxidized Silver+Highly,Stone:White,22mm,3.1,10,6.34,63.40,925 Sterling Silver+AAAA CZ | Metal:Oxidized Silver+Highly | Polishing | Stone:White | 22mm
+129,ORCB50,925 Sterling Silver+AAAA CZ,Metal:Oxidized Silver+Highly,Stone:Blue & Orange,11mm,2.6,10,6.23,62.30,925 Sterling Silver+AAAA CZ | Metal:Oxidized Silver+Highly | Polishing | Stone:Blue & Orange | 11mm
+130,ORCB51,925 Sterling Silver,Metal:Oxidized Silver+Highly,,12mm,4.1,10,7.88,78.80,925 Sterling Silver | Metal:Oxidized Silver+Highly | Polishing | Stone:NA | 12mm
+131,ORCB52,925 Sterling Silver+AAAA,Metal:Oxidized Silver+Highly,CZ+Enamel,22mm,1.2,10,4.16,41.60,925 Sterling Silver+AAAA | CZ+Enamel | Metal:Oxidized Silver+Highly | Polishing | Stone:White / Enamel:Pink&White | 22mm
+132,ORCB53,925 Sterling Silver+AAAA CZ+Shell,Metal:Oxidized Silver+Highly,Stone:White,24mm,2.2,10,5.47,54.70,925 Sterling Silver+AAAA CZ+Shell | Pearl | Metal:Oxidized Silver+Highly | Polishing | Stone:White | 24mm
+133,ORCB54,925 Sterling Silver+AAAA CZ+Shell,Metal:Oxidized Silver+Highly,Stone:Black,23mm,2.6,10,5.91,59.10,925 Sterling Silver+AAAA CZ+Shell | Pearl | Metal:Oxidized Silver+Highly | Polishing | Stone:Black | 23mm
+134,ORCB55,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Muti-color,30mm,1.83,10,5.35,53.50,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Muti-color | 30mm
+135,ORCB56,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Muti-color,12mm,2.2,10,5.28,52.80,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Muti-color | 12mm
+136,ORCB58,925 Sterling Silver,Metal: Rhodium Plated,,25mm,1.3,9,4.01,36.09,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 25mm
+137,ORCB59,925 Sterling Silver+ Enamel,Metal: Rhodium Plated,,11mm,2.07,10,4.27,42.70,925 Sterling Silver+ Enamel | Metal: Rhodium Plated | Stone: NA | 11mm
+138,ORCB60,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,+Enamel,11mm,3.1,10,5.49,54.90,925 Sterling Silver + AAAA CZ | +Enamel | Metal: Rhodium Plated | Stone: Blue+White | 11mm
+139,ORCB61,925 Sterling Silver,Metal: Rhodium Plated,,18mm,1.8,10,4.33,43.30,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 18mm
+140,ORCB62,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,25mm,2.3,10,5.62,56.20,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 25mm
+141,ORCB63,925 Sterling Silver,Metal: Rhodium Plated,,10mm,2.17,10,4.77,47.70,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 10mm
+142,ORCB64,925 Sterling Silver+Enamel,Metal: Rhodium Plated,,12mm,2.57,10,5.46,54.60,925 Sterling Silver+Enamel | Metal: Rhodium Plated | Stone: NA | 12mm
+143,ORCB65,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,+Enamel,30mm,1.95,10,5.64,56.40,925 Sterling Silver + AAAA CZ | +Enamel | Metal: Rhodium Plated | Stone: White | 30mm
+144,ORCB66,925 Sterling Silver+ Enamel,Metal: Rhodium Plated,,20mm,0.9,8,3.50,28.00,925 Sterling Silver+ Enamel | Metal: Rhodium Plated | Stone: NA | 20mm
+145,ORCB67,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,20mm,0.98,10,3.88,38.80,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 20mm
+146,ORCB70,925 Sterling Silver+ Enamel,Metal: Rhodium Plated,,12mm,2.57,10,5.35,53.50,925 Sterling Silver+ Enamel | Metal: Rhodium Plated | Stone: NA | 12mm
+147,ORCB71,925 Sterling Silver+ Enamel,Metal: Rhodium Plated,,20mm,1.55,10,4.13,41.30,925 Sterling Silver+ Enamel | Metal: Rhodium Plated | Stone: NA | 20mm
+148,ORCB73,925 Sterling Silver+ Enamel,Metal: Rhodium Plated,,11mm,2.28,10,4.59,45.90,925 Sterling Silver+ Enamel | Metal: Rhodium Plated | Stone: NA | 11mm
+149,ORCB74,925 Sterling Silver+ Enamel,Metal: Rhodium Plated,,14mm,2.9,10,5.13,51.30,925 Sterling Silver+ Enamel | Metal: Rhodium Plated | Stone: NA | 14mm
+150,ORCB76,925 Sterling Silver+ Enamel,Metal: Rhodium Plated,,14mm,3.9,7,7.34,51.38,925 Sterling Silver+ Enamel | Metal: Rhodium Plated | Stone: NA | 14mm
+151,ORCB77,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,+Enamel,12mm,4.56,10,7.22,72.20,925 Sterling Silver + AAAA CZ | +Enamel | Metal: Rhodium Plated | Stone: Blue | 12mm
+152,ORCB78,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: white,10mm,2.07,10,5.80,58.00,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: white | 10mm
+153,ORCB79,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: white,12mm,5,10,9.30,93.00,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: white | 12mm
+154,ORCB80,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Blue,21mm,2,10,4.87,48.70,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 21mm
+155,ORCB81,925 Sterling Silver + AAAA,Metal: Rhodium Plated,CZ+Enamel,9mm,2.35,10,4.59,45.90,925 Sterling Silver + AAAA | CZ+Enamel | Metal: Rhodium Plated | Stone: White | 9mm
+156,ORCB82,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Muti-color,9mm,2.35,10,5.50,55.00,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Muti-color | 9mm
+157,ORCB83,925 Sterling Silver + AAAA,Metal: Rhodium Plated,CZ+Enamel,12mm,2.5,10,5.21,52.10,925 Sterling Silver + AAAA | CZ+Enamel | Metal: Rhodium Plated | Stone: White | 12mm
+158,ORCB84,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Purple,16mm,2.5,10,4.87,48.70,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Purple | 16mm
+159,ORCB85,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,11mm,2.5,10,4.81,48.10,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 11mm
+160,ORCB86,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,21mm,2.3,10,5.69,56.90,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 21mm
+161,ORCB88,925 Sterling Silver,Metal: Rhodium Plated,,12mm,2,10,3.36,33.60,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 12mm
+162,ORCB89,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Blue+Red,22mm,3,10,5.88,58.80,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Blue+Red | 22mm
+163,ORCB100,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White+Purple,8mm,2.5,9,6.25,56.25,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White+Purple | 8mm
+164,ORCB101,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Muti-color,8mm,2.8,10,7.02,70.20,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Muti-color | 8mm
+165,ORCB102,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White+Purple,10mm,2.5,10,6.46,64.60,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White+Purple | 10mm
+166,ORCB103,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Muti-color,22mm,2.8,10,7.02,70.20,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Muti-color | 22mm
+167,ORCB104,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White+Red,15mm,3,8,6.00,48.00,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White+Red | 15mm
+168,ORCB106,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White+Pink,13mm,2.5,10,5.17,51.70,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White+Pink | 13mm
+169,ORCB107,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White+Blue,11mm,2.5,9,6.13,55.17,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White+Blue | 11mm
+170,ORCB108,925 Sterling Silver,Metal: Rhodium Plated,,21mm,1.5,10,4.26,42.60,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 21mm
+171,ORCB110,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Pink,17mm,3.8,10,6.13,61.30,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 17mm
+172,ORCB111,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,12mm,2.2,10,5.46,54.60,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 12mm
+173,ORCB113,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,13mm,2.2,10,6.30,63.00,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 13mm
+174,ORCB114,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Pink,10mm,2.2,10,5.19,51.90,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 10mm
+175,ORCB115,925 Sterling Silver,Metal: Rhodium Plated,,10mm,2.2,10,5.03,50.30,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 10mm
+176,ORCB116,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Blue,12mm,3,10,6.35,63.50,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 12mm
+177,ORCB117,925 Sterling Silver + AAAA,Metal: Rhodium Plated,CZ+Enamel,8mm,2.6,10,4.96,49.60,925 Sterling Silver + AAAA | CZ+Enamel | Metal: Rhodium Plated | Stone: White | 8mm
+178,ORCB118,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Muti-color,17mm,2.3,7,6.68,46.76,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Muti-color | 17mm
+179,ORCB119,925 Sterling Silver,Metal: Rhodium Plated,,10mm,2.2,10,5.58,55.80,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 10mm
+180,ORCB120,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,14mm,1.5,10,5.40,54.00,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 14mm
+181,ORCB122,925 Sterling Silver + AAAA CZ,Metal: Rose gold Plated,Stone: Black,11mm,2,8,5.25,42.00,925 Sterling Silver + AAAA CZ | Metal: Rose gold Plated | Stone: Black | 11mm
+182,ORCB123,925 Sterling Silver,Metal: Rhodium Plated,,15mm,2,10,7.00,70.00,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 15mm
+183,ORCB124,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Purple,11mm,2.4,10,7.22,72.20,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Purple | 11mm
+184,ORCB125,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,9mm,2,9,5.03,45.27,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 9mm
+185,ORCB126,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Green,10mm,1,10,3.43,34.30,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Green | 10mm
+186,ORCB127,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,15mm,1.9,10,4.59,45.90,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 15mm
+187,ORCB128,925 Sterling Silver + AAAA,Metal: Rhodium Plated,CZ+Enamel,12mm,2.5,10,6.80,68.00,925 Sterling Silver + AAAA | CZ+Enamel | Metal: Rhodium Plated | Stone: Yellow | 12mm
+188,ORCB129,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Blue,7mm,2,9,4.55,40.95,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 7mm
+189,ORCB135,925 Sterling Silver,Metal: Rhodium Plated,,16mm,1.8,10,4.97,49.70,925 Sterling Silver | Metal: Rhodium Plated | Stone: NA | 16mm
+190,ORCB136,925 Sterling Silver + AAAA,Metal: Rhodium Plated,CZ+Enamel,11mm,2.1,10,4.98,49.80,925 Sterling Silver + AAAA | CZ+Enamel | Metal: Rhodium Plated | Stone: White | 11mm
+191,ORCB137,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Muti-color,11mm,3.2,10,6.07,60.70,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Muti-color | 11mm
+192,ORCB138,925 Sterling Silver,Metal: Rose gold Plated,,7mm,1.7,10,4.27,42.70,925 Sterling Silver | Metal: Rose gold Plated | Stone: NA | 7mm
+193,ORCB139,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Yellow+Green,7mm,3.5,9,8.40,75.60,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Yellow+Green | 7mm
+194,ORCB140,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,12mm,2.4,10,4.69,46.90,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 12mm
+195,ORCB142,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,20mm,2.6,10,5.23,52.30,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 20mm
+196,ORCB144,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,15mm,2.7,10,5.69,56.90,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 15mm
+197,ORCB146,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,11mm,1,10,4.20,42.00,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 11mm
+198,ORCB149,925 Sterling Silver + Enamel,Metal: Rhodium Plated,,18mm,1.7,10,4.51,45.10,925 Sterling Silver + Enamel | Metal: Rhodium Plated | Stone: NA | 18mm
+199,ORCB150,925 Sterling Silver,Metal: 14K gold plated,,10mm,3,9,4.85,43.65,925 Sterling Silver | Metal: 14K gold plated | Stone: NA | 10mm
+200,ORCB151,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,13mm,1.5,9,5.03,45.27,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 13mm
+201,ORCB152,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: Blue,11mm,3,10,6.82,68.20,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: Blue | 11mm
+202,ORCB153,925 Sterling Silver,Metal: Oxidized Silver,Pink CZ & White CZ + Green Enamel,10.5mm,2.30,10,5.47,54.70,925 Sterling Silver | Metal: Oxidized Silver | Pink CZ & White CZ + Green Enamel | 10.5mm
+203,ORCB154,925 Sterling Silver,Metal: Oxidized Silver,Red Enamel,12mm,2.40,10,5.47,54.70,925 Sterling Silver | Metal: Oxidized Silver | Red Enamel | 12mm
+204,ORCB155,925 Sterling Silver,Metal: Oxidized Silver,Green & Pink Enamel,12mm,1.80,10,4.59,45.90,925 Sterling Silver | Metal: Oxidized Silver | Green & Pink Enamel | 12mm
+205,ORCB156,925 Sterling Silver,Metal: Oxidized Silver,Red CZ,11.5mm,2.30,10,5.03,50.30,925 Sterling Silver | Metal: Oxidized Silver | Red CZ | 11.5mm
+206,ORCB157,925 Sterling Silver,Metal: Oxidized Silver,White CZ & Red Enamel,10mm,1.80,9,5.03,45.27,925 Sterling Silver | Metal: Oxidized Silver | White CZ & Red Enamel | 10mm
+207,ORCB159,925 Sterling Silver,Metal: Oxidized Silver,Enamel,13mm,2.20,10,5.03,50.30,925 Sterling Silver | Metal: Oxidized Silver | Dark Blue & Light Blue & Black | Enamel | 13mm
+208,ORCB160,925 Sterling Silver,Metal: Oxidized Silver,Light Green Enamel,9.5mm,2.10,10,5.03,50.30,925 Sterling Silver | Metal: Oxidized Silver | Black & Brown & Red & Yellow & | Light Green Enamel | 9.5mm
+209,ORCB161,925 Sterling Silver,Metal: Oxidized Silver,Red & Pink Enamel,11.5mm,2.40,10,5.47,54.70,925 Sterling Silver | Metal: Oxidized Silver | Red & Pink Enamel | 11.5mm
+210,ORCB162,925 Sterling Silver,Metal: Oxidized Silver,Green Enamel,13mm,1.50,9,4.38,39.42,925 Sterling Silver | Metal: Oxidized Silver | Green Enamel | 13mm
+211,ORCB163,925 Sterling Silver,Metal: Oxidized Silver,Pink & White CZ + Green & Pink &,18mm,2.20,10,5.47,54.70,925 Sterling Silver | Metal: Oxidized Silver | Pink & White CZ + Green & Pink & | Yellow & Blue Enamel | 18mm
+212,ORCB164,925 Sterling Silver,Metal: Oxidized Silver,,9.5mm,2.10,10,4.59,45.90,925 Sterling Silver | Metal: Oxidized Silver | None | 9.5mm
+213,ORCB165,925 Sterling Silver,Metal: Oxidized Silver,Milky Pink & Brown Enamel,12.5mm,1.70,10,4.59,45.90,925 Sterling Silver | Metal: Oxidized Silver | Milky Pink & Brown Enamel | 12.5mm
+214,ORCB166,925 Sterling Silver,Metal: Oxidized Silver,Green & Orange Enamel,15mm,1.80,10,4.81,48.10,925 Sterling Silver | Metal: Oxidized Silver | Green & Orange Enamel | 15mm
+215,ORCB168,925 Sterling Silver,Metal: Oxidized Silver,Black & Red Enamel,12mm,2.10,10,5.03,50.30,925 Sterling Silver | Metal: Oxidized Silver | Black & Red Enamel | 12mm
+216,ORCB169,925 Sterling Silver,Metal: Oxidized Silver,Pink Enamel,15mm,3.10,10,6.34,63.40,925 Sterling Silver | Metal: Oxidized Silver | Pink Enamel | 15mm
+217,ORCB170,925 Sterling Silver,Metal: Oxidized Silver,White & Blue CZ,14mm,2.00,9,4.59,41.31,925 Sterling Silver | Metal: Oxidized Silver | White & Blue CZ | 14mm
+218,ORCB171,925 Sterling Silver,Metal: Oxidized Silver,Green & Yellow & Pink & Purple CZ,13mm,2.40,10,5.03,50.30,925 Sterling Silver | Metal: Oxidized Silver | Green & Yellow & Pink & Purple CZ | 13mm
+219,ORCB173,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,10mm,2.50,10,5.69,56.90,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 10mm
+220,ORCB174,925 Sterling Silver,Metal: Oxidized Silver,,10mm,2.10,10,4.81,48.10,925 Sterling Silver | Metal: Oxidized Silver | None | 10mm
+221,ORCB175,925 Sterling Silver,Metal: Oxidized Silver,,12mm,1.90,9,4.59,41.31,925 Sterling Silver | Metal: Oxidized Silver | None | 12mm
+222,ORCB176,925 Sterling Silver,Metal: Oxidized Silver,Green & White & Champange CZ,11mm,2.60,30,7.22,216.60,925 Sterling Silver | Metal: Oxidized Silver | Green & White & Champange CZ | 11mm
+223,ORCB177,925 Sterling Silver,Metal: Oxidized Silver,Green & Orange Enamel,12.5mm,2.70,10,5.91,59.10,925 Sterling Silver | Metal: Oxidized Silver | Green & Orange Enamel | 12.5mm
+224,ORCB179,925 Sterling Silver,Metal: Oxidized Silver,Milky Green Enamel,13mm,2.60,10,6.34,63.40,925 Sterling Silver | Metal: Oxidized Silver | Milky Green Enamel | 13mm
+225,ORCB180,925 Sterling Silver,Metal: Oxidized Silver,White CZ,12mm,1.70,15,5.03,75.45,925 Sterling Silver | Metal: Oxidized Silver | White CZ | 12mm
+226,ORCB182,925 Sterling Silver,Metal: Oxidized Silver,Blue & Yellow Enamel,11mm,2.70,16,5.69,91.04,925 Sterling Silver | Metal: Oxidized Silver | Green & Orange & White & Red & | Blue & Yellow Enamel | 11mm
+227,ORCBB01-17,925 Sterling Silver+AAAA CZ,,Main Stone :White CZ,17 cm,13.16,44,22.15,974.60,925 Sterling Silver+AAAA CZ | Main Stone :White CZ | 17 cm
+228,ORCBB01-19,925 Sterling Silver+AAAA CZ,,Main Stone :White CZ,19cm,14.40,44,23.95,1053.80,925 Sterling Silver+AAAA CZ | Main Stone :White CZ | 19cm
+229,ORCBB01-21,925 Sterling Silver+AAAA CZ,,Main Stone :White CZ,21cm,16.50,46,26.85,1235.10,925 Sterling Silver+AAAA CZ | Main Stone :White CZ | 21cm
+230,ORCB183-A,925 Sterling Silver,Metal: Oxidized Silver,,10.5mm,1.80,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None | 10.5mm
+231,ORCB183-B,925 Sterling Silver,Metal: Oxidized Silver,,,1.70,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+232,ORCB183-C,925 Sterling Silver,Metal: Oxidized Silver,,,1.50,10,4.22,42.20,925 Sterling Silver | Metal: Oxidized Silver | None
+233,ORCB183-D,925 Sterling Silver,Metal: Oxidized Silver,,,1.80,10,4.67,46.70,925 Sterling Silver | Metal: Oxidized Silver | None
+234,ORCB183-E,925 Sterling Silver,Metal: Oxidized Silver,,,1.70,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+235,ORCB183-F,925 Sterling Silver,Metal: Oxidized Silver,,,1.70,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+236,ORCB183-G,925 Sterling Silver,Metal: Oxidized Silver,,,1.60,10,4.22,42.20,925 Sterling Silver | Metal: Oxidized Silver | None
+237,ORCB183-H,925 Sterling Silver,Metal: Oxidized Silver,,,1.90,10,4.67,46.70,925 Sterling Silver | Metal: Oxidized Silver | None
+238,ORCB183-I,925 Sterling Silver,Metal: Oxidized Silver,,,1.30,10,4.00,40.00,925 Sterling Silver | Metal: Oxidized Silver | None
+239,ORCB183-J,925 Sterling Silver,Metal: Oxidized Silver,,,1.90,10,4.67,46.70,925 Sterling Silver | Metal: Oxidized Silver | None
+240,ORCB183-K,925 Sterling Silver,Metal: Oxidized Silver,,,2.10,10,4.89,48.90,925 Sterling Silver | Metal: Oxidized Silver | None
+241,ORCB183-L,925 Sterling Silver,Metal: Oxidized Silver,,,1.40,10,4.00,40.00,925 Sterling Silver | Metal: Oxidized Silver | None
+242,ORCB183-M,925 Sterling Silver,Metal: Oxidized Silver,,,1.80,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+243,ORCB183-N,925 Sterling Silver,Metal: Oxidized Silver,,,1.70,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+244,ORCB183-O,925 Sterling Silver,Metal: Oxidized Silver,,,1.50,10,4.00,40.00,925 Sterling Silver | Metal: Oxidized Silver | None
+245,ORCB183-P,925 Sterling Silver,Metal: Oxidized Silver,,,1.70,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+246,ORCB183-Q,925 Sterling Silver,Metal: Oxidized Silver,,,1.80,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+247,ORCB183-R,925 Sterling Silver,Metal: Oxidized Silver,,,1.80,9,4.44,40.00,925 Sterling Silver | Metal: Oxidized Silver | None
+248,ORCB183-S,925 Sterling Silver,Metal: Oxidized Silver,,,1.50,10,4.00,40.00,925 Sterling Silver | Metal: Oxidized Silver | None
+249,ORCB183-T,925 Sterling Silver,Metal: Oxidized Silver,,,1.60,10,4.22,42.20,925 Sterling Silver | Metal: Oxidized Silver | None
+250,ORCB183-U,925 Sterling Silver,Metal: Oxidized Silver,,,1.80,10,4.44,44.40,925 Sterling Silver | Metal: Oxidized Silver | None
+251,ORCB183-V,925 Sterling Silver,Metal: Oxidized Silver,,,1.60,10,4.22,42.20,925 Sterling Silver | Metal: Oxidized Silver | None
+252,ORCB183-W,925 Sterling Silver,Metal: Oxidized Silver,,,1.50,10,4.22,42.22,925 Sterling Silver | Metal: Oxidized Silver | None
+253,ORCB183-X,925 Sterling Silver,Metal: Oxidized Silver,,,1.90,10,4.22,42.20,925 Sterling Silver | Metal: Oxidized Silver | None
+254,ORCB183-Y,925 Sterling Silver,Metal: Oxidized Silver,,,1.10,10,3.56,35.60,925 Sterling Silver | Metal: Oxidized Silver | None
+255,ORCB183-Z,925 Sterling Silver,Metal: Oxidized Silver,,,2.20,10,5.11,51.10,925 Sterling Silver | Metal: Oxidized Silver | None
+256,ORSE340-P,925 Sterling Silver,Metal: Rhodium Plated,Stone:White&Red,,3.8,10,9.57,95.70,925 Sterling Silver | Metal: Rhodium Plated | Stone:White&Red | as the photo shows | Be Like The Butterfly Collection
+257,ORSE340-14K,925 Sterling Silver,Metal: 14K Gold Plated,Stone:White&Red,,3.8,10,9.10,91.00,925 Sterling Silver | Metal: 14K Gold Plated | Stone:White&Red | as the photo shows | Be Like The Butterfly Collection
+258,ORSN290-P,925 Sterling Silver,Metal: Rhodium plated,Stone:White&Red,45cm adjustable sterling silver Chain,2.6,7,8.05,56.35,925 Sterling Silver | Metal: Rhodium plated | Stone:White&Red | 45cm adjustable sterling silver Chain | Be Like The Butterfly Collection
+259,ORSN290-14K,925 Sterling Silver,Metal: Rhodium plated,Stone:White&Red,45cm+5cm extension sterling silver,2.6,10,7.78,77.80,925 Sterling Silver | Metal: Rhodium plated | Stone:White&Red | 45cm+5cm extension sterling silver | Chain | Be Like The Butterfly Collection
+260,ORSN292,925 Sterling Silver,Metal: Rhodium plated,Stone:White&Red,16mmH & 44cm+4cm Sterling Silver,4.0,10,9.43,94.30,925 Sterling Silver | Metal: Rhodium plated | Stone:White&Red | 16mmH & 44cm+4cm Sterling Silver | Chain | ANGEL'S WINGS Collection
+261,ORSE341,925 Sterling Silver,Metal: Rhodium plated,Stone:White&Red,18mm,4.8,10,9.66,96.60,925 Sterling Silver | Metal: Rhodium plated | Stone:White&Red | 18mm | ANGEL'S WINGS Collection
+262,ORSE37,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,,2.1,15,5.10,76.50,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White
+263,ORSE80,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,41mmL,2.1,10,4.76,47.60,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 41mmL
+264,ORSE82,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,17mmD,3.2,15,7.26,108.90,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 17mmD
+265,ORSE86-P,Sterling silver+real Pearl,Metal: Rhodium plated,Main stone: freash water peral,8mmD,1.2,1,1.93,1.93,Sterling silver+real Pearl | Metal: Rhodium plated | Main stone: freash water peral | 8mmD
+266,ORSE97,925 Sterling Silver,Plaing:Rhodium Plated,StoneNone,,1.2,9,3.63,32.67,925 Sterling Silver | Plaing:Rhodium Plated | StoneNone
+267,ORSE101-R,925 Sterling Silver+AAA CZ,Plaing:Rose Gold Plated,Stonewhite,11mmH,3.9,2,6.33,12.66,925 Sterling Silver+AAA CZ | Plaing:Rose Gold Plated | Stonewhite | 11mmH
+268,ORSE103,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,10mmH,2.0,11,3.90,42.90,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 10mmH
+269,ORSE105-P,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,12mmH,2.0,10,3.85,38.50,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 12mmH
+270,ORSE105-R,925 Sterling Silver+AAA CZ,Plaing:Rose Gold Plated,Stonewhite,12mmH,2.0,15,3.85,57.75,925 Sterling Silver+AAA CZ | Plaing:Rose Gold Plated | Stonewhite | 12mmH
+271,ORSE106-R,925 Sterling Silver+AAA CZ,Plaing:Rose Gold Plated,Stonewhite,9mmH,0.9,10,2.45,24.50,925 Sterling Silver+AAA CZ | Plaing:Rose Gold Plated | Stonewhite | 9mmH
+272,ORSE106-P,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,9mmH,3.0,10,2.54,25.40,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 9mmH
+273,ORSE118,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,12mmL,1.2,10,3.06,30.60,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 12mmL
+274,ORSE119-W,925 Sterling Silver+AAA CZ,Plaing:Rhodium Plated,Stonewhite,5mmD,0.9,10,2.31,23.10,925 Sterling Silver+AAA CZ | Plaing:Rhodium Plated | Stonewhite | 5mmD
+275,ORSE146-40cm,Sterling Silver+AAA CZ,Metal: Rhodium plated,Main stone: Blue,40mmD,2.5,10,5.10,51.00,Sterling Silver+AAA CZ | Metal: Rhodium plated | Main stone: Blue | 40mmD
+276,ORSE146-50cm,Sterling Silver+AAA CZ,Metal: Rhodium plated,Main stone: Blue,50mmD,3.3,10,6.24,62.40,Sterling Silver+AAA CZ | Metal: Rhodium plated | Main stone: Blue | 50mmD
+277,ORSE151-P,935 sterling silver+shell pearl,Metal: Rhodium plated,Main stone:shell pearl,48MMH,1.5,10,5.78,57.80,935 sterling silver+shell pearl | Metal: Rhodium plated | Main stone:shell pearl | 48MMH
+278,ORSE152-G,925 sterling silver+shell pearl,Metal: Gold plated,Main stone:shell pearl,59mmH,3.4,8,6.46,51.68,925 sterling silver+shell pearl | Metal: Gold plated | Main stone:shell pearl | 59mmH
+279,ORSE152-P,925 Sterling Silver+shell pearl,Plaing:Rhodium Plated,Stoneshell pearl,59mmH,3.4,5,6.46,32.30,925 Sterling Silver+shell pearl | Plaing:Rhodium Plated | Stoneshell pearl | 59mmH
+280,ORSE164,Sterling Silver+AAA CZ,Metal: Rose gold plated,Main stone: Pink,17mmH,1.8,10,4.76,47.60,Sterling Silver+AAA CZ | Metal: Rose gold plated | Main stone: Pink | 17mmH
+281,ORSE171-G,Sterling silver+AAAA CZ,Metal: Gold plated,Main stone: white,11mm,0.8,10,3.06,30.60,Sterling silver+AAAA CZ | Metal: Gold plated | Main stone: white | 11mm
+282,ORSE171-P,Sterling silver+AAAA CZ,Metal: Rhodium plated,Main stone: white,11mm,0.8,10,3.06,30.60,Sterling silver+AAAA CZ | Metal: Rhodium plated | Main stone: white | 11mm
+283,ORSE186-W,Sterling silver+AAAA CZ,Metal: Rhodium plated,Main stone: White,,1.2,10,3.46,34.60,Sterling silver+AAAA CZ | Metal: Rhodium plated | Main stone: White
+284,ORSE186-B,Sterling silver+AAAA CZ,Metal: Rhodium plated,Main stone: Black,,1.2,10,3.46,34.60,Sterling silver+AAAA CZ | Metal: Rhodium plated | Main stone: Black
+285,ORSE192-B,Sterling silver+AAAA CZ,Metal: Rhodium plated,Main stone: Black,,1.4,10,3.74,37.40,Sterling silver+AAAA CZ | Metal: Rhodium plated | Main stone: Black
+286,ORSE192-W,Sterling silver+AAAA CZ,Metal: Rhodium plated,Main stone: White,,1.4,15,3.54,53.10,Sterling silver+AAAA CZ | Metal: Rhodium plated | Main stone: White
+287,ORSE205,Sterling silver+AAAA CZ,Metal: gold plated,Main stone: white,13mm,1.40,10,3.85,38.50,Sterling silver+AAAA CZ | Metal: gold plated | Main stone: white | 13mm
+288,ORSE207,Sterling silver+AAAA CZ,Metal: gold plated,Main stone: white,23mm,2.60,15,5.90,88.50,Sterling silver+AAAA CZ | Metal: gold plated | Main stone: white | 23mm
+289,ORSE208,Sterling silver+AAAA CZ,Metal: gold plated,Main stone: white,14mm,1.30,18,3.85,69.30,Sterling silver+AAAA CZ | Metal: gold plated | Main stone: white | 14mm
+290,ORSE210,Sterling silver+shell pearl,Metal: gold plated,Main stone: white,20mm,2.30,5,4.76,23.80,Sterling silver+shell pearl | Metal: gold plated | Main stone: white | 20mm
+291,ORSE212,Sterling silver+shell pearl,Metal: gold plated,Main stone: white,15mm,3.30,10,5.44,54.40,Sterling silver+shell pearl | Metal: gold plated | Main stone: white | 15mm
+292,ORSE218,Sterling silver+AAAA CZ,Metal: rhodium plated,Main stone: white,10mm,1.10,10,3.63,36.30,Sterling silver+AAAA CZ | Metal: rhodium plated | Main stone: white | 10mm
+293,ORSE220,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,"25mmD,round shape",7.20,10,12.29,122.90,"Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 25mmD,round shape"
+294,ORSE221,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,"35mmD,round shape",13.30,10,20.52,205.20,"Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 35mmD,round shape"
+295,ORSE222,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,"25mmH,OVAL shape",6.20,8,12.85,102.80,"Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 25mmH,OVAL shape"
+296,ORSE223,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,"35mmH,OVAL shape",11.10,10,18.89,188.90,"Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 35mmH,OVAL shape"
+297,ORSE229,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: Purple,,3.45,10,7.64,76.40,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: Purple
+298,ORSE231,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: White,9mm,2.30,15,5.53,82.95,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: White | 9mm
+299,ORSE232,Sterling silver+AAA CZ,Metal: Rose gold plated,Main stone: Light Purple,,2.30,8,6.05,48.40,Sterling silver+AAA CZ | Metal: Rose gold plated | Main stone: Light Purple
+300,ORSE234,Sterling silver+Created,Metal: Rhodium plated,emerald(spinal)+AAA CZ,,2.70,10,6.87,68.70,Sterling silver+Created | emerald(spinal)+AAA CZ | Metal: Rhodium plated | Main stone: Created emerald(spinal)
+301,ORSE237,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: #8 created ruby(#8,,2.50,10,6.24,62.40,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: #8 created ruby(#8 | Corundum)
+302,ORSE238,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: white,,1.20,10,4.58,45.80,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: white
+303,ORSE240,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: white,23mm,2.00,10,6.62,66.20,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: white | 23mm
+304,ORSE243,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: white,,2.60,10,6.83,68.30,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: white
+305,ORSE245-R,Sterling silver+AAA CZ,Metal: Rose gold plated,Main stone: white,25mm,3.50,10,6.01,60.10,Sterling silver+AAA CZ | Metal: Rose gold plated | Main stone: white | 25mm
+306,ORSE245-G,Sterling silver+AAA CZ,Metal: 14k gold plated,Main stone: white,25mm,3.50,10,6.01,60.10,Sterling silver+AAA CZ | Metal: 14k gold plated | Main stone: white | 25mm
+307,ORSE247-G,Sterling silver+AAA CZ,Metal: Gold plated,Main stone: white,9mm,2.50,10,5.87,58.70,Sterling silver+AAA CZ | Metal: Gold plated | Main stone: white | 9mm
+308,ORSE247-R,Sterling silver+AAA CZ,Metal: Rose gold plated,Main stone: white,9mm,2.50,10,5.58,55.80,Sterling silver+AAA CZ | Metal: Rose gold plated | Main stone: white | 9mm
+309,ORSE247-P,Sterling silver+AAA CZ,Metal: Rhodium plated,Main stone: white,9mm,2.50,10,6.08,60.80,Sterling silver+AAA CZ | Metal: Rhodium plated | Main stone: white | 9mm
+310,ORSE248-G,Sterling silver+AAA CZ,Metal: Gold plated,Main stone: white,6mm,1.30,10,3.56,35.60,Sterling silver+AAA CZ | Metal: Gold plated | Main stone: white | 6mm
+311,ORSE248-P,Sterling silver+AAA CZ,Metal: Rose gold plated,Main stone: white,6mm,1.30,10,3.56,35.60,Sterling silver+AAA CZ | Metal: Rose gold plated | Main stone: white | 6mm
+312,ORSE248-R,Sterling silver+AAA CZ,Metal: Rose gold plated,Main stone: white,6mm,1.30,9,3.56,32.04,Sterling silver+AAA CZ | Metal: Rose gold plated | Main stone: white | 6mm
+313,ORSE259,Sterling Silver + AAAA CZ,,Main stone: White,15mmH,1.1,10,3.54,35.40,Sterling Silver + AAAA CZ | Rhodium Plated | Main stone: White | 15mmH
+314,ORSE262,Sterling Silver + AAAA CZ,,Main stone: White,18mmD,4.7,10,7.48,74.80,Sterling Silver + AAAA CZ | Rhodium Plated | Main stone: White | 18mmD
+315,ORSE267,Sterling Silver + AAAA CZ,,Main stone: White,11mmD,4.3,10,6.92,69.20,Sterling Silver + AAAA CZ | Rhodium Plated | Main stone: White | 11mmD
+316,ORSE279-R,Sterling Silver + AAAA CZ,,Main stone: Red,16mm,2.0,10,4.99,49.90,Sterling Silver + AAAA CZ | Rhodium Plated | Main stone: Red | 16mm
+317,ORSE280,Sterling Silver + AAAA CZ,,Main stone: White,10mm,1.6,10,3.99,39.90,Sterling Silver + AAAA CZ | Gold Plated | Main stone: White | 10mm
+318,ORSE290,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:White,26mmH,2.1,10,6.69,66.90,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:White | 26mmH
+319,ORSE291,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:White,31mmH,3.7,9,8.73,78.57,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:White | 31mmH
+320,ORSE294,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Clear,63mm,2.40,5,7.03,35.15,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 63mm
+321,ORSE295-P,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Pink+Light Blue+Clear,8mm,2.10,10,4.88,48.80,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Pink+Light Blue+Clear | 8mm
+322,ORSE295-G,925 Sterling Silver+AAAA CZ,Metal:14K gold plated,Stone:Clear,8mm,2.10,9,4.65,41.85,925 Sterling Silver+AAAA CZ | Metal:14K gold plated | Stone:Clear | 8mm
+323,ORSE296-G,925 Sterling Silver+AAAA CZ,Metal:14K gold plated,Stone:Clear,12mm,2.30,10,5.56,55.60,925 Sterling Silver+AAAA CZ | Metal:14K gold plated | Stone:Clear | 12mm
+324,ORSE296-P,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Clear,12mm,2.30,10,5.56,55.60,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 12mm
+325,ORSE302,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone:Clear,11mm,1.7,10,4.99,49.90,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 11mm
+326,ORSE303,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone:Clear,11mm,1.7,10,4.95,49.50,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 11mm
+327,ORSE306,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Clear,15mm,2.7,10,6.26,62.60,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 15mm
+328,ORSE308,925 Sterling Silver+ Shell Pearl,Metal: Rose Gold Plated,Stone: 6mm Shell Pearl,22mm,3.1,10,5.76,57.60,925 Sterling Silver+ Shell Pearl | Metal: Rose Gold Plated | Stone: 6mm Shell Pearl | 22mm
+329,ORSE309,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Clear,23mm,2.4,10,4.67,46.70,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 23mm
+330,ORSE310,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Clear,18mm,1.7,10,4.60,46.00,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 18mm
+331,ORSE312,925 Sterling Silver+ AAAA CZ,Metal:Rhodium Plated,Stone: White,14mm,2.9,10,6.24,62.40,925 Sterling Silver+ AAAA CZ | Metal:Rhodium Plated | Stone: White | 14mm
+332,ORSE314,925 Sterling Silver+ AAAA,Metal:Rhodium Plated,CZ+Rotatable charm,8mm,2.5,7,6.39,44.73,925 Sterling Silver+ AAAA | CZ+Rotatable charm | Metal:Rhodium Plated | Stone: White | 8mm
+333,ORSE317,925 Sterling Silver+ AAAA CZ,Metal:Rhodium Plated,Stone: White,10mm,1.30,10,3.85,38.50,925 Sterling Silver+ AAAA CZ | Metal:Rhodium Plated | Stone: White | 10mm
+334,ORSE320,925 Sterling Silver+ AAAA CZ,Metal:Rhodium Plated,Stone: White,25mm,6.50,9,12.24,110.16,925 Sterling Silver+ AAAA CZ | Metal:Rhodium Plated | Stone: White | 25mm
+335,ORSE321,925 Sterling Silver,Metal:Rhodium Plated,,12mm,1.20,10,3.40,34.00,925 Sterling Silver | Metal:Rhodium Plated | Stone:NA | 12mm
+336,ORSE322,925 Sterling Silver+ AAAA CZ,Metal:Rhodium Plated,Stone: White,10mm,0.8,10,2.49,24.90,925 Sterling Silver+ AAAA CZ | Metal:Rhodium Plated | Stone: White | 10mm
+337,ORSE323,925 Sterling Silver,Metal:Rhodium Plated,Stone: None,10mm,0.8,10,2.49,24.90,925 Sterling Silver | Metal:Rhodium Plated | Stone: None | 10mm
+338,ORSE326,925 Sterling Silver+ AAAA CZ,Metal:Rhodium Plated,Stone: White,20mm,2.3,10,5.10,51.00,925 Sterling Silver+ AAAA CZ | Metal:Rhodium Plated | Stone: White | 20mm
+339,ORSE327,925 Sterling Silver,Metal:Rhodium Plated,,37mm,2.2,9,5.22,46.98,925 Sterling Silver | Metal:Rhodium Plated | Stone:NA | 37mm
+340,ORSE329,925 Sterling Silver,Metal:Rhodium Plated,,17mm,2.30,10,4.99,49.90,925 Sterling Silver | Metal:Rhodium Plated | Stone:NA | 17mm
+341,ORSE331-P,925 Sterling Silver,Metal:Rhodium Plated,,8mm,1.7,10,3.40,34.00,925 Sterling Silver | Metal:Rhodium Plated | Stone:NA | 8mm
+342,ORSE331-R,925 Sterling Silver,Metal:Rose gold Plated,,8mm,1.7,10,3.40,34.00,925 Sterling Silver | Metal:Rose gold Plated | Stone:NA | 8mm
+343,ORSE332-4mm,925 Sterling Silver+ AAAA CZ,Metal:Rhodium Plated,Stone: White,4mm,1.2,15,2.90,43.50,925 Sterling Silver+ AAAA CZ | Metal:Rhodium Plated | Stone: White | 4mm
+344,ORSE333-P-W,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Clear,40mm,4.7,10,9.30,93.00,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 40mm
+345,ORSE333-P-F,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone: Pink,40mm,4.7,10,9.52,95.20,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone: Pink | 40mm
+346,ORSE335-P,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone:Clear,8mm,1.9,15,3.36,50.40,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone:Clear | 8mm
+347,ORSE336-P,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,57mm,4.0,15,9.98,149.70,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 57mm | 2 ways to wear (will ship 1 pair extra | SS butterfly clutch together)
+348,ORSE337,925 Sterling Silver + AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: White,20mmH,2.4,10,6.31,63.10,925 Sterling Silver + AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: White | 20mmH
+349,OREQE01,925 Sterling Silver+AAAA CZ+pearl,Metal: Gold Plated,Stone:Clear,13mm,0.9,10,3.51,35.10,925 Sterling Silver+AAAA CZ+pearl | Metal: Gold Plated | Stone:Clear | 13mm
+350,OREQE02,925 Sterling Silver+AAAA CZ+pearl,Metal: Gold Plated,Stone:Clear,11mm,1.0,10,3.29,32.90,925 Sterling Silver+AAAA CZ+pearl | Metal: Gold Plated | Stone:Clear | 11mm
+351,OREQE04,925 Sterling Silver+AAAA CZ,Metal: rhodium Plated,Stone:clear,27mm,3.9,15,6.24,93.60,925 Sterling Silver+AAAA CZ | Metal: rhodium Plated | Stone:clear | 27mm
+352,OREQE09,925 Sterling Silver+AAAA CZ,Metal: rhodium Plated,Stone:clear,11mm,1.4,15,3.85,57.75,925 Sterling Silver+AAAA CZ | Metal: rhodium Plated | Stone:clear | 11mm
+353,OREQE10,925 Sterling Silver+AAAA CZ,Metal: rhodium Plated,Stone:clear,11mm,1.3,10,3.40,34.00,925 Sterling Silver+AAAA CZ | Metal: rhodium Plated | Stone:clear | 11mm
+354,OREQE18,925 Sterling Silver+ White Enamel +,Metal: Rose Gold Plated,Shell Pearl + AAAA CZ,52mm,2.9,10,4.67,46.70,925 Sterling Silver+ White Enamel + | Shell Pearl + AAAA CZ | Metal: Rose Gold Plated | Stone: 7mm Shell Pearl | 52mm
+355,OREQE19,925 Sterling Silver+ natural cat's eye,Metal: Rose Gold Plated,stone + AAAA CZ,27mm,2.8,15,6.44,96.60,925 Sterling Silver+ natural cat's eye | stone + AAAA CZ | Metal: Rose Gold Plated | Stone: White | 27mm
+356,OREQE20,925 Sterling Silver+ natural cat's eye,Metal: Rose Gold Plated,stone + AAAA CZ,71mm,3.7,10,8.82,88.20,925 Sterling Silver+ natural cat's eye | stone + AAAA CZ | Metal: Rose Gold Plated | Stone: White | 71mm
+357,OREQE21,925 Sterling Silver+ Resin flower,Metal: Rose Gold Plated,Stone: Red,40mm,3.5,16,6.44,103.04,925 Sterling Silver+ Resin flower | Metal: Rose Gold Plated | Stone: Red | 40mm
+358,OREQE23,925 Sterling Silver+ Corundum,Metal:Rhodium Plated,Stone:Red,10mm,1.9,10,4.42,44.20,925 Sterling Silver+ Corundum | Metal:Rhodium Plated | Stone:Red | 10mm
+359,OREQE24,925 Sterling Silver,Metal:14 K Gold plated,Red Enamel,15mm,3.4,10,6.80,68.00,925 Sterling Silver | Metal:14 K Gold plated | Red Enamel | 15mm
+360,OREQE25,925 Sterling Silver+ AAAA CZ,Metal: Rose Gold Plated,Main stone:White,14mm,1.97,10,4.42,44.20,925 Sterling Silver+ AAAA CZ | Metal: Rose Gold Plated | Main stone:White | 14mm
+361,OREQE28-P,925 Sterling Silver+AAAA CZ,Metal: Rhodium Plated,Stone: Clear,11mm,1.7,10,4.08,40.80,925 Sterling Silver+AAAA CZ | Metal: Rhodium Plated | Stone: Clear | 11mm
+362,OREQE33,925 Sterling Silver + AAAA CZ,Metal: Rhodium Plated,Stone: White,45mmH,2.7,10,7.03,70.30,925 Sterling Silver + AAAA CZ | Metal: Rhodium Plated | Stone: White | 45mmH
+363,ORGPE01,925 Sterling Silver +Cultured,Metal: Rhodium Plated,Freashwater Pearl+AAAA CZ,,3.0,10,4.92,49.20,925 Sterling Silver +Cultured | Freashwater Pearl+AAAA CZ | Metal: Rhodium Plated | Stone: White | as the photo shows
+364,ORGPE03,925 Sterling Silver +Cultured,Metal: Rhodium Plated,Stone: White,,2.0,10,4.20,42.00,925 Sterling Silver +Cultured | Freashwater Pearl | Metal: Rhodium Plated | Stone: White | as the photo shows
+365,ORGPE04,925 Sterling Silver +Cultured,Metal: Rhodium Plated,Stone: White,,3.2,15,5.90,88.50,925 Sterling Silver +Cultured | Freashwater Pearl+Natural Shell | Metal: Rhodium Plated | Stone: White | as the photo shows
+366,ORAPE01,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,7mm,1.2,10,2.95,29.50,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 7mm
+367,ORAPE02,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,8mm,0.90,10,2.74,27.40,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 8mm
+368,ORAPE04,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,6mm,0.50,10,2.27,22.70,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 6mm
+369,ORAPE05,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,11mm,0.90,10,2.83,28.30,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 11mm
+370,ORAPE06,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,6mm,0.80,10,2.49,24.90,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 6mm
+371,ORAPE07,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,10mm,0.90,10,2.72,27.20,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 10mm
+372,ORAPE09,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,6mm,0.50,10,2.54,25.40,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 6mm
+373,ORAPE10,925 Sterling Silver +Shell Pearl,Metal: 14K Yellow Gold Plated,Stone: white,6mm,0.90,10,2.77,27.70,925 Sterling Silver +Shell Pearl | Metal: 14K Yellow Gold Plated | Stone: white | 6mm
+374,ORAPE11,925 Sterling Silver +Shell Pearl,Metal: 14K Yellow Gold Plated,Stone: white,6mm,0.90,10,2.27,22.70,925 Sterling Silver +Shell Pearl | Metal: 14K Yellow Gold Plated | Stone: white | 6mm
+375,ORAPE12,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,7mm,1.3,10,2.99,29.90,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 7mm
+376,ORAPE15,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,11mm,1.2,10,3.33,33.30,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 11mm
+377,ORAPE16,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,10mm,0.9,10,2.83,28.30,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 10mm
+378,ORAPE17,925 Sterling Silver +AAAA CZ,Metal: 14K Yellow Gold Plated,Stone: white,10mm,1.2,10,3.31,33.10,925 Sterling Silver +AAAA CZ | Metal: 14K Yellow Gold Plated | Stone: white | 10mm
+379,ORAPE23,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone: white,20mm,1.90,10,4.10,41.00,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone: white | 20mm
+380,ORAPE13,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone: white,14mm,1.4,10,3.54,35.40,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone: white | 14mm
+381,ORAPE19,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone: white,27mm,2.40,10,4.83,48.30,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone: white | 27mm
+382,ORAPE20,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone: white,24mm,2.10,10,4.60,46.00,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone: white | 24mm
+383,ORAPE21,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone: white,20mm,1.2,10,3.29,32.90,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone: white | 20mm
+384,ORHAPE27-P,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone: Clear,7mm,0.2,10,1.38,13.80,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone: Clear | 7mm
+385,ORHAPE27-G,925 Sterling Silver +AAAA CZ,Metal: 18K Gold Plated,Stone: Clear,7mm,0.2,10,1.38,13.80,925 Sterling Silver +AAAA CZ | Metal: 18K Gold Plated | Stone: Clear | 7mm
+386,ORHAPE28-P,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone:Blue,6.5mm,0.3,10,1.41,14.10,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone:Blue | 6.5mm
+387,ORHAPE28-G,925 Sterling Silver +AAAA CZ,Metal: 18K Gold Plated,Stone:Blue,6.5mm,0.3,10,1.41,14.10,925 Sterling Silver +AAAA CZ | Metal: 18K Gold Plated | Stone:Blue | 6.5mm
+388,ORHAPE29-P,925 Sterling Silver +AAAA CZ,Metal: Rhodium Plated,Stone: Clear,7mm,0.3,10,1.41,14.10,925 Sterling Silver +AAAA CZ | Metal: Rhodium Plated | Stone: Clear | 7mm
+389,ORHAPE29-G,925 Sterling Silver +AAAA CZ,Metal: 18K Gold Plated,Stone: Clear,7mm,0.3,10,1.41,14.10,925 Sterling Silver +AAAA CZ | Metal: 18K Gold Plated | Stone: Clear | 7mm
+390,ORGCB05-P-18,925 Sterling Silver,Metal: Rhodium plated+18k gold,,12.5*8mm,2,30,5.09,152.70,925 Sterling Silver | Metal: Rhodium plated+18k gold | plated | 12.5*8mm
+391,ORGCB06-P,925 Sterling Silver,Metal: Rhodium plated,Red stone,11*10mm,2.1,15,7.09,106.35,925 Sterling Silver | Metal: Rhodium plated | Red stone | 11*10mm
+392,ORGCB50P,925 Sterling Silver,Metal: Rhodium plated+red enamel,,11*10mm,2.1,15,7.09,106.35,925 Sterling Silver | Metal: Rhodium plated+red enamel | 11*10mm
+393,ORGCB07-18K,925 Sterling Silver,Metal: 18k gold plated+enamel,,10.5*10.5*11.2mm,1.9,15,5.81,87.15,925 Sterling Silver | Metal: 18k gold plated+enamel | 10.5*10.5*11.2mm
+394,ORGCB07-P,925 Sterling Silver,Metal: rhodium plating +enamel,,10.5*10.5*11.2mm,1.9,15,6.04,90.60,925 Sterling Silver | Metal: rhodium plating +enamel | 10.5*10.5*11.2mm
+395,ORGCB08-P,925 Sterling Silver,Metal: Rhodium plated,,10.5*7.3*8.5mm,2.50,15,5.49,82.35,925 Sterling Silver | Metal: Rhodium plated | 10.5*7.3*8.5mm
+396,ORGCB08-18K,925 Sterling Silver,Metal: 18k gold plated,,10.5*7.3*8.5mm,2.50,15,5.26,78.90,925 Sterling Silver | Metal: 18k gold plated | 10.5*7.3*8.5mm
+397,ORGCB09-P,925 Sterling Silver,Metal: Rhodium plated,Blue stone,11.4*11mm,1.1,30,3.99,119.70,925 Sterling Silver | Metal: Rhodium plated | Blue stone | 11.4*11mm
+398,ORGCB10-P,925 Sterling Silver,Metal: Enamel,,12*5mm,1.2,30,4.88,146.40,925 Sterling Silver | Metal: Enamel | 12*5mm
+399,ORGCB11-18K,925 Sterling Silver,Metal: Rhodium plated+18k gold,,20*11mm,2.8,30,6.21,186.30,925 Sterling Silver | Metal: Rhodium plated+18k gold | plated | 20*11mm
+400,ORGCB12-18K,925 Sterling Silver,Metal: 18K gold plated,,17*9mm,2.50,30,5.12,153.60,925 Sterling Silver | Metal: 18K gold plated | 17*9mm
+401,ORGCB18,925 Sterling Silver,Metal: rhodium plating+ enamel,,11*11mm,2.20,30,5.45,163.50,925 Sterling Silver | Metal: rhodium plating+ enamel | 11*11mm
+402,ORGCB19-18K,925 Sterling Silver,Metal: 18K gold plated,,13.6*8.2MM,3.30,15,6.13,91.95,925 Sterling Silver | Metal: 18K gold plated | 13.6*8.2MM
+403,ORGCB19-P,925 Sterling Silver,Metal: silver oxidation,,13.6*8.2MM,3.30,15,6.13,91.95,925 Sterling Silver | Metal: silver oxidation | 13.6*8.2MM
+404,ORGCB20-18K,925 Sterling Silver,Metal: 18K gold plated,,16*13mm,3.00,15,5.75,86.25,925 Sterling Silver | Metal: 18K gold plated | 16*13mm
+405,ORGCB20-P,925 Sterling Silver,Metal: silver oxidation,,16*13mm,3.00,15,5.75,86.25,925 Sterling Silver | Metal: silver oxidation | 16*13mm
+406,ORGCB21-18K,925 Sterling Silver,Metal: 18K gold plated,,15*10mm,4.50,15,7.65,114.75,925 Sterling Silver | Metal: 18K gold plated | 15*10mm
+407,ORGCB21-P,925 Sterling Silver,Metal: silver oxidation,,15*10mm,4.50,15,7.65,114.75,925 Sterling Silver | Metal: silver oxidation | 15*10mm
+408,ORGCB22-18K,925 Sterling Silver,Metal: 18K gold plated,,17*15mm,1.7,15,4.34,65.10,925 Sterling Silver | Metal: 18K gold plated | 17*15mm
+409,ORGCB22-P,925 Sterling Silver,Metal: silver oxidation,,17*15mm,1.7,14,4.34,60.76,925 Sterling Silver | Metal: silver oxidation | 17*15mm
+410,ORGCB23-18K,925 Sterling Silver,Metal: 18K gold plated,,14*11mm,2.40,15,4.99,74.85,925 Sterling Silver | Metal: 18K gold plated | 14*11mm
+411,ORGCB23-P,925 Sterling Silver,Metal: silver oxidation,,14*11mm,2.40,15,4.99,74.85,925 Sterling Silver | Metal: silver oxidation | 14*11mm
+412,ORGCB24-18K,925 Sterling Silver,Metal: 18K gold plated,,16*14mm,2.60,15,5.25,78.75,925 Sterling Silver | Metal: 18K gold plated | 16*14mm
+413,ORGCB24-P,925 Sterling Silver,Metal: silver oxidation,,16*14mm,2.60,15,5.25,78.75,925 Sterling Silver | Metal: silver oxidation | 16*14mm
+414,ORGCB25,925 Sterling Silver,Metal: silver oxidation,,19*14mm,3.80,30,7.25,217.50,925 Sterling Silver | Metal: silver oxidation | 19*14mm
+415,ORGCB26-18K,925 Sterling Silver,Metal: 18K gold plated,,16*6mm,2.30,15,5.10,76.50,925 Sterling Silver | Metal: 18K gold plated | 16*6mm
+416,ORGCB26-P,925 Sterling Silver,Metal: silver oxidation,,16*6mm,2.30,13,5.10,66.30,925 Sterling Silver | Metal: silver oxidation | 16*6mm
+417,ORGCB27,925 Sterling Silver,Metal: rhodium plating,,10.5*7.5mm,1.7,30,4.02,120.60,925 Sterling Silver | Metal: rhodium plating | 10.5*7.5mm
+418,ORGCB28-18K,925 Sterling Silver,Metal: 18K gold plated,,14.5*5.5mm,2.50,15,5.35,80.25,925 Sterling Silver | Metal: 18K gold plated | 14.5*5.5mm
+419,ORGCB28-P,925 Sterling Silver,Metal: silver oxidation,,14.5*5.5mm,2.50,15,5.35,80.25,925 Sterling Silver | Metal: silver oxidation | 14.5*5.5mm
+420,ORGCB29-18K,925 Sterling Silver,Metal: 18K gold plated,,16.5*7.5mm,1.60,15,4.21,63.15,925 Sterling Silver | Metal: 18K gold plated | 16.5*7.5mm
+421,ORGCB29-P,925 Sterling Silver,Metal: silver oxidation,,16.5*7.5mm,1.60,14,4.21,58.94,925 Sterling Silver | Metal: silver oxidation | 16.5*7.5mm
+422,ORGCB30-18K,925 Sterling Silver,Metal: 18K gold plated,,15*8mm,3.00,15,6.03,90.45,925 Sterling Silver | Metal: 18K gold plated | 15*8mm
+423,ORGCB30-P,925 Sterling Silver,Metal: silver oxidation,,15*8mm,3.00,15,6.03,90.45,925 Sterling Silver | Metal: silver oxidation | 15*8mm
+424,ORGSB106-P-180,999 Sterling Silver,Metal: NA,,opening 40mm,28.90,30,47.43,1422.90,"999 Sterling Silver | Metal: NA | W:10mm, circumference :180mm | opening 40mm"
+425,ORGSB106-P-190,999 Sterling Silver,Metal: NA,,opening 40mm,30.00,30,48.79,1463.70,"999 Sterling Silver | Metal: NA | W:10mm, circumference :190mm | opening 40mm"
+426,ORGPN13,925 Sterling Silver+Cultured,Metal: 14K Gold Plated,Stone:White Pearl,41cm+5cm Extension,8,15,7.13,106.95,925 Sterling Silver+Cultured | Freshwater Pearl | Metal: 14K Gold Plated | Stone:White Pearl | 41cm+5cm Extension | Paper Clip Necklace Pearl Vintage | Chunky Link Chain
+427,ORGPB01,925 Sterling Silver+Cultured,Metal: 14K Gold Plated,Stone:White Pearl,17cm+4cm Extension,3.7,15,4.83,72.45,925 Sterling Silver+Cultured | Freshwater Pearl | Metal: 14K Gold Plated | Stone:White Pearl | 17cm+4cm Extension | Paper Clip Necklace Pearl Vintage | Chunky Link Chain
+428,ORGPB02,925 Sterling Silver+Cultured,Metal: 14K Gold Plated,Stone:White Pearl,5-6mm Freshwater Cultured Pearl,10,15,4.37,65.55,925 Sterling Silver+Cultured | Freshwater Pearl | Metal: 14K Gold Plated | Stone:White Pearl | 16cm+4cm Extension | 5-6mm Freshwater Cultured Pearl | Bracelet for Women
+429,ORGPE05,925 Sterling Silver+Cultured,Metal: 14K Gold Plated,Stone:White Pearl,60mmH*15mmW,6.2,15,5.52,82.80,925 Sterling Silver+Cultured | Freshwater Pearl | Metal: 14K Gold Plated | Stone:White Pearl | 60mmH*15mmW | Baroque Freshwater Pearl Dangle | Earring for Women
+430,ORGPN14,925 Sterling Silver+Cultured,Metal: 14K Gold Plated,Stone:White Pearl,65cm+5cm Extension,9.9,15,11.51,172.65,925 Sterling Silver+Cultured | Freshwater Pearl | Metal: 14K Gold Plated | Stone:White Pearl | 65cm+5cm Extension | Baroque Freshwater Cultured Pearl | Necklace for Women
+431,ORGPE06,925 Sterling Silver+Cultured,Metal: 14K Gold Plated,Stone:White Pearl,30mmH*15mmW,6.0,15,5.29,79.35,925 Sterling Silver+Cultured | Freshwater Pearl | Metal: 14K Gold Plated | Stone:White Pearl | 30mmH*15mmW | Baroque Freshwater Cultured Pearl | Earring Stud for Women
+432,ORPA0010,925 Sterling Silver,Metal: Silver palting,,4.4*10.2,1.94,10,5.92,59.20,925 Sterling Silver | Metal: Silver palting | None | 4.4*10.2
+433,ORPA034,925 Sterling Silver,Metal: Oxidized Silver,,3.3*8.6mm,1.10,10,4.66,46.60,925 Sterling Silver | Metal: Oxidized Silver | None | 3.3*8.6mm
+434,ORPA0035,925 Sterling Silver,Metal: Oxidized Silver,,3.6*9.8mm,1.50,9,5.35,48.15,925 Sterling Silver | Metal: Oxidized Silver | Pink | 3.6*9.8mm
+435,ORPA0094,925 Sterling Silver,Metal: Silver palting,,3.6*10.5mm,1.40,10,4.79,47.90,925 Sterling Silver | Metal: Silver palting | pink | 3.6*10.5mm
+436,ORPA0097,925 Sterling Silver,Metal: Oxidized Silver,,5.1*10.2mm,1.50,10,5.57,55.70,925 Sterling Silver | Metal: Oxidized Silver | purplr | 5.1*10.2mm
+437,ORPA0123,925 Sterling Silver,Metal: Oxidized Silver,,4.1*9.8mm,1.23,10,4.39,43.90,925 Sterling Silver | Metal: Oxidized Silver | blue | 4.1*9.8mm
+438,ORPA0132,925 Sterling Silver,Metal: Oxidized Silver,,3.8*11.1mm,1.63,10,5.46,54.60,925 Sterling Silver | Metal: Oxidized Silver | red and white | 3.8*11.1mm
+439,ORPA0142,925 Sterling Silver,Metal: Oxidized Silver,,3.5*9.2mm,0.95,10,3.77,37.70,925 Sterling Silver | Metal: Oxidized Silver | None | 3.5*9.2mm
+440,ORPA0147,925 Sterling Silver,Metal: Oxidized Silver,,3.5*9.2mm,0.93,10,3.75,37.50,925 Sterling Silver | Metal: Oxidized Silver | None | 3.5*9.2mm
+441,ORPA0149,925 Sterling Silver,Metal: Oxidized Silver,,3.5*9.2mm,0.90,10,3.62,36.20,925 Sterling Silver | Metal: Oxidized Silver | None | 3.5*9.2mm
+442,ORPA0107,925 Sterling Silver,Metal: Oxidized Silver,,8.2*10.3mm,1.50,10,5.50,55.00,925 Sterling Silver | Metal: Oxidized Silver | blue | 8.2*10.3mm
+443,ORGCB51-WY,925 Sterling Silver,Metal: Rhodium plated+enamel,,14*14mm,1.60,30,4.93,147.90,925 Sterling Silver | Metal: Rhodium plated+enamel | 14*14mm
+444,ORGCB51-YL,925 Sterling Silver,Metal: Rhodium plated+enamel,,14*14mm,1.60,30,4.93,147.90,925 Sterling Silver | Metal: Rhodium plated+enamel | 14*14mm
+445,ORGCB51-YP,925 Sterling Silver,Metal: Rhodium plated+enamel,,14*14mm,1.60,29,4.93,142.97,925 Sterling Silver | Metal: Rhodium plated+enamel | 14*14mm
+446,ORGCB51-YR,925 Sterling Silver,Metal: Rhodium plated+enamel,,14*14mm,1.60,30,4.93,147.90,925 Sterling Silver | Metal: Rhodium plated+enamel | 14*14mm
+447,ORGCB51-P,925 Sterling Silver,Metal: Rhodium plated+enamel,,14*14mm,1.60,30,4.93,147.90,925 Sterling Silver | Metal: Rhodium plated+enamel | 14*14mm
+448,ORGCB52-L,925 Sterling Silver,Metal: Rhodium plated+enamel,,17*12*2mm,4.00,28,7.56,211.68,925 Sterling Silver | Metal: Rhodium plated+enamel | 17*12*2mm
+449,ORGCB53-L,925 Sterling Silver,Metal: Rhodium plated+enamel,,17*12*2mm,4.00,28,7.60,212.80,925 Sterling Silver | Metal: Rhodium plated+enamel | 17*12*2mm
+450,ORGCB54-L,925 Sterling Silver,Metal: Rhodium plated+enamel,,17*12*2mm,4.00,28,7.65,214.20,925 Sterling Silver | Metal: Rhodium plated+enamel | 17*12*2mm
+451,ORGCB55-L,925 Sterling Silver,Metal: Rhodium plated+enamel,,17*12*2mm,4.00,29,7.73,224.17,925 Sterling Silver | Metal: Rhodium plated+enamel | 17*12*2mm
+452,ORGCB56-B,925 Sterling Silver,Metal: Rhodium plated+enamel,,17*12*2mm,4.00,26,7.57,196.82,925 Sterling Silver | Metal: Rhodium plated+enamel | 17*12*2mm
+453,ORGCB57-Z,925 Sterling Silver,Metal: Rhodium plated+enamel,,18*13mm,3.90,27,7.82,211.14,925 Sterling Silver | Metal: Rhodium plated+enamel | 18*13mm
+454,ORGCB58-LVR,925 Sterling Silver,Metal: Rhodium plated+enamel,,15*14.5mm,2.70,23,5.65,129.95,925 Sterling Silver | Metal: Rhodium plated+enamel | 15*14.5mm
+455,ORCB32-Vir,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,16,4.31,68.96,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+456,ORCB32-Tau,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,16,4.42,70.72,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+457,ORCB32-Ari,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,15,4.26,63.90,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+458,ORCB32-Sco,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,11,4.31,47.41,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+459,ORCB32-Psc,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,15,4.17,62.55,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+460,ORCB32-Cap,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,13,4.42,57.46,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+461,ORCB32-Cnc,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,16,4.26,68.16,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+462,ORCB32-Sgr,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,16,4.31,68.96,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+463,ORCB32-Leo,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,16,4.31,68.96,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+464,ORCB32-Gem,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,16,4.31,68.96,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+465,ORCB32-Lib,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,15,4.35,65.25,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+466,ORCB32-Agr,925 Sterling Silver,Metal: Oxidized Silver,Blue Enamel,11mm,2.54,13,4.47,58.11,925 Sterling Silver | Metal: Oxidized Silver | Blue Enamel | 11mm
+467,ORCB33-R,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Garent,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Garent | 11mm
+468,ORCB33-P,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Amethyest,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Amethyest | 11mm
+469,ORCB33-Q,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Aquamarine,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Aquamarine | 11mm
+470,ORCB33-W,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm White,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm White | 11mm
+471,ORCB33-LV,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Emerlad,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Emerlad | 11mm
+472,ORCB33-PL,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Alexendirte,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Alexendirte | 11mm
+473,ORCB33-M,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Ruby,11mm,1.56,19,3.50,66.50,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Ruby | 11mm
+474,ORCB33-G,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone : 3mm Peridot,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone : 3mm Peridot | 11mm
+475,ORCB33-BL,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Sapphire,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Sapphire | 11mm
+476,ORCB33-F,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Tourmaline,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Tourmaline | 11mm
+477,ORCB33-X,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Yellow Topaz,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Yellow Topaz | 11mm
+478,ORCB33-L,925 Sterling Silver+AAAA CZ,Metal: Oxidized Silver,Main Stone :3mm Turquoise,11mm,1.56,20,3.50,70.00,925 Sterling Silver+AAAA CZ | Metal: Oxidized Silver | Main Stone :3mm Turquoise | 11mm
+479,ORSMN30,925 Sterling Silver+DE Color,Metal: Rhodium Plated,,Chain :45cm (18inches),3.85,20,29.25,585.00,925 Sterling Silver+DE Color | Moissanite Diamonds | Metal: Rhodium Plated | 1ct D-E VVS | Chain :45cm (18inches)
+480,ORSWE13,925 Sterling Silver+DE Color,Metal: Rhodium Plated,,6cm Height,1.50,14,27.21,380.94,925 Sterling Silver+DE Color | Moissanite Diamonds | Metal: Rhodium Plated | 0.5ct D-E VVS(2 pieces) | 6cm Height
+481,ORSMR69,925 Sterling Silver+DE Color,Metal: Rhodium Plated,,,1.75,24,21.01,504.24,925 Sterling Silver+DE Color | Moissanite Diamonds | Metal: Rhodium Plated | 1ct D-E VVS | size6-9pcs /7-10pcs/ 8-5pcs
+482,ORSMN45,925 Sterling Silver+DE Color,Metal: Rhodium Plated,,Chain :45cm (18inches),3.85,20,23.34,466.80,925 Sterling Silver+DE Color | Moissanite Diamonds | Metal: Rhodium Plated | 1ct D-E VVS | Chain :45cm (18inches)
+483,ORCB199,925 Sterling Silver + AAAA CZ,Metal: Oxidized Silver,Stone: Multi-Colors,11mm,2.3,21,6.62,139.02,925 Sterling Silver + AAAA CZ | Metal: Oxidized Silver | Stone: Multi-Colors | 11mm
+484,ORCB200,925 Sterling Silver,Metal: Oxidized Silver,Stone: None,10mm,1.5,20,4.60,92.00,925 Sterling Silver | Metal: Oxidized Silver | Stone: None | 10mm
+485,ORCB201,925 Sterling Silver + AAAA CZ,Metal: Oxidized Silver,Stone: White,12mm,1.9,21,6.62,139.02,925 Sterling Silver + AAAA CZ | Metal: Oxidized Silver | Stone: White | 12mm
+486,ORCB202,925 Sterling Silver,Metal: Oxidized Silver,Stone: None,11mm,2.0,19,5.34,101.46,925 Sterling Silver | Metal: Oxidized Silver | Stone: None | 11mm
+487,ORCB203,925 Sterling Silver,Metal: Oxidized Silver,Stone: None,11.5mm,1.5,19,4.35,82.65,925 Sterling Silver | Metal: Oxidized Silver | Stone: None | 11.5mm
+488,ORCB204,925 Sterling Silver + AAAA CZ,Metal: Oxidized Silver,Stone: White,11mm,2.3,19,5.40,102.60,925 Sterling Silver + AAAA CZ | Metal: Oxidized Silver | Stone: White | 11mm
+489,ORCB205,925 Sterling Silver,Metal: Oxidized Silver,Stone: None,10.5mm,2.7,21,6.73,141.33,925 Sterling Silver | Metal: Oxidized Silver | Stone: None | 10.5mm
+490,ORCB206,925 Sterling Silver,Metal: Oxidized Silver,Stone: None,10.5mm,2.0,20,5.24,104.80,925 Sterling Silver | Metal: Oxidized Silver | Stone: None | 10.5mm
+491,ORCB176,925 Sterling Silver + AAAA CZ,Metal: Oxidized Silver,Stone: Multi-Colors,11mm,2.6,20,7.48,149.60,925 Sterling Silver + AAAA CZ | Metal: Oxidized Silver | Stone: Multi-Colors | 11mm
+492,ORCB208,925 Sterling Silver + AAAA CZ +,Metal: Oxidized Silver,Enamel,23mm,2.0,21,6.52,136.92,925 Sterling Silver + AAAA CZ + | Enamel | Metal: Oxidized Silver | Stone: White | 23mm
+493,ORCB209,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,23.5mm,1.8,21,6.45,135.45,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: White | 23.5mm
+494,ORCB210,925 Sterling Silver,Metal:Rhodium Plated,Stone: none,24mm,1.8,20,5.77,115.40,925 Sterling Silver | Metal:Rhodium Plated | Stone: none | 24mm
+495,ORCB211,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,21mm,2.0,21,6.62,139.02,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: White | 21mm
+496,ORCB212,925 Sterling Silver + AAAA CZ,Metal:Rhodium Plated,Stone: Blue,22mm,1.3,20,4.30,86.00,925 Sterling Silver + AAAA CZ | Metal:Rhodium Plated | Stone: Blue | 22mm
+497,ORCB213,925 Sterling Silver + AAAA CZ,Metal:Rhodium Plated,Stone: White,24mm,2.0,21,6.49,136.29,925 Sterling Silver + AAAA CZ | Metal:Rhodium Plated | Stone: White | 24mm
+498,ORCB214,925 Sterling Silver,Metal: Oxidized Silver,Stone: None,11mm,1.6,19,4.60,87.40,925 Sterling Silver | Metal: Oxidized Silver | Stone: None | 11mm
+499,ORCB215,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,28mm,2.1,20,6.09,121.80,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: White | 28mm
+500,ORCB216,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,26mm,2.3,20,6.61,132.20,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: Pink | 26mm
+501,ORCB217,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,24mm,2.7,21,7.13,149.73,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: Multi-Colors | 24mm
+502,ORCB218,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,24mm,2.5,12,6.55,78.60,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: White | 24mm
+503,ORCB219,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,19mm,2.2,20,6.15,123.00,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: White | 19mm
+504,ORCB220,925 Sterling Silver + AAAA CZ +,Metal:Rhodium Plated,Enamel,25mm,2.0,20,7.41,148.20,925 Sterling Silver + AAAA CZ + | Enamel | Metal:Rhodium Plated | Stone: White | 25mm
+505,ORCB221,925 Sterling Silver + Enamel,Metal: Oxidized Silver,Stone: None,19mm,2.0,19,6.35,120.65,925 Sterling Silver + Enamel | Metal: Oxidized Silver | Stone: None | 19mm
+506,ORGSB114-195,999 Sterling Silver,Metal: NA,,52*61,29.70,29,48.68,1411.72,999 Sterling Silver | Metal: NA | 52*61
+507,ORGSB114-205,999 Sterling Silver,Metal: NA,,54*63,30.00,27,50.63,1367.01,999 Sterling Silver | Metal: NA | 54*63
+508,ORGCBB1-17-W,925 Sterling Silver,Metal: Rhodium plating + enamel,,17 cm,13.16,8,22.15,177.20,925 Sterling Silver | Metal: Rhodium plating + enamel | white | 17 cm
+509,ORGCBB1-17-R,925 Sterling Silver,Metal: Rhodium plating + enamel,,17 cm,13.16,5,22.15,110.75,925 Sterling Silver | Metal: Rhodium plating + enamel | red | 17 cm
+510,ORGCBB1-17-K,925 Sterling Silver,Metal: Rhodium plating + enamel,,17 cm,13.16,6,22.15,132.90,925 Sterling Silver | Metal: Rhodium plating + enamel | black | 17 cm
+511,ORGCBB1-17-B,925 Sterling Silver,Metal: Rhodium plating + enamel,,17 cm,13.16,6,22.15,132.90,925 Sterling Silver | Metal: Rhodium plating + enamel | blue | 17 cm
+512,ORGCBB1-17-G,925 Sterling Silver,Metal: Rhodium plating + enamel,,17 cm,13.16,8,22.15,177.20,925 Sterling Silver | Metal: Rhodium plating + enamel | flower | 17 cm
+513,ORGCBB1-19-W,925 Sterling Silver,Metal: Rhodium plating + enamel,,19cm,14.40,8,23.95,191.60,925 Sterling Silver | Metal: Rhodium plating + enamel | white | 19cm
+514,ORGCBB1-19-R,925 Sterling Silver,Metal: Rhodium plating + enamel,,19cm,14.40,8,23.95,191.60,925 Sterling Silver | Metal: Rhodium plating + enamel | red | 19cm
+515,ORGCBB1-19-K,925 Sterling Silver,Metal: Rhodium plating + enamel,,19cm,16.50,7,23.95,167.65,925 Sterling Silver | Metal: Rhodium plating + enamel | black | 19cm
+516,ORGCBB1-19-B,925 Sterling Silver,Metal: Rhodium plating + enamel,,19cm,16.50,8,23.95,191.60,925 Sterling Silver | Metal: Rhodium plating + enamel | blue | 19cm
+517,ORGCBB1-19-G,925 Sterling Silver,Metal: Rhodium plating + enamel,,19cm,14.40,8,23.95,191.60,925 Sterling Silver | Metal: Rhodium plating + enamel | flower | 19cm
+518,ORGCBB1-21-W,925 Sterling Silver,Metal: Rhodium plating + enamel,,21cm,16.50,5,26.85,134.25,925 Sterling Silver | Metal: Rhodium plating + enamel | white | 21cm
+519,ORGCBB1-21-R,925 Sterling Silver,Metal: Rhodium plating + enamel,,21cm,16.50,8,26.85,214.80,925 Sterling Silver | Metal: Rhodium plating + enamel | red | 21cm
+520,ORGCBB1-21-K,925 Sterling Silver,Metal: Rhodium plating + enamel,,21cm,16.50,8,26.85,214.80,925 Sterling Silver | Metal: Rhodium plating + enamel | black | 21cm
+521,ORGCBB1-21-B,925 Sterling Silver,Metal: Rhodium plating + enamel,,21cm,16.50,8,26.85,214.80,925 Sterling Silver | Metal: Rhodium plating + enamel | blue | 21cm
+522,ORGSN305-W,925 Sterling Silver,Metal: 18K gold plated,"Ceramic: white, black, orange, rose",25*25mm. 18inch chain,4.85,26,13.99,363.74,"925 Sterling Silver | Metal: 18K gold plated | Ceramic: white, black, orange, rose | red, 30pcs of each | 25*25mm. 18inch chain"
+523,ORGSN305-B,925 Sterling Silver,Metal: 18K gold plated,"Ceramic: white, black, orange, rose",25*25mm. 18inch chain,4.85,11,13.99,153.89,"925 Sterling Silver | Metal: 18K gold plated | Ceramic: white, black, orange, rose | red, 30pcs of each | 25*25mm. 18inch chain"
+524,ORGSN305-C,925 Sterling Silver,Metal: 18K gold plated,"Ceramic: white, black, orange, rose",25*25mm. 18inch chain,4.85,26,13.99,363.74,"925 Sterling Silver | Metal: 18K gold plated | Ceramic: white, black, orange, rose | red, 30pcs of each | 25*25mm. 18inch chain"
+525,ORGCB56-L,925 Sterling Silver,Metal: Rhodium plated+blue enamel,,17*12*2mm,4.00,27,7.57,204.39,925 Sterling Silver | Metal: Rhodium plated+blue enamel | 17*12*2mm
+526,GCB56-R,925 Sterling Silver,Metal: Rhodium plated+red enamel,,17*12*2mm,4.00,27,7.57,204.39,925 Sterling Silver | Metal: Rhodium plated+red enamel | 17*12*2mm
+527,ORGCB177,925 Sterling Silver,Metal: Rhodium plated,,11mm,2.5,28,5.62,157.36,925 Sterling Silver | Metal: Rhodium plated | 11mm
+528,ORGCB175,925 Sterling Silver,Metal: Rhodium plated,,11mm,2.5,26,5.62,146.12,925 Sterling Silver | Metal: Rhodium plated | 11mm
+529,ORGCB109,925 Sterling Silver,Metal: Oxide silver,,20*11mm,8.73,28,15.58,436.24,925 Sterling Silver | Metal: Oxide silver | 20*11mm
+530,ORGCB110,925 Sterling Silver,Metal: Oxide silver,,16.5*10mm,1,27,3.05,82.35,925 Sterling Silver | Metal: Oxide silver | 16.5*10mm
+531,ORGCB182-1,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3.1,12,8.33,99.96,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""Through discipline comes freedom."" | Aristotle | 12*17*2.5mm"
+532,ORGCB182-2,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3.1,12,8.33,99.96,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""Happiness depends upon ourselves."" | Aristotle | 12*17*2.5mm"
+533,ORGCB182-3,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3.1,12,8.33,99.96,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""A friend is a second self."" Aristotle | 12*17*2.5mm"
+534,ORGCB182-5,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,11,8.33,91.63,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""The more you know, the more you | know you don't know."" Aristotle | 12*17*2.5mm"
+535,ORGCB182-6,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,11,8.33,91.63,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""The roots of education are bitter, but | the fruit is sweet."" Aristotle | 12*17*2.5mm"
+536,ORGCB182-7,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,11,8.33,91.63,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""Happiness is the meaning and the | purpose of life, the whole aim and | end of human existence."" - Aristotle | 12*17*2.5mm"
+537,ORGCB182-8,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,12,8.33,99.96,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""Knowing yourself is the beginning of | all wisdom."" - Aristotle | 12*17*2.5mm"
+538,ORGCB184-1,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3.1,11,8.33,91.63,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""The journey of a thousand miles | begins with one step."" Lao Tzu | 12*17*2.5mm"
+539,ORGCB184-2,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3.1,10,8.33,83.30,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""Care about what other people think | and you will always be their prisoner."" | Lao Tzu | 12*17*2.5mm"
+540,ORGCB184-3,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3.1,12,8.33,99.96,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""Silence is a source of Great | Strength."" Lao Tzu | 12*17*2.5mm"
+541,ORGCB184-4,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,10,8.33,83.30,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""The flame that burns Twice as bright | burns half as long."" Lao Tzu | 12*17*2.5mm"
+542,ORGCB184-5,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,12,8.33,99.96,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""Being deeply loved by someone | gives you strength, while loving | someone deeply gives you courage."" | 12*17*2.5mm"
+543,ORGCB184-6,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,12,8.33,99.96,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""A good traveler has no fixed plans | and is not intent on arriving."" Lao | Tzu | 12*17*2.5mm"
+544,ORGCB184-7,925 Sterling Silver,Metal: Rhodium plated+sand effect,,12*17*2.5mm,3,10,8.33,83.30,"925 Sterling Silver | Metal: Rhodium plated+sand effect | ""The best fighter is never angry."" | Lao Tzu | 12*17*2.5mm"
+545,ORGCB185-14K,925 Sterling Silver,Metal: gold plating + yellow enamel,,18.2*14*4.5mm,3.5,27,7.86,212.22,925 Sterling Silver | Metal: gold plating + yellow enamel | 18.2*14*4.5mm
+546,ORGCB186-1,925 Sterling Silver,Metal: Rhodium plated+black enamel,,16.4*14*3mm,3.3,12,7.86,94.32,"925 Sterling Silver | Metal: Rhodium plated+black enamel | ""Every time you smile at someone, it | is an action of love, a gift to that | person, a beautiful thing."" | 16.4*14*3mm"
+547,ORGCB186-2,925 Sterling Silver,Metal: Rhodium plated+black enamel,,16.4*14*3mm,3.3,13,7.86,102.18,"925 Sterling Silver | Metal: Rhodium plated+black enamel | ""Life is like a mirror. Smile at it and it | smiles back at you."" | 16.4*14*3mm"
+548,ORGCB181,925 Sterling Silver,Metal: gold plating + purple+green,enamel,17*12mm,2,27,5.60,151.20,925 Sterling Silver | Metal: gold plating + purple+green | enamel | 17*12mm
+549,ORGCB187-14K-1,925 Sterling Silver,Metal: gold plating + dark blue,enamel,14.14mm,2,13,5.48,71.24,"925 Sterling Silver | Metal: gold plating + dark blue | enamel | ""Shoot for the moon. Even if you | miss, you'll land among the stars."" | 14.14mm"
+550,ORGCB187-14K-2,925 Sterling Silver,Metal: gold plating + dark blue,enamel,14.14mm,2,12,5.48,65.76,"925 Sterling Silver | Metal: gold plating + dark blue | enamel | ""Nothing is impossible, the word itself | says, I'm possible."" | 14.14mm"
+551,ORCB145,925 Sterling Silver + AAAA,Metal: 14K gold plated,CZ+Enamel,12mm,2.3,15,6.13,91.95,925 Sterling Silver + AAAA | CZ+Enamel | Metal: 14K gold plated | Stone: White+Yellow | 12mm
+552,ORSE107-R,925 Sterling Silver+AAA CZ,Plaing:Rose Glod Plated,Stonewhite,11mmH,1.5,8,3.08,24.64,925 Sterling Silver+AAA CZ | Plaing:Rose Glod Plated | Stonewhite | 11mmH
+553,ORSN15,Sterling silver+AAA CZ,Metal: Rhodium &Rose gold plated,Main stone: white,Chain:45cm/Pendent:22mm,3.5,10,6.99,69.90,Sterling silver+AAA CZ | Metal: Rhodium &Rose gold plated | Main stone: white | Chain:45cm/Pendent:22mm
+554,ORSE89,925 sterling silver,,Main stone: No,Length/width 8mm,1.63,1,4.96,4.96,"925 sterling silver | Black | Main stone: No | Length/width 8mm | Total Amount 7468pcs US$55,849.61"

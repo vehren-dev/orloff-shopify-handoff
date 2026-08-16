@@ -1,0 +1,82 @@
+{% render 'og-styles' %}
+
+{%- comment -%}
+  Built on native <details> / <summary>: keyboard operable, screen-reader
+  announced and searchable with no JavaScript at all.
+
+  The shared `name` makes it an exclusive accordion, so only one answer is
+  open at a time. Browsers that do not support it simply allow more than one
+  to be open, which is a harmless fallback.
+{%- endcomment -%}
+
+<div class="og-section">
+  <div class="{% if section.settings.color_scheme == 'alt' %}og-on-alt{% endif %}">
+    <div class="og-wrap og-pad">
+
+      <div class="og-head">
+        {% render 'og-label', text: section.settings.label %}
+        {%- if section.settings.heading != blank -%}
+          <h2 class="og-h2">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+        {%- if section.settings.intro != blank -%}
+          <div class="og-body">{{ section.settings.intro }}</div>
+        {%- endif -%}
+      </div>
+
+      <div class="og-accordion">
+        {%- for block in section.blocks -%}
+          <details
+            class="og-accordion__item"
+            {% if section.settings.one_at_a_time %}name="og-acc-{{ section.id }}"{% endif %}
+            {% if forloop.first and section.settings.open_first %}open{% endif %}
+            {{ block.shopify_attributes }}
+          >
+            <summary class="og-accordion__q">
+              <span>{{ block.settings.question }}</span>
+              <span class="og-accordion__sign" aria-hidden="true"></span>
+            </summary>
+            <div class="og-accordion__a">{{ block.settings.answer }}</div>
+          </details>
+        {%- endfor -%}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Orloff | Accordion",
+  "tag": "section",
+  "class": "og-shopify-section",
+  "max_blocks": 12,
+  "settings": [
+    {
+      "type": "select", "id": "color_scheme", "label": "Background",
+      "options": [ { "value": "base", "label": "Warm white" }, { "value": "alt", "label": "Light grey-green" } ],
+      "default": "base"
+    },
+    { "type": "text", "id": "label", "label": "Section label" },
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "richtext", "id": "intro", "label": "Introduction" },
+    { "type": "checkbox", "id": "one_at_a_time", "label": "Open one answer at a time", "default": true },
+    { "type": "checkbox", "id": "open_first", "label": "Open the first answer on load", "default": false }
+  ],
+  "blocks": [
+    {
+      "type": "qa",
+      "name": "Question",
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question" },
+        { "type": "richtext", "id": "answer", "label": "Answer" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Orloff | Accordion",
+      "blocks": [ { "type": "qa" }, { "type": "qa" }, { "type": "qa" } ]
+    }
+  ]
+}
+{% endschema %}

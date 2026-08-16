@@ -1,0 +1,314 @@
+<!-- ===========================================================
+     LIVE BODY of /pages/retail-partners  (Page 163024044322)
+     Mirrors exactly what is published. Edit here, then push.
+
+     Palette from the solar-grown page SVG:
+       navy #091B36   gold #BC973F   green #2C5344
+     #96751F is that gold darkened for small text only, because
+     #BC973F on white is about 2.7:1 and fails at 11px.
+
+     No em dashes anywhere in this file. Keep it that way.
+
+     IMAGE SLOTS still to fill (marked IMG below):
+       1. hero ring, landscape
+       2. the beech box
+       3. founder / workshop
+       4. the twelve designs
+     =========================================================== -->
+<style>
+  .rp {
+    --navy:#091B36; --soft:#4A5568; --faint:#8792A3;
+    --rule:#D6D9DE; --rule-2:#E6E8EC; --sage:#EDF0EA;
+    --gold:#BC973F; --gold-ink:#96751F; --gold-lift:#D8B265; --green:#2C5344;
+    --serif:'Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+    --mono:Consolas,'Cascadia Mono','Segoe UI Mono',monospace;
+    color:var(--navy);
+    max-width:62rem;
+    margin:0 auto;
+    padding:0 0 4rem;
+    line-height:1.6;
+    font-size:1.02rem;
+    text-align:left;
+  }
+  .rp * { box-sizing:border-box }
+  .rp p, .rp ul, .rp ol, .rp h2, .rp h3, .rp table { margin:0 }
+  .rp a { color:inherit }
+
+  .rp .col { max-width:34rem }
+  .rp .stack { display:flex; flex-direction:column; gap:1rem }
+  .rp .sec { display:flex; flex-direction:column; gap:1.5rem; padding:3rem 1.5rem; border-top:1px solid var(--rule) }
+  .rp .sec-plain { border-top:0 }
+  .rp .eyebrow { font-family:var(--mono); font-size:.7rem; letter-spacing:.16em; text-transform:uppercase; color:var(--gold-ink) }
+  .rp h2 { font-family:var(--serif); font-weight:400; font-size:clamp(1.6rem,3.4vw,2.1rem); line-height:1.15; letter-spacing:-.01em }
+  .rp h3 { font-size:1rem; font-weight:650; line-height:1.4 }
+  .rp .lede { font-family:var(--serif); font-size:1.2rem; line-height:1.5; color:var(--soft) }
+  .rp .note { font-size:.85rem; line-height:1.55; color:var(--soft) }
+  .rp .band { height:3px; background:linear-gradient(90deg,#091B36 0%,#8A6A1C 15%,#BC973F 33%,#F7F3E8 52%,#7FA893 70%,#2C5344 86%,#091B36 100%) }
+
+  .rp .figs { display:grid; grid-template-columns:repeat(auto-fit,minmax(9rem,1fr)); gap:1px; background:var(--rule); border-top:1px solid var(--rule); border-bottom:1px solid var(--rule) }
+  .rp .fig { background:#fff; padding:1.15rem 1.25rem; display:flex; flex-direction:column; gap:.3rem }
+  .rp .fig .k { font-family:var(--mono); font-size:.66rem; letter-spacing:.13em; text-transform:uppercase; color:var(--faint) }
+  .rp .fig .v { font-family:var(--serif); font-size:1.5rem; line-height:1.1; font-variant-numeric:tabular-nums }
+  .rp .fig .v small { font-size:.62em; color:var(--gold-ink) }
+
+  .rp .deep { background:var(--navy); color:#F2F4F7; padding:clamp(3rem,7vw,5.5rem) 1.5rem; display:flex; flex-direction:column; gap:1.75rem; border-top:0 }
+  .rp .deep .eyebrow { color:var(--gold-lift) }
+  .rp .deep .claim { font-family:var(--serif); font-size:clamp(1.75rem,4.6vw,3rem); line-height:1.15; letter-spacing:-.015em; color:#fff; max-width:22ch }
+  .rp .deep p { color:#C3CBD6 }
+  .rp .deep .hair { height:1px; background:rgba(216,178,101,.35); max-width:8rem }
+  .rp .deep .cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(14rem,1fr)); gap:2rem }
+  .rp .deep .cols h3 { color:var(--gold-lift); font-family:var(--mono); font-size:.7rem; letter-spacing:.14em; text-transform:uppercase; font-weight:400 }
+  .rp .deep .cols p { font-size:.92rem; line-height:1.55 }
+
+  .rp .spec { list-style:none; padding:0 }
+  .rp .spec li { display:grid; grid-template-columns:7.5rem 1fr; gap:.4rem 1.5rem; padding:1rem 0; border-bottom:1px solid var(--rule-2) }
+  .rp .spec li:first-child { border-top:1px solid var(--rule) }
+  .rp .spec .k { font-family:var(--mono); font-size:.7rem; letter-spacing:.11em; text-transform:uppercase; color:var(--green); padding-top:.25rem }
+  .rp .spec .v { display:flex; flex-direction:column; gap:.3rem }
+  .rp .spec .v small { font-size:.85rem; color:var(--soft); line-height:1.45 }
+
+  .rp .box { background:var(--sage); padding:clamp(2.5rem,5vw,4rem) 1.5rem; border-top:0; display:grid; grid-template-columns:auto 1fr; gap:clamp(2rem,5vw,3.5rem); align-items:center }
+  .rp .box .mark { display:flex; flex-direction:column; align-items:center; gap:.85rem }
+  .rp .box .cap { font-family:var(--mono); font-size:.66rem; letter-spacing:.14em; text-transform:uppercase; color:var(--green); text-align:center }
+  .rp .box .words { display:flex; flex-direction:column; gap:1rem; max-width:34rem }
+
+  .rp .ask-wrap { overflow-x:auto }
+  .rp .ask { width:100%; border-collapse:collapse; min-width:34rem }
+  .rp .ask th { text-align:left; font-family:var(--mono); font-size:.66rem; letter-spacing:.13em; text-transform:uppercase; color:var(--faint); font-weight:400; padding:0 1.5rem .75rem 0; border-bottom:1px solid var(--navy) }
+  .rp .ask td { padding:1rem 1.5rem 1rem 0; border-bottom:1px solid var(--rule-2); font-size:.93rem; line-height:1.5; vertical-align:top }
+  .rp .ask td:first-child { width:42%; color:var(--soft) }
+  .rp .ask td:last-child { padding-right:0; font-weight:500 }
+  .rp .ask tr:last-child td { border-bottom:0 }
+
+  .rp .offer { display:grid; grid-template-columns:repeat(auto-fit,minmax(17rem,1fr)); gap:2.5rem; align-items:start }
+  .rp .inc { list-style:none; padding:0; display:flex; flex-direction:column; gap:.75rem }
+  .rp .inc li { display:flex; gap:.75rem; align-items:baseline; font-size:.95rem; line-height:1.5 }
+  .rp .inc li::before { content:""; flex:none; width:.4rem; height:.4rem; background:var(--gold); transform:translateY(-.1em) }
+  .rp .ledger { border:1px solid var(--navy); padding:1.5rem; display:flex; flex-direction:column; gap:1rem }
+  .rp .ledger table { width:100%; border-collapse:collapse }
+  .rp .ledger th, .rp .ledger td { text-align:left; padding:.7rem 0; border-bottom:1px solid var(--rule); font-size:.9rem; vertical-align:baseline; font-weight:400 }
+  .rp .ledger th { color:var(--soft) }
+  .rp .ledger td { text-align:right; font-family:var(--mono); font-size:.85rem; font-variant-numeric:tabular-nums }
+  .rp .ledger tr:last-child th, .rp .ledger tr:last-child td { border-bottom:0; padding-bottom:0 }
+  .rp .ledger .hl th, .rp .ledger .hl td { border-bottom:2px solid var(--gold); padding-top:0 }
+  .rp .ledger .hl td { font-family:var(--serif); font-size:1.5rem }
+
+  .rp .reasons { display:grid; grid-template-columns:repeat(auto-fit,minmax(15rem,1fr)); gap:1px; background:var(--rule); border:1px solid var(--rule) }
+  .rp .reason { background:#fff; padding:1.4rem 1.3rem; display:flex; flex-direction:column; gap:.4rem }
+  .rp .reason p { font-size:.9rem; line-height:1.5; color:var(--soft) }
+
+  .rp .faq { list-style:none; padding:0; display:flex; flex-direction:column }
+  .rp .faq li { padding:1rem 0; border-bottom:1px solid var(--rule-2); display:flex; flex-direction:column; gap:.3rem }
+  .rp .faq li:first-child { border-top:1px solid var(--rule) }
+  .rp .faq .q { font-weight:650; font-size:.95rem }
+  .rp .faq .a { font-size:.9rem; color:var(--soft); line-height:1.6 }
+
+  .rp .cta { display:flex; flex-wrap:wrap; gap:.9rem; align-items:center }
+  .rp .btn { display:inline-block; font-size:.92rem; font-weight:600; padding:.85rem 1.6rem; background:var(--navy); color:#fff; border:1px solid var(--navy); text-decoration:none }
+  .rp .btn-2 { background:transparent; color:var(--navy); border-color:var(--gold) }
+  .rp .sig { display:flex; flex-direction:column; gap:.15rem }
+  .rp .sig .nm { font-family:var(--serif); font-size:1.15rem }
+  .rp .sig .rl { font-size:.85rem; color:var(--soft) }
+
+  @media (max-width:40rem) {
+    .rp .box { grid-template-columns:1fr; gap:1.75rem }
+  }
+  @media (max-width:34rem) {
+    .rp .spec li { grid-template-columns:1fr }
+  }
+</style>
+
+<div class="rp">
+
+  <div class="band"></div>
+
+  <!-- 1 - HERO -->
+  <section class="sec sec-plain">
+    <div class="stack col">
+      <p class="eyebrow">Orloff Solar Grown Collection</p>
+      <h2>Become an Orloff of Denmark retail partner.</h2>
+      <p class="lede">Solar Grown lab-grown diamond engagement rings in 18K gold. IGI certified, documented, and delivered direct from our production facility to twenty-five founding retail partners across the Nordic countries.</p>
+    </div>
+  </section>
+
+  <!-- IMG 1: hero ring, landscape, full width, sits here -->
+
+  <div class="figs">
+    <div class="fig"><span class="k">Starter Collection</span><span class="v">2&nbsp;600 <small>USD</small></span></div>
+    <div class="fig"><span class="k">Rings included</span><span class="v">3</span></div>
+    <div class="fig"><span class="k">Certification</span><span class="v" style="font-size:1.3rem">IGI</span></div>
+    <div class="fig"><span class="k">Minimum reorder</span><span class="v" style="font-size:1.3rem">None</span></div>
+  </div>
+
+  <!-- 2 - NAVY MANIFESTO -->
+  <section class="deep">
+    <p class="eyebrow">Why this collection exists</p>
+    <p class="claim">Luxury should leave memories, not scars.</p>
+    <div class="hair"></div>
+    <div class="cols">
+      <div class="stack">
+        <h3>The problem</h3>
+        <p>Most lab-grown suppliers compete on price alone. It is a race to the bottom that erodes your margin and tells your customer nothing except that diamonds got cheap.</p>
+      </div>
+      <div class="stack">
+        <h3>Our answer</h3>
+        <p>Compete on documentation instead. Every environmental claim in this collection arrives with the paperwork behind it, so your customer sees evidence rather than adjectives.</p>
+      </div>
+      <div class="stack">
+        <h3>What that buys you</h3>
+        <p>A story your customer can verify is a story they will pay full price for. That is the difference between a sale and a negotiation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 - SPECIFICATION -->
+  <section class="sec sec-plain">
+    <div class="stack col">
+      <p class="eyebrow">Specification</p>
+      <h2>What is in every Solar Grown ring</h2>
+    </div>
+    <ul class="spec">
+      <li><span class="k">Diamond</span><span class="v"><span>Lab-grown CVD, grown in a facility powered by 100+ acres of solar panels</span><small>Chemically, physically and optically identical to a mined diamond, and always described to consumers as lab-grown.</small></span></li>
+      <li><span class="k">Certificate</span><span class="v"><span>International Gemological Institute (IGI) report with every stone</span><small>Full colour and clarity grading on every report.</small></span></li>
+      <li><span class="k">Metal</span><span class="v"><span>18K gold from certified recycled sources</span><small>Chain-of-custody documentation available on request.</small></span></li>
+      <li><span class="k">Presentation</span><span class="v"><span>Beech wood box, natural linen interior</span><small>Handcrafted from Denmark's national tree. No synthetic lining.</small></span></li>
+      <li><span class="k">Production</span><span class="v"><span>Made to order, any size, no stock required</span><small>Nothing sits in inventory, so no size is unavailable and no size costs extra. Dispatched direct from our facility in Hua Hin.</small></span></li>
+    </ul>
+  </section>
+
+  <!-- 4 - THE BOX.  IMG 2: replace the svg with the beech box photograph -->
+  <section class="box">
+    <div class="mark">
+      <svg viewBox="0 0 100 122" width="76" height="93" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M50 11 C70 32 78 62 50 94 C22 62 30 32 50 11 Z" stroke="#2C5344" stroke-width="1.5"></path>
+        <line x1="50" y1="11" x2="50" y2="114" stroke="#2C5344" stroke-width="1.5"></line>
+        <g stroke="#BC973F" stroke-width="1.2">
+          <line x1="50" y1="30" x2="63" y2="33"></line>
+          <line x1="50" y1="45" x2="69" y2="49"></line>
+          <line x1="50" y1="60" x2="67" y2="67"></line>
+          <line x1="50" y1="75" x2="60" y2="81"></line>
+          <line x1="50" y1="30" x2="37" y2="33"></line>
+          <line x1="50" y1="45" x2="31" y2="49"></line>
+          <line x1="50" y1="60" x2="33" y2="67"></line>
+          <line x1="50" y1="75" x2="40" y2="81"></line>
+        </g>
+      </svg>
+      <p class="cap">Beech, Denmark's<br>national tree</p>
+    </div>
+    <div class="words">
+      <p class="eyebrow">The presentation</p>
+      <h2>The box is part of the argument.</h2>
+      <p>Every ring is presented in a turned beech wood box with the Orloff wordmark burned into the lid, lined with natural linen rather than the moulded foam and flocked plastic the trade normally uses.</p>
+      <p class="note">Beech is Denmark's national tree. Linen is a plant fibre. Neither needs a disclaimer, which is rather the point. A customer who opens that box has already understood what kind of company made the ring inside it.</p>
+    </div>
+  </section>
+
+  <!-- 5 - QUESTIONS TABLE -->
+  <section class="sec">
+    <div class="stack col">
+      <p class="eyebrow">Due diligence</p>
+      <h2>Six questions to ask any lab-grown supplier</h2>
+      <p>Including us. If a supplier cannot answer these in a sentence each, that tells you something. Here are ours.</p>
+    </div>
+    <div class="ask-wrap">
+      <table class="ask">
+        <thead>
+          <tr><th>The question</th><th>Our answer</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>What powers the growing reactors?</td><td>A facility running on more than 100 acres of solar panels.</td></tr>
+          <tr><td>Which laboratory certifies the stones, and what does the report actually show?</td><td>IGI, with full colour and clarity grading, on every stone.</td></tr>
+          <tr><td>Where does the gold come from?</td><td>Certified recycled sources, with chain-of-custody documentation on request.</td></tr>
+          <tr><td>What is the packaging made of?</td><td>Turned beech wood and natural linen. No foam, no flocked plastic.</td></tr>
+          <tr><td>What must I commit to?</td><td>Nothing beyond the Starter Collection. No minimum order, no annual target, no exclusivity.</td></tr>
+          <tr><td>Who do I speak to when something goes wrong?</td><td>The founder, directly.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6 - THE OFFER -->
+  <section class="sec">
+    <div class="stack col">
+      <p class="eyebrow">The offer</p>
+      <h2>The Starter Collection</h2>
+      <p>Three rings selected from our Solar Grown engagement collection, with everything you need to sell them. The full catalogue is available to partners at wholesale from day one.</p>
+    </div>
+    <div class="offer">
+      <ul class="inc">
+        <li>Three handcrafted 18K gold Solar Grown lab-grown diamond rings</li>
+        <li>Professional product photography, licensed for your use</li>
+        <li>Ready-to-use social media video</li>
+        <li>Counter display material</li>
+        <li>IGI certificate for every stone</li>
+        <li>Retail sales training</li>
+        <li>Digital sales support and full catalogue access</li>
+        <li>Direct delivery from our production facility</li>
+      </ul>
+      <div class="ledger">
+        <table><tbody>
+          <tr class="hl"><th>Starter Collection</th><td>2&nbsp;600 USD</td></tr>
+          <tr><th>Rings included</th><td>3</td></tr>
+          <tr><th>Minimum monthly order</th><td>None</td></tr>
+          <tr><th>Annual target</th><td>None</td></tr>
+          <tr><th>Wholesale price list</th><td>On application</td></tr>
+        </tbody></table>
+        <p class="note">After the Starter Collection, order individual rings at wholesale. No stock commitment, no annual target, no exclusivity required of you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 - REASONS -->
+  <section class="sec">
+    <div class="stack col">
+      <p class="eyebrow">Why us</p>
+      <h2>What a distributor cannot give you</h2>
+    </div>
+    <div class="reasons">
+      <div class="reason"><h3>Direct from production</h3><p>No distributor layer and no distributor margin. You buy from the facility that makes the ring.</p></div>
+      <div class="reason"><h3>No stock commitment</h3><p>2 600 USD is three rings, not a warehouse. Order one at a time after that, or twenty.</p></div>
+      <div class="reason"><h3>Any size, made to order</h3><p>Nothing sits in inventory, so no size is unavailable and no size costs extra.</p></div>
+      <div class="reason"><h3>You deal with the founder</h3><p>Not an account queue. Three decades in fine jewellery and coloured stones, on the other end of the email.</p></div>
+    </div>
+  </section>
+
+  <!-- 8 - FAQ -->
+  <section class="sec">
+    <div class="stack col">
+      <p class="eyebrow">Questions</p>
+      <h2>What partners ask first</h2>
+    </div>
+    <ul class="faq">
+      <li><span class="q">What exactly is a Solar Grown diamond?</span><span class="a">A lab-grown diamond produced by chemical vapour deposition in a facility powered by more than 100 acres of solar panels. Chemically, physically and optically identical to a mined diamond. Solar Grown describes our production energy. The stones are lab-grown and always described that way to consumers.</span></li>
+      <li><span class="q">What is the retail margin?</span><span class="a">The full wholesale price list, with recommended retail prices, is provided on application. Write to us and we will send it.</span></li>
+      <li><span class="q">Are prices in US dollars?</span><span class="a">Yes. The Starter Collection is 2 600 USD and the wholesale price list is quoted in US dollars. Prices are held for 30 days from quotation.</span></li>
+      <li><span class="q">Who handles import duty and VAT?</span><span class="a">Goods ship from Thailand. There is no free trade agreement between the EU and Thailand, so standard third-country duty applies to articles of precious metal, plus import VAT at your national rate, reclaimable if you are VAT registered. Delivery terms and who acts as importer of record are confirmed on application.</span></li>
+      <li><span class="q">Do I have to buy exclusively from Orloff?</span><span class="a">No. No exclusivity is required of you, and no minimum order applies after the Starter Collection.</span></li>
+      <li><span class="q">What if I need a size you don't stock?</span><span class="a">Everything is made to order, so any size is available at the same price.</span></li>
+      <li><span class="q">Is the gold really recycled?</span><span class="a">Yes. 18K gold from certified recycled sources, with chain-of-custody documentation available on request.</span></li>
+    </ul>
+  </section>
+
+  <!-- 9 - CLOSE.  IMG 3: founder / workshop portrait beside the signature -->
+  <section class="sec">
+    <div class="stack col">
+      <p class="eyebrow">Founding partners</p>
+      <h2>Twenty-five places across the Nordics</h2>
+      <p class="lede">Applications are open now.</p>
+      <p>Our goal is not to become the biggest supplier. It is to become the one you trust most.</p>
+      <div class="cta">
+        <a class="btn" href="mailto:info@orloffofdenmark.com?subject=Retail%20Partner%20application">Apply to be a partner</a>
+        <a class="btn btn-2" href="mailto:info@orloffofdenmark.com?subject=Wholesale%20price%20list">Request the price list</a>
+      </div>
+      <p class="note">Read more about how our diamonds are made on the <a href="/pages/solar-grown-diamonds">Solar Grown Diamonds</a> page.</p>
+    </div>
+    <div class="sig">
+      <span class="nm">Niels Orloff Ehrenskj&ouml;ld</span>
+      <span class="rl">Founder &amp; GIA Graduate Gemologist, Orloff of Denmark</span>
+      <span class="rl">info@orloffofdenmark.com</span>
+    </div>
+  </section>
+
+  <div class="band"></div>
+
+</div>

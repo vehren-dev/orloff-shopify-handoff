@@ -1,0 +1,122 @@
+# UI check — WEB 15 (North 10.0.0), Orloff of Denmark
+
+**2 Aug 2026.** Recovered from a session that completed but was lost when the
+desktop app's session index was reset. The audit itself finished cleanly; only
+the chat record was lost.
+
+Previewed `https://orloffofdenmark.com/?preview_theme_id=189575168290` at 1265px,
+753px and 375px. Cart was tested with a real add + clear (session-local only).
+
+**One limitation up front:** the Browser pane never displayed, so
+`document.visibilityState` stayed `hidden`. That blocks screenshots, lazy-image
+loading, and all GSAP animation. Everything below is from live DOM/layout
+measurement, which is unaffected — but anything animation-driven is marked as
+unverified rather than guessed.
+
+## Critical
+
+### 1. Homepage heroes ship ~13 MB of images, with no `srcset`
+
+All six hero images are raw originals with no responsive variants — phones
+download the same files as desktop:
+
+| File | Size | Natural | Displayed |
+|---|---|---|---|
+| `WEDDING_IMAGE.png` | **5,554 KB** | 2496px | 1265px |
+| `ENGAGEMENT_IMAGE.png` | **5,205 KB** | 2496px | 1265px |
+| `DIAMONDS_NEW_IMAGE.png` | **1,425 KB** | 1344px | 1265px |
+| `SOLAR_copy.jpg` (LCP) | 290 KB | 5504px | 1265px |
+| `IMG_2034_copy_2.jpg` | 273 KB | 2976px | 1265px |
+| `IMG_0224.jpg` | 159 KB | 1920px | 1265px |
+
+The three PNGs are the problem — 12.2 MB of the 13 MB. They are photographs
+saved as PNG. Converting to JPEG and adding Shopify's `width` param / `srcset`
+(the product cards already do this correctly — see `product-card`) would cut this
+by well over 90%.
+
+### 2. Mobile sticky add-to-cart bar collapses at 375px
+
+On `product/katarina-lab-grown`. At iPhone width the bar's price (102px) and
+button (140px) take the space, leaving the left column 54px wide:
+
+- `.rc-sticky-bar__name` — 54px wide, needs 76px. `overflow: visible`, so
+  "KATARINA" spills out of its box.
+- `.rc-sticky-bar__config` — 54px wide, needs 322px. `overflow: hidden` +
+  `nowrap` + no `text-overflow`, so
+  `14K Yellow Gold · Signature SI1/H · 0.5 ct · Lab Grown` is hard-clipped
+  mid-word with no ellipsis.
+
+Fine at 753px and up (322px column) — this is phone-only. Needs a
+`min-width`/`flex` fix or a shortened mobile layout.
+
+## Should fix
+
+### 3. Two menu links silently drop their filter
+
+- `/collections/fine-jewelry/rings` → redirects to `/collections/fine-jewelry`.
+  The "RINGS" item under FINE JEWELRY shows the unfiltered collection — no
+  `rings` tag exists.
+- `/collections/fine-jewelry/necklaces+pendants` → resolves to
+  `/collections/fine-jewelry/pendants`; the `necklaces` tag does not exist, and
+  the page title renders as `Fine Jewelry | Orloff of Denmark, Thailand – ` with
+  a dangling en-dash.
+
+### 4. Three templates have no `<h1>` at all
+
+`/pages/about-us`, `/pages/diamonds`, and the 404 page. Every other page has
+exactly one.
+
+### 5. Missing alt text
+
+8 of 19 homepage images, and 7 of 9 on `/pages/about-us`. Two heroes (One of a
+Kind, About Us) have `alt=""` while carrying real content.
+
+### 6. Invalid attribute
+
+Heroes carry `fetchpriority="false"`; valid values are `high` / `low` / `auto`.
+Browsers ignore it, but it is a theme markup bug.
+
+## Minor
+
+- Cookie-banner "I Accept" is 48x12px on mobile — well under the 44px tap-target
+  guideline. "READ" (66x17) and "privacy policy" (79x15) are similar.
+- Cart quantity inputs have no `aria-label`; the sort/currency/language selects
+  rely on `.visually-hidden` labels that are not wired via `for`.
+- Carat buttons on the product page render 3-up at 110px then 2-up at 169px — the
+  last row stretches, so button widths are inconsistent within one group.
+- Homepage `<title>` is just "Orloff of Denmark" (17 chars); `/collections/all` is
+  "Products" with no meta description. Every other page has good titles and
+  descriptions.
+
+## Verified clean
+
+No horizontal overflow on any page at any of the three widths. No console errors.
+All 36 internal links return 200. Collection grid (12 products, 2-up mobile /
+5-up desktop), pagination, filters, product options, cart add/update/remove,
+subtotal, checkout button, search (139 results for "ring"), 404, blog, and all
+four policy pages all render correctly. Hamburger is a proper 44x44. JSON-LD
+parses (`Organization` + `ProductGroup`).
+
+## Not verified
+
+Mobile menu drawer, cart drawer, search modal, image zoom/lightbox, and scroll
+animations — all GSAP-driven, and `requestAnimationFrame` is paused in a hidden
+pane. A trusted click on the hamburger left the panel at `left: -337px`, which
+reads as the environment, not a bug. Displaying the Browser pane would allow a
+re-run with screenshots for a visual pass.
+
+---
+
+## Addendum, 2 Aug afternoon — the add-a-bracelet pop-up
+
+Tested separately after this audit. The overnight run reported a deterministic
+failure on the PEACE bracelet: pass through the missing Flower / 21cm
+combination, pick a valid one, add to cart, and the pop-up never fires.
+
+**Retested twice on WEB 15, every request 200, no throttling. The pop-up fired
+both times**, including on a 250ms fast-click race before the section render had
+settled. `/cart/add` returns **JSON** to `fetch` — the "returns HTML" diagnosis
+was wrong. The original failure was 429 throttling on the `?section_id=` render
+endpoint, which stalls the variant update.
+
+Not a defect. See `RESUME.md` for the full trace.

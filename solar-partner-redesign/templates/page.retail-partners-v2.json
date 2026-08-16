@@ -1,0 +1,412 @@
+{
+  "sections": {
+    "hero": {
+      "type": "og-split-hero",
+      "settings": {
+        "label": "Orloff Solar Grown Collection",
+        "heading": "Become an Orloff of Denmark retail partner.",
+        "heading_tag": "h1",
+        "lede": "Solar Grown lab-grown diamond engagement rings in 18K gold. IGI certified, documented, and delivered direct from our production facility to twenty-five founding retail partners across the Nordic countries.",
+        "price_figure": "2 600 USD",
+        "price_label": "Starter Collection",
+        "button_1_label": "Apply to be a partner",
+        "button_1_link": "mailto:info@orloffofdenmark.com?subject=Retail%20Partner%20application",
+        "button_2_label": "Request the price list",
+        "button_2_link": "mailto:info@orloffofdenmark.com?subject=Wholesale%20price%20list",
+        "image_position": "right",
+        "slot_title": "Starter Collection image",
+        "slot_text": "Replaceable. The three Starter Collection rings with the beech wood box.",
+        "reduce_top_space": true
+      }
+    },
+    "stats": {
+      "type": "og-stats-bar",
+      "blocks": {
+        "s1": { "type": "stat", "settings": { "key": "Starter Collection", "value": "2 600", "unit": "USD" } },
+        "s2": { "type": "stat", "settings": { "key": "Rings included", "value": "3" } },
+        "s3": { "type": "stat", "settings": { "key": "Certification", "value": "IGI" } },
+        "s4": { "type": "stat", "settings": { "key": "Minimum reorder", "value": "None" } }
+      },
+      "block_order": ["s1", "s2", "s3", "s4"],
+      "settings": {}
+    },
+    "starter": {
+      "type": "og-product-grid",
+      "blocks": {
+        "r1": { "type": "product", "settings": {} },
+        "r2": { "type": "product", "settings": {} },
+        "r3": { "type": "product", "settings": {} }
+      },
+      "block_order": ["r1", "r2", "r3"],
+      "settings": {
+        "color_scheme": "base",
+        "label": "The offer",
+        "heading": "The Starter Collection",
+        "intro": "<p>Three rings selected from our Solar Grown engagement collection, with everything you need to sell them. The full catalogue is available to partners at wholesale from day one.</p>",
+        "show_price": false,
+        "footnote": "<p>After the Starter Collection, order individual rings at wholesale. No minimum monthly order, no annual target, and no exclusivity required of you. The wholesale price list is provided on application.</p>"
+      }
+    },
+    "spec": {
+      "type": "og-card-grid",
+      "blocks": {
+        "c1": {
+          "type": "card",
+          "settings": {
+            "icon": "diamond",
+            "key": "Diamond",
+            "value": "Lab-grown CVD, grown in a facility powered by 100+ acres of solar panels",
+            "text": "<p>Chemically, physically and optically identical to a mined diamond, and always described to consumers as lab-grown.</p>"
+          }
+        },
+        "c2": {
+          "type": "card",
+          "settings": {
+            "icon": "certificate",
+            "key": "Certificate",
+            "value": "International Gemological Institute (IGI) report with every stone",
+            "text": "<p>Full colour and clarity grading on every report.</p>"
+          }
+        },
+        "c3": {
+          "type": "card",
+          "settings": {
+            "icon": "ring",
+            "key": "Metal",
+            "value": "18K gold from certified recycled sources",
+            "text": "<p>Chain-of-custody documentation available on request.</p>"
+          }
+        },
+        "c4": {
+          "type": "card",
+          "settings": {
+            "icon": "box",
+            "key": "Presentation",
+            "value": "Beech wood box, natural linen interior",
+            "text": "<p>Handcrafted from Denmark's national tree. No synthetic lining.</p>"
+          }
+        },
+        "c5": {
+          "type": "card",
+          "settings": {
+            "icon": "truck",
+            "key": "Production",
+            "value": "Made to order, any size, no stock required",
+            "text": "<p>Nothing sits in inventory, so no size is unavailable and no size costs extra. Dispatched direct from our facility in Hua Hin.</p>"
+          }
+        }
+      },
+      "block_order": ["c1", "c2", "c3", "c4", "c5"],
+      "settings": {
+        "color_scheme": "alt",
+        "label": "Specification",
+        "heading": "What is in every Solar Grown ring",
+        "columns": "3"
+      }
+    },
+    "receive": {
+      "type": "og-card-grid",
+      "blocks": {
+        "c1": {
+          "type": "card",
+          "settings": {
+            "icon": "ring",
+            "value": "Three Solar Grown rings",
+            "text": "<p>Three handcrafted 18K gold Solar Grown lab-grown diamond rings.</p>"
+          }
+        },
+        "c2": {
+          "type": "card",
+          "settings": {
+            "icon": "camera",
+            "value": "Photography and video",
+            "text": "<p>Professional product photography, licensed for your use, and a ready-to-use social media video.</p>"
+          }
+        },
+        "c3": {
+          "type": "card",
+          "settings": {
+            "icon": "display",
+            "value": "Counter display material",
+            "text": "<p>Point-of-sale material for your counter.</p>"
+          }
+        },
+        "c4": {
+          "type": "card",
+          "settings": {
+            "icon": "certificate",
+            "value": "IGI certificate for every stone",
+            "text": "<p>Full colour and clarity grading on every report.</p>"
+          }
+        },
+        "c5": {
+          "type": "card",
+          "settings": {
+            "icon": "academic",
+            "value": "Training and sales support",
+            "text": "<p>Retail sales training, plus digital sales support and full catalogue access.</p>"
+          }
+        },
+        "c6": {
+          "type": "card",
+          "settings": {
+            "icon": "truck",
+            "value": "Direct delivery",
+            "text": "<p>Direct delivery from our production facility.</p>"
+          }
+        }
+      },
+      "block_order": ["c1", "c2", "c3", "c4", "c5", "c6"],
+      "settings": {
+        "color_scheme": "base",
+        "label": "Included",
+        "heading": "What every partner receives",
+        "columns": "3"
+      }
+    },
+    "packaging": {
+      "type": "og-feature",
+      "settings": {
+        "color_scheme": "alt",
+        "label": "The presentation",
+        "heading": "The box is part of the argument.",
+        "body": "<p>Every ring is presented in a turned beech wood box with the Orloff wordmark burned into the lid, lined with natural linen rather than the moulded foam and flocked plastic the trade normally uses.</p>",
+        "note": "<p>Beech is Denmark's national tree. Linen is a plant fibre. Neither needs a disclaimer, which is rather the point. A customer who opens that box has already understood what kind of company made the ring inside it.</p>",
+        "image_position": "left",
+        "image_ratio": "4 / 3",
+        "slot_title": "Packaging image",
+        "slot_text": "Replaceable. The beech wood box, open, with the linen interior and a ring."
+      }
+    },
+    "sixq": {
+      "type": "og-accordion",
+      "blocks": {
+        "q1": {
+          "type": "qa",
+          "settings": {
+            "question": "What powers the growing reactors?",
+            "answer": "<p>A facility running on more than 100 acres of solar panels.</p>"
+          }
+        },
+        "q2": {
+          "type": "qa",
+          "settings": {
+            "question": "Which laboratory certifies the stones, and what does the report actually show?",
+            "answer": "<p>IGI, with full colour and clarity grading, on every stone.</p>"
+          }
+        },
+        "q3": {
+          "type": "qa",
+          "settings": {
+            "question": "Where does the gold come from?",
+            "answer": "<p>Certified recycled sources, with chain-of-custody documentation on request.</p>"
+          }
+        },
+        "q4": {
+          "type": "qa",
+          "settings": {
+            "question": "What is the packaging made of?",
+            "answer": "<p>Turned beech wood and natural linen. No foam, no flocked plastic.</p>"
+          }
+        },
+        "q5": {
+          "type": "qa",
+          "settings": {
+            "question": "What must I commit to?",
+            "answer": "<p>Nothing beyond the Starter Collection. No minimum order, no annual target, no exclusivity.</p>"
+          }
+        },
+        "q6": {
+          "type": "qa",
+          "settings": {
+            "question": "Who do I speak to when something goes wrong?",
+            "answer": "<p>Our team, directly. People who know the collection and can act on it, not a support queue.</p>"
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5", "q6"],
+      "settings": {
+        "color_scheme": "base",
+        "label": "Due diligence",
+        "heading": "Six questions to ask any lab-grown supplier",
+        "intro": "<p>Including us. If a supplier cannot answer these in a sentence each, that tells you something. Here are ours.</p>",
+        "one_at_a_time": true,
+        "open_first": false
+      }
+    },
+    "partnerfaq": {
+      "type": "og-accordion",
+      "blocks": {
+        "q1": {
+          "type": "qa",
+          "settings": {
+            "question": "What exactly is a Solar Grown diamond?",
+            "answer": "<p>A lab-grown diamond produced by chemical vapour deposition in a facility powered by more than 100 acres of solar panels. Chemically, physically and optically identical to a mined diamond. Solar Grown describes our production energy. The stones are lab-grown and always described that way to consumers.</p>"
+          }
+        },
+        "q2": {
+          "type": "qa",
+          "settings": {
+            "question": "What is the retail margin?",
+            "answer": "<p>The full wholesale price list, with recommended retail prices, is provided on application. Write to us and we will send it.</p>"
+          }
+        },
+        "q3": {
+          "type": "qa",
+          "settings": {
+            "question": "Are prices in US dollars?",
+            "answer": "<p>Yes. The Starter Collection is 2 600 USD and the wholesale price list is quoted in US dollars. Prices are held for 30 days from quotation.</p>"
+          }
+        },
+        "q4": {
+          "type": "qa",
+          "settings": {
+            "question": "Who handles import duty and VAT?",
+            "answer": "<p>Goods ship from Thailand. There is no free trade agreement between the EU and Thailand, so standard third-country duty applies to articles of precious metal, plus import VAT at your national rate, reclaimable if you are VAT registered. Delivery terms and who acts as importer of record are confirmed on application.</p>"
+          }
+        },
+        "q5": {
+          "type": "qa",
+          "settings": {
+            "question": "Do I have to buy exclusively from Orloff?",
+            "answer": "<p>No. No exclusivity is required of you, and no minimum order applies after the Starter Collection.</p>"
+          }
+        },
+        "q6": {
+          "type": "qa",
+          "settings": {
+            "question": "What if I need a size you don't stock?",
+            "answer": "<p>Everything is made to order, so any size is available at the same price.</p>"
+          }
+        },
+        "q7": {
+          "type": "qa",
+          "settings": {
+            "question": "Is the gold really recycled?",
+            "answer": "<p>Yes. 18K gold from certified recycled sources, with chain-of-custody documentation available on request.</p>"
+          }
+        }
+      },
+      "block_order": ["q1", "q2", "q3", "q4", "q5", "q6", "q7"],
+      "settings": {
+        "color_scheme": "base",
+        "label": "Questions",
+        "heading": "What partners ask first",
+        "one_at_a_time": true,
+        "open_first": false
+      }
+    },
+    "distributor": {
+      "type": "og-card-grid",
+      "blocks": {
+        "c1": {
+          "type": "card",
+          "settings": {
+            "icon": "truck",
+            "value": "Direct from production",
+            "text": "<p>No distributor layer and no distributor margin. You buy from the facility that makes the ring.</p>"
+          }
+        },
+        "c2": {
+          "type": "card",
+          "settings": {
+            "icon": "box",
+            "value": "No stock commitment",
+            "text": "<p>2 600 USD is three rings, not a warehouse. Order one at a time after that, or twenty.</p>"
+          }
+        },
+        "c3": {
+          "type": "card",
+          "settings": {
+            "icon": "ruler",
+            "value": "Any size, made to order",
+            "text": "<p>Nothing sits in inventory, so no size is unavailable and no size costs extra.</p>"
+          }
+        },
+        "c4": {
+          "type": "card",
+          "settings": {
+            "icon": "chat",
+            "value": "You deal with our team",
+            "text": "<p>Not an account queue. Experienced people in fine jewellery and coloured stones, on the other end of the email.</p>"
+          }
+        }
+      },
+      "block_order": ["c1", "c2", "c3", "c4"],
+      "settings": {
+        "color_scheme": "alt",
+        "label": "Why us",
+        "heading": "What a distributor cannot give you",
+        "columns": "2"
+      }
+    },
+    "process": {
+      "type": "og-process",
+      "blocks": {
+        "p1": {
+          "type": "step",
+          "settings": {
+            "title": "Apply",
+            "text": "<p>Applications are open now, for twenty-five founding places across the Nordic countries.</p>",
+            "icon": "document"
+          }
+        },
+        "p2": {
+          "type": "step",
+          "settings": {
+            "title": "Select the Starter Collection",
+            "text": "<p>Three rings from our Solar Grown engagement collection, 2 600 USD, with no stock commitment beyond it.</p>",
+            "icon": "ring"
+          }
+        },
+        "p3": {
+          "type": "step",
+          "settings": {
+            "title": "Receive products and sales materials",
+            "text": "<p>The rings and their IGI certificates, the photography and video, the counter display material and the sales training, delivered direct from our production facility.</p>",
+            "icon": "truck"
+          }
+        }
+      },
+      "block_order": ["p1", "p2", "p3"],
+      "settings": {
+        "color_scheme": "base",
+        "label": "How it works",
+        "heading": "Becoming a partner takes three steps.",
+        "show_rule": true,
+        "marker": "number"
+      }
+    },
+    "cta": {
+      "type": "og-cta-banner",
+      "settings": {
+        "compact": false,
+        "label": "Founding partners",
+        "heading": "Twenty-five places across the Nordics",
+        "body": "<p>Applications are open now.</p><p>Our goal is not to become the biggest supplier. It is to become the one you trust most.</p>",
+        "button_1_label": "Apply to be a partner",
+        "button_1_link": "mailto:info@orloffofdenmark.com?subject=Retail%20Partner%20application",
+        "button_1_style": "primary",
+        "button_2_label": "Request the price list",
+        "button_2_link": "mailto:info@orloffofdenmark.com?subject=Wholesale%20price%20list",
+        "footnote": "<p>Read more about how our diamonds are made on the <a href=\"/pages/solar-grown-diamonds\">Solar Grown Diamonds</a> page.</p>",
+        "contact_name": "Niels Orloff Ehrenskjöld",
+        "contact_role": "Founder & GIA Graduate Gemologist, Orloff of Denmark",
+        "contact_email": "info@orloffofdenmark.com"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "stats",
+    "starter",
+    "spec",
+    "receive",
+    "packaging",
+    "sixq",
+    "partnerfaq",
+    "distributor",
+    "process",
+    "cta"
+  ]
+}

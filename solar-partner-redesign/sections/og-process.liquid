@@ -1,0 +1,106 @@
+{% render 'og-styles' %}
+
+{%- assign og_navy = false -%}
+{%- if section.settings.color_scheme == 'navy' -%}{%- assign og_navy = true -%}{%- endif -%}
+
+<div class="og-section">
+  <div class="{% if og_navy %}og-on-navy{% elsif section.settings.color_scheme == 'alt' %}og-on-alt{% endif %}">
+    <div class="og-wrap og-pad">
+
+      <div class="og-head">
+        {% render 'og-label', text: section.settings.label, on_navy: og_navy %}
+
+        {%- if section.settings.heading != blank -%}
+          <h2 class="{% if og_navy %}og-claim{% else %}og-h2{% endif %}">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+
+        {%- if section.settings.show_rule -%}<hr class="og-hair">{%- endif -%}
+
+        {%- if section.settings.intro != blank -%}
+          <div class="og-body">{{ section.settings.intro }}</div>
+        {%- endif -%}
+      </div>
+
+      <ol class="og-process__steps{% if section.blocks.size == 4 %} og-process__steps--4{% endif %}">
+        {%- for block in section.blocks -%}
+          <li class="og-step" {{ block.shopify_attributes }}>
+            <div class="og-step__marker">
+              {%- if section.settings.marker == 'icon' and block.settings.icon != 'none' -%}
+                <span class="og-step__icon">{% render 'og-icon', icon: block.settings.icon, size: 26 %}</span>
+              {%- else -%}
+                <span class="og-step__num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+              {%- endif -%}
+              <h3 class="og-step__title">{{ block.settings.title }}</h3>
+            </div>
+            {%- if block.settings.text != blank -%}<div>{{ block.settings.text }}</div>{%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ol>
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Orloff | Process steps",
+  "tag": "section",
+  "class": "og-shopify-section",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "select", "id": "color_scheme", "label": "Background",
+      "options": [
+        { "value": "navy", "label": "Navy" },
+        { "value": "alt", "label": "Light grey-green" },
+        { "value": "base", "label": "Warm white" }
+      ],
+      "default": "navy"
+    },
+    { "type": "text", "id": "label", "label": "Section label", "default": "The process" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Sunlight in, diamond out." },
+    { "type": "checkbox", "id": "show_rule", "label": "Show gold rule under the heading", "default": true },
+    { "type": "richtext", "id": "intro", "label": "Introduction" },
+    {
+      "type": "select", "id": "marker", "label": "Step marker",
+      "options": [ { "value": "number", "label": "Number" }, { "value": "icon", "label": "Line icon" } ],
+      "default": "number"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Title", "default": "The method" },
+        { "type": "richtext", "id": "text", "label": "Text" },
+        {
+          "type": "select", "id": "icon", "label": "Line icon",
+          "info": "Used when the section's step marker is set to Line icon.",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "sun", "label": "Sun" },
+            { "value": "layers", "label": "Layers" },
+            { "value": "diamond", "label": "Diamond" },
+            { "value": "certificate", "label": "Certificate" },
+            { "value": "box", "label": "Box" },
+            { "value": "document", "label": "Document" },
+            { "value": "handshake", "label": "Handshake" },
+            { "value": "truck", "label": "Delivery" },
+            { "value": "ring", "label": "Ring" },
+            { "value": "ruler", "label": "Ruler" },
+            { "value": "pin", "label": "Location" }
+          ],
+          "default": "none"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Orloff | Process steps",
+      "blocks": [ { "type": "step" }, { "type": "step" }, { "type": "step" } ]
+    }
+  ]
+}
+{% endschema %}

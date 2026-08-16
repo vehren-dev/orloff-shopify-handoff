@@ -1,0 +1,337 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "og-split-hero",
+      "settings": {
+        "label": "Solar Grown Diamonds",
+        "heading": "A diamond is carbon, pressure, and time.",
+        "heading_tag": "h1",
+        "lede": "We simply changed where the time is spent.",
+        "body": "",
+        "price_figure": "",
+        "price_label": "",
+        "button_1_label": "See the partner programme",
+        "button_1_link": "/pages/retail-partners",
+        "button_2_label": "",
+        "button_2_link": "",
+        "image": "shopify://shop_images/Carat_a9fb3836-c93e-4c4a-9c82-bee27e6ddb6d.jpg",
+        "image_alt": "",
+        "image_position": "right",
+        "slot_title": "Hero image",
+        "slot_text": "Replaceable. A finished ring, a loose stone or the solar array. Editorial, not stock.",
+        "reduce_top_space": true
+      }
+    },
+    "stats": {
+      "type": "og-stats-bar",
+      "blocks": {
+        "s1": {
+          "type": "stat",
+          "settings": {
+            "key": "Acres of solar panels",
+            "value": "100+",
+            "unit": ""
+          }
+        },
+        "s2": {
+          "type": "stat",
+          "settings": {
+            "key": "Method",
+            "value": "CVD",
+            "unit": ""
+          }
+        },
+        "s3": {
+          "type": "stat",
+          "settings": {
+            "key": "Mohs hardness",
+            "value": "10",
+            "unit": ""
+          }
+        },
+        "s4": {
+          "type": "stat",
+          "settings": {
+            "key": "Certification",
+            "value": "IGI or GIA",
+            "unit": ""
+          }
+        }
+      },
+      "block_order": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "settings": {}
+    },
+    "process": {
+      "type": "og-process",
+      "blocks": {
+        "p1": {
+          "type": "step",
+          "settings": {
+            "title": "The method",
+            "text": "<p>Chemical vapor deposition. Carbon builds up layer by layer under conditions that mirror what happens naturally, just compressed and controlled.</p>",
+            "icon": "layers"
+          }
+        },
+        "p2": {
+          "type": "step",
+          "settings": {
+            "title": "The energy",
+            "text": "<p>The facility where the stones are grown runs on more than 100 acres of solar panels, which is the part most growers will not put a number on.</p>",
+            "icon": "sun"
+          }
+        },
+        "p3": {
+          "type": "step",
+          "settings": {
+            "title": "The result",
+            "text": "<p>Pure carbon. Chemically, physically and optically identical to a diamond pulled out of the ground, and graded by the same laboratories.</p>",
+            "icon": "diamond"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3"
+      ],
+      "settings": {
+        "color_scheme": "navy",
+        "label": "The process",
+        "heading": "Sunlight in, diamond out.",
+        "show_rule": true,
+        "intro": "<p>A diamond takes millions of years to form underground. Ours take a few weeks, in a lab powered by more than 100 acres of solar panels.</p>",
+        "marker": "number"
+      }
+    },
+    "spec": {
+      "type": "og-card-grid",
+      "blocks": {
+        "c1": {
+          "type": "card",
+          "settings": {
+            "icon": "layers",
+            "key": "Method",
+            "value": "Chemical vapor deposition (CVD)",
+            "text": ""
+          }
+        },
+        "c2": {
+          "type": "card",
+          "settings": {
+            "icon": "sun",
+            "key": "Powered by",
+            "value": "100+ acres of solar panels",
+            "text": ""
+          }
+        },
+        "c3": {
+          "type": "card",
+          "settings": {
+            "icon": "diamond",
+            "key": "Composition",
+            "value": "Pure carbon, identical to natural diamond",
+            "text": ""
+          }
+        },
+        "c4": {
+          "type": "card",
+          "settings": {
+            "icon": "scale",
+            "key": "Hardness",
+            "value": "10 on the Mohs scale",
+            "text": ""
+          }
+        },
+        "c5": {
+          "type": "card",
+          "settings": {
+            "icon": "certificate",
+            "key": "Certification",
+            "value": "IGI or GIA, with full color and clarity grading",
+            "text": "<p>The laboratory report number is laser-inscribed on the diamond's girdle, so your stone stays identifiable.</p>"
+          }
+        },
+        "c6": {
+          "type": "card",
+          "settings": {
+            "icon": "box",
+            "key": "Setting",
+            "value": "Recycled 18K gold",
+            "text": "<p>Presented in a turned beech wood box with a natural linen interior.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5",
+        "c6"
+      ],
+      "settings": {
+        "color_scheme": "base",
+        "label": "At a glance",
+        "heading": "What you are actually buying",
+        "intro": "",
+        "columns": "3",
+        "footnote": ""
+      }
+    },
+    "origin": {
+      "type": "og-feature",
+      "settings": {
+        "color_scheme": "alt",
+        "label": "Where it stands next to natural",
+        "heading": "Not a replacement. A different origin story.",
+        "body": "<p>We still cut, source, and champion natural stones. Solar grown diamonds are not a replacement for them, they are a different origin story for people who want one.</p>",
+        "note": "",
+        "signoff": "Solar Grown. Orloff of Denmark.",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "image": "shopify://shop_images/DIAMONDS_NEW_IMAGE-q88.jpg",
+        "image_alt": "",
+        "image_position": "left",
+        "image_ratio": "4 / 3",
+        "slot_title": "Editorial image",
+        "slot_text": "Replaceable. Natural and Solar Grown side by side, or the workshop."
+      }
+    },
+    "collection": {
+      "type": "og-product-grid",
+      "blocks": {
+        "r1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "name": "KATARINA",
+            "spec": "",
+            "image": "shopify://shop_images/KATARINA_WG_1.png"
+          }
+        },
+        "r2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "name": "KRISTINA",
+            "spec": "",
+            "image": "shopify://shop_images/KRISTINA_WG_1.png"
+          }
+        },
+        "r3": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "name": "ARIEL",
+            "spec": "",
+            "image": "shopify://shop_images/ARIELWG1_509e9296-7656-4d52-b2f2-3a8d2b9fcedd.png"
+          }
+        }
+      },
+      "block_order": [
+        "r1",
+        "r2",
+        "r3"
+      ],
+      "settings": {
+        "color_scheme": "base",
+        "label": "The collection",
+        "heading": "Solar Grown jewelry",
+        "intro": "<p>Finished pieces set with Solar Grown lab-grown diamonds in recycled 18K gold.</p>",
+        "title_style": "name",
+        "show_price": true,
+        "footnote": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary"
+      }
+    },
+    "faq": {
+      "type": "og-accordion",
+      "blocks": {
+        "q1": {
+          "type": "qa",
+          "settings": {
+            "question": "What exactly is a Solar Grown diamond?",
+            "answer": "<p>A lab-grown diamond produced by chemical vapor deposition in a facility powered by more than 100 acres of solar panels. Chemically, physically and optically identical to a mined diamond. Solar Grown describes our production energy. The stones are lab-grown and always described that way to consumers.</p>"
+          }
+        },
+        "q2": {
+          "type": "qa",
+          "settings": {
+            "question": "How do I know the diamond in my ring is the one on the certificate?",
+            "answer": "<p>The laboratory report number is laser-inscribed on the diamond's girdle, and the finished ring is marked with the same certificate number, subject to available engraving space.</p>"
+          }
+        },
+        "q3": {
+          "type": "qa",
+          "settings": {
+            "question": "Is the gold really recycled?",
+            "answer": "<p>Yes. Recycled 18K gold, with chain-of-custody documentation available on request.</p>"
+          }
+        },
+        "q4": {
+          "type": "qa",
+          "settings": {
+            "question": "What if I need a size you don't stock?",
+            "answer": "<p>Everything is made to order, so any size is available at the same price.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ],
+      "settings": {
+        "color_scheme": "alt",
+        "label": "Questions",
+        "heading": "Common questions",
+        "intro": "",
+        "one_at_a_time": true,
+        "open_first": false
+      }
+    },
+    "cta": {
+      "type": "og-cta-banner",
+      "settings": {
+        "compact": true,
+        "label": "For the trade",
+        "heading": "Become a founding retail partner",
+        "body": "<p>Three rings, six carats, and no large diamond inventory required. Direct from the two gemologists who select the stones.</p>",
+        "button_1_label": "See the partner programme",
+        "button_1_link": "/pages/retail-partners",
+        "button_1_style": "secondary",
+        "button_2_label": "Request the price list",
+        "button_2_link": "mailto:info@orloffofdenmark.com?subject=Wholesale%20price%20list",
+        "footnote": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "stats",
+    "process",
+    "spec",
+    "origin",
+    "collection",
+    "faq",
+    "cta"
+  ]
+}

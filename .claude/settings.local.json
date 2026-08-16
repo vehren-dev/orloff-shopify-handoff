@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude-in-chrome__tabs_context_mcp",
+      "PowerShell(Get-AppxPackage | Where-Object { $_.Name -match 'Claude|Anthropic' } | Select-Object Name, PackageFullName, InstallLocation, Status, Version | Format-List)",
+      "PowerShell($paths = @\\(\"$env:LOCALAPPDATA\\\\AnthropicClaude\", \"$env:APPDATA\\\\Claude\", \"$env:LOCALAPPDATA\\\\Programs\\\\Claude\", \"$env:USERPROFILE\\\\.claude\"\\); foreach \\($p in $paths\\) { if \\(Test-Path $p\\) { $i = Get-Item $p; \"EXISTS: $p  \\(modified $\\($i.LastWriteTime\\)\\)\" } else { \"missing: $p\" } })",
+      "mcp__c7589b1d-f7b9-44a9-a932-d4e41a02b9b3__graphql_query",
+      "mcp__c7589b1d-f7b9-44a9-a932-d4e41a02b9b3__run-analytics-query"
+    ]
+  }
+}

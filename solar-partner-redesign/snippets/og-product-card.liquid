@@ -1,0 +1,54 @@
+{%- comment -%}
+  Product card.
+
+  When a product is chosen in the theme editor, every detail comes from the
+  real product record: its own photography, title, price and link. When no
+  product is chosen the card renders a clearly labelled, replaceable slot.
+  Nothing about a product is ever invented here.
+
+  Accepts:
+    product     - a product object, or blank
+    name        - overrides the product title (and titles an empty slot)
+    spec        - short supporting line under the name
+    image       - overrides the product's featured image
+    show_price  - true to print the product's own price
+    position    - 1-based index, used to label an empty slot
+    sizes       - sizes attribute for the image
+{%- endcomment -%}
+
+{%- assign og_pc_image = image | default: product.featured_image -%}
+{%- assign og_pc_name = name | default: product.title -%}
+{%- assign og_pc_sizes = sizes | default: '(min-width: 940px) 33vw, (min-width: 640px) 50vw, 100vw' -%}
+{%- capture og_pc_slot_title -%}Product image {{ position }}{%- endcapture -%}
+
+{%- if product != blank -%}<a class="og-product" href="{{ product.url }}">{%- else -%}<div class="og-product">{%- endif -%}
+
+  {% render 'og-image',
+     image: og_pc_image,
+     ratio: '1 / 1',
+     sizes: og_pc_sizes,
+     class: 'og-product__media',
+     slot_title: og_pc_slot_title,
+     slot_text: 'Replaceable. Pick a product or upload a photograph in the theme editor.' %}
+
+  <div class="og-product__body">
+    {%- if og_pc_name != blank -%}
+      <span class="og-product__name">{{ og_pc_name }}</span>
+    {%- else -%}
+      <span class="og-product__name">Ring {{ position }}</span>
+      <span class="og-product__spec">Name to be confirmed. Set it in the theme editor.</span>
+    {%- endif -%}
+
+    {%- if spec != blank -%}
+      <span class="og-product__spec">{{ spec }}</span>
+    {%- endif -%}
+
+    {%- if show_price and product != blank -%}
+      <span class="og-product__price">
+        {%- if product.price_varies -%}From {% endif -%}
+        {{ product.price_min | money }}
+      </span>
+    {%- endif -%}
+  </div>
+
+{%- if product != blank -%}</a>{%- else -%}</div>{%- endif -%}

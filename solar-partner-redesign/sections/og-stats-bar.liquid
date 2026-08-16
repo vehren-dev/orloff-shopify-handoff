@@ -1,0 +1,45 @@
+{% render 'og-styles' %}
+
+<div class="og-section">
+  <div class="og-wrap">
+    <dl class="og-stats">
+      {%- for block in section.blocks -%}
+        <div class="og-stat" {{ block.shopify_attributes }}>
+          <dt class="og-stat__key">{{ block.settings.key }}</dt>
+          <dd class="og-stat__value">
+            {{- block.settings.value -}}
+            {%- if block.settings.unit != blank -%}
+              <span class="og-unit">&nbsp;{{ block.settings.unit }}</span>
+            {%- endif -%}
+          </dd>
+        </div>
+      {%- endfor -%}
+    </dl>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Orloff | Statistics bar",
+  "tag": "section",
+  "class": "og-shopify-section",
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "stat",
+      "name": "Statistic",
+      "settings": [
+        { "type": "text", "id": "key", "label": "Label", "default": "Method" },
+        { "type": "text", "id": "value", "label": "Value", "default": "CVD" },
+        { "type": "text", "id": "unit", "label": "Unit", "info": "Optional. Set in smaller gold type, e.g. USD." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Orloff | Statistics bar",
+      "blocks": [ { "type": "stat" }, { "type": "stat" }, { "type": "stat" }, { "type": "stat" } ]
+    }
+  ]
+}
+{% endschema %}

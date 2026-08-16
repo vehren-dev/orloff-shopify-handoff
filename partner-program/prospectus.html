@@ -1,0 +1,731 @@
+<!doctype html>
+<html class="en" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Orloff Solar Grown Collection: Retail Partner Prospectus</title>
+<style>
+  @page { size: A4; margin: 0; }:root {
+    --paper:      #FAF9F6;
+    --paper-sunk: #EDF0EA;
+    --ink:        #091B36;
+    --ink-soft:   #4A5568;
+    --ink-faint:  #8792A3;
+    --rule:       #D6D9DE;
+    --rule-soft:  #E6E8EC;
+    --sun:        #96751F;
+    --slate:      #2C5344;
+    --field-bg:   #F3EDDC;
+    --field-ink:  #8A6A1C;
+
+    --serif: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --sans: "Segoe UI", -apple-system, Roboto, Arial, sans-serif;
+    --mono: Consolas, "Cascadia Mono", "Segoe UI Mono", monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 10pt;
+    line-height: 1.55;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .sheet {
+    width: 210mm;
+    height: 297mm;
+    padding: 20mm 20mm 16mm;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 8mm;
+    break-after: page;
+    page-break-after: always;
+    background: var(--paper);
+  }
+  .sheet:last-child { break-after: auto; page-break-after: auto; }
+
+  /* ── spectral band (CSS, print-safe) ─────────── */.spectrum {
+    height: 1.2mm;
+    width: 100%;
+    background: linear-gradient(90deg,
+      #091B36 0%, #8A6A1C 15%, #BC973F 33%,
+      #F7F3E8 52%, #7FA893 70%, #2C5344 86%, #091B36 100%);
+  }
+  .spectrum-bleed {
+    position: absolute;
+    left: 0; right: 0;
+    height: 1.2mm;
+  }
+
+  /* ── type ────────────────────────────────────── */.eyebrow {
+    font-family: var(--mono);
+    font-size: 7pt;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--sun);
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 34pt;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 19pt;
+    line-height: 1.15;
+  }
+  h3 {
+    font-family: var(--sans);
+    font-weight: 650;
+    font-size: 10pt;
+  }
+  .lede {
+    font-family: var(--serif);
+    font-size: 12.5pt;
+    line-height: 1.45;
+    color: var(--ink-soft);
+  }
+  .col { max-width: 128mm; }
+  .stack { display: flex; flex-direction: column; gap: 3mm; }
+  .stack-lg { display: flex; flex-direction: column; gap: 6mm; }
+  .sechead {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5mm;
+    padding-bottom: 3mm;
+    border-bottom: 0.4pt solid var(--rule);
+  }
+  .fld {
+    font-family: var(--mono);
+    font-size: 0.84em;
+    background: var(--field-bg);
+    color: var(--field-ink);
+    padding: 0.05em 0.35em;
+    border-bottom: 0.4pt solid var(--field-ink);
+    white-space: nowrap;
+  }
+
+  /* ── cover ───────────────────────────────────── */.cover { justify-content: space-between; }
+  .cover-mark {
+    font-family: var(--serif);
+    font-size: 12pt;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+  .cover-mark span {
+    display: block;
+    font-size: 7pt;
+    letter-spacing: 0.16em;
+    color: var(--ink-faint);
+    margin-top: 1.5mm;
+  }
+  .cover-title { display: flex; flex-direction: column; gap: 6mm; }
+  .cover-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10mm;
+    font-size: 8.5pt;
+    color: var(--ink-soft);
+    border-top: 0.4pt solid var(--rule);
+    padding-top: 4mm;
+  }
+  .keyfigs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4pt;
+    background: var(--rule);
+    border-block: 0.4pt solid var(--rule);
+  }
+  .keyfig {
+    background: var(--paper);
+    padding: 4mm 4mm 5mm;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5mm;
+  }
+  .keyfig dt {
+    font-family: var(--mono);
+    font-size: 6.5pt;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .keyfig dd {
+    font-family: var(--serif);
+    font-size: 15pt;
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .keyfig dd .unit { font-size: 0.6em; color: var(--ink-soft); }
+
+  /* ── spec list ───────────────────────────────── */.spec { list-style: none; }
+  .spec li {
+    display: grid;
+    grid-template-columns: 30mm 1fr;
+    gap: 1.5mm 8mm;
+    padding-block: 3.5mm;
+    border-bottom: 0.4pt solid var(--rule-soft);
+  }
+  .spec li:first-child { border-top: 0.4pt solid var(--rule); }
+  .spec .k {
+    font-family: var(--mono);
+    font-size: 7pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--slate);
+    padding-top: 0.8mm;
+  }
+  .spec .v { display: flex; flex-direction: column; gap: 1mm; }
+  .spec .v small { font-size: 8.5pt; color: var(--ink-soft); line-height: 1.45; }
+
+  /* ── beech mark ──────────────────────────────── */.leafmark {
+    display: flex;
+    align-items: center;
+    gap: 7mm;
+    padding: 4mm 6mm;
+    background: var(--paper-sunk);
+    border: 0.4pt solid var(--rule);
+  }
+  .leafmark .cap {
+    font-family: var(--mono);
+    font-size: 7pt;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--slate);
+    line-height: 1.7;
+  }
+
+  /* ── designs ─────────────────────────────────── */.designs {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.4pt;
+    background: var(--rule);
+    border: 0.4pt solid var(--rule);
+  }
+  .slot {
+    background: var(--paper);
+    aspect-ratio: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5mm;
+    font-family: var(--mono);
+    font-size: 6pt;
+    letter-spacing: 0.1em;
+    color: var(--ink-faint);
+  }
+  .slot b {
+    font-size: 13pt;
+    font-weight: 400;
+    color: var(--rule);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ── offer ───────────────────────────────────── */.offer { display: grid; grid-template-columns: 1fr 68mm; gap: 10mm; align-items: start; }
+  .includes { list-style: none; display: flex; flex-direction: column; gap: 2.5mm; }
+  .includes li { display: flex; gap: 3mm; align-items: baseline; font-size: 9.5pt; line-height: 1.45; }
+  .includes li:before {
+    content: "";
+    flex: none;
+    width: 1.3mm; height: 1.3mm;
+    background: var(--sun);
+    transform: translateY(-0.1em);
+  }
+  .ledger { border: 0.6pt solid var(--ink); padding: 6mm; display: flex; flex-direction: column; gap: 4mm; }
+  .ledger table { width: 100%; border-collapse: collapse; }
+  .ledger th,.ledger td {
+    text-align: left;
+    padding-block: 2.4mm;
+    border-bottom: 0.4pt solid var(--rule);
+    font-size: 8.5pt;
+    vertical-align: baseline;
+    font-weight: 400;
+  }
+  .ledger th { color: var(--ink-soft); }
+  .ledger td {
+    text-align: right;
+    font-family: var(--mono);
+    font-size: 8pt;
+    font-variant-numeric: tabular-nums;
+  }
+  .ledger tr:last-child th,.ledger tr:last-child td { border-bottom: 0; padding-bottom: 0; }
+  .ledger .headline th,.ledger .headline td { border-bottom: 1pt solid var(--ink); padding-top: 0; }
+  .ledger .headline td { font-family: var(--serif); font-size: 14pt; color: var(--ink); }
+  .note { font-size: 8pt; line-height: 1.5; color: var(--ink-soft); }
+
+  /* ── reasons ─────────────────────────────────── */.reasons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4pt;
+    background: var(--rule);
+    border: 0.4pt solid var(--rule);
+  }
+  .reason {
+    background: var(--paper-sunk);
+    padding: 5mm;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5mm;
+  }
+  .reason p { font-size: 8.5pt; line-height: 1.45; color: var(--ink-soft); }
+
+  /* ── days ────────────────────────────────────── */.days { display: flex; flex-direction: column; }
+  .day {
+    display: grid;
+    grid-template-columns: 18mm 1fr;
+    gap: 6mm;
+    padding-block: 3.5mm;
+    border-bottom: 0.4pt solid var(--rule-soft);
+  }
+  .day:first-child { border-top: 0.4pt solid var(--rule); }
+  .day .no {
+    font-family: var(--mono);
+    font-size: 7pt;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--sun);
+    padding-top: 0.6mm;
+  }
+  .day p { font-size: 8.5pt; color: var(--ink-soft); line-height: 1.45; }
+
+  /* ── faq ─────────────────────────────────────── */.faq { display: flex; flex-direction: column; }
+  .qa {
+    padding-block: 3mm;
+    border-bottom: 0.4pt solid var(--rule-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 1mm;
+  }
+  .qa:first-child { border-top: 0.4pt solid var(--rule); }
+  .qa dt { font-weight: 650; font-size: 9pt; }
+  .qa dd { font-size: 8.5pt; color: var(--ink-soft); line-height: 1.5; }
+
+  /* ── sign-off ────────────────────────────────── */.signoff { display: flex; flex-direction: column; gap: 1mm; }
+  .signoff .name { font-family: var(--serif); font-size: 13pt; }
+  .signoff .role { font-size: 8.5pt; color: var(--ink-soft); }
+  .folio {
+    margin-top: auto;
+    padding-top: 4mm;
+    border-top: 0.4pt solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 6.5pt;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .draftbar {
+    background: var(--field-bg);
+    border: 0.4pt solid var(--field-ink);
+    padding: 2.5mm 4mm;
+    font-family: var(--mono);
+    font-size: 7pt;
+    letter-spacing: 0.04em;
+    color: var(--field-ink);
+  }
+
+  /* ── language ────────────────────────────────── */
+  html.en .sv { display: none !important; }
+  html.sv .en { display: none !important; }
+</style>
+</head>
+<body>
+
+<!-- ══════════ COVER ══════════ -->
+<section class="sheet cover">
+  <div class="stack-lg">
+    <div class="cover-mark">
+      Orloff of Denmark
+      <span class="en">Founded in Denmark &middot; Made in Hua Hin</span>
+      <span class="sv">Grundat i Danmark &middot; Tillverkat i Hua Hin</span>
+    </div>
+    <div class="spectrum"></div>
+  </div>
+
+  <div class="cover-title">
+    <span class="eyebrow">Orloff Solar Grown Collection&trade;</span>
+    <h1 class="en">Luxury<br>powered<br>by the sun.</h1>
+    <h1 class="sv">Lyx<br>driven<br>av solen.</h1>
+
+    <p class="lede col en">
+      An invitation to become one of twenty-five founding retail partners for
+      Solar Grown lab-grown diamond engagement rings in 18K gold.
+    </p>
+    <p class="lede col sv">
+      En inbjudan att bli en av tjugofem utvalda återförsäljare för Solar Grown
+      laboratorieodlade diamantringar i 18K guld.
+    </p>
+  </div>
+
+  <dl class="keyfigs">
+    <div class="keyfig">
+      <dt class="en">Starter Collection</dt>
+      <dt class="sv">Startpaket</dt>
+      <dd>2 600 <span class="unit">USD</span></dd>
+    </div>
+    <div class="keyfig">
+      <dt class="en">Rings included</dt>
+      <dt class="sv">Ringar som ingår</dt>
+      <dd>3</dd>
+    </div>
+    <div class="keyfig">
+      <dt class="en">Retail margin</dt>
+      <dt class="sv">Marginal</dt>
+      <dd><span class="fld">[ ? ]</span></dd>
+    </div>
+    <div class="keyfig">
+      <dt class="en">Minimum reorder</dt>
+      <dt class="sv">Minsta återköp</dt>
+      <dd class="en" style="font-size:12pt">None</dd>
+      <dd class="sv" style="font-size:12pt">Ingen</dd>
+    </div>
+  </dl>
+
+  <div class="draftbar en">
+    INTERNAL DRAFT, 15 fields require confirmation before circulation. Highlighted throughout.
+  </div>
+  <div class="draftbar sv">
+    INTERNT UTKAST, 15 uppgifter måste bekräftas före spridning. Markerade genomgående.
+  </div>
+
+  <div class="cover-foot">
+    <div class="signoff">
+      <span class="name">Niels Orloff Ehrenskjöld</span>
+      <span class="role en">Founder &amp; GIA Graduate Gemologist</span>
+      <span class="role sv">Grundare &amp; GIA Graduate Gemologist</span>
+      <span class="role">info@orloffofdenmark.com</span>
+    </div>
+    <div style="text-align:right">
+      <div class="en">Retail Partner Prospectus</div>
+      <div class="sv">Prospekt för återförsäljare</div>
+      <div style="color:var(--ink-faint)">orloffofdenmark.com</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 02, THESIS + SPEC ══════════ -->
+<section class="sheet">
+  <div class="spectrum"></div>
+
+  <div class="sechead col">
+    <span class="eyebrow en">The difference</span>
+    <span class="eyebrow sv">Skillnaden</span>
+    <h2 class="en">We don't ask you to trust an adjective.</h2>
+    <h2 class="sv">Vi ber dig inte lita på ett adjektiv.</h2>
+  </div>
+
+  <div class="stack col en">
+    <p>Most lab-grown suppliers compete on price alone. That is a race you cannot win and would not want to.</p>
+    <p>We compete on documentation. Every environmental claim in this collection comes with the paperwork behind it: the solar share of our production, chain-of-custody records for the gold, a certificate for every stone. Your customer can see the evidence rather than be asked to take our word for it.</p>
+    <p>That is a deliberately narrower claim than the industry norm, and a far more useful one on a shop floor. It is what turns a browsing couple into a sale at full margin instead of a price negotiation.</p>
+  </div>
+
+  <div class="stack col sv">
+    <p>De flesta leverantörer av laboratorieodlade diamanter konkurrerar enbart med pris. Det är en tävling du varken kan eller vill vinna.</p>
+    <p>Vi konkurrerar med dokumentation. Varje miljöpåstående i den här kollektionen kommer med underlaget bakom sig: andelen solenergi i produktionen, spårbarhetshandlingar för guldet, ett certifikat till varje sten. Din kund kan se beviset i stället för att ombes ta oss på orden.</p>
+    <p>Det är ett medvetet snävare påstående än branschens vanliga, och betydligt mer användbart i butik. Det är det som gör att ett par som tittar blir ett avslut till full marginal i stället för en prisförhandling.</p>
+  </div>
+
+  <div class="sechead col" style="margin-top:2mm">
+    <span class="eyebrow en">Specification</span>
+    <span class="eyebrow sv">Specifikation</span>
+    <h2 class="en">What is in every Solar Grown ring</h2>
+    <h2 class="sv">Vad som finns i varje Solar Grown-ring</h2>
+  </div>
+
+  <ul class="spec en">
+    <li><span class="k">Diamond</span><span class="v">
+      <span>Lab-grown CVD, produced with <span class="fld">[CONFIRM: X]</span>% solar energy</span>
+      <small>Via <span class="fld">[CONFIRM: on-site PV / PPA / RECs]</span>. Chemically, physically and optically identical to a mined diamond, and always described to consumers as lab-grown.</small>
+    </span></li>
+    <li><span class="k">Certificate</span><span class="v">
+      <span><span class="fld">[CONFIRM: IGI / GIA]</span> report with every stone</span>
+      <small>GIA now issues lab-grown reports using descriptive categories rather than the D–Z colour and clarity scales. Confirm which report the customer receives and what it states.</small>
+    </span></li>
+    <li><span class="k">Metal</span><span class="v">
+      <span>18K gold from certified recycled sources</span>
+      <small>Chain-of-custody documentation available on request. Standard: <span class="fld">[CONFIRM]</span></small>
+    </span></li>
+    <li><span class="k">Presentation</span><span class="v">
+      <span>Beech wood box, natural linen interior</span>
+      <small>Handcrafted from Denmark's national tree. No synthetic lining. <span class="fld">[CONFIRM: FSC certified?]</span></small>
+    </span></li>
+    <li><span class="k">Production</span><span class="v">
+      <span>Made to order, any size, no stock required</span>
+      <small><span class="fld">[CONFIRM: N]</span> days production plus <span class="fld">[CONFIRM: N]</span> days shipping, direct from our facility.</small>
+    </span></li>
+  </ul>
+
+  <ul class="spec sv">
+    <li><span class="k">Diamant</span><span class="v">
+      <span>Laboratorieodlad CVD, framställd med <span class="fld">[BEKRÄFTA: X]</span> % solenergi</span>
+      <small>Via <span class="fld">[BEKRÄFTA: solceller / PPA / ursprungsgarantier]</span>. Kemiskt, fysiskt och optiskt identisk med en bruten diamant, och beskrivs alltid som laboratorieodlad för konsument.</small>
+    </span></li>
+    <li><span class="k">Certifikat</span><span class="v">
+      <span><span class="fld">[BEKRÄFTA: IGI / GIA]</span>-rapport till varje sten</span>
+      <small>GIA utfärdar numera rapporter för laboratorieodlade stenar med beskrivande kategorier i stället för skalorna D–Z. Bekräfta vilken rapport kunden får och vad den anger.</small>
+    </span></li>
+    <li><span class="k">Metall</span><span class="v">
+      <span>18K guld från certifierat återvunna källor</span>
+      <small>Spårbarhetsdokumentation på begäran. Standard: <span class="fld">[BEKRÄFTA]</span></small>
+    </span></li>
+    <li><span class="k">Presentation</span><span class="v">
+      <span>Ask i bokträ med foder av naturligt linne</span>
+      <small>Handtillverkad i Danmarks nationalträd. Inga syntetiska material. <span class="fld">[BEKRÄFTA: FSC?]</span></small>
+    </span></li>
+    <li><span class="k">Produktion</span><span class="v">
+      <span>Tillverkas på beställning, alla storlekar, inget lager krävs</span>
+      <small><span class="fld">[BEKRÄFTA: N]</span> dagars tillverkning plus <span class="fld">[BEKRÄFTA: N]</span> dagars frakt, direkt från vår produktion.</small>
+    </span></li>
+  </ul>
+
+  <div class="leafmark">
+    <svg viewBox="0 0 100 122" width="26" height="32" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M50 11 C70 32 78 62 50 94 C22 62 30 32 50 11 Z" stroke="#2C5344" stroke-width="2.4"></path>
+      <line x1="50" y1="11" x2="50" y2="114" stroke="#2C5344" stroke-width="2.4"></line>
+      <g stroke="#BC973F" stroke-width="2">
+        <line x1="50" y1="32" x2="63" y2="35"></line>
+        <line x1="50" y1="50" x2="69" y2="55"></line>
+        <line x1="50" y1="68" x2="65" y2="76"></line>
+        <line x1="50" y1="32" x2="37" y2="35"></line>
+        <line x1="50" y1="50" x2="31" y2="55"></line>
+        <line x1="50" y1="68" x2="35" y2="76"></line>
+      </g>
+    </svg>
+    <p class="cap en">Beech, Denmark's national tree<br>Every ring is presented in a beech box with a natural linen interior</p>
+    <p class="cap sv">Bok, Danmarks nationaltr&auml;d<br>Varje ring presenteras i en bokask med foder av naturligt linne</p>
+  </div>
+
+  <div class="folio">
+    <span class="en">Orloff Solar Grown Collection</span>
+    <span class="sv">Orloff Solar Grown Collection</span>
+    <span>02</span>
+  </div>
+</section>
+
+<!-- ══════════ 03, COLLECTION + OFFER ══════════ -->
+<section class="sheet">
+  <div class="spectrum"></div>
+
+  <div class="sechead col">
+    <span class="eyebrow en">The collection</span>
+    <span class="eyebrow sv">Kollektionen</span>
+    <h2 class="en">Twelve engagement designs</h2>
+    <h2 class="sv">Tolv förlovningsdesigner</h2>
+    <p class="en">Your Starter Collection is three rings selected from the twelve Solar Grown engagement designs. The full catalogue is available to partners at wholesale from day one.</p>
+    <p class="sv">Ditt startpaket är tre ringar valda ur de tolv Solar Grown-designerna. Hela katalogen är tillgänglig till inköpspris från första dagen.</p>
+  </div>
+
+  <div class="designs">
+    <div class="slot"><b>01</b>DESIGN</div>
+    <div class="slot"><b>02</b>DESIGN</div>
+    <div class="slot"><b>03</b>DESIGN</div>
+    <div class="slot"><b>04</b>DESIGN</div>
+    <div class="slot"><b>05</b>DESIGN</div>
+    <div class="slot"><b>06</b>DESIGN</div>
+    <div class="slot"><b>07</b>DESIGN</div>
+    <div class="slot"><b>08</b>DESIGN</div>
+    <div class="slot"><b>09</b>DESIGN</div>
+    <div class="slot"><b>10</b>DESIGN</div>
+    <div class="slot"><b>11</b>DESIGN</div>
+    <div class="slot"><b>12</b>DESIGN</div>
+  </div>
+
+  <p class="note en"><span class="fld">[CONFIRM: the twelve designs]</span>, each slot needs a model name, centre stone carat, quality tier (Prestige VS1/F or Signature SI1/H), and a photograph on a plain ground.</p>
+  <p class="note sv"><span class="fld">[BEKRÄFTA: de tolv designerna]</span>, varje plats behöver modellnamn, centrumstenens karat, kvalitetsnivå (Prestige VS1/F eller Signature SI1/H) och en bild mot neutral bakgrund.</p>
+
+  <div class="sechead col" style="margin-top:2mm">
+    <span class="eyebrow en">The offer</span>
+    <span class="eyebrow sv">Erbjudandet</span>
+    <h2 class="en">The Starter Collection</h2>
+    <h2 class="sv">Startpaketet</h2>
+  </div>
+
+  <div class="offer">
+    <ul class="includes en">
+      <li>Three handcrafted 18K gold Solar Grown lab-grown diamond rings, chosen from the twelve designs</li>
+      <li>Professional product photography, <span class="fld">[CONFIRM: N]</span> images licensed for your use</li>
+      <li>Ready-to-use social media video, <span class="fld">[CONFIRM: N]</span> clips</li>
+      <li>Counter display material</li>
+      <li>Diamond certificate for every stone</li>
+      <li>Retail sales training, <span class="fld">[CONFIRM: format]</span></li>
+      <li>Digital sales support and full catalogue access</li>
+      <li>Direct delivery from our production facility</li>
+    </ul>
+    <ul class="includes sv">
+      <li>Tre handtillverkade Solar Grown diamantringar i 18K guld, valda ur de tolv designerna</li>
+      <li>Professionella produktbilder, <span class="fld">[BEKRÄFTA: N]</span> bilder licensierade för din användning</li>
+      <li>Färdiga videoklipp för sociala medier, <span class="fld">[BEKRÄFTA: N]</span> klipp</li>
+      <li>Exponeringsmaterial för disk</li>
+      <li>Diamantcertifikat till varje sten</li>
+      <li>Säljutbildning, <span class="fld">[BEKRÄFTA: format]</span></li>
+      <li>Digitalt säljstöd och tillgång till hela katalogen</li>
+      <li>Direktleverans från vår produktion</li>
+    </ul>
+
+    <div class="ledger">
+      <table class="en"><tbody>
+        <tr class="headline"><th>Starter Collection</th><td>2 600 USD</td></tr>
+        <tr><th>Recommended retail, three rings</th><td><span class="fld">[CONFIRM]</span></td></tr>
+        <tr><th>Typical retail margin</th><td><span class="fld">[CONFIRM]</span></td></tr>
+        <tr><th>Investment recovered after</th><td><span class="fld">[CONFIRM]</span></td></tr>
+        <tr><th>Minimum monthly order</th><td>None</td></tr>
+      </tbody></table>
+      <table class="sv"><tbody>
+        <tr class="headline"><th>Startpaket</th><td>2 600 USD</td></tr>
+        <tr><th>Rek. cirkapris, tre ringar</th><td><span class="fld">[BEKRÄFTA]</span></td></tr>
+        <tr><th>Typisk handelsmarginal</th><td><span class="fld">[BEKRÄFTA]</span></td></tr>
+        <tr><th>Återvunnen investering efter</th><td><span class="fld">[BEKRÄFTA]</span></td></tr>
+        <tr><th>Minsta månadsorder</th><td>Ingen</td></tr>
+      </tbody></table>
+      <p class="note en">After the Starter Collection, order individual rings at wholesale. No stock commitment, no annual target, no exclusivity required of you.</p>
+      <p class="note sv">Efter startpaketet beställer du enskilda ringar till inköpspris. Ingen lagerbindning, inget årligt mål, ingen exklusivitet krävs av dig.</p>
+    </div>
+  </div>
+
+  <div class="folio">
+    <span class="en">The collection &amp; the offer</span>
+    <span class="sv">Kollektionen &amp; erbjudandet</span>
+    <span>03</span>
+  </div>
+</section>
+
+<!-- ══════════ 04, WHY US + HUA HIN ══════════ -->
+<section class="sheet">
+  <div class="spectrum"></div>
+
+  <div class="sechead col">
+    <span class="eyebrow en">Why us</span>
+    <span class="eyebrow sv">Varför oss</span>
+    <h2 class="en">What a distributor cannot give you</h2>
+    <h2 class="sv">Det en mellanhand inte kan ge dig</h2>
+  </div>
+
+  <div class="reasons en">
+    <div class="reason"><h3>Direct from production</h3><p>No distributor layer and no distributor margin. You buy from the facility that makes the ring.</p></div>
+    <div class="reason"><h3>No stock commitment</h3><p>2 600 USD is three rings, not a warehouse. Order one at a time after that, or twenty.</p></div>
+    <div class="reason"><h3>Any size, made to order</h3><p>Nothing sits in inventory, so no size is unavailable and no size costs extra.</p></div>
+    <div class="reason"><h3>You deal with the founder</h3><p>Not an account queue. Thirty-five years in fine jewellery and coloured stones, on the other end of the email.</p></div>
+  </div>
+
+  <div class="reasons sv">
+    <div class="reason"><h3>Direkt från produktionen</h3><p>Inget mellanled och ingen mellanhandsmarginal. Du köper från anläggningen som tillverkar ringen.</p></div>
+    <div class="reason"><h3>Ingen lagerbindning</h3><p>2 600 USD är tre ringar, inte ett lager. Därefter beställer du en i taget, eller tjugo.</p></div>
+    <div class="reason"><h3>Alla storlekar, på beställning</h3><p>Inget ligger på lager, så ingen storlek är slut och ingen storlek kostar extra.</p></div>
+    <div class="reason"><h3>Du talar med grundaren</h3><p>Inte med en kundtjänstkö. Trettiofem år inom fina smycken och färgade stenar, i andra änden av mejlet.</p></div>
+  </div>
+
+  <div class="sechead col" style="margin-top:2mm">
+    <span class="eyebrow en">Before you decide</span>
+    <span class="eyebrow sv">Innan du bestämmer dig</span>
+    <h2 class="en">Three days in Hua Hin</h2>
+    <h2 class="sv">Tre dagar i Hua Hin</h2>
+    <p class="en">We host prospective partners at our production facility in Thailand for a supplier evaluation and product training programme.</p>
+    <p class="sv">Vi tar emot blivande återförsäljare vid vår produktion i Thailand för ett program för leverantörsutvärdering och produktutbildning.</p>
+  </div>
+
+  <div class="days en">
+    <div class="day"><span class="no">Day 1</span><div><h3>Production</h3><p>Facility tour. How CVD stones are grown, our energy sourcing, gold refining and casting, quality control.</p></div></div>
+    <div class="day"><span class="no">Day 2</span><div><h3>Product training</h3><p>The full collection, grading tiers, how to read and explain a certificate, and how to sell lab-grown to a sceptical customer.</p></div></div>
+    <div class="day"><span class="no">Day 3</span><div><h3>Commercial discussion</h3><p>Terms, margins, marketing support, and your questions.</p></div></div>
+  </div>
+
+  <div class="days sv">
+    <div class="day"><span class="no">Dag 1</span><div><h3>Produktion</h3><p>Rundvandring. Hur CVD-stenar odlas, vår energiförsörjning, guldraffinering och gjutning, kvalitetskontroll.</p></div></div>
+    <div class="day"><span class="no">Dag 2</span><div><h3>Produktutbildning</h3><p>Hela kollektionen, kvalitetsnivåer, hur man läser och förklarar ett certifikat, och hur man säljer laboratorieodlat till en skeptisk kund.</p></div></div>
+    <div class="day"><span class="no">Dag 3</span><div><h3>Affärssamtal</h3><p>Villkor, marginaler, marknadsföringsstöd och dina frågor.</p></div></div>
+  </div>
+
+  <div class="stack col en">
+    <p class="note"><span class="fld">[CONFIRM: who pays for what]</span>, state exactly which of accommodation, meals during the programme and airport transfers are covered. Partners arrange and pay for their own international flights.</p>
+    <p class="note">As the visit is for supplier evaluation and product training, the business portion may be treated as business travel depending on your circumstances. Rules differ by country and we are not qualified to advise on them. Please consult your accountant.</p>
+  </div>
+  <div class="stack col sv">
+    <p class="note"><span class="fld">[BEKRÄFTA: vem som betalar vad]</span>, ange exakt vilka av boende, måltider under programmet och flygplatstransfer som ingår. Deltagaren bokar och betalar sin egen flygresa.</p>
+    <p class="note">Eftersom besöket avser leverantörsutvärdering och produktutbildning kan den affärsmässiga delen behandlas som tjänsteresa beroende på omständigheterna. Reglerna skiljer sig åt mellan länder och vi är inte kvalificerade att ge råd om dem. Rådgör med din revisor.</p>
+  </div>
+
+  <div class="folio">
+    <span class="en">Why us &amp; the visit</span>
+    <span class="sv">Varför oss &amp; besöket</span>
+    <span>04</span>
+  </div>
+</section>
+
+<!-- ══════════ 05, FAQ + APPLY ══════════ -->
+<section class="sheet">
+  <div class="spectrum"></div>
+
+  <div class="sechead col">
+    <span class="eyebrow en">Questions</span>
+    <span class="eyebrow sv">Frågor</span>
+    <h2 class="en">What partners ask first</h2>
+    <h2 class="sv">Vad återförsäljare frågar först</h2>
+  </div>
+
+  <dl class="faq en">
+    <div class="qa"><dt>What exactly is a Solar Grown diamond?</dt><dd>A lab-grown diamond produced by chemical vapour deposition using <span class="fld">[CONFIRM: X]</span>% solar energy. Chemically, physically and optically identical to a mined diamond. "Solar Grown" describes our production energy. The stones are lab-grown and always described that way to consumers.</dd></div>
+    <div class="qa"><dt>What is the retail margin?</dt><dd><span class="fld">[CONFIRM]</span> Full wholesale price list provided on application.</dd></div>
+    <div class="qa"><dt>Are prices in US dollars?</dt><dd>Yes. The Starter Collection is 2 600 USD and the wholesale price list is quoted in US dollars. Prices are held for 30 days from quotation.</dd></div>
+    <div class="qa"><dt>Who handles import duty and VAT?</dt><dd><span class="fld">[CONFIRM: DDP or DAP]</span> Goods ship from Thailand. There is no free trade agreement between the EU and Thailand, so standard third-country duty applies to articles of precious metal, plus import VAT at your national rate, reclaimable if you are VAT registered. <span class="fld">[CONFIRM: landed or pre-clearance, and importer of record]</span></dd></div>
+    <div class="qa"><dt>Can I return unsold rings?</dt><dd><span class="fld">[CONFIRM]</span>, the single most important answer in this document. If there is an exchange or buyback, lead with it. If there is not, say so plainly.</dd></div>
+    <div class="qa"><dt>Do I have to buy exclusively from Orloff?</dt><dd>No. No exclusivity is required of you, and no minimum order applies after the Starter Collection.</dd></div>
+    <div class="qa"><dt>What if I need a size you don't stock?</dt><dd>Everything is made to order, so any size is available at the same price.</dd></div>
+    <div class="qa"><dt>Is the gold really recycled?</dt><dd>Yes, 18K gold from certified recycled sources, with chain-of-custody documentation available on request. Standard: <span class="fld">[CONFIRM]</span></dd></div>
+  </dl>
+
+  <dl class="faq sv">
+    <div class="qa"><dt>Vad är egentligen en Solar Grown-diamant?</dt><dd>En laboratorieodlad diamant framställd med CVD-teknik och <span class="fld">[BEKRÄFTA: X]</span> % solenergi. Kemiskt, fysiskt och optiskt identisk med en bruten diamant. "Solar Grown" beskriver vår produktionsenergi. Stenarna är laboratorieodlade och beskrivs alltid så för konsument.</dd></div>
+    <div class="qa"><dt>Vilken marginal kan jag räkna med?</dt><dd><span class="fld">[BEKRÄFTA]</span> Fullständig prislista lämnas vid ansökan.</dd></div>
+    <div class="qa"><dt>Är priserna i US-dollar?</dt><dd>Ja. Startpaketet kostar 2 600 USD och prislistan anges i US-dollar. Priserna gäller i 30 dagar från offert.</dd></div>
+    <div class="qa"><dt>Vem betalar tull och moms?</dt><dd><span class="fld">[BEKRÄFTA: DDP eller DAP]</span> Varorna skickas från Thailand. Det finns inget frihandelsavtal mellan EU och Thailand, vilket innebär ordinarie tredjelandstull på varor av ädelmetall plus importmoms, avdragsgill om du är momsregistrerad. <span class="fld">[BEKRÄFTA: inkl. eller exkl. förtullning, och vem som är importör]</span></dd></div>
+    <div class="qa"><dt>Kan jag returnera osålda ringar?</dt><dd><span class="fld">[BEKRÄFTA]</span>, dokumentets enskilt viktigaste svar. Finns byte eller återköp: led med det. Finns det inte: säg det rakt ut.</dd></div>
+    <div class="qa"><dt>Måste jag köpa exklusivt från Orloff?</dt><dd>Nej. Ingen exklusivitet krävs, och ingen minimiorder gäller efter startpaketet.</dd></div>
+    <div class="qa"><dt>Vad händer om jag behöver en storlek ni inte har?</dt><dd>Allt tillverkas på beställning, så alla storlekar finns till samma pris.</dd></div>
+    <div class="qa"><dt>Är guldet verkligen återvunnet?</dt><dd>Ja, 18K guld från certifierat återvunna källor, med spårbarhetsdokumentation på begäran. Standard: <span class="fld">[BEKRÄFTA]</span></dd></div>
+  </dl>
+
+  <div class="sechead col" style="margin-top:2mm">
+    <span class="eyebrow">Founding partners</span>
+    <h2 class="en">Twenty-five places across the Nordics</h2>
+    <h2 class="sv">Tjugofem platser i Norden</h2>
+  </div>
+
+  <div class="stack col en">
+    <p class="lede">Applications close <span class="fld">[CONFIRM: date]</span>.</p>
+    <p><span class="fld">[CONFIRM: territory terms, or delete]</span>, do not imply an exclusivity you will not honour.</p>
+    <p>Our goal is not to become the biggest supplier. It is to become the one you trust most.</p>
+    <p>To apply, or to request the full wholesale price list, write to <strong>info@orloffofdenmark.com</strong>.</p>
+  </div>
+  <div class="stack col sv">
+    <p class="lede">Ansökan stänger <span class="fld">[BEKRÄFTA: datum]</span>.</p>
+    <p><span class="fld">[BEKRÄFTA: villkor för ensamrätt, eller stryk]</span>, antyd aldrig en ensamrätt ni inte tänker hålla.</p>
+    <p>Vårt mål är inte att bli den största leverantören. Det är att bli den du litar mest på.</p>
+    <p>För att ansöka, eller begära hela prislistan, skriv till <strong>info@orloffofdenmark.com</strong>.</p>
+  </div>
+
+  <div class="signoff" style="margin-top:4mm">
+    <span class="name">Niels Orloff Ehrenskjöld</span>
+    <span class="role en">Founder &amp; GIA Graduate Gemologist, Orloff of Denmark</span>
+    <span class="role sv">Grundare &amp; GIA Graduate Gemologist, Orloff of Denmark</span>
+  </div>
+
+  <div class="folio">
+    <span class="en">Lab-grown diamonds. Always described as such.</span>
+    <span class="sv">Laboratorieodlade diamanter. Beskrivs alltid så.</span>
+    <span>05</span>
+  </div>
+</section>
+
+</body>
+</html>

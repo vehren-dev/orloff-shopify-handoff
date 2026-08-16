@@ -1,0 +1,842 @@
+sku,order,source_folder,source_file,target_file,unique_to_sku,shape,rank,note
+ORCB214,1,ORCB214,333.jpg,ORCB214.jpg,yes,square,1,
+ORCB214,2,ORCB214,CB214-MAIN-IMG_00-S.jpg,ORCB214-2.jpg,yes,square,1,
+ORCB214,3,ORCB214,CB214-MAIN-IMG_0079-(1)-S.jpg,ORCB214-3.jpg,yes,square,1,
+ORCB214,4,ORCB214,CB214-MAIN-IMG_0079-(2)-S.jpg,ORCB214-4.jpg,yes,square,1,
+ORCB214,5,ORCB214,CB214-MAIN-IMG_0079-(3)-S.jpg,ORCB214-5.jpg,yes,square,1,
+ORCBB01-17,1,Orloff customized design/CBB01,1.jpg,ORCBB01-17.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,2,Orloff customized design/CBB01,12.jpg,ORCBB01-17-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,3,Orloff customized design/CBB01,122.jpg,ORCBB01-17-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,4,Orloff customized design/CBB01,13.jpg,ORCBB01-17-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,5,Orloff customized design/CBB01,2.jpg,ORCBB01-17-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,6,Orloff customized design/CBB01,3.jpg,ORCBB01-17-6.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,7,Orloff customized design/CBB01,30.jpg,ORCBB01-17-7.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,8,Orloff customized design/CBB01,IMG_0815.jpg,ORCBB01-17-8.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,9,Orloff customized design/CBB01,IMG_0822.jpg,ORCBB01-17-9.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-17,10,Orloff customized design/CBB01,IMG_0837.jpg,ORCBB01-17-10.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,1,Orloff customized design/CBB01,1.jpg,ORCBB01-19.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,2,Orloff customized design/CBB01,12.jpg,ORCBB01-19-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,3,Orloff customized design/CBB01,122.jpg,ORCBB01-19-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,4,Orloff customized design/CBB01,13.jpg,ORCBB01-19-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,5,Orloff customized design/CBB01,2.jpg,ORCBB01-19-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,6,Orloff customized design/CBB01,3.jpg,ORCBB01-19-6.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,7,Orloff customized design/CBB01,30.jpg,ORCBB01-19-7.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,8,Orloff customized design/CBB01,IMG_0815.jpg,ORCBB01-19-8.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,9,Orloff customized design/CBB01,IMG_0822.jpg,ORCBB01-19-9.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-19,10,Orloff customized design/CBB01,IMG_0837.jpg,ORCBB01-19-10.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,1,Orloff customized design/CBB01,1.jpg,ORCBB01-21.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,2,Orloff customized design/CBB01,12.jpg,ORCBB01-21-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,3,Orloff customized design/CBB01,122.jpg,ORCBB01-21-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,4,Orloff customized design/CBB01,13.jpg,ORCBB01-21-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,5,Orloff customized design/CBB01,2.jpg,ORCBB01-21-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,6,Orloff customized design/CBB01,3.jpg,ORCBB01-21-6.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,7,Orloff customized design/CBB01,30.jpg,ORCBB01-21-7.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,8,Orloff customized design/CBB01,IMG_0815.jpg,ORCBB01-21-8.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,9,Orloff customized design/CBB01,IMG_0822.jpg,ORCBB01-21-9.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORCBB01-21,10,Orloff customized design/CBB01,IMG_0837.jpg,ORCBB01-21-10.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCB05-P-18,1,Orloff customized design/GCB05,03.jpg,ORGCB05-P-18.jpg,yes,square,1,
+ORGCB05-P-18,2,Orloff customized design/GCB05,1.jpg,ORGCB05-P-18-2.jpg,yes,square,1,
+ORGCB05-P-18,3,Orloff customized design/GCB05,2.jpg,ORGCB05-P-18-3.jpg,yes,square,1,
+ORGCB05-P-18,4,Orloff customized design/GCB05,GCB05.jpg,ORGCB05-P-18-4.jpg,yes,square,1,
+ORGCB05-P-18,5,Orloff customized design/GCB05,IMG_0188.jpg,ORGCB05-P-18-5.jpg,yes,square,1,
+ORGCB05-P-18,6,Orloff customized design/GCB05,IMG_0310.jpg,ORGCB05-P-18-6.jpg,yes,square,1,
+ORGCB05-P-18,7,Orloff customized design/GCB05,IMG_0469.jpg,ORGCB05-P-18-7.jpg,yes,square,1,
+ORGCB05-P-18,8,Orloff customized design/GCB05,IMG_9370.jpg,ORGCB05-P-18-8.jpg,yes,square,1,
+ORGCB06-P,1,Orloff customized design/GCB06,1.jpg,ORGCB06-P.jpg,yes,square,1,
+ORGCB06-P,2,Orloff customized design/GCB06,2.jpg,ORGCB06-P-2.jpg,yes,square,1,
+ORGCB06-P,3,Orloff customized design/GCB06,GCB06.jpg,ORGCB06-P-3.jpg,yes,square,1,
+ORGCB06-P,4,Orloff customized design/GCB06,IMG_0095.jpg,ORGCB06-P-4.jpg,yes,square,1,
+ORGCB06-P,5,Orloff customized design/GCB06,IMG_0135.jpg,ORGCB06-P-5.jpg,yes,square,1,
+ORGCB06-P,6,Orloff customized design/GCB06,IMG_0324.jpg,ORGCB06-P-6.jpg,yes,square,1,
+ORGCB06-P,7,Orloff customized design/GCB06,IMG_0536.jpg,ORGCB06-P-7.jpg,yes,square,1,
+ORGCB07-18K,1,Orloff customized design/GCB07-18K,1.jpg,ORGCB07-18K.jpg,yes,square,1,
+ORGCB07-18K,2,Orloff customized design/GCB07-18K,IMG_2049.jpg,ORGCB07-18K-2.jpg,yes,square,1,
+ORGCB07-18K,3,Orloff customized design/GCB07-18K,IMG_2287.jpg,ORGCB07-18K-3.jpg,yes,square,1,
+ORGCB07-18K,4,Orloff customized design/GCB07-18K,IMG_3062.jpg,ORGCB07-18K-4.jpg,yes,square,1,
+ORGCB07-18K,5,Orloff customized design/GCB07-18K,IMG_9307.jpg,ORGCB07-18K-5.jpg,yes,square,1,
+ORGCB07-P,1,Orloff customized design/GCB07-P,GCB07-P.jpg,ORGCB07-P.jpg,yes,square,1,
+ORGCB07-P,2,Orloff customized design/GCB07-P,1.jpg,ORGCB07-P-2.jpg,yes,square,1,
+ORGCB07-P,3,Orloff customized design/GCB07-P,IMG_0174.jpg,ORGCB07-P-3.jpg,yes,square,1,
+ORGCB07-P,4,Orloff customized design/GCB07-P,IMG_0330.jpg,ORGCB07-P-4.jpg,yes,square,1,
+ORGCB07-P,5,Orloff customized design/GCB07-P,IMG_0528.jpg,ORGCB07-P-5.jpg,yes,square,1,
+ORGCB07-P,6,Orloff customized design/GCB07-P,IMG_9307.jpg,ORGCB07-P-6.jpg,yes,square,1,
+ORGCB08-18K,1,Orloff customized design/GCB08-18K,1.jpg,ORGCB08-18K.jpg,yes,square,1,
+ORGCB08-18K,2,Orloff customized design/GCB08-18K,2.jpg,ORGCB08-18K-2.jpg,yes,square,1,
+ORGCB08-18K,3,Orloff customized design/GCB08-18K,3.jpg,ORGCB08-18K-3.jpg,yes,square,1,
+ORGCB08-18K,4,Orloff customized design/GCB08-18K,IMG_2257.jpg,ORGCB08-18K-4.jpg,yes,square,1,
+ORGCB08-18K,5,Orloff customized design/GCB08-18K,IMG_2513.jpg,ORGCB08-18K-5.jpg,yes,square,1,
+ORGCB08-18K,6,Orloff customized design/GCB08-18K,IMG_3065.jpg,ORGCB08-18K-6.jpg,yes,square,1,
+ORGCB08-18K,7,Orloff customized design/GCB08-18K,IMG_9384.jpg,ORGCB08-18K-7.jpg,yes,square,1,
+ORGCB08-P,1,Orloff customized design/GCB08-P,GCB08-P.jpg,ORGCB08-P.jpg,yes,square,1,
+ORGCB08-P,2,Orloff customized design/GCB08-P,1.jpg,ORGCB08-P-2.jpg,yes,square,1,
+ORGCB08-P,3,Orloff customized design/GCB08-P,2.jpg,ORGCB08-P-3.jpg,yes,square,1,
+ORGCB08-P,4,Orloff customized design/GCB08-P,3.jpg,ORGCB08-P-4.jpg,yes,square,1,
+ORGCB08-P,5,Orloff customized design/GCB08-P,IMG_0179.jpg,ORGCB08-P-5.jpg,yes,square,1,
+ORGCB08-P,6,Orloff customized design/GCB08-P,IMG_0319.jpg,ORGCB08-P-6.jpg,yes,square,1,
+ORGCB08-P,7,Orloff customized design/GCB08-P,IMG_0410.jpg,ORGCB08-P-7.jpg,yes,square,1,
+ORGCB08-P,8,Orloff customized design/GCB08-P,IMG_9384.jpg,ORGCB08-P-8.jpg,yes,square,1,
+ORGCB09-P,1,Orloff customized design/GCB09,1.jpg,ORGCB09-P.jpg,yes,square,1,
+ORGCB09-P,2,Orloff customized design/GCB09,2.jpg,ORGCB09-P-2.jpg,yes,square,1,
+ORGCB09-P,3,Orloff customized design/GCB09,3.jpg,ORGCB09-P-3.jpg,yes,square,1,
+ORGCB09-P,4,Orloff customized design/GCB09,GCB09.jpg,ORGCB09-P-4.jpg,yes,square,1,
+ORGCB09-P,5,Orloff customized design/GCB09,IMG_0166.jpg,ORGCB09-P-5.jpg,yes,square,1,
+ORGCB09-P,6,Orloff customized design/GCB09,IMG_0313.jpg,ORGCB09-P-6.jpg,yes,square,1,
+ORGCB09-P,7,Orloff customized design/GCB09,IMG_0476.jpg,ORGCB09-P-7.jpg,yes,square,1,
+ORGCB09-P,8,Orloff customized design/GCB09,IMG_9366.jpg,ORGCB09-P-8.jpg,yes,square,1,
+ORGCB10-P,1,Orloff customized design/GCB10,07.jpg,ORGCB10-P.jpg,yes,square,1,
+ORGCB10-P,2,Orloff customized design/GCB10,1.jpg,ORGCB10-P-2.jpg,yes,square,1,
+ORGCB10-P,3,Orloff customized design/GCB10,2.jpg,ORGCB10-P-3.jpg,yes,square,1,
+ORGCB10-P,4,Orloff customized design/GCB10,GCB10.jpg,ORGCB10-P-4.jpg,yes,square,1,
+ORGCB10-P,5,Orloff customized design/GCB10,IMG_0159.jpg,ORGCB10-P-5.jpg,yes,square,1,
+ORGCB10-P,6,Orloff customized design/GCB10,IMG_0161.jpg,ORGCB10-P-6.jpg,yes,square,1,
+ORGCB10-P,7,Orloff customized design/GCB10,IMG_0315.jpg,ORGCB10-P-7.jpg,yes,square,1,
+ORGCB10-P,8,Orloff customized design/GCB10,IMG_0425.jpg,ORGCB10-P-8.jpg,yes,square,1,
+ORGCB109,1,GCB109,GCB109.jpg,ORGCB109.jpg,yes,square,1,
+ORGCB109,2,GCB109,GCB109-1.jpg,ORGCB109-2.jpg,yes,square,1,
+ORGCB109,3,GCB109,GCB109-2.jpg,ORGCB109-3.jpg,yes,square,1,
+ORGCB109,4,GCB109,GCB109-3.jpg,ORGCB109-4.jpg,yes,square,1,
+ORGCB109,5,GCB109,2 (2).jpg,ORGCB109-5.jpg,yes,square,1,
+ORGCB109,6,GCB109,2.jpg,ORGCB109-6.jpg,yes,square,1,
+ORGCB109,7,GCB109,IMG_23462 (2).jpg,ORGCB109-7.jpg,yes,square,1,
+ORGCB109,8,GCB109,IMG_23462.jpg,ORGCB109-8.jpg,yes,square,1,
+ORGCB109,9,GCB109,IMG_9210 (2).jpg,ORGCB109-9.jpg,yes,square,1,
+ORGCB109,10,GCB109,IMG_9210.jpg,ORGCB109-10.jpg,yes,square,1,
+ORGCB109,11,GCB109,IMG_9378.jpg,ORGCB109-11.jpg,yes,square,1,
+ORGCB109,12,GCB109,IMG_9379-S.jpg,ORGCB109-12.jpg,yes,square,1,
+ORGCB109,13,GCB109,IMG_9375-R.jpg,ORGCB109-13.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB11-18K,1,Orloff customized design/GCB11,02.jpg,ORGCB11-18K.jpg,yes,square,1,
+ORGCB11-18K,2,Orloff customized design/GCB11,GCB11.jpg,ORGCB11-18K-2.jpg,yes,square,1,
+ORGCB11-18K,3,Orloff customized design/GCB11,IMG_0138.jpg,ORGCB11-18K-3.jpg,yes,square,1,
+ORGCB11-18K,4,Orloff customized design/GCB11,IMG_0297.jpg,ORGCB11-18K-4.jpg,yes,square,1,
+ORGCB11-18K,5,Orloff customized design/GCB11,IMG_0481.jpg,ORGCB11-18K-5.jpg,yes,square,1,
+ORGCB11-18K,6,Orloff customized design/GCB11,IMG_9377.jpg,ORGCB11-18K-6.jpg,yes,square,1,
+ORGCB110,1,GCB110,GCB110.jpg,ORGCB110.jpg,yes,square,1,
+ORGCB110,2,GCB110,GCB110-1.jpg,ORGCB110-2.jpg,yes,square,1,
+ORGCB110,3,GCB110,GCB110-2.jpg,ORGCB110-3.jpg,yes,square,1,
+ORGCB110,4,GCB110,GCB110-3.jpg,ORGCB110-4.jpg,yes,square,1,
+ORGCB110,5,GCB110,4 (2).jpg,ORGCB110-5.jpg,yes,square,1,
+ORGCB110,6,GCB110,4.jpg,ORGCB110-6.jpg,yes,square,1,
+ORGCB110,7,GCB110,IMG_23461 (2).jpg,ORGCB110-7.jpg,yes,square,1,
+ORGCB110,8,GCB110,IMG_23461.jpg,ORGCB110-8.jpg,yes,square,1,
+ORGCB110,9,GCB110,IMG_9223 (2).jpg,ORGCB110-9.jpg,yes,square,1,
+ORGCB110,10,GCB110,IMG_9223.jpg,ORGCB110-10.jpg,yes,square,1,
+ORGCB110,11,GCB110,IMG_9378-S.jpg,ORGCB110-11.jpg,yes,square,1,
+ORGCB110,12,GCB110,IMG_9379.jpg,ORGCB110-12.jpg,yes,square,1,
+ORGCB110,13,GCB110,IMG_9378-R.jpg,ORGCB110-13.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB12-18K,1,Orloff customized design/GCB12,004.jpg,ORGCB12-18K.jpg,yes,square,1,
+ORGCB12-18K,2,Orloff customized design/GCB12,GCB12.jpg,ORGCB12-18K-2.jpg,yes,square,1,
+ORGCB12-18K,3,Orloff customized design/GCB12,IMG_0163.jpg,ORGCB12-18K-3.jpg,yes,square,1,
+ORGCB12-18K,4,Orloff customized design/GCB12,IMG_0300.jpg,ORGCB12-18K-4.jpg,yes,square,1,
+ORGCB12-18K,5,Orloff customized design/GCB12,IMG_0451.jpg,ORGCB12-18K-5.jpg,yes,square,1,
+ORGCB12-18K,6,Orloff customized design/GCB12,IMG_9360.jpg,ORGCB12-18K-6.jpg,yes,square,1,
+ORGCB175,1,GCB175,GCB175.jpg,ORGCB175.jpg,yes,square,1,
+ORGCB175,2,GCB175,GCB175-1.jpg,ORGCB175-2.jpg,yes,square,1,
+ORGCB175,3,GCB175,GCB175-2.jpg,ORGCB175-3.jpg,yes,square,1,
+ORGCB175,4,GCB175,GCB175-3.jpg,ORGCB175-4.jpg,yes,square,1,
+ORGCB175,5,GCB175,6 (2).jpg,ORGCB175-5.jpg,yes,square,1,
+ORGCB175,6,GCB175,6.jpg,ORGCB175-6.jpg,yes,square,1,
+ORGCB175,7,GCB175,IMG_23466 (2).jpg,ORGCB175-7.jpg,yes,square,1,
+ORGCB175,8,GCB175,IMG_23466.jpg,ORGCB175-8.jpg,yes,square,1,
+ORGCB175,9,GCB175,IMG_9230 (2).jpg,ORGCB175-9.jpg,yes,square,1,
+ORGCB175,10,GCB175,IMG_9230.jpg,ORGCB175-10.jpg,yes,square,1,
+ORGCB177,1,GCB177,GCB177.jpg,ORGCB177.jpg,yes,square,1,
+ORGCB177,2,GCB177,GCB177-1.jpg,ORGCB177-2.jpg,yes,square,1,
+ORGCB177,3,GCB177,GCB177-2.jpg,ORGCB177-3.jpg,yes,square,1,
+ORGCB177,4,GCB177,GCB177-3.jpg,ORGCB177-4.jpg,yes,square,1,
+ORGCB177,5,GCB177,5 (2).jpg,ORGCB177-5.jpg,yes,square,1,
+ORGCB177,6,GCB177,5.jpg,ORGCB177-6.jpg,yes,square,1,
+ORGCB177,7,GCB177,IMG_23465 (2).jpg,ORGCB177-7.jpg,yes,square,1,
+ORGCB177,8,GCB177,IMG_23465.jpg,ORGCB177-8.jpg,yes,square,1,
+ORGCB177,9,GCB177,IMG_9228 (2).jpg,ORGCB177-9.jpg,yes,square,1,
+ORGCB177,10,GCB177,IMG_9228.jpg,ORGCB177-10.jpg,yes,square,1,
+ORGCB18,1,Orloff customized design/GCB18,GCB18.jpg,ORGCB18.jpg,yes,square,1,
+ORGCB18,2,Orloff customized design/GCB18,1.jpg,ORGCB18-2.jpg,yes,square,1,
+ORGCB18,3,Orloff customized design/GCB18,2.jpg,ORGCB18-3.jpg,yes,square,1,
+ORGCB18,4,Orloff customized design/GCB18,3.jpg,ORGCB18-4.jpg,yes,square,1,
+ORGCB18,5,Orloff customized design/GCB18,IMG_0150.jpg,ORGCB18-5.jpg,yes,square,1,
+ORGCB18,6,Orloff customized design/GCB18,IMG_0327.jpg,ORGCB18-6.jpg,yes,square,1,
+ORGCB18,7,Orloff customized design/GCB18,IMG_0503.jpg,ORGCB18-7.jpg,yes,square,1,
+ORGCB18,8,Orloff customized design/GCB18,IMG_9284.jpg,ORGCB18-8.jpg,yes,square,1,
+ORGCB181,1,GCB181,04-S.jpg,ORGCB181.jpg,yes,square,1,
+ORGCB181,2,GCB181,04.jpg,ORGCB181-2.jpg,yes,square,1,
+ORGCB181,3,GCB181,1.jpg,ORGCB181-3.jpg,yes,square,1,
+ORGCB181,4,GCB181,14-S.jpg,ORGCB181-4.jpg,yes,square,1,
+ORGCB181,5,GCB181,14.jpg,ORGCB181-5.jpg,yes,square,1,
+ORGCB181,6,GCB181,4-S.jpg,ORGCB181-6.jpg,yes,square,1,
+ORGCB181,7,GCB181,4.jpg,ORGCB181-7.jpg,yes,square,1,
+ORGCB181,8,GCB181,IMG_9474-S.jpg,ORGCB181-8.jpg,yes,square,1,
+ORGCB181,9,GCB181,IMG_9474.jpg,ORGCB181-9.jpg,yes,square,1,
+ORGCB181,10,GCB181,IMG_9539-S.jpg,ORGCB181-10.jpg,yes,square,1,
+ORGCB181,11,GCB181,IMG_9539.jpg,ORGCB181-11.jpg,yes,square,1,
+ORGCB181,12,GCB181,04-R.jpg,ORGCB181-12.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB181,13,GCB181,14-R.jpg,ORGCB181-13.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB181,14,GCB181,4-R.jpg,ORGCB181-14.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB181,15,GCB181,IMG_9539-R.jpg,ORGCB181-15.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-1,1,GCB182-1,IMG_9512-S.jpg,ORGCB182-1.jpg,yes,square,1,
+ORGCB182-1,2,GCB182-1,IMG_9512.jpg,ORGCB182-1-2.jpg,yes,square,1,
+ORGCB182-1,3,GCB182-1,IMG_95431-S.jpg,ORGCB182-1-3.jpg,yes,square,1,
+ORGCB182-1,4,GCB182-1,IMG_95431.jpg,ORGCB182-1-4.jpg,yes,square,1,
+ORGCB182-1,5,GCB182-1,IMG_95431-R.jpg,ORGCB182-1-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-1,6,GCB182-1,05-S.jpg,ORGCB182-1-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,7,GCB182-1,05.jpg,ORGCB182-1-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,8,GCB182-1,16-S.jpg,ORGCB182-1-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,9,GCB182-1,16.jpg,ORGCB182-1-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,10,GCB182-1,5-S.jpg,ORGCB182-1-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,11,GCB182-1,5.jpg,ORGCB182-1-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,12,GCB182-1,IMG_9481-S.jpg,ORGCB182-1-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,13,GCB182-1,IMG_9481.jpg,ORGCB182-1-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,14,GCB182-1,05-R.jpg,ORGCB182-1-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,15,GCB182-1,16-R.jpg,ORGCB182-1-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-1,16,GCB182-1,5-R.jpg,ORGCB182-1-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,1,GCB182-2,IMG_9509-S.jpg,ORGCB182-2.jpg,yes,square,1,
+ORGCB182-2,2,GCB182-2,IMG_9509.jpg,ORGCB182-2-2.jpg,yes,square,1,
+ORGCB182-2,3,GCB182-2,IMG_95436-S.jpg,ORGCB182-2-3.jpg,yes,square,1,
+ORGCB182-2,4,GCB182-2,IMG_95436.jpg,ORGCB182-2-4.jpg,yes,square,1,
+ORGCB182-2,5,GCB182-2,IMG_95436-R.jpg,ORGCB182-2-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-2,6,GCB182-2,05-S.jpg,ORGCB182-2-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,7,GCB182-2,05.jpg,ORGCB182-2-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,8,GCB182-2,16-S.jpg,ORGCB182-2-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,9,GCB182-2,16.jpg,ORGCB182-2-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,10,GCB182-2,5-S.jpg,ORGCB182-2-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,11,GCB182-2,5.jpg,ORGCB182-2-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,12,GCB182-2,IMG_9481-S.jpg,ORGCB182-2-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,13,GCB182-2,IMG_9481.jpg,ORGCB182-2-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,14,GCB182-2,05-R.jpg,ORGCB182-2-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,15,GCB182-2,16-R.jpg,ORGCB182-2-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-2,16,GCB182-2,5-R.jpg,ORGCB182-2-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,1,GCB182-3,IMG_9503-S.jpg,ORGCB182-3.jpg,yes,square,1,
+ORGCB182-3,2,GCB182-3,IMG_9503.jpg,ORGCB182-3-2.jpg,yes,square,1,
+ORGCB182-3,3,GCB182-3,IMG_95432-S.jpg,ORGCB182-3-3.jpg,yes,square,1,
+ORGCB182-3,4,GCB182-3,IMG_95432.jpg,ORGCB182-3-4.jpg,yes,square,1,
+ORGCB182-3,5,GCB182-3,IMG_95432-R.jpg,ORGCB182-3-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-3,6,GCB182-3,05-S.jpg,ORGCB182-3-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,7,GCB182-3,05.jpg,ORGCB182-3-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,8,GCB182-3,16-S.jpg,ORGCB182-3-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,9,GCB182-3,16.jpg,ORGCB182-3-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,10,GCB182-3,5-S.jpg,ORGCB182-3-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,11,GCB182-3,5.jpg,ORGCB182-3-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,12,GCB182-3,IMG_9481-S.jpg,ORGCB182-3-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,13,GCB182-3,IMG_9481.jpg,ORGCB182-3-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,14,GCB182-3,05-R.jpg,ORGCB182-3-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,15,GCB182-3,16-R.jpg,ORGCB182-3-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-3,16,GCB182-3,5-R.jpg,ORGCB182-3-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,1,GCB182-5,IMG_9504-S.jpg,ORGCB182-5.jpg,yes,square,1,
+ORGCB182-5,2,GCB182-5,IMG_9504.jpg,ORGCB182-5-2.jpg,yes,square,1,
+ORGCB182-5,3,GCB182-5,IMG_95433-S.jpg,ORGCB182-5-3.jpg,yes,square,1,
+ORGCB182-5,4,GCB182-5,IMG_95433.jpg,ORGCB182-5-4.jpg,yes,square,1,
+ORGCB182-5,5,GCB182-5,IMG_95433-R.jpg,ORGCB182-5-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-5,6,GCB182-5,05-S.jpg,ORGCB182-5-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,7,GCB182-5,05.jpg,ORGCB182-5-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,8,GCB182-5,16-S.jpg,ORGCB182-5-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,9,GCB182-5,16.jpg,ORGCB182-5-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,10,GCB182-5,5-S.jpg,ORGCB182-5-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,11,GCB182-5,5.jpg,ORGCB182-5-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,12,GCB182-5,IMG_9481-S.jpg,ORGCB182-5-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,13,GCB182-5,IMG_9481.jpg,ORGCB182-5-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,14,GCB182-5,05-R.jpg,ORGCB182-5-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,15,GCB182-5,16-R.jpg,ORGCB182-5-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-5,16,GCB182-5,5-R.jpg,ORGCB182-5-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,1,GCB182-6,IMG_9507-S.jpg,ORGCB182-6.jpg,yes,square,1,
+ORGCB182-6,2,GCB182-6,IMG_9507.jpg,ORGCB182-6-2.jpg,yes,square,1,
+ORGCB182-6,3,GCB182-6,IMG_95435-S.jpg,ORGCB182-6-3.jpg,yes,square,1,
+ORGCB182-6,4,GCB182-6,IMG_95435.jpg,ORGCB182-6-4.jpg,yes,square,1,
+ORGCB182-6,5,GCB182-6,IMG_95435-R.jpg,ORGCB182-6-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-6,6,GCB182-6,05-S.jpg,ORGCB182-6-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,7,GCB182-6,05.jpg,ORGCB182-6-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,8,GCB182-6,16-S.jpg,ORGCB182-6-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,9,GCB182-6,16.jpg,ORGCB182-6-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,10,GCB182-6,5-S.jpg,ORGCB182-6-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,11,GCB182-6,5.jpg,ORGCB182-6-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,12,GCB182-6,IMG_9481-S.jpg,ORGCB182-6-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,13,GCB182-6,IMG_9481.jpg,ORGCB182-6-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,14,GCB182-6,05-R.jpg,ORGCB182-6-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,15,GCB182-6,16-R.jpg,ORGCB182-6-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-6,16,GCB182-6,5-R.jpg,ORGCB182-6-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,1,GCB182-7,IMG_9505-S.jpg,ORGCB182-7.jpg,yes,square,1,
+ORGCB182-7,2,GCB182-7,IMG_9505.jpg,ORGCB182-7-2.jpg,yes,square,1,
+ORGCB182-7,3,GCB182-7,IMG_95434-S.jpg,ORGCB182-7-3.jpg,yes,square,1,
+ORGCB182-7,4,GCB182-7,IMG_95434.jpg,ORGCB182-7-4.jpg,yes,square,1,
+ORGCB182-7,5,GCB182-7,IMG_95434-R.jpg,ORGCB182-7-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-7,6,GCB182-7,05-S.jpg,ORGCB182-7-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,7,GCB182-7,05.jpg,ORGCB182-7-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,8,GCB182-7,16-S.jpg,ORGCB182-7-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,9,GCB182-7,16.jpg,ORGCB182-7-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,10,GCB182-7,5-S.jpg,ORGCB182-7-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,11,GCB182-7,5.jpg,ORGCB182-7-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,12,GCB182-7,IMG_9481-S.jpg,ORGCB182-7-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,13,GCB182-7,IMG_9481.jpg,ORGCB182-7-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,14,GCB182-7,05-R.jpg,ORGCB182-7-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,15,GCB182-7,16-R.jpg,ORGCB182-7-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-7,16,GCB182-7,5-R.jpg,ORGCB182-7-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,1,GCB182-8,IMG_9511-S.jpg,ORGCB182-8.jpg,yes,square,1,
+ORGCB182-8,2,GCB182-8,IMG_9511.jpg,ORGCB182-8-2.jpg,yes,square,1,
+ORGCB182-8,3,GCB182-8,IMG_95437-S.jpg,ORGCB182-8-3.jpg,yes,square,1,
+ORGCB182-8,4,GCB182-8,IMG_95437.jpg,ORGCB182-8-4.jpg,yes,square,1,
+ORGCB182-8,5,GCB182-8,IMG_95437-R.jpg,ORGCB182-8-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB182-8,6,GCB182-8,05-S.jpg,ORGCB182-8-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,7,GCB182-8,05.jpg,ORGCB182-8-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,8,GCB182-8,16-S.jpg,ORGCB182-8-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,9,GCB182-8,16.jpg,ORGCB182-8-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,10,GCB182-8,5-S.jpg,ORGCB182-8-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,11,GCB182-8,5.jpg,ORGCB182-8-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,12,GCB182-8,IMG_9481-S.jpg,ORGCB182-8-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,13,GCB182-8,IMG_9481.jpg,ORGCB182-8-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,14,GCB182-8,05-R.jpg,ORGCB182-8-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,15,GCB182-8,16-R.jpg,ORGCB182-8-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB182-8,16,GCB182-8,5-R.jpg,ORGCB182-8-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,1,GCB184-1,IMG_9494-S.jpg,ORGCB184-1.jpg,yes,square,1,
+ORGCB184-1,2,GCB184-1,IMG_9494.jpg,ORGCB184-1-2.jpg,yes,square,1,
+ORGCB184-1,3,GCB184-1,IMG_95413-S.jpg,ORGCB184-1-3.jpg,yes,square,1,
+ORGCB184-1,4,GCB184-1,IMG_95413.jpg,ORGCB184-1-4.jpg,yes,square,1,
+ORGCB184-1,5,GCB184-1,IMG_95413-R.jpg,ORGCB184-1-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB184-1,6,GCB184-1,06-S.jpg,ORGCB184-1-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,7,GCB184-1,06.jpg,ORGCB184-1-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,8,GCB184-1,15-S.jpg,ORGCB184-1-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,9,GCB184-1,15.jpg,ORGCB184-1-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,10,GCB184-1,6-S.jpg,ORGCB184-1-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,11,GCB184-1,6.jpg,ORGCB184-1-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,12,GCB184-1,IMG_9489-S.jpg,ORGCB184-1-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,13,GCB184-1,IMG_9489.jpg,ORGCB184-1-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,14,GCB184-1,06-R.jpg,ORGCB184-1-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,15,GCB184-1,15-R.jpg,ORGCB184-1-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-1,16,GCB184-1,6-R.jpg,ORGCB184-1-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,1,GCB184-2,IMG_9492-S.jpg,ORGCB184-2.jpg,yes,square,1,
+ORGCB184-2,2,GCB184-2,IMG_9492.jpg,ORGCB184-2-2.jpg,yes,square,1,
+ORGCB184-2,3,GCB184-2,IMG_95412-S.jpg,ORGCB184-2-3.jpg,yes,square,1,
+ORGCB184-2,4,GCB184-2,IMG_95412.jpg,ORGCB184-2-4.jpg,yes,square,1,
+ORGCB184-2,5,GCB184-2,IMG_95412-R.jpg,ORGCB184-2-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB184-2,6,GCB184-2,06-S.jpg,ORGCB184-2-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,7,GCB184-2,06.jpg,ORGCB184-2-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,8,GCB184-2,15-S.jpg,ORGCB184-2-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,9,GCB184-2,15.jpg,ORGCB184-2-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,10,GCB184-2,6-S.jpg,ORGCB184-2-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,11,GCB184-2,6.jpg,ORGCB184-2-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,12,GCB184-2,IMG_9489-S.jpg,ORGCB184-2-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,13,GCB184-2,IMG_9489.jpg,ORGCB184-2-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,14,GCB184-2,06-R.jpg,ORGCB184-2-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,15,GCB184-2,15-R.jpg,ORGCB184-2-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-2,16,GCB184-2,6-R.jpg,ORGCB184-2-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,1,GCB184-3,IMG_9497-S.jpg,ORGCB184-3.jpg,yes,square,1,
+ORGCB184-3,2,GCB184-3,IMG_9497.jpg,ORGCB184-3-2.jpg,yes,square,1,
+ORGCB184-3,3,GCB184-3,IMG_95415-S.jpg,ORGCB184-3-3.jpg,yes,square,1,
+ORGCB184-3,4,GCB184-3,IMG_95415.jpg,ORGCB184-3-4.jpg,yes,square,1,
+ORGCB184-3,5,GCB184-3,IMG_95415-R.jpg,ORGCB184-3-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB184-3,6,GCB184-3,06-S.jpg,ORGCB184-3-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,7,GCB184-3,06.jpg,ORGCB184-3-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,8,GCB184-3,15-S.jpg,ORGCB184-3-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,9,GCB184-3,15.jpg,ORGCB184-3-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,10,GCB184-3,6-S.jpg,ORGCB184-3-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,11,GCB184-3,6.jpg,ORGCB184-3-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,12,GCB184-3,IMG_9489-S.jpg,ORGCB184-3-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,13,GCB184-3,IMG_9489.jpg,ORGCB184-3-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,14,GCB184-3,06-R.jpg,ORGCB184-3-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,15,GCB184-3,15-R.jpg,ORGCB184-3-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-3,16,GCB184-3,6-R.jpg,ORGCB184-3-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,1,GCB184-4,IMG_9496-S.jpg,ORGCB184-4.jpg,yes,square,1,
+ORGCB184-4,2,GCB184-4,IMG_9496.jpg,ORGCB184-4-2.jpg,yes,square,1,
+ORGCB184-4,3,GCB184-4,IMG_95414-S.jpg,ORGCB184-4-3.jpg,yes,square,1,
+ORGCB184-4,4,GCB184-4,IMG_95414.jpg,ORGCB184-4-4.jpg,yes,square,1,
+ORGCB184-4,5,GCB184-4,IMG_95414-R.jpg,ORGCB184-4-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB184-4,6,GCB184-4,06-S.jpg,ORGCB184-4-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,7,GCB184-4,06.jpg,ORGCB184-4-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,8,GCB184-4,15-S.jpg,ORGCB184-4-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,9,GCB184-4,15.jpg,ORGCB184-4-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,10,GCB184-4,6-S.jpg,ORGCB184-4-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,11,GCB184-4,6.jpg,ORGCB184-4-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,12,GCB184-4,IMG_9489-S.jpg,ORGCB184-4-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,13,GCB184-4,IMG_9489.jpg,ORGCB184-4-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,14,GCB184-4,06-R.jpg,ORGCB184-4-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,15,GCB184-4,15-R.jpg,ORGCB184-4-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-4,16,GCB184-4,6-R.jpg,ORGCB184-4-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,1,GCB184-5,IMG_9500-S.jpg,ORGCB184-5.jpg,yes,square,1,
+ORGCB184-5,2,GCB184-5,IMG_9500.jpg,ORGCB184-5-2.jpg,yes,square,1,
+ORGCB184-5,3,GCB184-5,IMG_95416-S.jpg,ORGCB184-5-3.jpg,yes,square,1,
+ORGCB184-5,4,GCB184-5,IMG_95416.jpg,ORGCB184-5-4.jpg,yes,square,1,
+ORGCB184-5,5,GCB184-5,IMG_95416-R.jpg,ORGCB184-5-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB184-5,6,GCB184-5,06-S.jpg,ORGCB184-5-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,7,GCB184-5,06.jpg,ORGCB184-5-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,8,GCB184-5,15-S.jpg,ORGCB184-5-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,9,GCB184-5,15.jpg,ORGCB184-5-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,10,GCB184-5,6-S.jpg,ORGCB184-5-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,11,GCB184-5,6.jpg,ORGCB184-5-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,12,GCB184-5,IMG_9489-S.jpg,ORGCB184-5-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,13,GCB184-5,IMG_9489.jpg,ORGCB184-5-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,14,GCB184-5,06-R.jpg,ORGCB184-5-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,15,GCB184-5,15-R.jpg,ORGCB184-5-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-5,16,GCB184-5,6-R.jpg,ORGCB184-5-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,1,GCB184-6,IMG_9502-S.jpg,ORGCB184-6.jpg,yes,square,1,
+ORGCB184-6,2,GCB184-6,IMG_9502.jpg,ORGCB184-6-2.jpg,yes,square,1,
+ORGCB184-6,3,GCB184-6,IMG_95417-S.jpg,ORGCB184-6-3.jpg,yes,square,1,
+ORGCB184-6,4,GCB184-6,IMG_95417.jpg,ORGCB184-6-4.jpg,yes,square,1,
+ORGCB184-6,5,GCB184-6,IMG_95417-R.jpg,ORGCB184-6-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB184-6,6,GCB184-6,06-S.jpg,ORGCB184-6-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,7,GCB184-6,06.jpg,ORGCB184-6-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,8,GCB184-6,15-S.jpg,ORGCB184-6-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,9,GCB184-6,15.jpg,ORGCB184-6-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,10,GCB184-6,6-S.jpg,ORGCB184-6-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,11,GCB184-6,6.jpg,ORGCB184-6-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,12,GCB184-6,IMG_9489-S.jpg,ORGCB184-6-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,13,GCB184-6,IMG_9489.jpg,ORGCB184-6-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,14,GCB184-6,06-R.jpg,ORGCB184-6-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,15,GCB184-6,15-R.jpg,ORGCB184-6-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-6,16,GCB184-6,6-R.jpg,ORGCB184-6-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,1,GCB184-7,IMG_9493-S.jpg,ORGCB184-7.jpg,yes,square,1,
+ORGCB184-7,2,GCB184-7,IMG_9493.jpg,ORGCB184-7-2.jpg,yes,square,1,
+ORGCB184-7,3,GCB184-7,IMG_95411-S.jpg,ORGCB184-7-3.jpg,yes,square,1,
+ORGCB184-7,4,GCB184-7,IMG_95411.jpg,ORGCB184-7-4.jpg,yes,square,1,
+ORGCB184-7,5,GCB184-7,IMG_95411-R.jpg,ORGCB184-7-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB184-7,6,GCB184-7,06-S.jpg,ORGCB184-7-6.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,7,GCB184-7,06.jpg,ORGCB184-7-7.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,8,GCB184-7,15-S.jpg,ORGCB184-7-8.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,9,GCB184-7,15.jpg,ORGCB184-7-9.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,10,GCB184-7,6-S.jpg,ORGCB184-7-10.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,11,GCB184-7,6.jpg,ORGCB184-7-11.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,12,GCB184-7,IMG_9489-S.jpg,ORGCB184-7-12.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,13,GCB184-7,IMG_9489.jpg,ORGCB184-7-13.jpg,no,square,3,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,14,GCB184-7,06-R.jpg,ORGCB184-7-14.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,15,GCB184-7,15-R.jpg,ORGCB184-7-15.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB184-7,16,GCB184-7,6-R.jpg,ORGCB184-7-16.jpg,no,landscape,4,"also used by 7 different SKUs, do not upload as this SKU"
+ORGCB185-14K,1,GCB185-14K,01-S.jpg,ORGCB185-14K.jpg,yes,square,1,
+ORGCB185-14K,2,GCB185-14K,01.jpg,ORGCB185-14K-2.jpg,yes,square,1,
+ORGCB185-14K,3,GCB185-14K,13-S.jpg,ORGCB185-14K-3.jpg,yes,square,1,
+ORGCB185-14K,4,GCB185-14K,13.jpg,ORGCB185-14K-4.jpg,yes,square,1,
+ORGCB185-14K,5,GCB185-14K,3-S.jpg,ORGCB185-14K-5.jpg,yes,square,1,
+ORGCB185-14K,6,GCB185-14K,3.jpg,ORGCB185-14K-6.jpg,yes,square,1,
+ORGCB185-14K,7,GCB185-14K,IMG_9441-S.jpg,ORGCB185-14K-7.jpg,yes,square,1,
+ORGCB185-14K,8,GCB185-14K,IMG_9441.jpg,ORGCB185-14K-8.jpg,yes,square,1,
+ORGCB185-14K,9,GCB185-14K,IMG_9444-S.jpg,ORGCB185-14K-9.jpg,yes,square,1,
+ORGCB185-14K,10,GCB185-14K,IMG_9444.jpg,ORGCB185-14K-10.jpg,yes,square,1,
+ORGCB185-14K,11,GCB185-14K,IMG_9537-S.jpg,ORGCB185-14K-11.jpg,yes,square,1,
+ORGCB185-14K,12,GCB185-14K,IMG_9537.jpg,ORGCB185-14K-12.jpg,yes,square,1,
+ORGCB185-14K,13,GCB185-14K,01-R.jpg,ORGCB185-14K-13.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB185-14K,14,GCB185-14K,13-R.jpg,ORGCB185-14K-14.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB185-14K,15,GCB185-14K,3-R.jpg,ORGCB185-14K-15.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB185-14K,16,GCB185-14K,IMG_9537-R.jpg,ORGCB185-14K-16.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB186-1,1,GCB186-1,IMG_9471-S.jpg,ORGCB186-1.jpg,yes,square,1,
+ORGCB186-1,2,GCB186-1,IMG_9471.jpg,ORGCB186-1-2.jpg,yes,square,1,
+ORGCB186-1,3,GCB186-1,IMG_9525-S.jpg,ORGCB186-1-3.jpg,yes,square,1,
+ORGCB186-1,4,GCB186-1,IMG_9525.jpg,ORGCB186-1-4.jpg,yes,square,1,
+ORGCB186-1,5,GCB186-1,IMG_9525-R.jpg,ORGCB186-1-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB186-1,6,GCB186-1,03-S.jpg,ORGCB186-1-6.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,7,GCB186-1,03.jpg,ORGCB186-1-7.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,8,GCB186-1,12-S.jpg,ORGCB186-1-8.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,9,GCB186-1,12.jpg,ORGCB186-1-9.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,10,GCB186-1,2-S.jpg,ORGCB186-1-10.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,11,GCB186-1,2.jpg,ORGCB186-1-11.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,12,GCB186-1,IMG_9468-S.jpg,ORGCB186-1-12.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,13,GCB186-1,IMG_9468.jpg,ORGCB186-1-13.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,14,GCB186-1,03-R.jpg,ORGCB186-1-14.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,15,GCB186-1,12-R.jpg,ORGCB186-1-15.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-1,16,GCB186-1,2-R.jpg,ORGCB186-1-16.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,1,GCB186-2,IMG_9469-S.jpg,ORGCB186-2.jpg,yes,square,1,
+ORGCB186-2,2,GCB186-2,IMG_9469.jpg,ORGCB186-2-2.jpg,yes,square,1,
+ORGCB186-2,3,GCB186-2,IMG_9524-S.jpg,ORGCB186-2-3.jpg,yes,square,1,
+ORGCB186-2,4,GCB186-2,IMG_9524.jpg,ORGCB186-2-4.jpg,yes,square,1,
+ORGCB186-2,5,GCB186-2,IMG_9524-R.jpg,ORGCB186-2-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB186-2,6,GCB186-2,03-S.jpg,ORGCB186-2-6.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,7,GCB186-2,03.jpg,ORGCB186-2-7.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,8,GCB186-2,12-S.jpg,ORGCB186-2-8.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,9,GCB186-2,12.jpg,ORGCB186-2-9.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,10,GCB186-2,2-S.jpg,ORGCB186-2-10.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,11,GCB186-2,2.jpg,ORGCB186-2-11.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,12,GCB186-2,IMG_9468-S.jpg,ORGCB186-2-12.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,13,GCB186-2,IMG_9468.jpg,ORGCB186-2-13.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,14,GCB186-2,03-R.jpg,ORGCB186-2-14.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,15,GCB186-2,12-R.jpg,ORGCB186-2-15.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB186-2,16,GCB186-2,2-R.jpg,ORGCB186-2-16.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,1,GCB187-14K-1,IMG_9454-S.jpg,ORGCB187-14K-1.jpg,yes,square,1,
+ORGCB187-14K-1,2,GCB187-14K-1,IMG_9454.jpg,ORGCB187-14K-1-2.jpg,yes,square,1,
+ORGCB187-14K-1,3,GCB187-14K-1,IMG_9532-S.jpg,ORGCB187-14K-1-3.jpg,yes,square,1,
+ORGCB187-14K-1,4,GCB187-14K-1,IMG_9532.jpg,ORGCB187-14K-1-4.jpg,yes,square,1,
+ORGCB187-14K-1,5,GCB187-14K-1,IMG_9532-R.jpg,ORGCB187-14K-1-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB187-14K-1,6,GCB187-14K-1,02-S.jpg,ORGCB187-14K-1-6.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,7,GCB187-14K-1,02.jpg,ORGCB187-14K-1-7.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,8,GCB187-14K-1,1-S.jpg,ORGCB187-14K-1-8.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,9,GCB187-14K-1,1.jpg,ORGCB187-14K-1-9.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,10,GCB187-14K-1,11-S.jpg,ORGCB187-14K-1-10.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,11,GCB187-14K-1,11.jpg,ORGCB187-14K-1-11.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,12,GCB187-14K-1,IMG_9450-S.jpg,ORGCB187-14K-1-12.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,13,GCB187-14K-1,IMG_9450.jpg,ORGCB187-14K-1-13.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,14,GCB187-14K-1,02-R.jpg,ORGCB187-14K-1-14.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,15,GCB187-14K-1,1-R.jpg,ORGCB187-14K-1-15.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-1,16,GCB187-14K-1,11-R.jpg,ORGCB187-14K-1-16.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,1,GCB187-14K-2,IMG_9459-S.jpg,ORGCB187-14K-2.jpg,yes,square,1,
+ORGCB187-14K-2,2,GCB187-14K-2,IMG_9459.jpg,ORGCB187-14K-2-2.jpg,yes,square,1,
+ORGCB187-14K-2,3,GCB187-14K-2,IMG_9531-S.jpg,ORGCB187-14K-2-3.jpg,yes,square,1,
+ORGCB187-14K-2,4,GCB187-14K-2,IMG_9531.jpg,ORGCB187-14K-2-4.jpg,yes,square,1,
+ORGCB187-14K-2,5,GCB187-14K-2,IMG_9531-R.jpg,ORGCB187-14K-2-5.jpg,yes,landscape,2,"landscape 970x600 crop, not a product hero"
+ORGCB187-14K-2,6,GCB187-14K-2,02-S.jpg,ORGCB187-14K-2-6.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,7,GCB187-14K-2,02.jpg,ORGCB187-14K-2-7.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,8,GCB187-14K-2,1-S.jpg,ORGCB187-14K-2-8.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,9,GCB187-14K-2,1.jpg,ORGCB187-14K-2-9.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,10,GCB187-14K-2,11-S.jpg,ORGCB187-14K-2-10.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,11,GCB187-14K-2,11.jpg,ORGCB187-14K-2-11.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,12,GCB187-14K-2,IMG_9450-S.jpg,ORGCB187-14K-2-12.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,13,GCB187-14K-2,IMG_9450.jpg,ORGCB187-14K-2-13.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,14,GCB187-14K-2,02-R.jpg,ORGCB187-14K-2-14.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,15,GCB187-14K-2,1-R.jpg,ORGCB187-14K-2-15.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB187-14K-2,16,GCB187-14K-2,11-R.jpg,ORGCB187-14K-2-16.jpg,no,landscape,4,"also used by 2 different SKUs, do not upload as this SKU"
+ORGCB19-18K,1,Orloff customized design/GCB19-18K,GCB19-18K.jpg,ORGCB19-18K.jpg,yes,square,1,
+ORGCB19-18K,2,Orloff customized design/GCB19-18K,001.jpg,ORGCB19-18K-2.jpg,yes,square,1,
+ORGCB19-18K,3,Orloff customized design/GCB19-18K,1.jpg,ORGCB19-18K-3.jpg,yes,square,1,
+ORGCB19-18K,4,Orloff customized design/GCB19-18K,IMG_0206.jpg,ORGCB19-18K-4.jpg,yes,square,1,
+ORGCB19-18K,5,Orloff customized design/GCB19-18K,IMG_0255.jpg,ORGCB19-18K-5.jpg,yes,square,1,
+ORGCB19-18K,6,Orloff customized design/GCB19-18K,IMG_0475.jpg,ORGCB19-18K-6.jpg,yes,square,1,
+ORGCB19-18K,7,Orloff customized design/GCB19-18K,IMG_9316.jpg,ORGCB19-18K-7.jpg,yes,square,1,
+ORGCB19-P,1,Orloff customized design/GCB19-P,07.jpg,ORGCB19-P.jpg,yes,square,1,
+ORGCB19-P,2,Orloff customized design/GCB19-P,1.jpg,ORGCB19-P-2.jpg,yes,square,1,
+ORGCB19-P,3,Orloff customized design/GCB19-P,IMG_1925.jpg,ORGCB19-P-3.jpg,yes,square,1,
+ORGCB19-P,4,Orloff customized design/GCB19-P,IMG_2143.jpg,ORGCB19-P-4.jpg,yes,square,1,
+ORGCB19-P,5,Orloff customized design/GCB19-P,IMG_2519.jpg,ORGCB19-P-5.jpg,yes,square,1,
+ORGCB19-P,6,Orloff customized design/GCB19-P,IMG_9316.jpg,ORGCB19-P-6.jpg,yes,square,1,
+ORGCB20-18K,1,Orloff customized design/GCB20-18K,GCB20-18K.jpg,ORGCB20-18K.jpg,yes,square,1,
+ORGCB20-18K,2,Orloff customized design/GCB20-18K,005.jpg,ORGCB20-18K-2.jpg,yes,square,1,
+ORGCB20-18K,3,Orloff customized design/GCB20-18K,1.jpg,ORGCB20-18K-3.jpg,yes,square,1,
+ORGCB20-18K,4,Orloff customized design/GCB20-18K,IMG_0148.jpg,ORGCB20-18K-4.jpg,yes,square,1,
+ORGCB20-18K,5,Orloff customized design/GCB20-18K,IMG_0294.jpg,ORGCB20-18K-5.jpg,yes,square,1,
+ORGCB20-18K,6,Orloff customized design/GCB20-18K,IMG_0415.jpg,ORGCB20-18K-6.jpg,yes,square,1,
+ORGCB20-18K,7,Orloff customized design/GCB20-18K,IMG_9335.jpg,ORGCB20-18K-7.jpg,yes,square,1,
+ORGCB20-P,1,Orloff customized design/GCB20-P,09.jpg,ORGCB20-P.jpg,yes,square,1,
+ORGCB20-P,2,Orloff customized design/GCB20-P,1.jpg,ORGCB20-P-2.jpg,yes,square,1,
+ORGCB20-P,3,Orloff customized design/GCB20-P,IMG_1930.jpg,ORGCB20-P-3.jpg,yes,square,1,
+ORGCB20-P,4,Orloff customized design/GCB20-P,IMG_2172.jpg,ORGCB20-P-4.jpg,yes,square,1,
+ORGCB20-P,5,Orloff customized design/GCB20-P,IMG_2538.jpg,ORGCB20-P-5.jpg,yes,square,1,
+ORGCB20-P,6,Orloff customized design/GCB20-P,IMG_9335.jpg,ORGCB20-P-6.jpg,yes,square,1,
+ORGCB21-18K,1,Orloff customized design/GCB21-18K,GCB21-18K.jpg,ORGCB21-18K.jpg,yes,square,1,
+ORGCB21-18K,2,Orloff customized design/GCB21-18K,01.jpg,ORGCB21-18K-2.jpg,yes,square,1,
+ORGCB21-18K,3,Orloff customized design/GCB21-18K,1.jpg,ORGCB21-18K-3.jpg,yes,square,1,
+ORGCB21-18K,4,Orloff customized design/GCB21-18K,IMG_0197.jpg,ORGCB21-18K-4.jpg,yes,square,1,
+ORGCB21-18K,5,Orloff customized design/GCB21-18K,IMG_0272.jpg,ORGCB21-18K-5.jpg,yes,square,1,
+ORGCB21-18K,6,Orloff customized design/GCB21-18K,IMG_0461.jpg,ORGCB21-18K-6.jpg,yes,square,1,
+ORGCB21-18K,7,Orloff customized design/GCB21-18K,IMG_0594.jpg,ORGCB21-18K-7.jpg,yes,square,1,
+ORGCB21-P,1,Orloff customized design/GCB21-P,03.jpg,ORGCB21-P.jpg,yes,square,1,
+ORGCB21-P,2,Orloff customized design/GCB21-P,1.jpg,ORGCB21-P-2.jpg,yes,square,1,
+ORGCB21-P,3,Orloff customized design/GCB21-P,IMG_0594.jpg,ORGCB21-P-3.jpg,yes,square,1,
+ORGCB21-P,4,Orloff customized design/GCB21-P,IMG_1923.jpg,ORGCB21-P-4.jpg,yes,square,1,
+ORGCB21-P,5,Orloff customized design/GCB21-P,IMG_2125.jpg,ORGCB21-P-5.jpg,yes,square,1,
+ORGCB21-P,6,Orloff customized design/GCB21-P,IMG_2513.jpg,ORGCB21-P-6.jpg,yes,square,1,
+ORGCB22-18K,1,Orloff customized design/GCB22-18K,GCB22-18K.jpg,ORGCB22-18K.jpg,yes,square,1,
+ORGCB22-18K,2,Orloff customized design/GCB22-18K,003.jpg,ORGCB22-18K-2.jpg,yes,square,1,
+ORGCB22-18K,3,Orloff customized design/GCB22-18K,1.jpg,ORGCB22-18K-3.jpg,yes,square,1,
+ORGCB22-18K,4,Orloff customized design/GCB22-18K,IMG_0060.jpg,ORGCB22-18K-4.jpg,yes,square,1,
+ORGCB22-18K,5,Orloff customized design/GCB22-18K,IMG_0153.jpg,ORGCB22-18K-5.jpg,yes,square,1,
+ORGCB22-18K,6,Orloff customized design/GCB22-18K,IMG_0285.jpg,ORGCB22-18K-6.jpg,yes,square,1,
+ORGCB22-18K,7,Orloff customized design/GCB22-18K,IMG_0433.jpg,ORGCB22-18K-7.jpg,yes,square,1,
+ORGCB22-P,1,GCB22-P,01---副本.jpg,ORGCB22-P.jpg,yes,square,1,
+ORGCB22-P,2,GCB22-P,1.jpg,ORGCB22-P-2.jpg,yes,square,1,
+ORGCB22-P,3,Orloff customized design/GCB22-P,1.jpg,ORGCB22-P-3.jpg,yes,square,1,
+ORGCB22-P,4,GCB22-P,2.jpg,ORGCB22-P-4.jpg,yes,square,1,
+ORGCB22-P,5,GCB22-P,3.jpg,ORGCB22-P-5.jpg,yes,square,1,
+ORGCB22-P,6,GCB22-P,IMG_0060.jpg,ORGCB22-P-6.jpg,yes,square,1,
+ORGCB22-P,7,GCB22-P,IMG_2103.jpg,ORGCB22-P-7.jpg,yes,square,1,
+ORGCB22-P,8,GCB22-P,IMG_2350.jpg,ORGCB22-P-8.jpg,yes,square,1,
+ORGCB22-P,9,GCB22-P,IMG_3409.jpg,ORGCB22-P-9.jpg,yes,square,1,
+ORGCB23-18K,1,Orloff customized design/GCB23-18K,GCB23-18K.jpg,ORGCB23-18K.jpg,yes,square,1,
+ORGCB23-18K,2,Orloff customized design/GCB23-18K,002.jpg,ORGCB23-18K-2.jpg,yes,square,1,
+ORGCB23-18K,3,Orloff customized design/GCB23-18K,1.jpg,ORGCB23-18K-3.jpg,yes,square,1,
+ORGCB23-18K,4,Orloff customized design/GCB23-18K,2.jpg,ORGCB23-18K-4.jpg,yes,square,1,
+ORGCB23-18K,5,Orloff customized design/GCB23-18K,IMG_0144.jpg,ORGCB23-18K-5.jpg,yes,square,1,
+ORGCB23-18K,6,Orloff customized design/GCB23-18K,IMG_0268.jpg,ORGCB23-18K-6.jpg,yes,square,1,
+ORGCB23-18K,7,Orloff customized design/GCB23-18K,IMG_0403.jpg,ORGCB23-18K-7.jpg,yes,square,1,
+ORGCB23-18K,8,Orloff customized design/GCB23-18K,IMG_9324.jpg,ORGCB23-18K-8.jpg,yes,square,1,
+ORGCB23-P,1,Orloff customized design/GCB23-P,08.jpg,ORGCB23-P.jpg,yes,square,1,
+ORGCB23-P,2,Orloff customized design/GCB23-P,1.jpg,ORGCB23-P-2.jpg,yes,square,1,
+ORGCB23-P,3,Orloff customized design/GCB23-P,2.jpg,ORGCB23-P-3.jpg,yes,square,1,
+ORGCB23-P,4,Orloff customized design/GCB23-P,IMG_1936.jpg,ORGCB23-P-4.jpg,yes,square,1,
+ORGCB23-P,5,Orloff customized design/GCB23-P,IMG_2277.jpg,ORGCB23-P-5.jpg,yes,square,1,
+ORGCB23-P,6,Orloff customized design/GCB23-P,IMG_2526.jpg,ORGCB23-P-6.jpg,yes,square,1,
+ORGCB23-P,7,Orloff customized design/GCB23-P,IMG_9324.jpg,ORGCB23-P-7.jpg,yes,square,1,
+ORGCB24-18K,1,Orloff customized design/GCB24-18K,GCB24-18K.jpg,ORGCB24-18K.jpg,yes,square,1,
+ORGCB24-18K,2,Orloff customized design/GCB24-18K,07.jpg,ORGCB24-18K-2.jpg,yes,square,1,
+ORGCB24-18K,3,Orloff customized design/GCB24-18K,1.jpg,ORGCB24-18K-3.jpg,yes,square,1,
+ORGCB24-18K,4,Orloff customized design/GCB24-18K,2.jpg,ORGCB24-18K-4.jpg,yes,square,1,
+ORGCB24-18K,5,Orloff customized design/GCB24-18K,IMG_0195.jpg,ORGCB24-18K-5.jpg,yes,square,1,
+ORGCB24-18K,6,Orloff customized design/GCB24-18K,IMG_0264.jpg,ORGCB24-18K-6.jpg,yes,square,1,
+ORGCB24-18K,7,Orloff customized design/GCB24-18K,IMG_0441.jpg,ORGCB24-18K-7.jpg,yes,square,1,
+ORGCB24-18K,8,Orloff customized design/GCB24-18K,IMG_0760.jpg,ORGCB24-18K-8.jpg,yes,square,1,
+ORGCB24-P,1,Orloff customized design/GCB24-P,06.jpg,ORGCB24-P.jpg,yes,square,1,
+ORGCB24-P,2,Orloff customized design/GCB24-P,1.jpg,ORGCB24-P-2.jpg,yes,square,1,
+ORGCB24-P,3,Orloff customized design/GCB24-P,2.jpg,ORGCB24-P-3.jpg,yes,square,1,
+ORGCB24-P,4,Orloff customized design/GCB24-P,IMG_0760.jpg,ORGCB24-P-4.jpg,yes,square,1,
+ORGCB24-P,5,Orloff customized design/GCB24-P,IMG_1934.jpg,ORGCB24-P-5.jpg,yes,square,1,
+ORGCB24-P,6,Orloff customized design/GCB24-P,IMG_2268.jpg,ORGCB24-P-6.jpg,yes,square,1,
+ORGCB24-P,7,Orloff customized design/GCB24-P,IMG_2542.jpg,ORGCB24-P-7.jpg,yes,square,1,
+ORGCB25,1,Orloff customized design/GCB25,GCB25.jpg,ORGCB25.jpg,yes,square,1,
+ORGCB25,2,Orloff customized design/GCB25,06.jpg,ORGCB25-2.jpg,yes,square,1,
+ORGCB25,3,Orloff customized design/GCB25,1.jpg,ORGCB25-3.jpg,yes,square,1,
+ORGCB25,4,Orloff customized design/GCB25,2.jpg,ORGCB25-4.jpg,yes,square,1,
+ORGCB25,5,Orloff customized design/GCB25,IMG_0181.jpg,ORGCB25-5.jpg,yes,square,1,
+ORGCB25,6,Orloff customized design/GCB25,IMG_0305.jpg,ORGCB25-6.jpg,yes,square,1,
+ORGCB25,7,Orloff customized design/GCB25,IMG_0420.jpg,ORGCB25-7.jpg,yes,square,1,
+ORGCB25,8,Orloff customized design/GCB25,IMG_0740.jpg,ORGCB25-8.jpg,yes,square,1,
+ORGCB26-18K,1,Orloff customized design/GCB26-18K,05.jpg,ORGCB26-18K.jpg,yes,square,1,
+ORGCB26-18K,2,Orloff customized design/GCB26-18K,1.jpg,ORGCB26-18K-2.jpg,yes,square,1,
+ORGCB26-18K,3,Orloff customized design/GCB26-18K,2.jpg,ORGCB26-18K-3.jpg,yes,square,1,
+ORGCB26-18K,4,Orloff customized design/GCB26-18K,GCB26.jpg,ORGCB26-18K-4.jpg,yes,square,1,
+ORGCB26-18K,5,Orloff customized design/GCB26-18K,IMG_0191.jpg,ORGCB26-18K-5.jpg,yes,square,1,
+ORGCB26-18K,6,Orloff customized design/GCB26-18K,IMG_0276.jpg,ORGCB26-18K-6.jpg,yes,square,1,
+ORGCB26-18K,7,Orloff customized design/GCB26-18K,IMG_0454.jpg,ORGCB26-18K-7.jpg,yes,square,1,
+ORGCB26-18K,8,Orloff customized design/GCB26-18K,IMG_0620.jpg,ORGCB26-18K-8.jpg,yes,square,1,
+ORGCB26-P,1,Orloff customized design/GCB26-P,1.jpg,ORGCB26-P.jpg,yes,square,1,
+ORGCB26-P,2,Orloff customized design/GCB26-P,2.jpg,ORGCB26-P-2.jpg,yes,square,1,
+ORGCB26-P,3,Orloff customized design/GCB26-P,20.jpg,ORGCB26-P-3.jpg,yes,square,1,
+ORGCB26-P,4,Orloff customized design/GCB26-P,IMG_0620.jpg,ORGCB26-P-4.jpg,yes,square,1,
+ORGCB26-P,5,Orloff customized design/GCB26-P,IMG_1927.jpg,ORGCB26-P-5.jpg,yes,square,1,
+ORGCB26-P,6,Orloff customized design/GCB26-P,IMG_2166.jpg,ORGCB26-P-6.jpg,yes,square,1,
+ORGCB26-P,7,Orloff customized design/GCB26-P,IMG_2530.jpg,ORGCB26-P-7.jpg,yes,square,1,
+ORGCB27,1,Orloff customized design/GCB27,GCB27.jpg,ORGCB27.jpg,yes,square,1,
+ORGCB27,2,Orloff customized design/GCB27,1.jpg,ORGCB27-2.jpg,yes,square,1,
+ORGCB27,3,Orloff customized design/GCB27,2.jpg,ORGCB27-3.jpg,yes,square,1,
+ORGCB27,4,Orloff customized design/GCB27,3.jpg,ORGCB27-4.jpg,yes,square,1,
+ORGCB27,5,Orloff customized design/GCB27,IMG_0142.jpg,ORGCB27-5.jpg,yes,square,1,
+ORGCB27,6,Orloff customized design/GCB27,IMG_0333.jpg,ORGCB27-6.jpg,yes,square,1,
+ORGCB27,7,Orloff customized design/GCB27,IMG_0524.jpg,ORGCB27-7.jpg,yes,square,1,
+ORGCB27,8,Orloff customized design/GCB27,IMG_9302.jpg,ORGCB27-8.jpg,yes,square,1,
+ORGCB28-18K,1,Orloff customized design/GCB28-18K,GCB28-18K.jpg,ORGCB28-18K.jpg,yes,square,1,
+ORGCB28-18K,2,Orloff customized design/GCB28-18K,02.jpg,ORGCB28-18K-2.jpg,yes,square,1,
+ORGCB28-18K,3,Orloff customized design/GCB28-18K,1.jpg,ORGCB28-18K-3.jpg,yes,square,1,
+ORGCB28-18K,4,Orloff customized design/GCB28-18K,2.jpg,ORGCB28-18K-4.jpg,yes,square,1,
+ORGCB28-18K,5,Orloff customized design/GCB28-18K,IMG_0184.jpg,ORGCB28-18K-5.jpg,yes,square,1,
+ORGCB28-18K,6,Orloff customized design/GCB28-18K,IMG_0281.jpg,ORGCB28-18K-6.jpg,yes,square,1,
+ORGCB28-18K,7,Orloff customized design/GCB28-18K,IMG_0429.jpg,ORGCB28-18K-7.jpg,yes,square,1,
+ORGCB28-18K,8,Orloff customized design/GCB28-18K,IMG_0598.jpg,ORGCB28-18K-8.jpg,yes,square,1,
+ORGCB28-P,1,Orloff customized design/GCB28-P,04.jpg,ORGCB28-P.jpg,yes,square,1,
+ORGCB28-P,2,Orloff customized design/GCB28-P,1.jpg,ORGCB28-P-2.jpg,yes,square,1,
+ORGCB28-P,3,Orloff customized design/GCB28-P,2.jpg,ORGCB28-P-3.jpg,yes,square,1,
+ORGCB28-P,4,Orloff customized design/GCB28-P,IMG_0598.jpg,ORGCB28-P-4.jpg,yes,square,1,
+ORGCB28-P,5,Orloff customized design/GCB28-P,IMG_1941.jpg,ORGCB28-P-5.jpg,yes,square,1,
+ORGCB28-P,6,Orloff customized design/GCB28-P,IMG_2152.jpg,ORGCB28-P-6.jpg,yes,square,1,
+ORGCB28-P,7,Orloff customized design/GCB28-P,IMG_2553.jpg,ORGCB28-P-7.jpg,yes,square,1,
+ORGCB29-18K,1,Orloff customized design/GCB29-18K,GCB29-18K.jpg,ORGCB29-18K.jpg,yes,square,1,
+ORGCB29-18K,2,Orloff customized design/GCB29-18K,03.jpg,ORGCB29-18K-2.jpg,yes,square,1,
+ORGCB29-18K,3,Orloff customized design/GCB29-18K,1.jpg,ORGCB29-18K-3.jpg,yes,square,1,
+ORGCB29-18K,4,Orloff customized design/GCB29-18K,3.jpg,ORGCB29-18K-4.jpg,yes,square,1,
+ORGCB29-18K,5,Orloff customized design/GCB29-18K,IMG_0170.jpg,ORGCB29-18K-5.jpg,yes,square,1,
+ORGCB29-18K,6,Orloff customized design/GCB29-18K,IMG_0289.jpg,ORGCB29-18K-6.jpg,yes,square,1,
+ORGCB29-18K,7,Orloff customized design/GCB29-18K,IMG_0396.jpg,ORGCB29-18K-7.jpg,yes,square,1,
+ORGCB29-18K,8,Orloff customized design/GCB29-18K,IMG_0608.jpg,ORGCB29-18K-8.jpg,yes,square,1,
+ORGCB29-P,1,Orloff customized design/GCB29-P,05.jpg,ORGCB29-P.jpg,yes,square,1,
+ORGCB29-P,2,Orloff customized design/GCB29-P,1.jpg,ORGCB29-P-2.jpg,yes,square,1,
+ORGCB29-P,3,Orloff customized design/GCB29-P,2.jpg,ORGCB29-P-3.jpg,yes,square,1,
+ORGCB29-P,4,Orloff customized design/GCB29-P,IMG_0608.jpg,ORGCB29-P-4.jpg,yes,square,1,
+ORGCB29-P,5,Orloff customized design/GCB29-P,IMG_1932.jpg,ORGCB29-P-5.jpg,yes,square,1,
+ORGCB29-P,6,Orloff customized design/GCB29-P,IMG_2257.jpg,ORGCB29-P-6.jpg,yes,square,1,
+ORGCB29-P,7,Orloff customized design/GCB29-P,IMG_2547.jpg,ORGCB29-P-7.jpg,yes,square,1,
+ORGCB30-18K,1,Orloff customized design/GCB30-18K,GCB30-18K.jpg,ORGCB30-18K.jpg,yes,square,1,
+ORGCB30-18K,2,Orloff customized design/GCB30-18K,04.jpg,ORGCB30-18K-2.jpg,yes,square,1,
+ORGCB30-18K,3,Orloff customized design/GCB30-18K,1.jpg,ORGCB30-18K-3.jpg,yes,square,1,
+ORGCB30-18K,4,Orloff customized design/GCB30-18K,2.jpg,ORGCB30-18K-4.jpg,yes,square,1,
+ORGCB30-18K,5,Orloff customized design/GCB30-18K,IMG_0517.jpg,ORGCB30-18K-5.jpg,yes,square,1,
+ORGCB30-18K,6,Orloff customized design/GCB30-18K,IMG_0615.jpg,ORGCB30-18K-6.jpg,yes,square,1,
+ORGCB30-18K,7,Orloff customized design/GCB30-18K,IMG_0746.jpg,ORGCB30-18K-7.jpg,yes,square,1,
+ORGCB30-18K,8,Orloff customized design/GCB30-18K,IMG_0752.jpg,ORGCB30-18K-8.jpg,yes,square,1,
+ORGCB30-P,1,GCB30-P,04.jpg,ORGCB30-P.jpg,yes,square,1,
+ORGCB30-P,2,GCB30-P,1.jpg,ORGCB30-P-2.jpg,yes,square,1,
+ORGCB30-P,3,Orloff customized design/GCB30-P,1.jpg,ORGCB30-P-3.jpg,yes,square,1,
+ORGCB30-P,4,GCB30-P,2.jpg,ORGCB30-P-4.jpg,yes,square,1,
+ORGCB30-P,5,Orloff customized design/GCB30-P,2.jpg,ORGCB30-P-5.jpg,yes,square,1,
+ORGCB30-P,6,GCB30-P,3.jpg,ORGCB30-P-6.jpg,yes,square,1,
+ORGCB30-P,7,GCB30-P,IMG_0615.jpg,ORGCB30-P-7.jpg,yes,square,1,
+ORGCB30-P,8,GCB30-P,IMG_2113.jpg,ORGCB30-P-8.jpg,yes,square,1,
+ORGCB30-P,9,GCB30-P,IMG_2346.jpg,ORGCB30-P-9.jpg,yes,square,1,
+ORGCB30-P,10,GCB30-P,IMG_3412.jpg,ORGCB30-P-10.jpg,yes,square,1,
+ORGCB50P,1,Orloff customized design/GCB50,071.jpg,ORGCB50P.jpg,yes,square,1,
+ORGCB50P,2,Orloff customized design/GCB50,1.jpg,ORGCB50P-2.jpg,yes,square,1,
+ORGCB50P,3,Orloff customized design/GCB50,2.jpg,ORGCB50P-3.jpg,yes,square,1,
+ORGCB50P,4,Orloff customized design/GCB50,GCB50.jpg,ORGCB50P-4.jpg,yes,square,1,
+ORGCB50P,5,Orloff customized design/GCB50,IMG_05316.jpg,ORGCB50P-5.jpg,yes,square,1,
+ORGCB50P,6,Orloff customized design/GCB50,IMG_0716.jpg,ORGCB50P-6.jpg,yes,square,1,
+ORGCB50P,7,Orloff customized design/GCB50,IMG_0749.jpg,ORGCB50P-7.jpg,yes,square,1,
+ORGCB50P,8,Orloff customized design/GCB50,IMG_0755.jpg,ORGCB50P-8.jpg,yes,square,1,
+ORGCB51-P,1,GCB51-P,11.jpg,ORGCB51-P.jpg,yes,square,1,
+ORGCB51-P,2,GCB51-P,IMG_1749.jpg,ORGCB51-P-2.jpg,yes,square,1,
+ORGCB51-P,3,GCB51-P,IMG_1917.jpg,ORGCB51-P-3.jpg,yes,square,1,
+ORGCB51-P,4,GCB51-P,IMG_2221.jpg,ORGCB51-P-4.jpg,yes,square,1,
+ORGCB51-P,5,GCB51-P,IMG_2370.jpg,ORGCB51-P-5.jpg,yes,square,1,
+ORGCB51-P,6,GCB51-P,IMG_2899.jpg,ORGCB51-P-6.jpg,no,square,3,"also used by 5 different SKUs, do not upload as this SKU"
+ORGCB51-WY,1,GCB51-WY,13.jpg,ORGCB51-WY.jpg,yes,square,1,
+ORGCB51-WY,2,GCB51-WY,IMG_1755.jpg,ORGCB51-WY-2.jpg,yes,square,1,
+ORGCB51-WY,3,GCB51-WY,IMG_1915.jpg,ORGCB51-WY-3.jpg,yes,square,1,
+ORGCB51-WY,4,GCB51-WY,IMG_2245.jpg,ORGCB51-WY-4.jpg,yes,square,1,
+ORGCB51-WY,5,GCB51-WY,IMG_2503.jpg,ORGCB51-WY-5.jpg,yes,square,1,
+ORGCB51-WY,6,GCB51-WY,IMG_2899.jpg,ORGCB51-WY-6.jpg,no,square,3,"also used by 5 different SKUs, do not upload as this SKU"
+ORGCB51-YL,1,GCB51-YL,02.jpg,ORGCB51-YL.jpg,yes,square,1,
+ORGCB51-YL,2,GCB51-YL,IMG_1743.jpg,ORGCB51-YL-2.jpg,yes,square,1,
+ORGCB51-YL,3,GCB51-YL,IMG_1919.jpg,ORGCB51-YL-3.jpg,yes,square,1,
+ORGCB51-YL,4,GCB51-YL,IMG_2113.jpg,ORGCB51-YL-4.jpg,yes,square,1,
+ORGCB51-YL,5,GCB51-YL,IMG_2367.jpg,ORGCB51-YL-5.jpg,yes,square,1,
+ORGCB51-YL,6,GCB51-YL,IMG_2899.jpg,ORGCB51-YL-6.jpg,no,square,3,"also used by 5 different SKUs, do not upload as this SKU"
+ORGCB51-YP,1,GCB51-YP,12.jpg,ORGCB51-YP.jpg,yes,square,1,
+ORGCB51-YP,2,GCB51-YP,IMG_1754.jpg,ORGCB51-YP-2.jpg,yes,square,1,
+ORGCB51-YP,3,GCB51-YP,IMG_1921.jpg,ORGCB51-YP-3.jpg,yes,square,1,
+ORGCB51-YP,4,GCB51-YP,IMG_2118.jpg,ORGCB51-YP-4.jpg,yes,square,1,
+ORGCB51-YP,5,GCB51-YP,IMG_2359.jpg,ORGCB51-YP-5.jpg,yes,square,1,
+ORGCB51-YP,6,GCB51-YP,IMG_2899.jpg,ORGCB51-YP-6.jpg,no,square,3,"also used by 5 different SKUs, do not upload as this SKU"
+ORGCB51-YR,1,GCB51-YR,10.jpg,ORGCB51-YR.jpg,yes,square,1,
+ORGCB51-YR,2,GCB51-YR,IMG_1746.jpg,ORGCB51-YR-2.jpg,yes,square,1,
+ORGCB51-YR,3,GCB51-YR,IMG_1913.jpg,ORGCB51-YR-3.jpg,yes,square,1,
+ORGCB51-YR,4,GCB51-YR,IMG_2103.jpg,ORGCB51-YR-4.jpg,yes,square,1,
+ORGCB51-YR,5,GCB51-YR,IMG_2355.jpg,ORGCB51-YR-5.jpg,yes,square,1,
+ORGCB51-YR,6,GCB51-YR,IMG_2899.jpg,ORGCB51-YR-6.jpg,no,square,3,"also used by 5 different SKUs, do not upload as this SKU"
+ORGCB52-L,1,GCB52-L,001.jpg,ORGCB52-L.jpg,yes,square,1,
+ORGCB52-L,2,GCB52-L,1.jpg,ORGCB52-L-2.jpg,yes,square,1,
+ORGCB52-L,3,GCB52-L,16.jpg,ORGCB52-L-3.jpg,yes,square,1,
+ORGCB52-L,4,GCB52-L,2.jpg,ORGCB52-L-4.jpg,yes,square,1,
+ORGCB52-L,5,GCB52-L,3.jpg,ORGCB52-L-5.jpg,yes,square,1,
+ORGCB52-L,6,GCB52-L,4.jpg,ORGCB52-L-6.jpg,yes,square,1,
+ORGCB52-L,7,GCB52-L,5.jpg,ORGCB52-L-7.jpg,yes,square,1,
+ORGCB52-L,8,GCB52-L,IMG_1772.jpg,ORGCB52-L-8.jpg,yes,square,1,
+ORGCB52-L,9,GCB52-L,IMG_1900.jpg,ORGCB52-L-9.jpg,yes,square,1,
+ORGCB52-L,10,GCB52-L,IMG_2049.jpg,ORGCB52-L-10.jpg,yes,square,1,
+ORGCB52-L,11,GCB52-L,IMG_2050.jpg,ORGCB52-L-11.jpg,yes,square,1,
+ORGCB52-L,12,GCB52-L,IMG_2287.jpg,ORGCB52-L-12.jpg,yes,square,1,
+ORGCB53-L,1,GCB53-L,002.jpg,ORGCB53-L.jpg,yes,square,1,
+ORGCB53-L,2,GCB53-L,1.jpg,ORGCB53-L-2.jpg,yes,square,1,
+ORGCB53-L,3,GCB53-L,18.jpg,ORGCB53-L-3.jpg,yes,square,1,
+ORGCB53-L,4,GCB53-L,2.jpg,ORGCB53-L-4.jpg,yes,square,1,
+ORGCB53-L,5,GCB53-L,3.jpg,ORGCB53-L-5.jpg,yes,square,1,
+ORGCB53-L,6,GCB53-L,4.jpg,ORGCB53-L-6.jpg,yes,square,1,
+ORGCB53-L,7,GCB53-L,IMG_1780.jpg,ORGCB53-L-7.jpg,yes,square,1,
+ORGCB53-L,8,GCB53-L,IMG_1911.jpg,ORGCB53-L-8.jpg,yes,square,1,
+ORGCB53-L,9,GCB53-L,IMG_2058.jpg,ORGCB53-L-9.jpg,yes,square,1,
+ORGCB53-L,10,GCB53-L,IMG_2059.jpg,ORGCB53-L-10.jpg,yes,square,1,
+ORGCB53-L,11,GCB53-L,IMG_2343.jpg,ORGCB53-L-11.jpg,yes,square,1,
+ORGCB54-L,1,GCB54-L,003.jpg,ORGCB54-L.jpg,yes,square,1,
+ORGCB54-L,2,GCB54-L,1.jpg,ORGCB54-L-2.jpg,yes,square,1,
+ORGCB54-L,3,GCB54-L,17.jpg,ORGCB54-L-3.jpg,yes,square,1,
+ORGCB54-L,4,GCB54-L,2.jpg,ORGCB54-L-4.jpg,yes,square,1,
+ORGCB54-L,5,GCB54-L,3.jpg,ORGCB54-L-5.jpg,yes,square,1,
+ORGCB54-L,6,GCB54-L,4.jpg,ORGCB54-L-6.jpg,yes,square,1,
+ORGCB54-L,7,GCB54-L,IMG_1776.jpg,ORGCB54-L-7.jpg,yes,square,1,
+ORGCB54-L,8,GCB54-L,IMG_1898.jpg,ORGCB54-L-8.jpg,yes,square,1,
+ORGCB54-L,9,GCB54-L,IMG_2042.jpg,ORGCB54-L-9.jpg,yes,square,1,
+ORGCB54-L,10,GCB54-L,IMG_2043.jpg,ORGCB54-L-10.jpg,yes,square,1,
+ORGCB54-L,11,GCB54-L,IMG_2497.jpg,ORGCB54-L-11.jpg,yes,square,1,
+ORGCB55-L,1,GCB55-L,004.jpg,ORGCB55-L.jpg,yes,square,1,
+ORGCB55-L,2,GCB55-L,1.jpg,ORGCB55-L-2.jpg,yes,square,1,
+ORGCB55-L,3,GCB55-L,14.jpg,ORGCB55-L-3.jpg,yes,square,1,
+ORGCB55-L,4,GCB55-L,2.jpg,ORGCB55-L-4.jpg,yes,square,1,
+ORGCB55-L,5,GCB55-L,3.jpg,ORGCB55-L-5.jpg,yes,square,1,
+ORGCB55-L,6,GCB55-L,4.jpg,ORGCB55-L-6.jpg,yes,square,1,
+ORGCB55-L,7,GCB55-L,IMG_1760.jpg,ORGCB55-L-7.jpg,yes,square,1,
+ORGCB55-L,8,GCB55-L,IMG_1906.jpg,ORGCB55-L-8.jpg,yes,square,1,
+ORGCB55-L,9,GCB55-L,IMG_2037.jpg,ORGCB55-L-9.jpg,yes,square,1,
+ORGCB55-L,10,GCB55-L,IMG_2038.jpg,ORGCB55-L-10.jpg,yes,square,1,
+ORGCB55-L,11,GCB55-L,IMG_2284.jpg,ORGCB55-L-11.jpg,yes,square,1,
+ORGCB56-B,1,GCB56-B,1.jpg,ORGCB56-B.jpg,yes,square,1,
+ORGCB56-B,2,GCB56-B,15.jpg,ORGCB56-B-2.jpg,yes,square,1,
+ORGCB56-B,3,GCB56-B,2.jpg,ORGCB56-B-3.jpg,yes,square,1,
+ORGCB56-B,4,GCB56-B,3.jpg,ORGCB56-B-4.jpg,yes,square,1,
+ORGCB56-B,5,GCB56-B,IMG_1767.jpg,ORGCB56-B-5.jpg,yes,square,1,
+ORGCB56-B,6,GCB56-B,IMG_1904.jpg,ORGCB56-B-6.jpg,yes,square,1,
+ORGCB56-B,7,GCB56-B,IMG_2069.jpg,ORGCB56-B-7.jpg,yes,square,1,
+ORGCB56-B,8,GCB56-B,IMG_2070.jpg,ORGCB56-B-8.jpg,yes,square,1,
+ORGCB56-B,9,GCB56-B,IMG_2346.jpg,ORGCB56-B-9.jpg,yes,square,1,
+ORGCB57-Z,1,GCB57-Z,1.jpg,ORGCB57-Z.jpg,yes,square,1,
+ORGCB57-Z,2,GCB57-Z,19.jpg,ORGCB57-Z-2.jpg,yes,square,1,
+ORGCB57-Z,3,GCB57-Z,2.jpg,ORGCB57-Z-3.jpg,yes,square,1,
+ORGCB57-Z,4,GCB57-Z,3.jpg,ORGCB57-Z-4.jpg,yes,square,1,
+ORGCB57-Z,5,GCB57-Z,IMG_1741.jpg,ORGCB57-Z-5.jpg,yes,square,1,
+ORGCB57-Z,6,GCB57-Z,IMG_1894.jpg,ORGCB57-Z-6.jpg,yes,square,1,
+ORGCB57-Z,7,GCB57-Z,IMG_2091.jpg,ORGCB57-Z-7.jpg,yes,square,1,
+ORGCB57-Z,8,GCB57-Z,IMG_2509.jpg,ORGCB57-Z-8.jpg,yes,square,1,
+ORGCB58-LVR,1,GCB58-LVR,01.jpg,ORGCB58-LVR.jpg,yes,square,1,
+ORGCB58-LVR,2,GCB58-LVR,1.jpg,ORGCB58-LVR-2.jpg,yes,square,1,
+ORGCB58-LVR,3,GCB58-LVR,2.jpg,ORGCB58-LVR-3.jpg,yes,square,1,
+ORGCB58-LVR,4,GCB58-LVR,3.jpg,ORGCB58-LVR-4.jpg,yes,square,1,
+ORGCB58-LVR,5,GCB58-LVR,IMG_1735.jpg,ORGCB58-LVR-5.jpg,yes,square,1,
+ORGCB58-LVR,6,GCB58-LVR,IMG_1892.jpg,ORGCB58-LVR-6.jpg,yes,square,1,
+ORGCB58-LVR,7,GCB58-LVR,IMG_2076.jpg,ORGCB58-LVR-7.jpg,yes,square,1,
+ORGCB58-LVR,8,GCB58-LVR,IMG_2350.jpg,ORGCB58-LVR-8.jpg,yes,square,1,
+ORGCBB1-17-B,1,ORGCBB1-B,2.jpg,ORGCBB1-17-B.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-B,2,ORGCBB1-B,22.jpg,ORGCBB1-17-B-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-B,3,ORGCBB1-B,222.jpg,ORGCBB1-17-B-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-B,4,ORGCBB1-B,7.jpg,ORGCBB1-17-B-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-B,5,ORGCBB1-B,IMG_6379.jpg,ORGCBB1-17-B-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-B,6,ORGCBB1-B,IMG_6787.jpg,ORGCBB1-17-B-6.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-B,7,ORGCBB1-B,IMG_9234.jpg,ORGCBB1-17-B-7.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-G,1,ORGCBB1-G,1.jpg,ORGCBB1-17-G.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-G,2,ORGCBB1-G,6.jpg,ORGCBB1-17-G-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-G,3,ORGCBB1-G,IMG_6371.jpg,ORGCBB1-17-G-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-G,4,ORGCBB1-G,IMG_63842.jpg,ORGCBB1-17-G-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-G,5,ORGCBB1-G,IMG_6790.jpg,ORGCBB1-17-G-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-K,1,ORGCBB1-K,4.jpg,ORGCBB1-17-K.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-K,2,ORGCBB1-K,9.jpg,ORGCBB1-17-K-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-K,3,ORGCBB1-K,IMG_6382.jpg,ORGCBB1-17-K-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-K,4,ORGCBB1-K,IMG_63841.jpg,ORGCBB1-17-K-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-R,1,ORGCBB1-R,10.jpg,ORGCBB1-17-R.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-R,2,ORGCBB1-R,5.jpg,ORGCBB1-17-R-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-R,3,ORGCBB1-R,IMG_6384.jpg,ORGCBB1-17-R-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-W,1,ORGCBB1-W,3.jpg,ORGCBB1-17-W.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-W,2,ORGCBB1-W,8.jpg,ORGCBB1-17-W-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-17-W,3,ORGCBB1-W,IMG_6380.jpg,ORGCBB1-17-W-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-B,1,ORGCBB1-B,2.jpg,ORGCBB1-19-B.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-B,2,ORGCBB1-B,22.jpg,ORGCBB1-19-B-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-B,3,ORGCBB1-B,222.jpg,ORGCBB1-19-B-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-B,4,ORGCBB1-B,7.jpg,ORGCBB1-19-B-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-B,5,ORGCBB1-B,IMG_6379.jpg,ORGCBB1-19-B-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-B,6,ORGCBB1-B,IMG_6787.jpg,ORGCBB1-19-B-6.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-B,7,ORGCBB1-B,IMG_9234.jpg,ORGCBB1-19-B-7.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-G,1,ORGCBB1-G,1.jpg,ORGCBB1-19-G.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-G,2,ORGCBB1-G,6.jpg,ORGCBB1-19-G-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-G,3,ORGCBB1-G,IMG_6371.jpg,ORGCBB1-19-G-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-G,4,ORGCBB1-G,IMG_63842.jpg,ORGCBB1-19-G-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-G,5,ORGCBB1-G,IMG_6790.jpg,ORGCBB1-19-G-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-K,1,ORGCBB1-K,4.jpg,ORGCBB1-19-K.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-K,2,ORGCBB1-K,9.jpg,ORGCBB1-19-K-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-K,3,ORGCBB1-K,IMG_6382.jpg,ORGCBB1-19-K-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-K,4,ORGCBB1-K,IMG_63841.jpg,ORGCBB1-19-K-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-R,1,ORGCBB1-R,10.jpg,ORGCBB1-19-R.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-R,2,ORGCBB1-R,5.jpg,ORGCBB1-19-R-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-R,3,ORGCBB1-R,IMG_6384.jpg,ORGCBB1-19-R-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-W,1,ORGCBB1-W,3.jpg,ORGCBB1-19-W.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-W,2,ORGCBB1-W,8.jpg,ORGCBB1-19-W-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-19-W,3,ORGCBB1-W,IMG_6380.jpg,ORGCBB1-19-W-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-B,1,ORGCBB1-B,2.jpg,ORGCBB1-21-B.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-B,2,ORGCBB1-B,22.jpg,ORGCBB1-21-B-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-B,3,ORGCBB1-B,222.jpg,ORGCBB1-21-B-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-B,4,ORGCBB1-B,7.jpg,ORGCBB1-21-B-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-B,5,ORGCBB1-B,IMG_6379.jpg,ORGCBB1-21-B-5.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-B,6,ORGCBB1-B,IMG_6787.jpg,ORGCBB1-21-B-6.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-B,7,ORGCBB1-B,IMG_9234.jpg,ORGCBB1-21-B-7.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-K,1,ORGCBB1-K,4.jpg,ORGCBB1-21-K.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-K,2,ORGCBB1-K,9.jpg,ORGCBB1-21-K-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-K,3,ORGCBB1-K,IMG_6382.jpg,ORGCBB1-21-K-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-K,4,ORGCBB1-K,IMG_63841.jpg,ORGCBB1-21-K-4.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-R,1,ORGCBB1-R,10.jpg,ORGCBB1-21-R.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-R,2,ORGCBB1-R,5.jpg,ORGCBB1-21-R-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-R,3,ORGCBB1-R,IMG_6384.jpg,ORGCBB1-21-R-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-W,1,ORGCBB1-W,3.jpg,ORGCBB1-21-W.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-W,2,ORGCBB1-W,8.jpg,ORGCBB1-21-W-2.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORGCBB1-21-W,3,ORGCBB1-W,IMG_6380.jpg,ORGCBB1-21-W-3.jpg,yes,square,1,"shared across the sizes of one bracelet, expected"
+ORPA0010,1,GCB39,PA0010.jpg,ORPA0010.jpg,yes,square,1,
+ORPA0010,2,GCB39,PA0010-2.jpg,ORPA0010-2.jpg,yes,square,1,
+ORPA0010,3,GCB39,PA0010-4.jpg,ORPA0010-3.jpg,yes,square,1,
+ORPA0035,1,GCB41,PA0035.jpg,ORPA0035.jpg,yes,square,1,
+ORPA0035,2,GCB41,PA0035-2.JPG,ORPA0035-2.jpg,yes,square,1,
+ORPA0035,3,GCB41,PA0035-5.JPG,ORPA0035-3.jpg,yes,square,1,
+ORPA0094,1,GCB42,PA0094-2.jpg,ORPA0094.jpg,yes,square,1,
+ORPA0094,2,GCB42,PA0094-3.jpg,ORPA0094-2.jpg,yes,square,1,
+ORPA0097,1,GCB43,PA0097-2.jpg,ORPA0097.jpg,yes,square,1,
+ORPA0097,2,GCB43,PA0097-3.jpg,ORPA0097-2.jpg,yes,square,1,
+ORPA0097,3,GCB43,PA0097-2 拷贝.jpg,ORPA0097-3.jpg,yes,square,1,
+ORPA0107,1,GCB49,PA0107.jpg,ORPA0107.jpg,yes,square,1,
+ORPA0107,2,GCB49,PA0107-2.jpg,ORPA0107-2.jpg,yes,square,1,
+ORPA0107,3,GCB49,PA0107-3.jpg,ORPA0107-3.jpg,yes,square,1,
+ORPA0123,1,GCB44,PA0123-2.JPG,ORPA0123.jpg,yes,square,1,
+ORPA0123,2,GCB44,PA0123-3.JPG,ORPA0123-2.jpg,yes,square,1,
+ORPA0132,1,GCB45,PA0132.jpg,ORPA0132.jpg,yes,square,1,
+ORPA0132,2,GCB45,PA0132-2.JPG,ORPA0132-2.jpg,yes,square,1,
+ORPA0132,3,GCB45,PA0132-3.JPG,ORPA0132-3.jpg,yes,square,1,
+ORPA0142,1,GCB46,PA0142.jpg,ORPA0142.jpg,yes,square,1,
+ORPA0142,2,GCB46,PA0142-2.JPG,ORPA0142-2.jpg,yes,square,1,
+ORPA0142,3,GCB46,PA0142-3.JPG,ORPA0142-3.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORPA0147,1,GCB47,PA0147.jpg,ORPA0147.jpg,yes,square,1,
+ORPA0147,2,GCB47,PA0147-2.JPG,ORPA0147-2.jpg,yes,square,1,
+ORPA0147,3,GCB47,PA0147-3.JPG,ORPA0147-3.jpg,no,square,3,"also used by 2 different SKUs, do not upload as this SKU"
+ORPA0149,1,GCB48,PA0149.jpg,ORPA0149.jpg,yes,square,1,
+ORPA0149,2,GCB48,PA0149-2.JPG,ORPA0149-2.jpg,yes,square,1,
+ORPA0149,3,GCB48,PA0149-3.JPG,ORPA0149-3.jpg,yes,square,1,
+ORPA034,1,GCB40,PA0034-2.JPG,ORPA034.jpg,yes,square,1,
+ORPA034,2,GCB40,PA0034-4.JPG,ORPA034-2.jpg,yes,square,1,
+ORPA034,3,GCB40,PA0034.jpg,ORPA034-3.jpg,yes,square,1,

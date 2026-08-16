@@ -1,0 +1,49 @@
+{%- comment -%}
+  Responsive image in a fixed-ratio box, or a clearly labelled empty slot.
+
+  The ratio lives on the wrapper, so the space is reserved before the image
+  arrives and nothing shifts as it loads.
+
+  Accepts:
+    image      - an image object. When blank, the labelled slot renders instead.
+    ratio      - CSS aspect-ratio, e.g. "4 / 5". Default comes from the CSS.
+    sizes      - the sizes attribute. Default "100vw".
+    priority   - true for above-the-fold images: eager + high fetchpriority.
+                 Everything else lazy-loads.
+    alt        - overrides the image's own alt text.
+    class      - extra classes for the wrapper.
+    slot_title - label shown on the empty slot, e.g. "Hero image".
+    slot_text  - guidance shown on the empty slot.
+{%- endcomment -%}
+
+{%- assign og_img_sizes = sizes | default: '100vw' -%}
+{%- capture og_img_style -%}{% if ratio != blank %} style="--og-ratio: {{ ratio }};"{% endif %}{%- endcapture -%}
+
+<div class="og-media {{ class }}"{{ og_img_style }}>
+  {%- if image != blank -%}
+    {%- capture og_img_srcset -%}
+      {%- assign og_widths = '400,600,800,1000,1200,1600,2000' | split: ',' -%}
+      {%- for w in og_widths -%}
+        {%- assign wn = w | plus: 0 -%}
+        {%- if wn <= image.width -%}{{ image | image_url: width: wn }} {{ wn }}w,{%- endif -%}
+      {%- endfor -%}
+      {{ image | image_url: width: image.width }} {{ image.width }}w
+    {%- endcapture -%}
+    <img
+      src="{{ image | image_url: width: 1200 }}"
+      srcset="{{ og_img_srcset | strip_newlines | strip }}"
+      sizes="{{ og_img_sizes }}"
+      width="{{ image.width }}"
+      height="{{ image.height }}"
+      alt="{{ alt | default: image.alt | escape }}"
+      {% if priority %}loading="eager" fetchpriority="high"{% else %}loading="lazy" fetchpriority="low"{% endif %}
+      decoding="async"
+    >
+  {%- else -%}
+    <div class="og-slot">
+      {% render 'og-icon', icon: 'diamond', size: 32 %}
+      {%- if slot_title != blank -%}<span class="og-slot__title">{{ slot_title }}</span>{%- endif -%}
+      {%- if slot_text != blank -%}<span class="og-slot__text">{{ slot_text }}</span>{%- endif -%}
+    </div>
+  {%- endif -%}
+</div>

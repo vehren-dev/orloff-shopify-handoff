@@ -1,0 +1,288 @@
+sku,invoice_qty,unit_cost_usd,shopify_qty,shopify_status,product_type,title
+ORCB01,10,3.75,10,ACTIVE,Charm,Whale Charm
+ORCB02,10,3.84,10,ACTIVE,Charm,Turtle Charm
+ORCB03,10,4.03,10,ACTIVE,Charm,Elephant Charm
+ORCB05,10,5.12,10,ACTIVE,Charm,Unicorn Charm
+ORCB06,10,4.15,10,ACTIVE,Charm,"Fox Charm, Rose Gold"
+ORCB07,10,2.92,10,ACTIVE,Charm,Hippo Charm
+ORCB08,10,4.05,10,ACTIVE,Charm,Rabbit Charm
+ORCB09,10,4.42,10,ACTIVE,Charm,Puppy Charm
+ORCB10,10,4.76,10,ACTIVE,Charm,Carousel Charm
+ORCB11,10,5.24,10,ACTIVE,Charm,Birthday Balloon Charm
+ORCB12,10,3.54,10,ACTIVE,Charm,Boy Charm
+ORCB13,9,3.30,9,ACTIVE,Charm,Girl Charm
+ORCB14,9,3.77,9,ACTIVE,Charm,Couple in a Boat Charm
+ORCB15,10,3.50,10,ACTIVE,Charm,Footballer Charm
+ORCB16,10,3.72,10,ACTIVE,Charm,Gondola Charm
+ORCB17,10,5.48,10,ACTIVE,Charm,Sisters Charm
+ORCB18,9,5.10,9,ACTIVE,Charm,Folk Costume Couple Charm
+ORCB20,10,3.28,10,ACTIVE,Charm,Easter Basket Charm
+ORCB21,10,2.87,10,ACTIVE,Charm,Palm Tree Charm
+ORCB22,10,4.59,10,ACTIVE,Charm,Daisy Heart Charm
+ORCB23,10,3.52,10,ACTIVE,Charm,Daisy Heart Dangle
+ORCB25,10,4.07,10,ACTIVE,Charm,Christmas Sleigh Charm
+ORCB26,10,3.93,10,ACTIVE,Charm,Coffee Cup Charm
+ORCB27,10,4.99,10,ACTIVE,Charm,Cupcake Charm
+ORCB28,10,2.76,10,ACTIVE,Charm,Champagne Toast Charm
+ORCB29,10,3.59,10,ACTIVE,Charm,Engagement Ring Charm
+ORCB30,10,6.69,10,ACTIVE,Charm,Baby Pram Charm
+ORCB34,10,5.03,10,ACTIVE,Charm,"Openwork Hearts Charm, Pink"
+ORCB35,10,4.59,10,ACTIVE,Charm,Four Leaf Clover Charm
+ORCB36,10,7.22,10,ACTIVE,Charm,"Crystal Cluster Charm, Blue"
+ORCB37,10,3.94,10,ACTIVE,Charm,"Heart Charm, Light Blue Enamel"
+ORCB38,10,4.92,10,ACTIVE,Charm,"Butterfly Charm, Light Blue"
+ORCB39,10,5.36,10,ACTIVE,Charm,"Primrose Charm, Light Blue"
+ORCB40,10,4.27,10,ACTIVE,Charm,Red Rose Charm
+ORCB41,9,5.58,9,ACTIVE,Charm,"Love Padlock Charm, Blue"
+ORCB42,10,4.16,10,ACTIVE,Charm,"Butterfly Charm, Pink"
+ORCB43,10,4.05,10,ACTIVE,Charm,"Cherry Blossom Charm, Pink"
+ORCB44,10,4.92,10,ACTIVE,Charm,"Pave Heart Charm, Pink"
+ORCB45,10,4.81,10,ACTIVE,Charm,"Daisy Charm, Pink"
+ORCB46,10,5.14,10,ACTIVE,Charm,Sunglasses Charm
+ORCB47,10,4.48,10,ACTIVE,Charm,Teddy Bear Charm
+ORCB48,10,7.22,10,ACTIVE,Charm,"Baby Shoe Charm, Blue"
+ORCB49,10,6.34,10,ACTIVE,Charm,Linked Hearts Charm
+ORCB50,10,6.23,10,ACTIVE,Charm,Dragonfly Crystal Charm
+ORCB51,10,7.88,10,ACTIVE,Charm,Royal Carriage Charm
+ORCB52,10,4.16,10,ACTIVE,Charm,Blossom and Butterfly Charm
+ORCB53,10,5.47,10,ACTIVE,Charm,Angel Pearl Charm
+ORCB54,10,5.91,10,ACTIVE,Charm,Devil Pearl Charm
+ORCB55,10,5.35,10,ACTIVE,Charm,Dreamcatcher Charm
+ORCB56,10,5.28,10,ACTIVE,Charm,Crown Charm
+ORCB58,9,4.01,9,ACTIVE,Charm,Scissors and Comb Charm
+ORCB59,10,4.27,10,ACTIVE,Charm,Takeaway Coffee Charm
+ORCB60,10,5.49,10,ACTIVE,Charm,"Owl Charm, Turquoise"
+ORCB61,10,4.33,10,ACTIVE,Charm,Origami Crane Charm
+ORCB62,10,5.62,10,ACTIVE,Charm,Family Tree Charm
+ORCB63,10,4.77,10,ACTIVE,Charm,Puzzle Heart Charm
+ORCB64,10,5.46,10,ACTIVE,Charm,Sunglasses and Stiletto Charm
+ORCB65,10,5.64,10,ACTIVE,Charm,"Flamingo Charm, Pink"
+ORCB66,8,3.50,8,ACTIVE,Charm,Violin Charm
+ORCB67,10,3.88,10,ACTIVE,Charm,Feather Charm
+ORCB70,10,5.35,10,ACTIVE,Charm,Witch Hat Charm
+ORCB71,10,4.13,10,ACTIVE,Charm,"Key Charm, Red Enamel"
+ORCB73,10,4.59,10,ACTIVE,Charm,Lucky Cat Charm
+ORCB74,10,5.13,10,ACTIVE,Charm,"Elephant Charm, Blue Enamel"
+ORCB76,7,7.34,7,ACTIVE,Charm,Treasure Chest Charm
+ORCB77,10,7.22,10,ACTIVE,Charm,"Owl Charm, Gold Heart"
+ORCB78,10,5.80,10,ACTIVE,Charm,Mother and Child Charm
+ORCB79,10,9.30,10,ACTIVE,Charm,Safety Chain
+ORCB80,10,4.87,10,ACTIVE,Charm,Sea Turtle Charm
+ORCB81,10,4.59,10,ACTIVE,Charm,I Love You Heart Charm
+ORCB82,10,5.50,10,ACTIVE,Charm,Rainbow Heart Charm
+ORCB83,10,5.21,10,ACTIVE,Charm,Corgi Charm
+ORCB84,10,4.87,10,ACTIVE,Charm,Dog Kennel Charm
+ORCB85,10,4.81,10,ACTIVE,Charm,Puppy Face Charm
+ORCB86,10,5.69,10,ACTIVE,Charm,Dachshund Charm
+ORCB88,10,3.36,10,ACTIVE,Charm,"Faceted Glass Charm, Red"
+ORCB89,10,5.88,10,ACTIVE,Charm,Snowman Charm
+ORCB100,9,6.25,9,ACTIVE,Charm,"Star Pave Charm, Purple"
+ORCB101,10,7.02,10,ACTIVE,Charm,Sweet Wrapper Charm
+ORCB102,10,6.46,10,ACTIVE,Charm,"Star Charm, Purple Centre"
+ORCB103,10,7.02,10,ACTIVE,Charm,Rainbow Egg Charm
+ORCB104,8,6.00,8,ACTIVE,Charm,"Ribbon Bow Charm, Red Heart"
+ORCB106,10,5.17,10,ACTIVE,Charm,"Angel Charm, Pink Heart"
+ORCB107,9,6.13,9,ACTIVE,Charm,Graduation Owl Charm
+ORCB108,10,4.26,10,ACTIVE,Charm,"Unicorn Charm, Gold Mane"
+ORCB110,10,6.13,10,ACTIVE,Charm,Princess Charm
+ORCB111,10,5.46,10,ACTIVE,Charm,"Butterfly Charm, Turquoise Spots"
+ORCB113,10,6.30,10,ACTIVE,Charm,"Puzzle Heart Charm, Multicolour"
+ORCB114,10,5.19,10,ACTIVE,Charm,Mom Heart Charm
+ORCB115,10,5.03,10,ACTIVE,Charm,Stitched Heart Charm
+ORCB116,10,6.35,10,ACTIVE,Charm,"Heart Padlock Charm, Blue"
+ORCB117,10,4.96,10,ACTIVE,Charm,"Frangipani Charm, Yellow"
+ORCB118,7,6.68,7,ACTIVE,Charm,"Dreamcatcher Charm, Rainbow"
+ORCB119,10,5.58,10,ACTIVE,Charm,Graduation Charm
+ORCB120,10,5.40,10,ACTIVE,Charm,Angel Wing Charm
+ORCB122,8,5.25,8,ACTIVE,Charm,"Witch Hat Charm, Rose Gold"
+ORCB123,10,7.00,10,ACTIVE,Charm,Horse Charm
+ORCB124,10,7.22,10,ACTIVE,Charm,"Clover Charm, Purple"
+ORCB125,9,5.03,9,ACTIVE,Charm,Basketball Charm
+ORCB126,10,3.43,10,ACTIVE,Charm,Cactus Charm
+ORCB127,10,4.59,10,ACTIVE,Charm,Rabbit and Strawberry Charm
+ORCB128,10,6.80,10,ACTIVE,Charm,Ladybird Charm
+ORCB129,9,4.55,9,ACTIVE,Charm,Two Cats and Moon Charm
+ORCB135,10,4.97,10,ACTIVE,Charm,Medical Chart Charm
+ORCB136,10,4.98,10,ACTIVE,Charm,"Camera Charm, Pink"
+ORCB137,10,6.07,10,ACTIVE,Charm,"Elephant Charm, Pink and Green"
+ORCB138,10,4.27,10,ACTIVE,Charm,Lucky Clover Heart Charm
+ORCB139,9,8.40,9,ACTIVE,Charm,Sunflower Charm
+ORCB140,10,4.69,10,ACTIVE,Charm,Rainbow Charm
+ORCB142,10,5.23,10,ACTIVE,Charm,Mermaid Charm
+ORCB144,10,5.69,10,ACTIVE,Charm,Best Friends Charm
+ORCB146,10,4.20,10,ACTIVE,Charm,Ship's Wheel Charm
+ORCB149,10,4.51,10,ACTIVE,Charm,Giraffe Charm
+ORCB150,9,4.85,9,ACTIVE,Charm,"Lucky Star Charm, Gold"
+ORCB151,9,5.03,9,ACTIVE,Charm,"Sunflower Charm, Gold"
+ORCB152,10,6.82,10,ACTIVE,Charm,"Stars and Moon Charm, Blue"
+ORCB153,10,5.47,10,ACTIVE,Charm,Flower Heart Charm
+ORCB154,10,5.47,10,ACTIVE,Charm,I Love My Family Charm
+ORCB155,10,4.59,10,ACTIVE,Charm,Cocktail Charm
+ORCB156,10,5.03,10,ACTIVE,Charm,Shopping Bag Charm
+ORCB157,9,5.03,9,ACTIVE,Charm,Heartbeat Charm
+ORCB159,10,5.03,10,ACTIVE,Charm,Cool Drink Charm
+ORCB160,10,5.03,10,ACTIVE,Charm,Casino Charm
+ORCB161,10,5.47,10,ACTIVE,Charm,Gift Box Charm
+ORCB162,9,4.38,9,ACTIVE,Charm,Wristwatch Charm
+ORCB163,10,5.47,10,ACTIVE,Charm,Hot Air Balloon Charm
+ORCB164,10,4.59,10,ACTIVE,Charm,Birthday Cake Charm
+ORCB165,10,4.59,10,ACTIVE,Charm,Ice Lolly Charm
+ORCB166,10,4.81,10,ACTIVE,Charm,Carrot Charm
+ORCB168,10,5.03,10,ACTIVE,Charm,Cow Charm
+ORCB169,10,6.34,10,ACTIVE,Charm,Pony Charm
+ORCB170,9,4.59,9,ACTIVE,Charm,Police Box Charm
+ORCB171,10,5.03,10,ACTIVE,Charm,Umbrella Charm
+ORCB173,10,5.69,10,ACTIVE,Charm,Planet Charm
+ORCB174,10,4.81,10,ACTIVE,Charm,Handbag Charm
+ORCB175,9,4.59,9,ACTIVE,Charm,Treble Clef Charm
+ORCB177,10,5.91,10,ACTIVE,Charm,Ice Cream Cart Charm
+ORCB179,10,6.34,10,ACTIVE,Charm,Panda Charm
+ORCB180,15,5.03,15,ACTIVE,Charm,Crowned Shield Charm
+ORCB182,16,5.69,16,ACTIVE,Charm,Puzzle Cube Charm
+ORCBB01-17,44,22.15,44,ACTIVE,Bracelet,SPARKLE - SNAKE CHAIN
+ORCBB01-19,44,23.95,44,ACTIVE,Bracelet,SPARKLE - SNAKE CHAIN
+ORCBB01-21,46,26.85,46,ACTIVE,Bracelet,SPARKLE - SNAKE CHAIN
+ORCB183-A,10,4.44,10,ACTIVE,Charm,Letter A Charm
+ORCB183-B,10,4.44,10,ACTIVE,Charm,Letter B Charm
+ORCB183-C,10,4.22,10,ACTIVE,Charm,Letter C Charm
+ORCB183-D,10,4.67,10,ACTIVE,Charm,Letter D Charm
+ORCB183-E,10,4.44,10,ACTIVE,Charm,Letter E Charm
+ORCB183-F,10,4.44,10,ACTIVE,Charm,Letter F Charm
+ORCB183-G,10,4.22,10,ACTIVE,Charm,Letter G Charm
+ORCB183-H,10,4.67,10,ACTIVE,Charm,Letter H Charm
+ORCB183-I,10,4.00,10,ACTIVE,Charm,Letter I Charm
+ORCB183-J,10,4.67,10,ACTIVE,Charm,Letter J Charm
+ORCB183-K,10,4.89,10,ACTIVE,Charm,Letter K Charm
+ORCB183-L,10,4.00,10,ACTIVE,Charm,Letter L Charm
+ORCB183-M,10,4.44,10,ACTIVE,Charm,Letter M Charm
+ORCB183-N,10,4.44,10,ACTIVE,Charm,Letter N Charm
+ORCB183-O,10,4.00,10,ACTIVE,Charm,Letter O Charm
+ORCB183-P,10,4.44,10,ACTIVE,Charm,Letter P Charm
+ORCB183-Q,10,4.44,10,ACTIVE,Charm,Letter Q Charm
+ORCB183-R,9,4.44,9,ACTIVE,Charm,Letter R Charm
+ORCB183-S,10,4.00,10,ACTIVE,Charm,Letter S Charm
+ORCB183-T,10,4.22,10,ACTIVE,Charm,Letter T Charm
+ORCB183-U,10,4.44,10,ACTIVE,Charm,Letter U Charm
+ORCB183-V,10,4.22,10,ACTIVE,Charm,Letter V Charm
+ORCB183-W,10,4.22,10,ACTIVE,Charm,Letter W Charm
+ORCB183-X,10,4.22,10,ACTIVE,Charm,Letter X Charm
+ORCB183-Y,10,3.56,10,ACTIVE,Charm,Letter Y Charm
+ORCB183-Z,10,5.11,10,ACTIVE,Charm,Letter Z Charm
+ORGCB05-P-18,30,5.09,30,ACTIVE,Charm,Durian Charm
+ORGCB06-P,15,7.09,15,ACTIVE,Charm,"Danish Flag Charm, Pave"
+ORGCB50P,15,7.09,15,ACTIVE,Charm,"Danish Flag Charm, Red Enamel"
+ORGCB07-18K,15,5.81,15,ACTIVE,Charm,"Lotus Flower Charm, 18K Gold"
+ORGCB07-P,15,6.04,15,ACTIVE,Charm,Lotus Flower Charm
+ORGCB08-P,15,5.49,15,ACTIVE,Charm,Tassel Charm
+ORGCB08-18K,15,5.26,15,ACTIVE,Charm,"Tassel Charm, 18K Gold"
+ORGCB09-P,30,3.99,30,ACTIVE,Charm,Whale Tail Charm
+ORGCB10-P,30,4.88,30,ACTIVE,Charm,Royal Guard Charm
+ORGCB25,30,7.25,30,ACTIVE,Charm,Little Mermaid Charm
+ORGCB27,30,4.02,30,ACTIVE,Charm,Coat of Arms Charm
+ORPA0010,10,5.92,10,ACTIVE,Charm,"Fluted Clip, Clear Stone"
+ORPA034,10,4.66,10,ACTIVE,Charm,Polished Dome Spacer
+ORPA0035,9,5.35,9,ACTIVE,Charm,"Polished Spacer, Pink Stone"
+ORPA0094,10,4.79,10,ACTIVE,Charm,Pink Enamel Spacer
+ORPA0097,10,5.57,10,ACTIVE,Charm,Lilac Daisy Spacer
+ORPA0123,10,4.39,10,ACTIVE,Charm,"Starry Night Spacer, Blue Enamel"
+ORPA0132,10,5.46,10,ACTIVE,Charm,"Butterfly Clip, Red Stone"
+ORPA0142,10,3.77,10,ACTIVE,Charm,"Tulip Spacer, Pink Stone"
+ORPA0147,10,3.75,10,ACTIVE,Charm,"Butterfly Spacer, Clear Stones"
+ORPA0149,10,3.62,10,ACTIVE,Charm,"Scroll Spacer, Oxidized Silver"
+ORPA0107,10,5.50,10,ACTIVE,Charm,"Dragonfly Clip, Blue Enamel"
+ORGCB51-WY,30,4.93,30,ACTIVE,Charm,"Daisy Charm, White and Yellow"
+ORGCB51-YL,30,4.93,30,ACTIVE,Charm,"Daisy Charm, Blue"
+ORGCB51-YP,29,4.93,29,ACTIVE,Charm,"Daisy Charm, Purple"
+ORGCB51-YR,30,4.93,30,ACTIVE,Charm,"Daisy Charm, Red"
+ORGCB51-P,30,4.93,30,ACTIVE,Charm,"Daisy Dangle, Pink"
+ORGCB52-L,28,7.56,28,ACTIVE,Charm,"Fortune Charm, Blue Enamel"
+ORGCB53-L,28,7.60,28,ACTIVE,Charm,"Longevity Charm, Blue Enamel"
+ORGCB54-L,28,7.65,28,ACTIVE,Charm,"Prosperity Charm, Blue Enamel"
+ORGCB55-L,29,7.73,29,ACTIVE,Charm,"Good Luck Charm, Blue Enamel"
+ORGCB56-B,26,7.57,26,ACTIVE,Charm,"Love Charm, Black Enamel"
+ORGCB57-Z,27,7.82,27,ACTIVE,Charm,Acorn Charm
+ORGCB58-LVR,23,5.65,23,ACTIVE,Charm,Good Luck Clover Charm
+ORCB32-Vir,16,4.31,16,ACTIVE,Charm,Virgo Zodiac Charm
+ORCB32-Tau,16,4.42,16,ACTIVE,Charm,Taurus Zodiac Charm
+ORCB32-Ari,15,4.26,15,ACTIVE,Charm,Aries Zodiac Charm
+ORCB32-Sco,11,4.31,11,ACTIVE,Charm,Scorpio Zodiac Charm
+ORCB32-Psc,15,4.17,15,ACTIVE,Charm,Pisces Zodiac Charm
+ORCB32-Cap,13,4.42,13,ACTIVE,Charm,Capricorn Zodiac Charm
+ORCB32-Cnc,16,4.26,16,ACTIVE,Charm,Cancer Zodiac Charm
+ORCB32-Sgr,16,4.31,16,ACTIVE,Charm,Sagittarius Zodiac Charm
+ORCB32-Leo,16,4.31,16,ACTIVE,Charm,Leo Zodiac Charm
+ORCB32-Gem,16,4.31,16,ACTIVE,Charm,Gemini Zodiac Charm
+ORCB32-Lib,15,4.35,15,ACTIVE,Charm,Libra Zodiac Charm
+ORCB32-Agr,13,4.47,13,ACTIVE,Charm,Aquarius Zodiac Charm
+ORCB33-R,20,3.50,20,ACTIVE,Charm,"January Birthstone Charm, Garnet"
+ORCB33-P,20,3.50,20,ACTIVE,Charm,"February Birthstone Charm, Amethyst"
+ORCB33-Q,20,3.50,20,ACTIVE,Charm,"March Birthstone Charm, Aquamarine"
+ORCB33-W,20,3.50,20,ACTIVE,Charm,"April Birthstone Charm, White"
+ORCB33-LV,20,3.50,20,ACTIVE,Charm,"May Birthstone Charm, Emerald"
+ORCB33-PL,20,3.50,20,ACTIVE,Charm,"June Birthstone Charm, Alexandrite"
+ORCB33-M,19,3.50,19,ACTIVE,Charm,"July Birthstone Charm, Ruby"
+ORCB33-G,20,3.50,20,ACTIVE,Charm,"August Birthstone Charm, Peridot"
+ORCB33-BL,20,3.50,20,ACTIVE,Charm,"September Birthstone Charm, Sapphire"
+ORCB33-F,20,3.50,20,ACTIVE,Charm,"October Birthstone Charm, Tourmaline"
+ORCB33-X,20,3.50,20,ACTIVE,Charm,"November Birthstone Charm, Yellow Topaz"
+ORCB33-L,20,3.50,20,ACTIVE,Charm,"December Birthstone Charm, Turquoise"
+ORCB199,21,6.62,21,ACTIVE,Charm,"Tree of Life Charm, Pink and Purple"
+ORCB200,20,4.60,20,ACTIVE,Charm,Tree of Life Heart Charm
+ORCB201,21,6.62,21,ACTIVE,Charm,"Tree of Life Charm, Pave Halo"
+ORCB202,19,5.34,19,ACTIVE,Charm,"Tree of Life Charm, Engraved"
+ORCB203,19,4.35,19,ACTIVE,Charm,"Tree of Life Charm, Celtic Knot"
+ORCB204,19,5.40,19,ACTIVE,Charm,"Tree of Life Heart Charm, Stone Set"
+ORCB205,21,6.73,21,ACTIVE,Charm,"Tree of Life Charm, Scrolled"
+ORCB206,20,5.24,20,ACTIVE,Charm,"Tree of Life Charm, Oxidized"
+ORCB208,21,6.52,21,ACTIVE,Charm,"Tree of Life Heart Charm, Red"
+ORCB209,21,6.45,21,ACTIVE,Charm,"Tree of Life Heart Charm, Turquoise"
+ORCB210,20,5.77,20,ACTIVE,Charm,"Tree of Life Dangle, Scrolled"
+ORCB211,21,6.62,21,ACTIVE,Charm,"Tree of Life Heart Dangle, Pink"
+ORCB212,20,4.30,20,ACTIVE,Charm,"Tree of Life Dangle, Blue Stones"
+ORCB213,21,6.49,21,ACTIVE,Charm,"Tree of Life Dangle, Beaded Ring"
+ORCB214,19,4.60,19,ACTIVE,Charm,Flamingo Charm
+ORCB215,20,6.09,20,ACTIVE,Charm,"Flamingo Charm, Magenta"
+ORCB216,20,6.61,20,ACTIVE,Charm,"Flamingo Charm, Pale Pink"
+ORCB217,21,7.13,21,ACTIVE,Charm,Camel Charm
+ORCB218,12,6.55,12,ACTIVE,Charm,Dinosaur Charm
+ORCB219,20,6.15,20,ACTIVE,Charm,Rubber Duck Charm
+ORCB220,20,7.41,20,ACTIVE,Charm,"Giraffe Charm, Brown Spots"
+ORCB221,19,6.35,19,ACTIVE,Charm,Carousel Horse Charm
+ORGCBB1-17-W,8,22.15,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-17-R,5,22.15,5,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-17-K,6,22.15,6,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-17-B,6,22.15,6,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-17-G,8,22.15,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-19-W,8,23.95,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-19-R,8,23.95,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-19-K,7,23.95,7,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-19-B,8,23.95,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-19-G,8,23.95,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-21-W,5,26.85,5,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-21-R,8,26.85,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-21-K,8,26.85,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCBB1-21-B,8,26.85,8,ACTIVE,Bracelet,PEACE - SNAKE CHAIN
+ORGCB56-L,27,7.57,27,ACTIVE,Charm,"Love Charm, Blue Enamel"
+ORGCB56-R,27,7.57,27,ACTIVE,Charm,"Love Charm, Red Enamel"
+ORGCB175,26,5.62,26,ACTIVE,Charm,Hans Christian Andersen Charm
+ORGCB182-1,12,8.33,12,ACTIVE,Charm,"Aristotle Quote Charm, Discipline"
+ORGCB182-2,12,8.33,12,ACTIVE,Charm,"Aristotle Quote Charm, Happiness"
+ORGCB182-3,12,8.33,12,ACTIVE,Charm,"Aristotle Quote Charm, Friendship"
+ORGCB182-5,11,8.33,11,ACTIVE,Charm,"Aristotle Quote Charm, Knowledge"
+ORGCB182-6,11,8.33,11,ACTIVE,Charm,"Aristotle Quote Charm, Education"
+ORGCB182-7,11,8.33,11,ACTIVE,Charm,"Aristotle Quote Charm, Purpose"
+ORGCB182-8,12,8.33,12,ACTIVE,Charm,"Aristotle Quote Charm, Wisdom"
+ORGCB184-1,11,8.33,11,ACTIVE,Charm,"Lao Tzu Quote Charm, The Journey"
+ORGCB184-2,10,8.33,10,ACTIVE,Charm,"Lao Tzu Quote Charm, Freedom"
+ORGCB184-3,12,8.33,12,ACTIVE,Charm,"Lao Tzu Quote Charm, Silence"
+ORGCB184-4,10,8.33,10,ACTIVE,Charm,"Lao Tzu Quote Charm, The Flame"
+ORGCB184-5,12,8.33,12,ACTIVE,Charm,"Lao Tzu Quote Charm, Love"
+ORGCB184-6,12,8.33,12,ACTIVE,Charm,"Lao Tzu Quote Charm, The Traveller"
+ORGCB184-7,10,8.33,10,ACTIVE,Charm,"Lao Tzu Quote Charm, Calm"
+ORGCB185-14K,27,7.86,27,ACTIVE,Charm,"Lemon Charm, 14K Gold"
+ORGCB186-1,12,7.86,12,ACTIVE,Charm,"Engraved Quote Charm, A Smile"
+ORGCB186-2,13,7.86,13,ACTIVE,Charm,"Engraved Quote Charm, The Mirror"
+ORGCB181,27,5.60,27,DRAFT,Charm,Aubergine Charm
+ORGCB187-14K-1,13,5.48,13,ACTIVE,Charm,"Engraved Quote Charm, The Moon"
+ORGCB187-14K-2,12,5.48,12,ACTIVE,Charm,"Engraved Quote Charm, Possible"
+ORCB145,15,6.13,15,ACTIVE,Charm,"Daisy Charm, Gold and White"

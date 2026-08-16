@@ -1,0 +1,824 @@
+/* ============================================================
+   Orloff of Denmark - Solar Grown design system
+   Scoped to .og-section. Nothing here may leak to other pages.
+
+   Used by:  /pages/solar-grown-diamonds   (consumer, educational)
+             /pages/retail-partners        (trade, conversion)
+
+   Fonts are the ones the theme already loads via head-variables:
+     Cormorant Garamond (Google, in theme.liquid) + Cormorant
+     Inter 300/400/500/600 (Shopify font library)
+   No new font requests are made by this file.
+
+   TYPE RULE. Cormorant is for editorial headings, ledes and names only.
+   Inter is used for all body copy, labels, buttons, form controls, and for
+   every price, statistic and specification. Those components are set in
+   Inter as a whole, so the serif never carries a figure. Digits inside
+   serif running text stay in the serif: switching font for a digit
+   mid-sentence reads as a typo.
+   ============================================================ */
+
+.og-section {
+  /* Palette */
+  --og-navy: #091b36;
+  --og-navy-lift: #16294a;
+  --og-gold: #bc973f;       /* decorative only: 2.7:1, never for text or focus */
+  --og-gold-ink: #856825;   /* 5.0:1 on warm white - small gold text and focus rings */
+  --og-gold-lift: #d8b265;  /* 6.3:1 on navy */
+  --og-bg: #faf9f6;         /* warm white */
+  --og-bg-alt: #edf0ea;     /* very light grey-green */
+  --og-ink: #091b36;
+  --og-ink-soft: #4a5568;   /* 7.4:1 on warm white */
+  --og-ink-faint: #5e697a;  /* 5.3:1 on warm white, passes AA at 11px */
+  --og-rule: #ddddd4;
+  --og-rule-strong: #c6c6ba;
+  --og-on-navy: #f2f4f7;
+  --og-on-navy-soft: #c3cbd6;
+  --og-rule-navy: rgba(216, 178, 101, 0.32);
+
+  /* Type.
+     Numbers that are data live in components that are entirely Inter, so the
+     serif never carries a price, a statistic or a specification.
+     Digits inside serif running text stay in the serif. Swapping the font for
+     a digit mid-sentence ("18K gold", "Ring 1") reads as a typo, not a
+     design decision, so the serif is left whole. */
+  --og-serif: 'Cormorant Garamond', Cormorant, 'Palatino Linotype', Georgia, serif;
+  --og-sans: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  /* Rhythm */
+  --og-max: 1180px;
+  --og-gutter: clamp(20px, 5vw, 40px);
+  --og-section-y: clamp(56px, 7.5vw, 96px);
+  --og-measure: min(68ch, 720px);
+
+  box-sizing: border-box;
+  background: var(--og-bg);
+  color: var(--og-ink);
+  font-family: var(--og-sans);
+  font-size: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem); /* 17 - 18px */
+  font-weight: 400;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.og-section *,
+.og-section *::before,
+.og-section *::after { box-sizing: inherit; }
+
+/* The theme sets a global `h2 { width:70%; margin:auto; text-align:center }`
+   in settings.custom_html_head. Undo it inside our scope only. */
+.og-section h1,
+.og-section h2,
+.og-section h3,
+.og-section h4,
+.og-section p,
+.og-section ul,
+.og-section ol,
+.og-section figure {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+.og-section ul,
+.og-section ol { list-style: none; }
+
+/* The theme's head-variables sets `h1..h6 { font-family: <heading font> }`,
+   which is Cormorant. Any heading of ours that does not name a font would
+   silently inherit the serif, including small uppercase labels. Default them
+   all to Inter here. :where() contributes no specificity, so the handful of
+   genuinely editorial headings below still override this with a plain class. */
+.og-section :where(h1, h2, h3, h4, h5, h6) { font-family: var(--og-sans); }
+
+.og-section a { color: inherit; }
+
+/* Cormorant is for editorial headings only. Never for prices, specifications,
+   form controls or link lists. Form elements do not inherit font by default,
+   so they are pinned to Inter here in case a form is ever added. */
+.og-section input,
+.og-section select,
+.og-section textarea,
+.og-section button,
+.og-section label,
+.og-section legend,
+.og-section optgroup {
+  font-family: var(--og-sans);
+  font-size: 1rem;
+}
+
+.og-section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Never let a page built from these sections scroll sideways. */
+.og-section { overflow-x: clip; }
+
+/* ---------- Layout primitives ---------- */
+
+.og-wrap {
+  width: 100%;
+  max-width: var(--og-max);
+  margin-inline: auto;
+  padding-inline: var(--og-gutter);
+}
+
+.og-pad { padding-block: var(--og-section-y); }
+.og-pad-tight { padding-block: clamp(40px, 5vw, 64px); }
+
+/* The default page template leaves ~130px of dead space under the header
+   because its <h1> is hidden by CSS but its wrapper still reserves room.
+   These templates skip that section, so the first block sets its own,
+   deliberately smaller, top space. */
+.og-section--first { padding-top: clamp(28px, 3.5vw, 48px); }
+
+.og-measure { max-width: var(--og-measure); }
+
+.og-stack { display: flex; flex-direction: column; }
+.og-stack > * + * { margin-top: var(--og-gap, 1rem); }
+.og-stack--sm { --og-gap: 0.6rem; }
+.og-stack--lg { --og-gap: 1.6rem; }
+
+/* ---------- Typography ---------- */
+
+/* The only places the serif is allowed: page headings, the lede, the navy
+   claim, the sign-off, product model names and the founder's name. */
+.og-h1 {
+  font-family: var(--og-serif);
+  font-weight: 500;
+  font-size: clamp(2.375rem, 1.2rem + 3.4vw, 4rem); /* 38 - 64px */
+  line-height: 1.06;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.og-h2 {
+  font-family: var(--og-serif);
+  font-weight: 500;
+  font-size: clamp(1.875rem, 1.1rem + 2.1vw, 2.75rem); /* 30 - 44px */
+  line-height: 1.12;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
+}
+
+.og-h3 {
+  font-family: var(--og-sans);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: 0.005em;
+}
+
+.og-lede {
+  font-family: var(--og-serif);
+  font-size: clamp(1.25rem, 1rem + 0.9vw, 1.625rem);
+  line-height: 1.4;
+  font-weight: 400;
+  color: var(--og-ink-soft);
+  max-width: var(--og-measure);
+}
+
+.og-body { max-width: var(--og-measure); }
+.og-body + .og-body { margin-top: 1rem; }
+
+.og-note {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--og-ink-soft);
+  max-width: var(--og-measure);
+}
+
+.og-signoff {
+  font-family: var(--og-serif);
+  font-size: 1.375rem;
+  line-height: 1.35;
+  color: var(--og-navy);
+}
+
+/* ---------- Section label (eyebrow) ---------- */
+
+.og-label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--og-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--og-gold-ink);
+}
+
+.og-label::before {
+  content: "";
+  width: 28px;
+  height: 1px;
+  background: var(--og-gold);
+  flex: none;
+}
+
+.og-label--on-navy { color: var(--og-gold-lift); }
+.og-label--on-navy::before { background: var(--og-gold-lift); }
+
+/* ---------- Buttons ---------- */
+
+.og-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0.75rem 1.75rem;
+  font-family: var(--og-sans);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+/* These are written as `a.og-btn--*` so they outrank the `.og-section a`
+   colour reset above. Without the extra class the reset wins and a solid
+   navy button ends up with navy text on navy. */
+.og-section a.og-btn--primary {
+  background: var(--og-navy);
+  color: #fff;
+  border-color: var(--og-navy);
+}
+.og-section a.og-btn--primary:hover { background: var(--og-navy-lift); border-color: var(--og-navy-lift); }
+
+.og-section a.og-btn--secondary {
+  background: transparent;
+  color: var(--og-navy);
+  border-color: var(--og-gold);
+}
+.og-section a.og-btn--secondary:hover { background: var(--og-gold); color: #fff; border-color: var(--og-gold); }
+
+/* On navy backgrounds. Same specificity as the pair above, so these win by
+   coming later in the file. */
+.og-on-navy a.og-btn--primary {
+  background: var(--og-bg);
+  color: var(--og-navy);
+  border-color: var(--og-bg);
+}
+.og-on-navy a.og-btn--primary:hover { background: #fff; border-color: #fff; }
+
+.og-on-navy a.og-btn--secondary {
+  background: transparent;
+  color: var(--og-bg);
+  border-color: var(--og-gold-lift);
+}
+.og-on-navy a.og-btn--secondary:hover { background: var(--og-gold); border-color: var(--og-gold); color: #fff; }
+
+.og-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* ---------- Focus: visible everywhere, never removed ---------- */
+
+/* The ring uses the darkened gold, not brand gold. #bc973f is only 2.7:1 on
+   warm white, which fails the 3:1 a focus indicator needs. #856825 is 5.0:1. */
+.og-section a:focus-visible,
+.og-section button:focus-visible,
+.og-section summary:focus-visible {
+  outline: 2px solid var(--og-gold-ink);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+.og-on-navy a:focus-visible,
+.og-on-navy summary:focus-visible { outline-color: var(--og-gold-lift); }
+
+/* ---------- Media ---------- */
+
+.og-media {
+  position: relative;
+  overflow: hidden;
+  background: var(--og-bg-alt);
+  aspect-ratio: var(--og-ratio, 4 / 5);
+}
+
+.og-media > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Clearly labelled, replaceable image slot. No invented imagery. */
+.og-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  height: 100%;
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--og-bg-alt);
+  border: 1px solid var(--og-rule-strong);
+}
+
+.og-slot svg { color: var(--og-gold); opacity: 0.8; }
+
+.og-slot__title {
+  font-family: var(--og-sans);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--og-gold-ink);
+}
+
+.og-slot__text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--og-ink-soft);
+  max-width: 26ch;
+}
+
+/* ---------- 1. Split hero ---------- */
+
+.og-hero__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .og-hero__grid { grid-template-columns: 1.05fr 0.95fr; }
+  .og-hero--media-left .og-hero__text { order: 2; }
+  .og-hero--media-left .og-hero__media { order: 1; }
+}
+
+.og-hero__text { max-width: 40rem; }
+.og-hero__text .og-h1 { margin-top: 1rem; }
+.og-hero__text .og-lede { margin-top: 1.25rem; }
+.og-hero__btns { margin-top: 2rem; }
+
+.og-hero__price {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--og-rule);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+}
+
+/* Price. Inter, never the serif. */
+.og-hero__price-figure {
+  font-family: var(--og-sans);
+  font-size: clamp(1.75rem, 1.3rem + 1.2vw, 2.375rem);
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.og-hero__price-label {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--og-ink-faint);
+}
+
+.og-hero__media { --og-ratio: 4 / 5; }
+
+@media (min-width: 900px) {
+  .og-hero__media { --og-ratio: 5 / 6; }
+}
+
+/* ---------- 2. Statistics bar ---------- */
+
+.og-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--og-rule);
+  border-block: 1px solid var(--og-rule);
+}
+
+@media (min-width: 760px) {
+  .og-stats { grid-template-columns: repeat(4, 1fr); }
+}
+
+.og-stat {
+  background: var(--og-bg);
+  padding: clamp(1.25rem, 2.5vw, 2rem) clamp(1rem, 2vw, 1.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.og-stat__key {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--og-ink-faint);
+}
+
+/* Figures are Inter, not the serif. Inter runs wider and heavier than
+   Cormorant at the same size, so the scale is pulled back to keep the
+   optical weight the hierarchy had. */
+.og-stat__value {
+  font-family: var(--og-sans);
+  font-size: clamp(1.5rem, 1.1rem + 1.05vw, 2.0625rem);
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: break-word;
+}
+
+.og-stat__value .og-unit {
+  font-size: 0.55em;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--og-gold-ink);
+}
+
+/* ---------- 3. Process steps ---------- */
+
+.og-process__steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 4vw, 3rem);
+  margin-top: clamp(2.5rem, 4vw, 3.5rem);
+}
+
+@media (min-width: 760px) {
+  .og-process__steps { grid-template-columns: repeat(3, 1fr); }
+  .og-process__steps:has(> :nth-child(4)) { grid-template-columns: repeat(4, 1fr); }
+}
+
+.og-step { display: flex; flex-direction: column; gap: 0.85rem; }
+
+.og-step__marker {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--og-rule);
+}
+
+.og-on-navy .og-step__marker { border-bottom-color: var(--og-rule-navy); }
+
+.og-step__num {
+  font-family: var(--og-sans);
+  font-size: 1.125rem;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--og-gold-ink);
+}
+
+.og-on-navy .og-step__num { color: var(--og-gold-lift); }
+
+.og-step__icon { color: var(--og-gold); flex: none; }
+.og-on-navy .og-step__icon { color: var(--og-gold-lift); }
+
+/* A label, not a heading, despite being an h3. Inter. */
+.og-step__title {
+  font-family: var(--og-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.og-step p { font-size: 0.9375rem; line-height: 1.6; }
+.og-on-navy .og-step p { color: var(--og-on-navy-soft); }
+
+/* ---------- Navy surface ---------- */
+
+.og-on-navy {
+  background: var(--og-navy);
+  color: var(--og-on-navy);
+}
+
+.og-on-navy .og-h1,
+.og-on-navy .og-h2,
+.og-on-navy .og-h3 { color: #fff; }
+
+.og-on-navy .og-lede,
+.og-on-navy .og-note,
+.og-on-navy p { color: var(--og-on-navy-soft); }
+
+.og-on-navy .og-claim {
+  font-family: var(--og-serif);
+  font-size: clamp(1.875rem, 1.2rem + 2.6vw, 3.25rem);
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  color: #fff;
+  max-width: 22ch;
+}
+
+.og-hair {
+  width: 96px;
+  height: 1px;
+  background: var(--og-gold);
+  border: 0;
+  margin: 1.5rem 0 0;
+}
+
+.og-on-navy .og-hair { background: var(--og-gold-lift); }
+
+/* Alternate light surface */
+.og-on-alt { background: var(--og-bg-alt); }
+
+/* ---------- 4. Specification / feature cards ---------- */
+
+/* Cards are separated by column gaps and a hairline under each one, rather
+   than by a container background showing through 1px gaps. An incomplete
+   last row therefore leaves clean empty space, never an orphaned grey block.
+   Text stays flush with the section's left edge. */
+.og-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: clamp(2rem, 4vw, 3.5rem);
+  border-top: 1px solid var(--og-rule);
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+@media (min-width: 620px) { .og-cards { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 940px) {
+  .og-cards--3 { grid-template-columns: repeat(3, 1fr); }
+  .og-cards--2 { grid-template-columns: repeat(2, 1fr); }
+}
+
+.og-card {
+  background: transparent;
+  padding-block: clamp(1.5rem, 2.5vw, 2rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  min-width: 0;
+  border-bottom: 1px solid var(--og-rule);
+}
+
+.og-card__icon { color: var(--og-gold); margin-bottom: 0.35rem; }
+
+.og-card__key {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--og-gold-ink);
+}
+
+/* Specification content, so Inter rather than the serif. These carry values,
+   units and figures ("10 on the Mohs scale", "18K gold from certified
+   recycled sources") and the serif is reserved for editorial headings. */
+.og-card__value {
+  font-family: var(--og-sans);
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.og-card p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--og-ink-soft);
+}
+
+/* ---------- 5. Image + text feature ---------- */
+
+.og-feature__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .og-feature__grid { grid-template-columns: 1fr 1fr; }
+  .og-feature--media-left .og-feature__text { order: 2; }
+  .og-feature--media-left .og-feature__media { order: 1; }
+}
+
+.og-feature__media { --og-ratio: 4 / 3; }
+.og-feature__text > * + * { margin-top: 1.25rem; }
+
+/* ---------- 6. Product cards ---------- */
+
+.og-products {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1.5rem, 3vw, 2.25rem);
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+@media (min-width: 640px) { .og-products { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 940px) { .og-products { grid-template-columns: repeat(3, 1fr); } }
+
+.og-product {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  text-decoration: none;
+}
+
+.og-product__media {
+  --og-ratio: 1 / 1;
+  border: 1px solid var(--og-rule);
+  background: #fff;
+}
+
+.og-product__media > img { object-fit: contain; padding: 6%; }
+
+.og-product__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-top: 1.15rem;
+}
+
+/* The model name is a name, so it keeps the serif. Its specification line
+   and its price below do not. */
+.og-product__name {
+  font-family: var(--og-serif);
+  font-size: 1.5rem;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+/* When the card title is a figure (a carat weight) it is a specification,
+   not a name, so it is set in Inter like every other number. */
+.og-products--figure .og-product__name {
+  font-family: var(--og-sans);
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.og-product__spec {
+  font-family: var(--og-sans);
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--og-ink-soft);
+}
+
+.og-product__price {
+  font-family: var(--og-sans);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--og-ink);
+}
+
+a.og-product:hover .og-product__name { color: var(--og-gold-ink); }
+a.og-product:focus-visible { outline: 2px solid var(--og-gold-ink); outline-offset: 4px; }
+
+/* ---------- 7. Accordion (native <details>, no JavaScript) ---------- */
+
+.og-accordion {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid var(--og-rule);
+  max-width: 860px;
+}
+
+.og-accordion__item { border-bottom: 1px solid var(--og-rule); }
+
+.og-accordion__q {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.25rem 0;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--og-sans);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--og-navy);
+}
+
+.og-accordion__q::-webkit-details-marker { display: none; }
+
+.og-accordion__sign {
+  position: relative;
+  flex: none;
+  width: 14px;
+  height: 14px;
+  margin-top: 0.4rem;
+}
+
+.og-accordion__sign::before,
+.og-accordion__sign::after {
+  content: "";
+  position: absolute;
+  background: var(--og-gold);
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.og-accordion__sign::before { inset: 6px 0 auto; height: 1px; }
+.og-accordion__sign::after { inset: 0 6px auto; width: 1px; height: 100%; }
+
+.og-accordion__item[open] .og-accordion__sign::after { transform: scaleY(0); opacity: 0; }
+
+.og-accordion__a {
+  padding: 0 0 1.5rem;
+  max-width: var(--og-measure);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--og-ink-soft);
+}
+
+.og-accordion__q:hover { color: var(--og-gold-ink); }
+
+/* Chrome matches :focus-visible on <summary> for a plain mouse click, not
+   just keyboard, so the generic ring above drew a full-width gold box round
+   the question every time somebody opened one. It read as a broken input.
+   Ring the question text instead: tight, square, still obvious to a keyboard
+   user, and unremarkable to a mouse user. */
+.og-section summary.og-accordion__q:focus-visible { outline: none; }
+
+.og-accordion__q:focus-visible > span:first-child {
+  outline: 2px solid var(--og-gold-ink);
+  outline-offset: 3px;
+  border-radius: 0;
+}
+
+/* ---------- 8. Full-width navy CTA ---------- */
+
+.og-cta__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: center;
+}
+
+@media (min-width: 860px) {
+  .og-cta__grid--split { grid-template-columns: 1.2fr 0.8fr; }
+}
+
+.og-cta__text > * + * { margin-top: 1.15rem; }
+.og-cta .og-btns { margin-top: 2rem; }
+
+.og-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding-left: clamp(1.25rem, 2vw, 1.75rem);
+  border-left: 1px solid var(--og-rule-navy);
+}
+
+/* A person's name keeps the serif. The contact details under it are links,
+   so they are Inter. */
+.og-contact__name {
+  font-family: var(--og-serif);
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+}
+
+.og-contact__role,
+.og-contact a {
+  font-family: var(--og-sans);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--og-on-navy-soft);
+}
+
+.og-contact a { text-decoration: underline; text-underline-offset: 3px; }
+.og-contact a:hover { color: var(--og-gold-lift); }
+
+/* Second person in the same contact block, e.g. father and son. */
+.og-contact + .og-contact { margin-top: 1.5rem; }
+
+/* ---------- Section head (shared) ---------- */
+
+.og-head { max-width: var(--og-measure); }
+.og-head > * + * { margin-top: 1rem; }
+
+/* ---------- Motion ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .og-section *,
+  .og-section *::before,
+  .og-section *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

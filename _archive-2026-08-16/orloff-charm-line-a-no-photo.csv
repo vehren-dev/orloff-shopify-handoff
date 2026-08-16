@@ -1,0 +1,2273 @@
+invoice_row,model_no,sku,handle,product_name,line,type,category,price_tier,retail_thb,retail_usd,cost_usd,weight_g,size_mm,material,metal_finish,stone,stock_qty,description_html,image_url_1,seo_title,seo_description,quote_text,invoice_image,notes
+85,ORCB01,ORCB01,whale-charm,Whale Charm,A,Charm,Animals,Classic,900,29,3.75,1.55,14.5mm x 7mm,925 Sterling Silver,Oxidized Silver,Black CZ + Blue Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Blue enamel body, silver belly and tail, black stone eye.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black CZ + Blue Enamel<br>
+<strong>Size:</strong> 14.5mm x 7mm<br>
+<strong>Weight:</strong> 1.55g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Whale Charm | Orloff of Denmark,"Blue enamel body, silver belly and tail, black stone eye.",,img_0077.jpg,"Identified from the invoice photograph, confidence high"
+86,ORCB02,ORCB02,turtle-charm,Turtle Charm,A,Charm,Animals,Classic,900,29,3.84,1.69,12mm,925 Sterling Silver,Oxidized Silver,Orange+Black+ Blue Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Yellow enamel shell with blue spots, black enamel feet.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Orange+Black+ Blue Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 1.69g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Turtle Charm | Orloff of Denmark,"Yellow enamel shell with blue spots, black enamel feet.",,img_0078.jpg,"Identified from the invoice photograph, confidence high"
+87,ORCB03,ORCB03,elephant-charm,Elephant Charm,A,Charm,Animals,Classic,900,29,4.03,2,13mm,925 Sterling Silver,Oxidized Silver,Black+ Red Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Polished silver with a red enamel tip to the raised trunk.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black+ Red Enamel<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Elephant Charm | Orloff of Denmark,Polished silver with a red enamel tip to the raised trunk.,,img_0079.jpg,"Identified from the invoice photograph, confidence high"
+88,ORCB04,ORCB04,,,A,Charm,,Classic,900,29,4.38,2.79,11.5mm,925 Sterling Silver,Oxidized Silver,White+ Red Enamel,10,,,,,,img_0080.jpg,"HOLD, not named: Small dimpled sphere on a thin neck joined to a larger dimpled sphere, two legs, oval base with scrollwork. White and red enamel, 11.5mm. Looked at twice; reads plausibly as a sheep, a swan or a poodle and I will not guess. NEEDS VIKTOR."
+89,ORCB05,ORCB05,unicorn-charm,Unicorn Charm,A,Charm,Animals,Signature,1200,39,5.12,2.84,13mm,925 Sterling Silver,Oxidized Silver,Black Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Winged unicorn dangle in polished silver, black enamel eye.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black Enamel<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 2.84g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Unicorn Charm | Orloff of Denmark,"Winged unicorn dangle in polished silver, black enamel eye.",,img_0081.jpg,"Identified from the invoice photograph, confidence high"
+90,ORCB06,ORCB06,fox-charm-rose-gold,"Fox Charm, Rose Gold",A,Charm,Animals,Classic,900,29,4.15,1.79,12mm,925 Sterling Silver,Rosegold Plated,White Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Rose gold plated with a white enamel face. Could be a cat.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rosegold Plated<br>
+<strong>Stone:</strong> White Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 1.79g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Fox Charm, Rose Gold | Orloff of Denmark",Rose gold plated with a white enamel face.,,img_0082.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+91,ORCB07,ORCB07,hippo-charm,Hippo Charm,A,Charm,Animals,Classic,900,29,2.92,1.18,8mm,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">Polished silver hippopotamus with oxidized detail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Size:</strong> 8mm<br>
+<strong>Weight:</strong> 1.18g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Hippo Charm | Orloff of Denmark,Polished silver hippopotamus with oxidized detail.,,img_0083.jpg,"Identified from the invoice photograph, confidence high"
+92,ORCB08,ORCB08,rabbit-charm,Rabbit Charm,A,Charm,Animals,Classic,900,29,4.05,1.77,13.5mm,925 Sterling Silver,Oxidized Silver,Black+ Pink Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Seated rabbit in polished silver with pink enamel ears and paws.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black+ Pink Enamel<br>
+<strong>Size:</strong> 13.5mm<br>
+<strong>Weight:</strong> 1.77g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Rabbit Charm | Orloff of Denmark,Seated rabbit in polished silver with pink enamel ears and paws.,,img_0086.jpg,"Identified from the invoice photograph, confidence high"
+93,ORCB09,ORCB09,puppy-charm,Puppy Charm,A,Charm,Animals,Classic,900,29,4.42,2.06,12.5mm,925 Sterling Silver,Oxidized Silver,White CZ+Black Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Seated long-eared dog with a star pendant set with a clear stone.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ+Black Enamel<br>
+<strong>Size:</strong> 12.5mm<br>
+<strong>Weight:</strong> 2.06g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Puppy Charm | Orloff of Denmark,Seated long-eared dog with a star pendant set with a clear stone.,,img_0087.jpg,"Identified from the invoice photograph, confidence high"
+94,ORCB10,ORCB10,carousel-charm,Carousel Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,4.76,2.63,21mm,925 Sterling Silver,Oxidized Silver,Stone :None,10,"<p style=""font-family: Inter, sans-serif;"">Oxidized silver merry-go-round with horses under a canopy.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone :None<br>
+<strong>Size:</strong> 21mm<br>
+<strong>Weight:</strong> 2.63g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Carousel Charm | Orloff of Denmark,Oxidized silver merry-go-round with horses under a canopy.,,img_0088.jpg,"Identified from the invoice photograph, confidence high"
+95,ORCB11,ORCB11,birthday-balloon-charm,Birthday Balloon Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.24,2.62,12.5mm,925 Sterling Silver,Oxidized Silver,Black+ Red Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Balloon bead lettered birthday, black enamel spots, clear stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black+ Red Enamel<br>
+<strong>Size:</strong> 12.5mm<br>
+<strong>Weight:</strong> 2.62g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Birthday Balloon Charm | Orloff of Denmark,"Balloon bead lettered birthday, black enamel spots, clear stones.",,img_0089.jpg,"Identified from the invoice photograph, confidence high"
+96,ORCB12,ORCB12,boy-charm,Boy Charm,A,Charm,Milestones & Sentiment,Classic,900,29,3.54,1.49,21.5mm,925 Sterling Silver,Oxidized Silver,White CZ,10,"<p style=""font-family: Inter, sans-serif;"">Boy figure dangle holding a heart set with clear stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ<br>
+<strong>Size:</strong> 21.5mm<br>
+<strong>Weight:</strong> 1.49g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Boy Charm | Orloff of Denmark,Boy figure dangle holding a heart set with clear stones.,,img_0090.jpg,"Identified from the invoice photograph, confidence high"
+97,ORCB13,ORCB13,girl-charm,Girl Charm,A,Charm,Milestones & Sentiment,Classic,900,29,3.30,1.45,20mm,925 Sterling Silver,Oxidized Silver,White CZ,9,"<p style=""font-family: Inter, sans-serif;"">Girl figure dangle holding a basket, clear stones on the skirt.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ<br>
+<strong>Size:</strong> 20mm<br>
+<strong>Weight:</strong> 1.45g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Girl Charm | Orloff of Denmark,"Girl figure dangle holding a basket, clear stones on the skirt.",,img_0091.jpg,"Identified from the invoice photograph, confidence high"
+98,ORCB14,ORCB14,couple-in-a-boat-charm,Couple in a Boat Charm,A,Charm,Milestones & Sentiment,Classic,900,29,3.77,1.36,18mm,925 Sterling Silver,Oxidized Silver,White CZ+Red &Blue Enamel,9,"<p style=""font-family: Inter, sans-serif;"">Two figures in a boat with a red enamel heart and turquoise trim.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ+Red &Blue Enamel<br>
+<strong>Size:</strong> 18mm<br>
+<strong>Weight:</strong> 1.36g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Couple in a Boat Charm | Orloff of Denmark,Two figures in a boat with a red enamel heart and turquoise trim.,,img_0092.jpg,"Identified from the invoice photograph, confidence high"
+99,ORCB15,ORCB15,footballer-charm,Footballer Charm,A,Charm,Travel & Lifestyle,Classic,900,29,3.50,1.97,22mm,925 Sterling Silver,Oxidized Silver,Black Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Boy in a cap holding a black and white enamel football.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black Enamel<br>
+<strong>Size:</strong> 22mm<br>
+<strong>Weight:</strong> 1.97g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Footballer Charm | Orloff of Denmark,Boy in a cap holding a black and white enamel football.,,img_0093.jpg,"Identified from the invoice photograph, confidence high"
+100,ORCB16,ORCB16,gondola-charm,Gondola Charm,A,Charm,Travel & Lifestyle,Classic,900,29,3.72,1.81,11mm,925 Sterling Silver,Oxidized Silver,Blue+ Pink Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Gondolier poling a gondola, pink and blue enamel.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue+ Pink Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.81g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Gondola Charm | Orloff of Denmark,"Gondolier poling a gondola, pink and blue enamel.",,img_0094.jpg,"Identified from the invoice photograph, confidence high"
+101,ORCB17,ORCB17,sisters-charm,Sisters Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.48,2.95,10mm,925 Sterling Silver,Oxidized Silver,Blue+ Pink Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Two girls side by side in mint and pink enamel dresses.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue+ Pink Enamel<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.95g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Sisters Charm | Orloff of Denmark,Two girls side by side in mint and pink enamel dresses.,,img_0095.jpg,"Identified from the invoice photograph, confidence high"
+102,ORCB18,ORCB18,folk-costume-couple-charm,Folk Costume Couple Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.10,2.52,10.5mm,925 Sterling Silver,Oxidized Silver,Black+ Red +Yellow Enamel,9,"<p style=""font-family: Inter, sans-serif;"">Couple in traditional dress, black and red hats, red and yellow skirt.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black+ Red +Yellow Enamel<br>
+<strong>Size:</strong> 10.5mm<br>
+<strong>Weight:</strong> 2.52g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Folk Costume Couple Charm | Orloff of Denmark,"Couple in traditional dress, black and red hats, red and yellow skirt.",,img_0096.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+103,ORCB20,ORCB20,easter-basket-charm,Easter Basket Charm,A,Charm,Milestones & Sentiment,Classic,900,29,3.28,1.64,21.5mm,925 Sterling Silver,Oxidized Silver,Purple Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Basket of purple enamel eggs under a silver bow, clear stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Purple Enamel<br>
+<strong>Size:</strong> 21.5mm<br>
+<strong>Weight:</strong> 1.64g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Easter Basket Charm | Orloff of Denmark,"Basket of purple enamel eggs under a silver bow, clear stones.",,img_0097.jpg,"Identified from the invoice photograph, confidence high"
+104,ORCB21,ORCB21,palm-tree-charm,Palm Tree Charm,A,Charm,Nature,Classic,900,29,2.87,1.03,22mm,925 Sterling Silver,Oxidized Silver,Green CZ,10,"<p style=""font-family: Inter, sans-serif;"">Palm tree dangle set with green stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Green CZ<br>
+<strong>Size:</strong> 22mm<br>
+<strong>Weight:</strong> 1.03g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Palm Tree Charm | Orloff of Denmark,Palm tree dangle set with green stones.,,img_0098.jpg,"Identified from the invoice photograph, confidence high"
+105,ORCB22,ORCB22,daisy-heart-charm,Daisy Heart Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,4.59,2.23,10mm,925 Sterling Silver,Oxidized Silver,Pink+Yellow Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Heart bead with a red and yellow enamel daisy set inside.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Pink+Yellow Enamel<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.23g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Daisy Heart Charm | Orloff of Denmark,Heart bead with a red and yellow enamel daisy set inside.,,img_0099.jpg,"Identified from the invoice photograph, confidence high"
+106,ORCB23,ORCB23,daisy-heart-dangle,Daisy Heart Dangle,A,Charm,Milestones & Sentiment,Classic,900,29,3.52,1.29,17.5mm,925 Sterling Silver,Oxidized Silver,White CZ +Red &Yellow Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Open heart outlined in clear stones with a yellow enamel daisy.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ +Red &Yellow Enamel<br>
+<strong>Size:</strong> 17.5mm<br>
+<strong>Weight:</strong> 1.29g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Daisy Heart Dangle | Orloff of Denmark,Open heart outlined in clear stones with a yellow enamel daisy.,,img_0100.jpg,"Identified from the invoice photograph, confidence high"
+107,ORCB25,ORCB25,christmas-sleigh-charm,Christmas Sleigh Charm,A,Charm,Milestones & Sentiment,Classic,900,29,4.07,2.01,12mm,925 Sterling Silver,Oxidized Silver,White CZ +Red &Yellow Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Sleigh carrying red and yellow enamel gifts, clear stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ +Red &Yellow Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.01g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Christmas Sleigh Charm | Orloff of Denmark,"Sleigh carrying red and yellow enamel gifts, clear stones.",,img_0101.jpg,"Identified from the invoice photograph, confidence high"
+108,ORCB26,ORCB26,coffee-cup-charm,Coffee Cup Charm,A,Charm,Travel & Lifestyle,Classic,900,29,3.93,1.79,10.5mm,925 Sterling Silver,Oxidized Silver,Red +Brown Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Cup lettered I love COFFEE with a red enamel heart and brown interior.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Red +Brown Enamel<br>
+<strong>Size:</strong> 10.5mm<br>
+<strong>Weight:</strong> 1.79g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Coffee Cup Charm | Orloff of Denmark,Cup lettered I love COFFEE with a red enamel heart and brown interior.,,img_0102.jpg,"Identified from the invoice photograph, confidence high"
+109,ORCB27,ORCB27,cupcake-charm,Cupcake Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,4.99,2.64,12.5mm,925 Sterling Silver,Oxidized Silver,Pink CZ +Green &Yellow Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Yellow enamel frosting with pink stones and a green candle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Pink CZ +Green &Yellow Enamel<br>
+<strong>Size:</strong> 12.5mm<br>
+<strong>Weight:</strong> 2.64g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Cupcake Charm | Orloff of Denmark,Yellow enamel frosting with pink stones and a green candle.,,img_0103.jpg,"Identified from the invoice photograph, confidence high"
+110,ORCB28,ORCB28,champagne-toast-charm,Champagne Toast Charm,A,Charm,Travel & Lifestyle,Classic,900,29,2.76,1.11,13mm,925 Sterling Silver,Oxidized Silver,White CZ+Purple &Yellow Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Two clinking glasses in purple enamel with clear stones and a lemon slice.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ+Purple &Yellow Enamel<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 1.11g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Champagne Toast Charm | Orloff of Denmark,Two clinking glasses in purple enamel with clear stones and a lemon slice.,,img_0104.jpg,"Identified from the invoice photograph, confidence high"
+111,ORCB29,ORCB29,engagement-ring-charm,Engagement Ring Charm,A,Charm,Milestones & Sentiment,Classic,900,29,3.59,1.42,12mm,925 Sterling Silver,Oxidized Silver,White CZ,10,"<p style=""font-family: Inter, sans-serif;"">Solitaire ring and band pair, pave shoulders.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 1.42g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Engagement Ring Charm | Orloff of Denmark,"Solitaire ring and band pair, pave shoulders.",,img_0105.jpg,"Identified from the invoice photograph, confidence high"
+112,ORCB30,ORCB30,baby-pram-charm,Baby Pram Charm,A,Charm,Milestones & Sentiment,Statement,1600,49,6.69,3.41,15mm,925 Sterling Silver,Rhodium &Rosegold,White CZ,10,"<p style=""font-family: Inter, sans-serif;"">Pram with a rose gold enamel bow and clear stone wheels.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium &Rosegold<br>
+<strong>Stone:</strong> White CZ<br>
+<strong>Size:</strong> 15mm<br>
+<strong>Weight:</strong> 3.41g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Baby Pram Charm | Orloff of Denmark,Pram with a rose gold enamel bow and clear stone wheels.,,img_0106.jpg,"Identified from the invoice photograph, confidence high"
+113,ORCB34,ORCB34,openwork-hearts-charm-pink,"Openwork Hearts Charm, Pink",A,Charm,Milestones & Sentiment,Signature,1200,39,5.03,2.1,11mm,925 Sterling Silver + AAAA CZ,"Oxidized Silver, Highly",Stone: Pink & White,10,"<p style=""font-family: Inter, sans-serif;"">Cut-out hearts between bands of pink and white stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone: Pink & White<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Openwork Hearts Charm, Pink | Orloff of Denmark",Cut-out hearts between bands of pink and white stones.,,img_0107.jpg,"Identified from the invoice photograph, confidence high"
+114,ORCB35,ORCB35,four-leaf-clover-charm,Four Leaf Clover Charm,A,Charm,Nature,Signature,1200,39,4.59,2.0,11mm,925 Sterling Silver + AAAA CZ,"Oxidized Silver, Highly",Stone: White,10,"<p style=""font-family: Inter, sans-serif;"">Clover set with clear stones throughout.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Four Leaf Clover Charm | Orloff of Denmark,Clover set with clear stones throughout.,,img_0108.jpg,"Identified from the invoice photograph, confidence high"
+115,ORCB36,ORCB36,crystal-cluster-charm-blue,"Crystal Cluster Charm, Blue",A,Charm,Sparkle & Classic,Statement,1600,49,7.22,3.8,12mm,925 Sterling Silver+AAAA CZ,"Oxidized Silver, Highly",Stone: Multicolor,10,"<p style=""font-family: Inter, sans-serif;"">Mixed blue and clear crystals set close over the whole bead.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone: Multicolor<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 3.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Crystal Cluster Charm, Blue | Orloff of Denmark",Mixed blue and clear crystals set close over the whole bead.,,img_0109.jpg,"Identified from the invoice photograph, confidence high"
+116,ORCB37,ORCB37,heart-charm-light-blue-enamel,"Heart Charm, Light Blue Enamel",A,Charm,Milestones & Sentiment,Classic,900,29,3.94,1.2,11mm,925 Sterling Silver+Enamel,"Oxidized Silver, Highly",Stone:NA / Enamel:Light Blue&White,10,"<p style=""font-family: Inter, sans-serif;"">Polished heart on a ground of light blue and white enamel spots.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:NA / Enamel:Light Blue&White<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Heart Charm, Light Blue Enamel | Orloff of Denmark",Polished heart on a ground of light blue and white enamel spots.,,img_0110.jpg,"Identified from the invoice photograph, confidence high"
+117,ORCB38,ORCB38,butterfly-charm-light-blue,"Butterfly Charm, Light Blue",A,Charm,Animals,Signature,1200,39,4.92,2.3,10mm,925 Sterling Silver+Enamel,"Oxidized Silver, Highly",Stone:NA / Enamel:Light Blue,10,"<p style=""font-family: Inter, sans-serif;"">Light blue enamel butterfly on an oxidized openwork bead.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:NA / Enamel:Light Blue<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Butterfly Charm, Light Blue | Orloff of Denmark",Light blue enamel butterfly on an oxidized openwork bead.,,img_0111.jpg,"Identified from the invoice photograph, confidence high"
+118,ORCB39,ORCB39,primrose-charm-light-blue,"Primrose Charm, Light Blue",A,Charm,Nature,Signature,1200,39,5.36,2.3,10mm,925 Sterling Silver+AAAA,"Oxidized Silver, Highly",CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Light blue and white enamel flowers with clear stone centres.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Primrose Charm, Light Blue | Orloff of Denmark",Light blue and white enamel flowers with clear stone centres.,,img_0112.jpg,"Identified from the invoice photograph, confidence high"
+119,ORCB40,ORCB40,red-rose-charm,Red Rose Charm,A,Charm,Nature,Classic,900,29,4.27,1.8,26mm,925 Sterling Silver+Enamel,"Oxidized Silver, Highly",Stone:NA / Enamel:Red,10,"<p style=""font-family: Inter, sans-serif;"">Red enamel rose dangle on a scrolled heart bail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:NA / Enamel:Red<br>
+<strong>Size:</strong> 26mm<br>
+<strong>Weight:</strong> 1.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Red Rose Charm | Orloff of Denmark,Red enamel rose dangle on a scrolled heart bail.,,img_0113.jpg,"Identified from the invoice photograph, confidence high"
+120,ORCB41,ORCB41,love-padlock-charm-blue,"Love Padlock Charm, Blue",A,Charm,Milestones & Sentiment,Signature,1200,39,5.58,2.4,24mm,925 Sterling Silver+Enamel,"Oxidized Silver, Highly",Stone:NA / Enamel: Blue,9,"<p style=""font-family: Inter, sans-serif;"">Heart padlock in blue enamel lettered Love.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:NA / Enamel: Blue<br>
+<strong>Size:</strong> 24mm<br>
+<strong>Weight:</strong> 2.4g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Love Padlock Charm, Blue | Orloff of Denmark",Heart padlock in blue enamel lettered Love.,,img_0114.jpg,"Identified from the invoice photograph, confidence high"
+121,ORCB42,ORCB42,butterfly-charm-pink,"Butterfly Charm, Pink",A,Charm,Animals,Classic,900,29,4.16,1.6,30mm,925 Sterling Silver+Enamel,"Oxidized Silver, Highly",Stone:NA / Enamel:Pink,10,"<p style=""font-family: Inter, sans-serif;"">Pink enamel butterfly dangle, wings folded.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:NA / Enamel:Pink<br>
+<strong>Size:</strong> 30mm<br>
+<strong>Weight:</strong> 1.6g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Butterfly Charm, Pink | Orloff of Denmark","Pink enamel butterfly dangle, wings folded.",,img_0115.jpg,"Identified from the invoice photograph, confidence high"
+122,ORCB43,ORCB43,cherry-blossom-charm-pink,"Cherry Blossom Charm, Pink",A,Charm,Nature,Classic,900,29,4.05,1.7,20mm,925 Sterling Silver+AAAA,"Oxidized Silver, Highly",CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Five pink enamel petals around a single clear stone.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 20mm<br>
+<strong>Weight:</strong> 1.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Cherry Blossom Charm, Pink | Orloff of Denmark",Five pink enamel petals around a single clear stone.,,img_0116.jpg,"Identified from the invoice photograph, confidence high"
+123,ORCB44,ORCB44,pave-heart-charm-pink,"Pave Heart Charm, Pink",A,Charm,Milestones & Sentiment,Signature,1200,39,4.92,1.7,20mm,925 Sterling Silver+AAAA CZ,"Oxidized Silver, Highly",Stone:Pink,10,"<p style=""font-family: Inter, sans-serif;"">Heart dangle set throughout with pink stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:Pink<br>
+<strong>Size:</strong> 20mm<br>
+<strong>Weight:</strong> 1.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Pave Heart Charm, Pink | Orloff of Denmark",Heart dangle set throughout with pink stones.,,img_0117.jpg,"Identified from the invoice photograph, confidence high"
+124,ORCB45,ORCB45,daisy-charm-pink,"Daisy Charm, Pink",A,Charm,Nature,Signature,1200,39,4.81,2.1,26mm,925 Sterling Silver+AAAA,"Oxidized Silver, Highly",CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Pink enamel petals around a pave centre.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 26mm<br>
+<strong>Weight:</strong> 2.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Daisy Charm, Pink | Orloff of Denmark",Pink enamel petals around a pave centre.,,img_0118.jpg,"Identified from the invoice photograph, confidence high"
+125,ORCB46,ORCB46,sunglasses-charm,Sunglasses Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.14,2.1,27mm,925 Sterling Silver+Enamel,"Oxidized Silver, Highly",Stone:NA / Enamel:Black,10,"<p style=""font-family: Inter, sans-serif;"">Black enamel sunglasses dangle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:NA / Enamel:Black<br>
+<strong>Size:</strong> 27mm<br>
+<strong>Weight:</strong> 2.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Sunglasses Charm | Orloff of Denmark,Black enamel sunglasses dangle.,,img_0119.jpg,"Identified from the invoice photograph, confidence high"
+126,ORCB47,ORCB47,teddy-bear-charm,Teddy Bear Charm,A,Charm,Animals,Classic,900,29,4.48,2.2,25mm,925 Sterling Silver+Enamel,"Oxidized Silver, Highly",Stone:NA / Enamel:Brown,10,"<p style=""font-family: Inter, sans-serif;"">Seated bear in brown enamel with black enamel paws.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:NA / Enamel:Brown<br>
+<strong>Size:</strong> 25mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Teddy Bear Charm | Orloff of Denmark,Seated bear in brown enamel with black enamel paws.,,img_0120.jpg,"Identified from the invoice photograph, confidence high"
+127,ORCB48,ORCB48,baby-shoe-charm-blue,"Baby Shoe Charm, Blue",A,Charm,Milestones & Sentiment,Statement,1600,49,7.22,3.7,27mm,925 Sterling Silver+AAAA,"Oxidized Silver, Highly",CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Light blue enamel shoe with white flowers and blue stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 27mm<br>
+<strong>Weight:</strong> 3.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Baby Shoe Charm, Blue | Orloff of Denmark",Light blue enamel shoe with white flowers and blue stones.,,img_0121.jpg,"Identified from the invoice photograph, confidence high"
+128,ORCB49,ORCB49,linked-hearts-charm,Linked Hearts Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,6.34,3.1,22mm,925 Sterling Silver+AAAA CZ,"Oxidized Silver, Highly",Stone:White,10,"<p style=""font-family: Inter, sans-serif;"">Two open hearts interlinked, clear stones on the bail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:White<br>
+<strong>Size:</strong> 22mm<br>
+<strong>Weight:</strong> 3.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Linked Hearts Charm | Orloff of Denmark,"Two open hearts interlinked, clear stones on the bail.",,img_0122.jpg,"Identified from the invoice photograph, confidence high"
+129,ORCB50,ORCB50,dragonfly-crystal-charm,Dragonfly Crystal Charm,A,Charm,Nature,Signature,1200,39,6.23,2.6,11mm,925 Sterling Silver+AAAA CZ,"Oxidized Silver, Highly",Stone:Blue & Orange,10,"<p style=""font-family: Inter, sans-serif;"">Openwork bead with white enamel wing shapes and blue and orange stones. Could read as flowers.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:Blue & Orange<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.6g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Dragonfly Crystal Charm | Orloff of Denmark,Openwork bead with white enamel wing shapes and blue and orange stones.,,img_0123.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+130,ORCB51,ORCB51,royal-carriage-charm,Royal Carriage Charm,A,Charm,Travel & Lifestyle,Statement,1600,49,7.88,4.1,12mm,925 Sterling Silver,"Oxidized Silver, Highly",,10,"<p style=""font-family: Inter, sans-serif;"">Open carriage with spoked wheels, a seated figure and gold flowers.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 4.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Royal Carriage Charm | Orloff of Denmark,"Open carriage with spoked wheels, a seated figure and gold flowers.",,img_0124.jpg,"Identified from the invoice photograph, confidence high"
+131,ORCB52,ORCB52,blossom-and-butterfly-charm,Blossom and Butterfly Charm,A,Charm,Nature,Classic,900,29,4.16,1.2,22mm,925 Sterling Silver+AAAA,"Oxidized Silver, Highly",CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Pink and white enamel flowers with a pave butterfly dangle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 22mm<br>
+<strong>Weight:</strong> 1.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Blossom and Butterfly Charm | Orloff of Denmark,Pink and white enamel flowers with a pave butterfly dangle.,,img_0125.jpg,"Identified from the invoice photograph, confidence high"
+132,ORCB53,ORCB53,angel-pearl-charm,Angel Pearl Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.47,2.2,24mm,925 Sterling Silver+AAAA CZ+Shell,"Oxidized Silver, Highly",Stone:White,10,"<p style=""font-family: Inter, sans-serif;"">White shell pearl with pave wings.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:White<br>
+<strong>Size:</strong> 24mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Angel Pearl Charm | Orloff of Denmark,White shell pearl with pave wings.,,img_0126.jpg,"Identified from the invoice photograph, confidence high"
+133,ORCB54,ORCB54,devil-pearl-charm,Devil Pearl Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.91,2.6,23mm,925 Sterling Silver+AAAA CZ+Shell,"Oxidized Silver, Highly",Stone:Black,10,"<p style=""font-family: Inter, sans-serif;"">Grey shell pearl with pave wings, horns and a tail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver, Highly<br>
+<strong>Stone:</strong> Stone:Black<br>
+<strong>Size:</strong> 23mm<br>
+<strong>Weight:</strong> 2.6g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Devil Pearl Charm | Orloff of Denmark,"Grey shell pearl with pave wings, horns and a tail.",,img_0127.jpg,"Identified from the invoice photograph, confidence high"
+134,ORCB55,ORCB55,dreamcatcher-charm,Dreamcatcher Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.35,1.83,30mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,"<p style=""font-family: Inter, sans-serif;"">Openwork hoop with a magenta stone, feathers and coloured drops.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Muti-color<br>
+<strong>Size:</strong> 30mm<br>
+<strong>Weight:</strong> 1.83g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Dreamcatcher Charm | Orloff of Denmark,"Openwork hoop with a magenta stone, feathers and coloured drops.",,img_0128.jpg,"Identified from the invoice photograph, confidence high"
+135,ORCB56,ORCB56,crown-charm,Crown Charm,A,Charm,Sparkle & Classic,Signature,1200,39,5.28,2.2,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,"<p style=""font-family: Inter, sans-serif;"">Crown set with pink and purple stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Muti-color<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Crown Charm | Orloff of Denmark,Crown set with pink and purple stones.,,img_0129.jpg,"Identified from the invoice photograph, confidence high"
+136,ORCB58,ORCB58,scissors-and-comb-charm,Scissors and Comb Charm,A,Charm,Travel & Lifestyle,Classic,900,29,4.01,1.3,25mm,925 Sterling Silver,Rhodium Plated,,9,"<p style=""font-family: Inter, sans-serif;"">Hairdresser's scissors and comb dangle in polished silver.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 25mm<br>
+<strong>Weight:</strong> 1.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Scissors and Comb Charm | Orloff of Denmark,Hairdresser's scissors and comb dangle in polished silver.,,img_0130.jpg,"Identified from the invoice photograph, confidence high"
+137,ORCB59,ORCB59,takeaway-coffee-charm,Takeaway Coffee Charm,A,Charm,Travel & Lifestyle,Classic,900,29,4.27,2.07,11mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Lidded cup in brown enamel lettered COFFEE with rising steam.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.07g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Takeaway Coffee Charm | Orloff of Denmark,Lidded cup in brown enamel lettered COFFEE with rising steam.,,img_0131.jpg,"Identified from the invoice photograph, confidence high"
+138,ORCB60,ORCB60,owl-charm-turquoise,"Owl Charm, Turquoise",A,Charm,Animals,Signature,1200,39,5.49,3.1,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Turquoise enamel owl with pave brow and blue stone eyes.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> +Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 3.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Owl Charm, Turquoise | Orloff of Denmark",Turquoise enamel owl with pave brow and blue stone eyes.,,img_0132.jpg,"Identified from the invoice photograph, confidence high"
+139,ORCB61,ORCB61,origami-crane-charm,Origami Crane Charm,A,Charm,Travel & Lifestyle,Classic,900,29,4.33,1.8,18mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Folded paper crane in polished silver.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 18mm<br>
+<strong>Weight:</strong> 1.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Origami Crane Charm | Orloff of Denmark,Folded paper crane in polished silver.,,img_0133.jpg,"Identified from the invoice photograph, confidence high"
+140,ORCB62,ORCB62,family-tree-charm,Family Tree Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.62,2.3,25mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,"<p style=""font-family: Inter, sans-serif;"">Tree of life in a beaded hoop with rose gold hearts and a Family tag.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 25mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Family Tree Charm | Orloff of Denmark,Tree of life in a beaded hoop with rose gold hearts and a Family tag.,,img_0134.jpg,"Identified from the invoice photograph, confidence high"
+141,ORCB63,ORCB63,puzzle-heart-charm,Puzzle Heart Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,4.77,2.17,10mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Heart worked as a jigsaw with a gold puzzle piece lettered YOU.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.17g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Puzzle Heart Charm | Orloff of Denmark,Heart worked as a jigsaw with a gold puzzle piece lettered YOU.,,img_0135.jpg,"Identified from the invoice photograph, confidence high"
+142,ORCB64,ORCB64,sunglasses-and-stiletto-charm,Sunglasses and Stiletto Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.46,2.57,12mm,925 Sterling Silver+Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Black enamel sunglasses beside a red enamel high heel.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.57g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Sunglasses and Stiletto Charm | Orloff of Denmark,Black enamel sunglasses beside a red enamel high heel.,,img_0137.jpg,"Identified from the invoice photograph, confidence high"
+143,ORCB65,ORCB65,flamingo-charm-pink,"Flamingo Charm, Pink",A,Charm,Animals,Signature,1200,39,5.64,1.95,30mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Standing flamingo in graded pink enamel with pave detail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> +Enamel<br>
+<strong>Size:</strong> 30mm<br>
+<strong>Weight:</strong> 1.95g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Flamingo Charm, Pink | Orloff of Denmark",Standing flamingo in graded pink enamel with pave detail.,,img_0136.jpg,"Identified from the invoice photograph, confidence high"
+144,ORCB66,ORCB66,violin-charm,Violin Charm,A,Charm,Travel & Lifestyle,Classic,900,29,3.50,0.9,20mm,925 Sterling Silver+ Enamel,Rhodium Plated,,8,"<p style=""font-family: Inter, sans-serif;"">Violin in brown enamel with silver strings and pegs.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 20mm<br>
+<strong>Weight:</strong> 0.9g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Violin Charm | Orloff of Denmark,Violin in brown enamel with silver strings and pegs.,,img_0138.jpg,"Identified from the invoice photograph, confidence high"
+145,ORCB67,ORCB67,feather-charm,Feather Charm,A,Charm,Nature,Classic,900,29,3.88,0.98,20mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,"<p style=""font-family: Inter, sans-serif;"">Tapering feather with a beaded bow at the quill.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 20mm<br>
+<strong>Weight:</strong> 0.98g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Feather Charm | Orloff of Denmark,Tapering feather with a beaded bow at the quill.,,img_0139.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+146,ORCB70,ORCB70,witch-hat-charm,Witch Hat Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.35,2.57,12mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Pointed hat in black enamel with applied silver stars.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.57g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Witch Hat Charm | Orloff of Denmark,Pointed hat in black enamel with applied silver stars.,,img_0140.jpg,"Identified from the invoice photograph, confidence high"
+147,ORCB71,ORCB71,key-charm-red-enamel,"Key Charm, Red Enamel",A,Charm,Milestones & Sentiment,Classic,900,29,4.13,1.55,20mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Red enamel key over a rounded fob. Reads as a new home piece.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 20mm<br>
+<strong>Weight:</strong> 1.55g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Key Charm, Red Enamel | Orloff of Denmark",Red enamel key over a rounded fob.,,img_0141.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+148,ORCB73,ORCB73,lucky-cat-charm,Lucky Cat Charm,A,Charm,Animals,Signature,1200,39,4.59,2.28,11mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Beckoning cat with red enamel ears and a coloured heart flower collar.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.28g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Lucky Cat Charm | Orloff of Denmark,Beckoning cat with red enamel ears and a coloured heart flower collar.,,img_0142.jpg,"Identified from the invoice photograph, confidence high"
+149,ORCB74,ORCB74,elephant-charm-blue-enamel,"Elephant Charm, Blue Enamel",A,Charm,Animals,Signature,1200,39,5.13,2.9,14mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Walking elephant dangle patched with blue enamel.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 14mm<br>
+<strong>Weight:</strong> 2.9g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Elephant Charm, Blue Enamel | Orloff of Denmark",Walking elephant dangle patched with blue enamel.,,img_0143.jpg,"Identified from the invoice photograph, confidence high"
+150,ORCB76,ORCB76,treasure-chest-charm,Treasure Chest Charm,A,Charm,Travel & Lifestyle,Statement,1600,49,7.34,3.9,14mm,925 Sterling Silver+ Enamel,Rhodium Plated,,7,"<p style=""font-family: Inter, sans-serif;"">Domed chest in blue glitter enamel with silver scrollwork.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 14mm<br>
+<strong>Weight:</strong> 3.9g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Treasure Chest Charm | Orloff of Denmark,Domed chest in blue glitter enamel with silver scrollwork.,,img_0144.jpg,"Identified from the invoice photograph, confidence high"
+151,ORCB77,ORCB77,owl-charm-gold-heart,"Owl Charm, Gold Heart",A,Charm,Animals,Statement,1600,49,7.22,4.56,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Turquoise enamel owl with blue stone eyes and a gold heart.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> +Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 4.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Owl Charm, Gold Heart | Orloff of Denmark",Turquoise enamel owl with blue stone eyes and a gold heart.,,img_0145.jpg,"Identified from the invoice photograph, confidence high"
+152,ORCB78,ORCB78,mother-and-child-charm,Mother and Child Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.80,2.07,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: white,10,"<p style=""font-family: Inter, sans-serif;"">Two rose gold figures forming a heart inside a pave ring.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: white<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.07g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Mother and Child Charm | Orloff of Denmark,Two rose gold figures forming a heart inside a pave ring.,,img_0146.jpg,"Identified from the invoice photograph, confidence high"
+153,ORCB79,ORCB79,safety-chain,Safety Chain,A,Charm,Spacers & Clips,Statement,1600,49,9.30,5,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: white,10,"<p style=""font-family: Inter, sans-serif;"">Two pave heart clips joined by a silver chain. Functional, not decorative.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: white<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Safety Chain | Orloff of Denmark,Two pave heart clips joined by a silver chain.,,img_0147.jpg,"Identified from the invoice photograph, confidence high"
+154,ORCB80,ORCB80,sea-turtle-charm,Sea Turtle Charm,A,Charm,Animals,Signature,1200,39,4.87,2,21mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,10,"<p style=""font-family: Inter, sans-serif;"">Silver turtle over a disc set with blue stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Blue<br>
+<strong>Size:</strong> 21mm<br>
+<strong>Weight:</strong> 2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Sea Turtle Charm | Orloff of Denmark,Silver turtle over a disc set with blue stones.,,img_0148.jpg,"Identified from the invoice photograph, confidence high"
+155,ORCB81,ORCB81,i-love-you-heart-charm,I Love You Heart Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,4.59,2.35,9mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Turquoise enamel heart lettered I Love you with white daisies.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 9mm<br>
+<strong>Weight:</strong> 2.35g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,I Love You Heart Charm | Orloff of Denmark,Turquoise enamel heart lettered I Love you with white daisies.,,img_0149.jpg,"Identified from the invoice photograph, confidence high"
+156,ORCB82,ORCB82,rainbow-heart-charm,Rainbow Heart Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.50,2.35,9mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,"<p style=""font-family: Inter, sans-serif;"">Openwork heart with arcs of blue, green, amber and red stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Muti-color<br>
+<strong>Size:</strong> 9mm<br>
+<strong>Weight:</strong> 2.35g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Rainbow Heart Charm | Orloff of Denmark,"Openwork heart with arcs of blue, green, amber and red stones.",,img_0150.jpg,"Identified from the invoice photograph, confidence high"
+157,ORCB83,ORCB83,corgi-charm,Corgi Charm,A,Charm,Animals,Signature,1200,39,5.21,2.5,12mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Dog's face in yellow and brown enamel with a pave blaze and bow tie.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Corgi Charm | Orloff of Denmark,Dog's face in yellow and brown enamel with a pave blaze and bow tie.,,img_0151.jpg,"Identified from the invoice photograph, confidence high"
+158,ORCB84,ORCB84,dog-kennel-charm,Dog Kennel Charm,A,Charm,Animals,Signature,1200,39,4.87,2.5,16mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Purple,10,"<p style=""font-family: Inter, sans-serif;"">Kennel with a sleeping dog and a pink heart stone.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Purple<br>
+<strong>Size:</strong> 16mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Dog Kennel Charm | Orloff of Denmark,Kennel with a sleeping dog and a pink heart stone.,,img_0152.jpg,"Identified from the invoice photograph, confidence high"
+159,ORCB85,ORCB85,puppy-face-charm,Puppy Face Charm,A,Charm,Animals,Signature,1200,39,4.81,2.5,11mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Puppy's face in brown and white enamel with floppy ears.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Puppy Face Charm | Orloff of Denmark,Puppy's face in brown and white enamel with floppy ears.,,img_0153.jpg,"Identified from the invoice photograph, confidence high"
+160,ORCB86,ORCB86,dachshund-charm,Dachshund Charm,A,Charm,Animals,Signature,1200,39,5.69,2.3,21mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Spotted dachshund dangle with a gold collar and tail heart.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 21mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Dachshund Charm | Orloff of Denmark,Spotted dachshund dangle with a gold collar and tail heart.,,img_0154.jpg,"Identified from the invoice photograph, confidence high"
+161,ORCB88,ORCB88,faceted-glass-charm-red,"Faceted Glass Charm, Red",A,Charm,Sparkle & Classic,Classic,900,29,3.36,2,12mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Faceted red glass bead with a silver core.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Faceted Glass Charm, Red | Orloff of Denmark",Faceted red glass bead with a silver core.,,img_0155.jpg,"Identified from the invoice photograph, confidence high"
+162,ORCB89,ORCB89,snowman-charm,Snowman Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.88,3,22mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue+Red,10,"<p style=""font-family: Inter, sans-serif;"">Snowman in a gold hat and scarf with a gold snowflake dangle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Blue+Red<br>
+<strong>Size:</strong> 22mm<br>
+<strong>Weight:</strong> 3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Snowman Charm | Orloff of Denmark,Snowman in a gold hat and scarf with a gold snowflake dangle.,,img_0156.jpg,"Identified from the invoice photograph, confidence high"
+163,ORCB100,ORCB100,star-pave-charm-purple,"Star Pave Charm, Purple",A,Charm,Sparkle & Classic,Signature,1200,39,6.25,2.5,8mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Purple,9,"<p style=""font-family: Inter, sans-serif;"">Pave bead set with two purple star stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White+Purple<br>
+<strong>Size:</strong> 8mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Star Pave Charm, Purple | Orloff of Denmark",Pave bead set with two purple star stones.,,img_0157.jpg,"Identified from the invoice photograph, confidence high"
+164,ORCB101,ORCB101,sweet-wrapper-charm,Sweet Wrapper Charm,A,Charm,Travel & Lifestyle,Statement,1600,49,7.02,2.8,8mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,"<p style=""font-family: Inter, sans-serif;"">Wrapped sweet with a spiral of yellow, purple and red stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Muti-color<br>
+<strong>Size:</strong> 8mm<br>
+<strong>Weight:</strong> 2.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Sweet Wrapper Charm | Orloff of Denmark,"Wrapped sweet with a spiral of yellow, purple and red stones.",,img_0158.jpg,"Identified from the invoice photograph, confidence high"
+165,ORCB102,ORCB102,star-charm-purple-centre,"Star Charm, Purple Centre",A,Charm,Sparkle & Classic,Signature,1200,39,6.46,2.5,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Purple,10,"<p style=""font-family: Inter, sans-serif;"">Pave star with a purple star stone at its centre.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White+Purple<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Star Charm, Purple Centre | Orloff of Denmark",Pave star with a purple star stone at its centre.,,img_0159.jpg,"Identified from the invoice photograph, confidence high"
+166,ORCB103,ORCB103,rainbow-egg-charm,Rainbow Egg Charm,A,Charm,Sparkle & Classic,Statement,1600,49,7.02,2.8,22mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,"<p style=""font-family: Inter, sans-serif;"">Egg shaped dangle set with rainbow coloured stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Muti-color<br>
+<strong>Size:</strong> 22mm<br>
+<strong>Weight:</strong> 2.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Rainbow Egg Charm | Orloff of Denmark,Egg shaped dangle set with rainbow coloured stones.,,img_0160.jpg,"Identified from the invoice photograph, confidence high"
+167,ORCB104,ORCB104,ribbon-bow-charm-red-heart,"Ribbon Bow Charm, Red Heart",A,Charm,Milestones & Sentiment,Signature,1200,39,6.00,3,15mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Red,8,"<p style=""font-family: Inter, sans-serif;"">Pave ribbon tied in a bow with a red heart stone dangle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White+Red<br>
+<strong>Size:</strong> 15mm<br>
+<strong>Weight:</strong> 3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Ribbon Bow Charm, Red Heart | Orloff of Denmark",Pave ribbon tied in a bow with a red heart stone dangle.,,img_0161.jpg,"Identified from the invoice photograph, confidence high"
+168,ORCB106,ORCB106,angel-charm-pink-heart,"Angel Charm, Pink Heart",A,Charm,Milestones & Sentiment,Signature,1200,39,5.17,2.5,13mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Pink,10,"<p style=""font-family: Inter, sans-serif;"">Winged angel with a halo above a pink heart stone in a pave frame.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White+Pink<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Angel Charm, Pink Heart | Orloff of Denmark",Winged angel with a halo above a pink heart stone in a pave frame.,,img_0162.jpg,"Identified from the invoice photograph, confidence high"
+169,ORCB107,ORCB107,graduation-owl-charm,Graduation Owl Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,6.13,2.5,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Blue,9,"<p style=""font-family: Inter, sans-serif;"">Owl in a mortarboard with a blue pear stone and a small key.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White+Blue<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Graduation Owl Charm | Orloff of Denmark,Owl in a mortarboard with a blue pear stone and a small key.,,img_0163.jpg,"Identified from the invoice photograph, confidence high"
+170,ORCB108,ORCB108,unicorn-charm-gold-mane,"Unicorn Charm, Gold Mane",A,Charm,Animals,Classic,900,29,4.26,1.5,21mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Prancing unicorn with a gold horn, mane and tail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 21mm<br>
+<strong>Weight:</strong> 1.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Unicorn Charm, Gold Mane | Orloff of Denmark","Prancing unicorn with a gold horn, mane and tail.",,img_0164.jpg,"Identified from the invoice photograph, confidence high"
+171,ORCB110,ORCB110,princess-charm,Princess Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,6.13,3.8,17mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Pink,10,"<p style=""font-family: Inter, sans-serif;"">Girl in a gown set with pink stones, holding a heart wand.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Pink<br>
+<strong>Size:</strong> 17mm<br>
+<strong>Weight:</strong> 3.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Princess Charm | Orloff of Denmark,"Girl in a gown set with pink stones, holding a heart wand.",,img_0165.jpg,"Identified from the invoice photograph, confidence high"
+172,ORCB111,ORCB111,butterfly-charm-turquoise-spots,"Butterfly Charm, Turquoise Spots",A,Charm,Animals,Signature,1200,39,5.46,2.2,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,"<p style=""font-family: Inter, sans-serif;"">Pave butterfly with turquoise enamel spots and a beaded body.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Butterfly Charm, Turquoise Spots | Orloff of Denmark",Pave butterfly with turquoise enamel spots and a beaded body.,,img_0166.jpg,"Identified from the invoice photograph, confidence high"
+173,ORCB113,ORCB113,puzzle-heart-charm-multicolour,"Puzzle Heart Charm, Multicolour",A,Charm,Milestones & Sentiment,Signature,1200,39,6.30,2.2,13mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Heart in blue, red, yellow and white puzzle pieces with a red piece dangling. Note this reads as the autism awareness motif; decide how you want it positioned.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Puzzle Heart Charm, Multicolour | Orloff of Denmark","Heart in blue, red, yellow and white puzzle pieces with a red piece dangling.",,img_0167.jpg,"Identified from the invoice photograph, confidence high"
+174,ORCB114,ORCB114,mom-heart-charm,Mom Heart Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.19,2.2,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Pink,10,"<p style=""font-family: Inter, sans-serif;"">Heart lettered Mom with pink stone flowers and green enamel leaves.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Pink<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Mom Heart Charm | Orloff of Denmark,Heart lettered Mom with pink stone flowers and green enamel leaves.,,img_0168.jpg,"Identified from the invoice photograph, confidence high"
+175,ORCB115,ORCB115,stitched-heart-charm,Stitched Heart Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.03,2.2,10mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Polished heart laced with black stitching over red stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Stitched Heart Charm | Orloff of Denmark,Polished heart laced with black stitching over red stones.,,img_0169.jpg,"Identified from the invoice photograph, confidence high"
+176,ORCB116,ORCB116,heart-padlock-charm-blue,"Heart Padlock Charm, Blue",A,Charm,Milestones & Sentiment,Signature,1200,39,6.35,3,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,10,"<p style=""font-family: Inter, sans-serif;"">Blue enamel padlock with silver scrollwork, a blue heart stone and a key.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Blue<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Heart Padlock Charm, Blue | Orloff of Denmark","Blue enamel padlock with silver scrollwork, a blue heart stone and a key.",,img_0170.jpg,"Identified from the invoice photograph, confidence high"
+177,ORCB117,ORCB117,frangipani-charm-yellow,"Frangipani Charm, Yellow",A,Charm,Nature,Signature,1200,39,4.96,2.6,8mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Five yellow enamel petals around a single clear stone.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 8mm<br>
+<strong>Weight:</strong> 2.6g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Frangipani Charm, Yellow | Orloff of Denmark",Five yellow enamel petals around a single clear stone.,,img_0171.jpg,"Identified from the invoice photograph, confidence high"
+178,ORCB118,ORCB118,dreamcatcher-charm-rainbow,"Dreamcatcher Charm, Rainbow",A,Charm,Travel & Lifestyle,Statement,1600,49,6.68,2.3,17mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,7,"<p style=""font-family: Inter, sans-serif;"">Openwork bead with rainbow stones and three silver feather drops.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Muti-color<br>
+<strong>Size:</strong> 17mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Dreamcatcher Charm, Rainbow | Orloff of Denmark",Openwork bead with rainbow stones and three silver feather drops.,,img_0172.jpg,"Identified from the invoice photograph, confidence high"
+179,ORCB119,ORCB119,graduation-charm,Graduation Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.58,2.2,10mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Mortarboard and scroll lettered GRADUATION with a gold tassel.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Graduation Charm | Orloff of Denmark,Mortarboard and scroll lettered GRADUATION with a gold tassel.,,img_0173.jpg,"Identified from the invoice photograph, confidence high"
+180,ORCB120,ORCB120,angel-wing-charm,Angel Wing Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.40,1.5,14mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,"<p style=""font-family: Inter, sans-serif;"">Single feathered wing in pave with a gold leading edge.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 14mm<br>
+<strong>Weight:</strong> 1.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Angel Wing Charm | Orloff of Denmark,Single feathered wing in pave with a gold leading edge.,,img_0174.jpg,"Identified from the invoice photograph, confidence high"
+181,ORCB122,ORCB122,witch-hat-charm-rose-gold,"Witch Hat Charm, Rose Gold",A,Charm,Milestones & Sentiment,Signature,1200,39,5.25,2,11mm,925 Sterling Silver + AAAA CZ,Rose Gold Plated,Stone: Black,8,"<p style=""font-family: Inter, sans-serif;"">Rose gold hat with black enamel stars and a star dangle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rose Gold Plated<br>
+<strong>Stone:</strong> Stone: Black<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Witch Hat Charm, Rose Gold | Orloff of Denmark",Rose gold hat with black enamel stars and a star dangle.,,img_0175.jpg,"Identified from the invoice photograph, confidence high"
+182,ORCB123,ORCB123,horse-charm,Horse Charm,A,Charm,Animals,Statement,1600,49,7.00,2,15mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Galloping horse with a brown enamel mane and tail, gold horseshoe bail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 15mm<br>
+<strong>Weight:</strong> 2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Horse Charm | Orloff of Denmark,"Galloping horse with a brown enamel mane and tail, gold horseshoe bail.",,img_0176.jpg,"Identified from the invoice photograph, confidence high"
+183,ORCB124,ORCB124,clover-charm-purple,"Clover Charm, Purple",A,Charm,Nature,Statement,1600,49,7.22,2.4,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Purple,10,"<p style=""font-family: Inter, sans-serif;"">Purple enamel clover among pave hearts.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Purple<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.4g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Clover Charm, Purple | Orloff of Denmark",Purple enamel clover among pave hearts.,,img_0177.jpg,"Identified from the invoice photograph, confidence high"
+184,ORCB125,ORCB125,basketball-charm,Basketball Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.03,2,9mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,9,"<p style=""font-family: Inter, sans-serif;"">Red enamel basketball with a pave heart on the seam.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 9mm<br>
+<strong>Weight:</strong> 2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Basketball Charm | Orloff of Denmark,Red enamel basketball with a pave heart on the seam.,,img_0178.jpg,"Identified from the invoice photograph, confidence high"
+185,ORCB126,ORCB126,cactus-charm,Cactus Charm,A,Charm,Nature,Classic,900,29,3.43,1,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Green,10,"<p style=""font-family: Inter, sans-serif;"">Cactus dangle set with green stones and a silver flower.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Green<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Cactus Charm | Orloff of Denmark,Cactus dangle set with green stones and a silver flower.,,img_0179.jpg,"Identified from the invoice photograph, confidence high"
+186,ORCB127,ORCB127,rabbit-and-strawberry-charm,Rabbit and Strawberry Charm,A,Charm,Animals,Signature,1200,39,4.59,1.9,15mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Winking rabbit in a pink enamel basket with a red strawberry.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 15mm<br>
+<strong>Weight:</strong> 1.9g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Rabbit and Strawberry Charm | Orloff of Denmark,Winking rabbit in a pink enamel basket with a red strawberry.,,img_0180.jpg,"Identified from the invoice photograph, confidence high"
+187,ORCB128,ORCB128,ladybird-charm,Ladybird Charm,A,Charm,Animals,Statement,1600,49,6.80,2.5,12mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Red enamel ladybird with black spots and a yellow pear stone.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Ladybird Charm | Orloff of Denmark,Red enamel ladybird with black spots and a yellow pear stone.,,img_0181.jpg,"Identified from the invoice photograph, confidence high"
+188,ORCB129,ORCB129,two-cats-and-moon-charm,Two Cats and Moon Charm,A,Charm,Animals,Signature,1200,39,4.55,2,7mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,9,"<p style=""font-family: Inter, sans-serif;"">Pair of cats beside a crescent of blue stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Blue<br>
+<strong>Size:</strong> 7mm<br>
+<strong>Weight:</strong> 2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Two Cats and Moon Charm | Orloff of Denmark,Pair of cats beside a crescent of blue stones.,,img_0182.jpg,"Identified from the invoice photograph, confidence high"
+189,ORCB135,ORCB135,medical-chart-charm,Medical Chart Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,4.97,1.8,16mm,925 Sterling Silver,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Clipboard with a stethoscope and red cross, gold heart dangle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 16mm<br>
+<strong>Weight:</strong> 1.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Medical Chart Charm | Orloff of Denmark,"Clipboard with a stethoscope and red cross, gold heart dangle.",,img_0183.jpg,"Identified from the invoice photograph, confidence high"
+190,ORCB136,ORCB136,camera-charm-pink,"Camera Charm, Pink",A,Charm,Travel & Lifestyle,Signature,1200,39,4.98,2.1,11mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Pink enamel camera with a clear stone lens and flower detail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Camera Charm, Pink | Orloff of Denmark",Pink enamel camera with a clear stone lens and flower detail.,,img_0184.jpg,"Identified from the invoice photograph, confidence high"
+191,ORCB137,ORCB137,elephant-charm-pink-and-green,"Elephant Charm, Pink and Green",A,Charm,Animals,Signature,1200,39,6.07,3.2,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,"<p style=""font-family: Inter, sans-serif;"">Elephant with pink pave ears and a green pave headdress.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Muti-color<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 3.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Elephant Charm, Pink and Green | Orloff of Denmark",Elephant with pink pave ears and a green pave headdress.,,img_0185.jpg,"Identified from the invoice photograph, confidence high"
+192,ORCB138,ORCB138,lucky-clover-heart-charm,Lucky Clover Heart Charm,A,Charm,Milestones & Sentiment,Classic,900,29,4.27,1.7,7mm,925 Sterling Silver,Rose Gold Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Rose gold heart lettered Lucky with a green enamel clover.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rose Gold Plated<br>
+<strong>Size:</strong> 7mm<br>
+<strong>Weight:</strong> 1.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Lucky Clover Heart Charm | Orloff of Denmark,Rose gold heart lettered Lucky with a green enamel clover.,,img_0186.jpg,"Identified from the invoice photograph, confidence high"
+193,ORCB139,ORCB139,sunflower-charm,Sunflower Charm,A,Charm,Nature,Statement,1600,49,8.40,3.5,7mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Yellow+Green,9,"<p style=""font-family: Inter, sans-serif;"">Faceted yellow stone in a petalled frame with green stone leaves.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Yellow+Green<br>
+<strong>Size:</strong> 7mm<br>
+<strong>Weight:</strong> 3.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Sunflower Charm | Orloff of Denmark,Faceted yellow stone in a petalled frame with green stone leaves.,,img_0187.jpg,"Identified from the invoice photograph, confidence high"
+194,ORCB140,ORCB140,rainbow-charm,Rainbow Charm,A,Charm,Nature,Signature,1200,39,4.69,2.4,12mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Bands of coloured enamel with a white cloud.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.4g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Rainbow Charm | Orloff of Denmark,Bands of coloured enamel with a white cloud.,,img_0188.jpg,"Identified from the invoice photograph, confidence high"
+195,ORCB142,ORCB142,mermaid-charm,Mermaid Charm,A,Charm,Animals,Signature,1200,39,5.23,2.6,20mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Mermaid dangle with a blue glitter tail and a pink flower in her hair.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 20mm<br>
+<strong>Weight:</strong> 2.6g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Mermaid Charm | Orloff of Denmark,Mermaid dangle with a blue glitter tail and a pink flower in her hair.,,img_0189.jpg,"Identified from the invoice photograph, confidence high"
+196,ORCB144,ORCB144,best-friends-charm,Best Friends Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.69,2.7,15mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Pink enamel heart lettered BFF with two yellow smiling faces.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 15mm<br>
+<strong>Weight:</strong> 2.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Best Friends Charm | Orloff of Denmark,Pink enamel heart lettered BFF with two yellow smiling faces.,,img_0193.jpg,"Identified from the invoice photograph, confidence high"
+197,ORCB146,ORCB146,ships-wheel-charm,Ship's Wheel Charm,A,Charm,Travel & Lifestyle,Classic,900,29,4.20,1,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,"<p style=""font-family: Inter, sans-serif;"">Ship's wheel framing a rose gold anchor and heart.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Ship's Wheel Charm | Orloff of Denmark,Ship's wheel framing a rose gold anchor and heart.,,img_0194.jpg,"Identified from the invoice photograph, confidence high"
+198,ORCB149,ORCB149,giraffe-charm,Giraffe Charm,A,Charm,Animals,Signature,1200,39,4.51,1.7,18mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,"<p style=""font-family: Inter, sans-serif;"">Yellow enamel giraffe dangle with silver markings.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Size:</strong> 18mm<br>
+<strong>Weight:</strong> 1.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Giraffe Charm | Orloff of Denmark,Yellow enamel giraffe dangle with silver markings.,,img_0195.jpg,"Identified from the invoice photograph, confidence high"
+199,ORCB150,ORCB150,lucky-star-charm-gold,"Lucky Star Charm, Gold",A,Charm,Milestones & Sentiment,Signature,1200,39,4.85,3,10mm,925 Sterling Silver,14K Gold Plated,,9,"<p style=""font-family: Inter, sans-serif;"">Gold star bead engraved you are my lucky star.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> 14K Gold Plated<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Lucky Star Charm, Gold | Orloff of Denmark",Gold star bead engraved you are my lucky star.,,img_0196.jpg,"Identified from the invoice photograph, confidence high"
+200,ORCB151,ORCB151,sunflower-charm-gold,"Sunflower Charm, Gold",A,Charm,Nature,Signature,1200,39,5.03,1.5,13mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,9,"<p style=""font-family: Inter, sans-serif;"">Gold petals around a pave centre.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 1.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Sunflower Charm, Gold | Orloff of Denmark",Gold petals around a pave centre.,,img_0197.jpg,"Identified from the invoice photograph, confidence high"
+201,ORCB152,ORCB152,stars-and-moon-charm-blue,"Stars and Moon Charm, Blue",A,Charm,Nature,Statement,1600,49,6.82,3,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,10,"<p style=""font-family: Inter, sans-serif;"">Cut-out stars and crescents with blue stones, engraved QUEEN.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Blue<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Stars and Moon Charm, Blue | Orloff of Denmark","Cut-out stars and crescents with blue stones, engraved QUEEN.",,img_0198.jpg,"Identified from the invoice photograph, confidence high"
+202,ORCB153,ORCB153,flower-heart-charm,Flower Heart Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.47,2.30,10.5mm,925 Sterling Silver,Oxidized Silver,Pink CZ & White CZ + Green Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Polished heart with pink stone flowers and green enamel leaves.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Pink CZ & White CZ + Green Enamel<br>
+<strong>Size:</strong> 10.5mm<br>
+<strong>Weight:</strong> 2.30g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Flower Heart Charm | Orloff of Denmark,Polished heart with pink stone flowers and green enamel leaves.,,img_0190.jpg,"Identified from the invoice photograph, confidence high"
+203,ORCB154,ORCB154,i-love-my-family-charm,I Love My Family Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.47,2.40,12mm,925 Sterling Silver,Oxidized Silver,Red Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Girl embracing a heart lettered I love my family.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Red Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.40g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,I Love My Family Charm | Orloff of Denmark,Girl embracing a heart lettered I love my family.,,img_0191.jpg,"Identified from the invoice photograph, confidence high"
+204,ORCB155,ORCB155,cocktail-charm,Cocktail Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,4.59,1.80,12mm,925 Sterling Silver,Oxidized Silver,Green & Pink Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Footed glass with a straw and a slice of fruit on the rim.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Green & Pink Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Cocktail Charm | Orloff of Denmark,Footed glass with a straw and a slice of fruit on the rim.,,img_0192.jpg,"Identified from the invoice photograph, confidence high"
+205,ORCB156,ORCB156,shopping-bag-charm,Shopping Bag Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.03,2.30,11.5mm,925 Sterling Silver,Oxidized Silver,Red CZ,10,"<p style=""font-family: Inter, sans-serif;"">Bag with rope handles, a pink pave heart and the words go shopping.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Red CZ<br>
+<strong>Size:</strong> 11.5mm<br>
+<strong>Weight:</strong> 2.30g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Shopping Bag Charm | Orloff of Denmark,"Bag with rope handles, a pink pave heart and the words go shopping.",,img_0199.jpg,"Identified from the invoice photograph, confidence high"
+206,ORCB157,ORCB157,heartbeat-charm,Heartbeat Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.03,1.80,10mm,925 Sterling Silver,Oxidized Silver,White CZ & Red Enamel,9,"<p style=""font-family: Inter, sans-serif;"">Pave heart crossed by an ECG line ending in a red enamel heart.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ & Red Enamel<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Heartbeat Charm | Orloff of Denmark,Pave heart crossed by an ECG line ending in a red enamel heart.,,img_0200.jpg,"Identified from the invoice photograph, confidence high"
+207,ORCB159,ORCB159,cool-drink-charm,Cool Drink Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.03,2.20,13mm,925 Sterling Silver,Oxidized Silver,Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Cup with a blue enamel rim, a straw and a face in dark sunglasses.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 2.20g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Cool Drink Charm | Orloff of Denmark,"Cup with a blue enamel rim, a straw and a face in dark sunglasses.",,img_0201.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+208,ORCB160,ORCB160,casino-charm,Casino Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.03,2.10,9.5mm,925 Sterling Silver,Oxidized Silver,Light Green Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Slot machine showing three red sevens under a CASINO sign.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Light Green Enamel<br>
+<strong>Size:</strong> 9.5mm<br>
+<strong>Weight:</strong> 2.10g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Casino Charm | Orloff of Denmark,Slot machine showing three red sevens under a CASINO sign.,,img_0202.jpg,"Identified from the invoice photograph, confidence high"
+209,ORCB161,ORCB161,gift-box-charm,Gift Box Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,5.47,2.40,11.5mm,925 Sterling Silver,Oxidized Silver,Red & Pink Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Wrapped box with a red enamel ribbon, pink spots and a pink bow.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Red & Pink Enamel<br>
+<strong>Size:</strong> 11.5mm<br>
+<strong>Weight:</strong> 2.40g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Gift Box Charm | Orloff of Denmark,"Wrapped box with a red enamel ribbon, pink spots and a pink bow.",,img_0203.jpg,"Identified from the invoice photograph, confidence high"
+210,ORCB162,ORCB162,wristwatch-charm,Wristwatch Charm,A,Charm,Travel & Lifestyle,Classic,900,29,4.38,1.50,13mm,925 Sterling Silver,Oxidized Silver,Green Enamel,9,"<p style=""font-family: Inter, sans-serif;"">Silver watch face on a green enamel strap.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Green Enamel<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 1.50g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Wristwatch Charm | Orloff of Denmark,Silver watch face on a green enamel strap.,,img_0204.jpg,"Identified from the invoice photograph, confidence high"
+211,ORCB163,ORCB163,hot-air-balloon-charm,Hot Air Balloon Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.47,2.20,18mm,925 Sterling Silver,Oxidized Silver,Pink & White CZ + Green & Pink &,10,"<p style=""font-family: Inter, sans-serif;"">Rainbow enamel balloon lettered LOVE with a heart dangle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Pink & White CZ + Green & Pink &<br>
+<strong>Size:</strong> 18mm<br>
+<strong>Weight:</strong> 2.20g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Hot Air Balloon Charm | Orloff of Denmark,Rainbow enamel balloon lettered LOVE with a heart dangle.,,img_0205.jpg,"Identified from the invoice photograph, confidence high"
+212,ORCB164,ORCB164,birthday-cake-charm,Birthday Cake Charm,A,Charm,Milestones & Sentiment,Signature,1200,39,4.59,2.10,9.5mm,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">Tiered cake with three candles, lettered birthday.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Size:</strong> 9.5mm<br>
+<strong>Weight:</strong> 2.10g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Birthday Cake Charm | Orloff of Denmark,"Tiered cake with three candles, lettered birthday.",,img_0206.jpg,"Identified from the invoice photograph, confidence high"
+213,ORCB165,ORCB165,ice-lolly-charm,Ice Lolly Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,4.59,1.70,12.5mm,925 Sterling Silver,Oxidized Silver,Milky Pink & Brown Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Lolly in cream and chocolate enamel on a silver stick.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Milky Pink & Brown Enamel<br>
+<strong>Size:</strong> 12.5mm<br>
+<strong>Weight:</strong> 1.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Ice Lolly Charm | Orloff of Denmark,Lolly in cream and chocolate enamel on a silver stick.,,img_0207.jpg,"Identified from the invoice photograph, confidence high"
+214,ORCB166,ORCB166,carrot-charm,Carrot Charm,A,Charm,Nature,Signature,1200,39,4.81,1.80,15mm,925 Sterling Silver,Oxidized Silver,Green & Orange Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Orange enamel carrot with a green enamel top.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Green & Orange Enamel<br>
+<strong>Size:</strong> 15mm<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Carrot Charm | Orloff of Denmark,Orange enamel carrot with a green enamel top.,,img_0208.jpg,"Identified from the invoice photograph, confidence high"
+215,ORCB168,ORCB168,cow-charm,Cow Charm,A,Charm,Animals,Signature,1200,39,5.03,2.10,12mm,925 Sterling Silver,Oxidized Silver,Black & Red Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Standing cow with black enamel patches and a red udder.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Black & Red Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.10g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Cow Charm | Orloff of Denmark,Standing cow with black enamel patches and a red udder.,,img_0209.jpg,"Identified from the invoice photograph, confidence high"
+216,ORCB169,ORCB169,pony-charm,Pony Charm,A,Charm,Animals,Signature,1200,39,6.34,3.10,15mm,925 Sterling Silver,Oxidized Silver,Pink Enamel,10,"<p style=""font-family: Inter, sans-serif;"">White pony with a striped mane and a pink enamel heart. Could read as a zebra.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Pink Enamel<br>
+<strong>Size:</strong> 15mm<br>
+<strong>Weight:</strong> 3.10g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Pony Charm | Orloff of Denmark,White pony with a striped mane and a pink enamel heart.,,img_0210.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+217,ORCB170,ORCB170,police-box-charm,Police Box Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,4.59,2.00,14mm,925 Sterling Silver,Oxidized Silver,White & Blue CZ,9,"<p style=""font-family: Inter, sans-serif;"">Police box set with blue and clear stones for windows.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White & Blue CZ<br>
+<strong>Size:</strong> 14mm<br>
+<strong>Weight:</strong> 2.00g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Police Box Charm | Orloff of Denmark,Police box set with blue and clear stones for windows.,,img_0211.jpg,"Identified from the invoice photograph, confidence high"
+218,ORCB171,ORCB171,umbrella-charm,Umbrella Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.03,2.40,13mm,925 Sterling Silver,Oxidized Silver,Green & Yellow & Pink & Purple CZ,10,"<p style=""font-family: Inter, sans-serif;"">Open umbrella with panels of green, yellow, pink and purple stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Green & Yellow & Pink & Purple CZ<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 2.40g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Umbrella Charm | Orloff of Denmark,"Open umbrella with panels of green, yellow, pink and purple stones.",,img_0212.jpg,"Identified from the invoice photograph, confidence high"
+219,ORCB173,ORCB173,planet-charm,Planet Charm,A,Charm,Nature,Signature,1200,39,5.69,2.50,10mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Blue glitter enamel planet encircled by a silver ring.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.50g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Planet Charm | Orloff of Denmark,Blue glitter enamel planet encircled by a silver ring.,,img_0213.jpg,"Identified from the invoice photograph, confidence high"
+220,ORCB174,ORCB174,handbag-charm,Handbag Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,4.81,2.10,10mm,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">Handbag with rope handles lettered GOT TO BUY IT.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 2.10g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Handbag Charm | Orloff of Denmark,Handbag with rope handles lettered GOT TO BUY IT.,,img_0214.jpg,"Identified from the invoice photograph, confidence high"
+221,ORCB175,ORCB175,treble-clef-charm,Treble Clef Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,4.59,1.90,12mm,925 Sterling Silver,Oxidized Silver,,9,"<p style=""font-family: Inter, sans-serif;"">Polished treble clef.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 1.90g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Treble Clef Charm | Orloff of Denmark,Polished treble clef.,,img_0215.jpg,"Identified from the invoice photograph, confidence high"
+222,ORCB176,,,,A,Charm,Nature,Statement,1600,49,7.22,2.60,11mm,925 Sterling Silver,Oxidized Silver,Green & White & Champange CZ,30,,,,,,img_0216.jpg,"ONE PRODUCT, NOT TWO. Rows 222 and 491 show the same tree of life bead (same 2.6g, same 11mm, same subject) at different unit prices, $7.22 for 30pcs and $7.48 for 20pcs. Recommend a single SKU with 50 pieces at a blended cost of $7.32. Your decision; nothing merged."
+223,ORCB177,ORCB177,ice-cream-cart-charm,Ice Cream Cart Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.91,2.70,12.5mm,925 Sterling Silver,Oxidized Silver,Green & Orange Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Cart lettered ICE CREAM under a green and orange enamel umbrella.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Green & Orange Enamel<br>
+<strong>Size:</strong> 12.5mm<br>
+<strong>Weight:</strong> 2.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Ice Cream Cart Charm | Orloff of Denmark,Cart lettered ICE CREAM under a green and orange enamel umbrella.,,img_0217.jpg,"Identified from the invoice photograph, confidence high"
+224,ORCB179,ORCB179,panda-charm,Panda Charm,A,Charm,Animals,Signature,1200,39,6.34,2.60,13mm,925 Sterling Silver,Oxidized Silver,Milky Green Enamel,10,"<p style=""font-family: Inter, sans-serif;"">Seated panda holding green enamel bamboo.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Milky Green Enamel<br>
+<strong>Size:</strong> 13mm<br>
+<strong>Weight:</strong> 2.60g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Panda Charm | Orloff of Denmark,Seated panda holding green enamel bamboo.,,img_0218.jpg,"Identified from the invoice photograph, confidence high"
+225,ORCB180,ORCB180,crowned-shield-charm,Crowned Shield Charm,A,Charm,Sparkle & Classic,Signature,1200,39,5.03,1.70,12mm,925 Sterling Silver,Oxidized Silver,White CZ,15,"<p style=""font-family: Inter, sans-serif;"">Pave S inside a diamond shield under a small crown. TRADEMARK RISK: this closely resembles the Superman emblem, which DC Comics protects. Named neutrally on purpose. Take advice before listing.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> White CZ<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 1.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Crowned Shield Charm | Orloff of Denmark,Pave S inside a diamond shield under a small crown.,,img_0219.jpg,"Identified from the invoice photograph, confidence high"
+226,ORCB182,ORCB182,puzzle-cube-charm,Puzzle Cube Charm,A,Charm,Travel & Lifestyle,Signature,1200,39,5.69,2.70,11mm,925 Sterling Silver,Oxidized Silver,Blue & Yellow Enamel,16,"<p style=""font-family: Inter, sans-serif;"">Cube faced with green, white and orange enamel squares. TRADEMARK RISK: closely resembles the Rubik's Cube, which is protected. Named neutrally on purpose. Take advice before listing.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue & Yellow Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Puzzle Cube Charm | Orloff of Denmark,"Cube faced with green, white and orange enamel squares.",,img_0220.jpg,"Identified from the invoice photograph, confidence high"
+230,ORCB183-A,ORCB183-A,letter-a-charm,Letter A Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.80,10.5mm,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter A in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Size:</strong> 10.5mm<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter A Charm | Orloff of Denmark,The letter A in 925 sterling silver with an oxidized finish.,,img_0223.jpg,
+231,ORCB183-B,ORCB183-B,letter-b-charm,Letter B Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter B in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter B Charm | Orloff of Denmark,The letter B in 925 sterling silver with an oxidized finish.,,img_0222.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+232,ORCB183-C,ORCB183-C,letter-c-charm,Letter C Charm,A,Charm,Personal — Letters,Classic,900,29,4.22,1.50,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter C in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.50g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter C Charm | Orloff of Denmark,The letter C in 925 sterling silver with an oxidized finish.,,img_0224.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+233,ORCB183-D,ORCB183-D,letter-d-charm,Letter D Charm,A,Charm,Personal — Letters,Signature,1200,39,4.67,1.80,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter D in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter D Charm | Orloff of Denmark,The letter D in 925 sterling silver with an oxidized finish.,,img_0226.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+234,ORCB183-E,ORCB183-E,letter-e-charm,Letter E Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter E in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter E Charm | Orloff of Denmark,The letter E in 925 sterling silver with an oxidized finish.,,img_0225.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+235,ORCB183-F,ORCB183-F,letter-f-charm,Letter F Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter F in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter F Charm | Orloff of Denmark,The letter F in 925 sterling silver with an oxidized finish.,,img_0227.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+236,ORCB183-G,ORCB183-G,letter-g-charm,Letter G Charm,A,Charm,Personal — Letters,Classic,900,29,4.22,1.60,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter G in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.60g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter G Charm | Orloff of Denmark,The letter G in 925 sterling silver with an oxidized finish.,,img_0230.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+237,ORCB183-H,ORCB183-H,letter-h-charm,Letter H Charm,A,Charm,Personal — Letters,Signature,1200,39,4.67,1.90,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter H in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.90g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter H Charm | Orloff of Denmark,The letter H in 925 sterling silver with an oxidized finish.,,img_0229.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+238,ORCB183-I,ORCB183-I,letter-i-charm,Letter I Charm,A,Charm,Personal — Letters,Classic,900,29,4.00,1.30,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter I in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.30g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter I Charm | Orloff of Denmark,The letter I in 925 sterling silver with an oxidized finish.,,img_0228.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+239,ORCB183-J,ORCB183-J,letter-j-charm,Letter J Charm,A,Charm,Personal — Letters,Signature,1200,39,4.67,1.90,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter J in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.90g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter J Charm | Orloff of Denmark,The letter J in 925 sterling silver with an oxidized finish.,,img_0238.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+240,ORCB183-K,ORCB183-K,letter-k-charm,Letter K Charm,A,Charm,Personal — Letters,Signature,1200,39,4.89,2.10,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter K in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 2.10g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter K Charm | Orloff of Denmark,The letter K in 925 sterling silver with an oxidized finish.,,img_0240.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+241,ORCB183-L,ORCB183-L,letter-l-charm,Letter L Charm,A,Charm,Personal — Letters,Classic,900,29,4.00,1.40,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter L in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.40g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter L Charm | Orloff of Denmark,The letter L in 925 sterling silver with an oxidized finish.,,img_0239.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+242,ORCB183-M,ORCB183-M,letter-m-charm,Letter M Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter M in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter M Charm | Orloff of Denmark,The letter M in 925 sterling silver with an oxidized finish.,,img_0231.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+243,ORCB183-N,ORCB183-N,letter-n-charm,Letter N Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter N in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter N Charm | Orloff of Denmark,The letter N in 925 sterling silver with an oxidized finish.,,img_0232.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+244,ORCB183-O,ORCB183-O,letter-o-charm,Letter O Charm,A,Charm,Personal — Letters,Classic,900,29,4.00,1.50,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter O in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.50g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter O Charm | Orloff of Denmark,The letter O in 925 sterling silver with an oxidized finish.,,img_0233.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+245,ORCB183-P,ORCB183-P,letter-p-charm,Letter P Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter P in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.70g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter P Charm | Orloff of Denmark,The letter P in 925 sterling silver with an oxidized finish.,,img_0234.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+246,ORCB183-Q,ORCB183-Q,letter-q-charm,Letter Q Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter Q in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter Q Charm | Orloff of Denmark,The letter Q in 925 sterling silver with an oxidized finish.,,img_0235.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+247,ORCB183-R,ORCB183-R,letter-r-charm,Letter R Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,9,"<p style=""font-family: Inter, sans-serif;"">The letter R in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter R Charm | Orloff of Denmark,The letter R in 925 sterling silver with an oxidized finish.,,img_0236.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+248,ORCB183-S,ORCB183-S,letter-s-charm,Letter S Charm,A,Charm,Personal — Letters,Classic,900,29,4.00,1.50,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter S in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.50g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter S Charm | Orloff of Denmark,The letter S in 925 sterling silver with an oxidized finish.,,img_0237.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+249,ORCB183-T,ORCB183-T,letter-t-charm,Letter T Charm,A,Charm,Personal — Letters,Classic,900,29,4.22,1.60,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter T in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.60g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter T Charm | Orloff of Denmark,The letter T in 925 sterling silver with an oxidized finish.,,img_0246.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+250,ORCB183-U,ORCB183-U,letter-u-charm,Letter U Charm,A,Charm,Personal — Letters,Classic,900,29,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter U in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.80g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter U Charm | Orloff of Denmark,The letter U in 925 sterling silver with an oxidized finish.,,img_0247.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+251,ORCB183-V,ORCB183-V,letter-v-charm,Letter V Charm,A,Charm,Personal — Letters,Classic,900,29,4.22,1.60,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter V in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.60g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter V Charm | Orloff of Denmark,The letter V in 925 sterling silver with an oxidized finish.,,img_0241.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+252,ORCB183-W,ORCB183-W,letter-w-charm,Letter W Charm,A,Charm,Personal — Letters,Classic,900,29,4.22,1.50,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter W in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.50g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter W Charm | Orloff of Denmark,The letter W in 925 sterling silver with an oxidized finish.,,img_0244.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+253,ORCB183-X,ORCB183-X,letter-x-charm,Letter X Charm,A,Charm,Personal — Letters,Classic,900,29,4.22,1.90,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter X in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.90g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter X Charm | Orloff of Denmark,The letter X in 925 sterling silver with an oxidized finish.,,img_0243.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+254,ORCB183-Y,ORCB183-Y,letter-y-charm,Letter Y Charm,A,Charm,Personal — Letters,Classic,900,29,3.56,1.10,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter Y in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 1.10g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter Y Charm | Orloff of Denmark,The letter Y in 925 sterling silver with an oxidized finish.,,img_0242.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+255,ORCB183-Z,ORCB183-Z,letter-z-charm,Letter Z Charm,A,Charm,Personal — Letters,Signature,1200,39,5.11,2.20,,925 Sterling Silver,Oxidized Silver,,10,"<p style=""font-family: Inter, sans-serif;"">The letter Z in 925 sterling silver with an oxidized finish. Wear a single initial, or spell out a name.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Weight:</strong> 2.20g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Letter Z Charm | Orloff of Denmark,The letter Z in 925 sterling silver with an oxidized finish.,,img_0245.jpg,Invoice Size field blank; series default 10.5mm unconfirmed
+455,ORCB32-Vir,ORCB32-Vir,virgo-zodiac-charm,Virgo Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,"<p style=""font-family: Inter, sans-serif;"">The Virgo sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Virgo Zodiac Charm | Orloff of Denmark,"The Virgo sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0444.jpg,
+456,ORCB32-Tau,ORCB32-Tau,taurus-zodiac-charm,Taurus Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.42,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,"<p style=""font-family: Inter, sans-serif;"">The Taurus sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Taurus Zodiac Charm | Orloff of Denmark,"The Taurus sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0445.jpg,
+457,ORCB32-Ari,ORCB32-Ari,aries-zodiac-charm,Aries Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.26,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,15,"<p style=""font-family: Inter, sans-serif;"">The Aries sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Aries Zodiac Charm | Orloff of Denmark,"The Aries sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0446.jpg,
+458,ORCB32-Sco,ORCB32-Sco,scorpio-zodiac-charm,Scorpio Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,11,"<p style=""font-family: Inter, sans-serif;"">The Scorpio sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Scorpio Zodiac Charm | Orloff of Denmark,"The Scorpio sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0447.jpg,
+459,ORCB32-Psc,ORCB32-Psc,pisces-zodiac-charm,Pisces Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.17,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,15,"<p style=""font-family: Inter, sans-serif;"">The Pisces sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Pisces Zodiac Charm | Orloff of Denmark,"The Pisces sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0448.jpg,
+460,ORCB32-Cap,ORCB32-Cap,capricorn-zodiac-charm,Capricorn Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.42,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,13,"<p style=""font-family: Inter, sans-serif;"">The Capricorn sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Capricorn Zodiac Charm | Orloff of Denmark,"The Capricorn sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0449.jpg,
+461,ORCB32-Cnc,ORCB32-Cnc,cancer-zodiac-charm,Cancer Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.26,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,"<p style=""font-family: Inter, sans-serif;"">The Cancer sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Cancer Zodiac Charm | Orloff of Denmark,"The Cancer sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0450.jpg,
+462,ORCB32-Sgr,ORCB32-Sgr,sagittarius-zodiac-charm,Sagittarius Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,"<p style=""font-family: Inter, sans-serif;"">The Sagittarius sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Sagittarius Zodiac Charm | Orloff of Denmark,"The Sagittarius sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0451.jpg,
+463,ORCB32-Leo,ORCB32-Leo,leo-zodiac-charm,Leo Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,"<p style=""font-family: Inter, sans-serif;"">The Leo sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Leo Zodiac Charm | Orloff of Denmark,"The Leo sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0452.jpg,
+464,ORCB32-Gem,ORCB32-Gem,gemini-zodiac-charm,Gemini Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,"<p style=""font-family: Inter, sans-serif;"">The Gemini sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Gemini Zodiac Charm | Orloff of Denmark,"The Gemini sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0462.jpg,
+465,ORCB32-Lib,ORCB32-Lib,libra-zodiac-charm,Libra Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.35,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,15,"<p style=""font-family: Inter, sans-serif;"">The Libra sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Libra Zodiac Charm | Orloff of Denmark,"The Libra sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0461.jpg,
+466,ORCB32-Agr,ORCB32-Agr,aquarius-zodiac-charm,Aquarius Zodiac Charm,A,Charm,Personal — Zodiac,Classic,900,29,4.47,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,13,"<p style=""font-family: Inter, sans-serif;"">The Aquarius sign in 925 sterling silver, oxidized and set with blue enamel. One of twelve in the zodiac series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Blue Enamel<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.54g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Aquarius Zodiac Charm | Orloff of Denmark,"The Aquarius sign in 925 sterling silver, oxidized and set with blue enamel.",,img_0460.jpg,Invoice spells Aquarius as Agr; SKU keeps the invoice spelling
+467,ORCB33-R,ORCB33-R,january-birthstone-charm-garnet,"January Birthstone Charm, Garnet",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Garnet,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm garnet set in oxidized 925 sterling silver. January's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Garnet<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"January Birthstone Charm, Garnet | Orloff of Denmark",A 3mm garnet set in oxidized 925 sterling silver.,,img_0453.jpg,
+468,ORCB33-P,ORCB33-P,february-birthstone-charm-amethyst,"February Birthstone Charm, Amethyst",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Amethyst,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm amethyst set in oxidized 925 sterling silver. February's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Amethyst<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"February Birthstone Charm, Amethyst | Orloff of Denmark",A 3mm amethyst set in oxidized 925 sterling silver.,,img_0454.jpg,
+469,ORCB33-Q,ORCB33-Q,march-birthstone-charm-aquamarine,"March Birthstone Charm, Aquamarine",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Aquamarine,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm aquamarine set in oxidized 925 sterling silver. March's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Aquamarine<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"March Birthstone Charm, Aquamarine | Orloff of Denmark",A 3mm aquamarine set in oxidized 925 sterling silver.,,img_0455.jpg,
+470,ORCB33-W,ORCB33-W,april-birthstone-charm-white,"April Birthstone Charm, White",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm White,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm white stone set in oxidized 925 sterling silver. April's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm White<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"April Birthstone Charm, White | Orloff of Denmark",A 3mm white stone set in oxidized 925 sterling silver.,,img_0456.jpg,
+471,ORCB33-LV,ORCB33-LV,may-birthstone-charm-emerald,"May Birthstone Charm, Emerald",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Emerald,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm emerald set in oxidized 925 sterling silver. May's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Emerald<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"May Birthstone Charm, Emerald | Orloff of Denmark",A 3mm emerald set in oxidized 925 sterling silver.,,img_0457.jpg,
+472,ORCB33-PL,ORCB33-PL,june-birthstone-charm-alexandrite,"June Birthstone Charm, Alexandrite",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Alexandrite,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm alexandrite set in oxidized 925 sterling silver. June's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Alexandrite<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"June Birthstone Charm, Alexandrite | Orloff of Denmark",A 3mm alexandrite set in oxidized 925 sterling silver.,,img_0458.jpg,
+473,ORCB33-M,ORCB33-M,july-birthstone-charm-ruby,"July Birthstone Charm, Ruby",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Ruby,19,"<p style=""font-family: Inter, sans-serif;"">A 3mm ruby set in oxidized 925 sterling silver. July's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Ruby<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"July Birthstone Charm, Ruby | Orloff of Denmark",A 3mm ruby set in oxidized 925 sterling silver.,,img_0459.jpg,
+474,ORCB33-G,ORCB33-G,august-birthstone-charm-peridot,"August Birthstone Charm, Peridot",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Peridot,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm peridot set in oxidized 925 sterling silver. August's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Peridot<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"August Birthstone Charm, Peridot | Orloff of Denmark",A 3mm peridot set in oxidized 925 sterling silver.,,img_0463.jpg,"PRODUCT DEFECT: the charm is engraved ""Augest"", not ""August"". Confirm before listing."
+475,ORCB33-BL,ORCB33-BL,september-birthstone-charm-sapphire,"September Birthstone Charm, Sapphire",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Sapphire,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm sapphire set in oxidized 925 sterling silver. September's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Sapphire<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"September Birthstone Charm, Sapphire | Orloff of Denmark",A 3mm sapphire set in oxidized 925 sterling silver.,,img_0464.jpg,
+476,ORCB33-F,ORCB33-F,october-birthstone-charm-tourmaline,"October Birthstone Charm, Tourmaline",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Tourmaline,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm tourmaline set in oxidized 925 sterling silver. October's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Tourmaline<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"October Birthstone Charm, Tourmaline | Orloff of Denmark",A 3mm tourmaline set in oxidized 925 sterling silver.,,img_0465.jpg,
+477,ORCB33-X,ORCB33-X,november-birthstone-charm-yellow-topaz,"November Birthstone Charm, Yellow Topaz",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Yellow Topaz,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm yellow topaz set in oxidized 925 sterling silver. November's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Yellow Topaz<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"November Birthstone Charm, Yellow Topaz | Orloff of Denmark",A 3mm yellow topaz set in oxidized 925 sterling silver.,,img_0466.jpg,
+478,ORCB33-L,ORCB33-L,december-birthstone-charm-turquoise,"December Birthstone Charm, Turquoise",A,Charm,Personal — Birthstone,Classic,900,29,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Turquoise,20,"<p style=""font-family: Inter, sans-serif;"">A 3mm turquoise set in oxidized 925 sterling silver. December's birthstone, one of twelve in the series.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> 3mm Turquoise<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 1.56g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"December Birthstone Charm, Turquoise | Orloff of Denmark",A 3mm turquoise set in oxidized 925 sterling silver.,,img_0467.jpg,
+483,ORCB199,ORCB199,tree-of-life-charm-pink-and-purple,"Tree of Life Charm, Pink and Purple",A,Charm,Nature,Statement,1600,49,6.62,2.3,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: Multi-Colors,21,"<p style=""font-family: Inter, sans-serif;"">Tree under a canopy of pink and purple stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: Multi-Colors<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Charm, Pink and Purple | Orloff of Denmark",Tree under a canopy of pink and purple stones.,,img_0472.jpg,"Identified from the invoice photograph, confidence high"
+484,ORCB200,ORCB200,tree-of-life-heart-charm,Tree of Life Heart Charm,A,Charm,Nature,Signature,1200,39,4.60,1.5,10mm,925 Sterling Silver,Oxidized Silver,Stone: None,20,"<p style=""font-family: Inter, sans-serif;"">Openwork heart filled with a scrolled tree.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: None<br>
+<strong>Size:</strong> 10mm<br>
+<strong>Weight:</strong> 1.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Tree of Life Heart Charm | Orloff of Denmark,Openwork heart filled with a scrolled tree.,,img_0473.jpg,"Identified from the invoice photograph, confidence high"
+485,ORCB201,ORCB201,tree-of-life-charm-pave-halo,"Tree of Life Charm, Pave Halo",A,Charm,Nature,Statement,1600,49,6.62,1.9,12mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: White,21,"<p style=""font-family: Inter, sans-serif;"">Leafed tree inside a ring of clear stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 1.9g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Charm, Pave Halo | Orloff of Denmark",Leafed tree inside a ring of clear stones.,,img_0474.jpg,"Identified from the invoice photograph, confidence high"
+486,ORCB202,ORCB202,tree-of-life-charm-engraved,"Tree of Life Charm, Engraved",A,Charm,Nature,Signature,1200,39,5.34,2.0,11mm,925 Sterling Silver,Oxidized Silver,Stone: None,19,"<p style=""font-family: Inter, sans-serif;"">Scrolled openwork tree with lettering engraved around the rim.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: None<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Charm, Engraved | Orloff of Denmark",Scrolled openwork tree with lettering engraved around the rim.,,img_0475.jpg,"Identified from the invoice photograph, confidence high"
+487,ORCB203,ORCB203,tree-of-life-charm-celtic-knot,"Tree of Life Charm, Celtic Knot",A,Charm,Nature,Classic,900,29,4.35,1.5,11.5mm,925 Sterling Silver,Oxidized Silver,Stone: None,19,"<p style=""font-family: Inter, sans-serif;"">Tree worked into interlaced Celtic knotwork.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: None<br>
+<strong>Size:</strong> 11.5mm<br>
+<strong>Weight:</strong> 1.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Charm, Celtic Knot | Orloff of Denmark",Tree worked into interlaced Celtic knotwork.,,img_0476.jpg,"Identified from the invoice photograph, confidence high"
+488,ORCB204,ORCB204,tree-of-life-heart-charm-stone-set,"Tree of Life Heart Charm, Stone Set",A,Charm,Nature,Signature,1200,39,5.40,2.3,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: White,19,"<p style=""font-family: Inter, sans-serif;"">Heart bead with a tree whose leaves are set with clear stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 11mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Heart Charm, Stone Set | Orloff of Denmark",Heart bead with a tree whose leaves are set with clear stones.,,img_0477.jpg,"Identified from the invoice photograph, confidence high"
+489,ORCB205,ORCB205,tree-of-life-charm-scrolled,"Tree of Life Charm, Scrolled",A,Charm,Nature,Statement,1600,49,6.73,2.7,10.5mm,925 Sterling Silver,Oxidized Silver,Stone: None,21,"<p style=""font-family: Inter, sans-serif;"">Densely scrolled tree filling a round bead.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: None<br>
+<strong>Size:</strong> 10.5mm<br>
+<strong>Weight:</strong> 2.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Charm, Scrolled | Orloff of Denmark",Densely scrolled tree filling a round bead.,,img_0478.jpg,"Identified from the invoice photograph, confidence high"
+490,ORCB206,ORCB206,tree-of-life-charm-oxidized,"Tree of Life Charm, Oxidized",A,Charm,Nature,Signature,1200,39,5.24,2.0,10.5mm,925 Sterling Silver,Oxidized Silver,Stone: None,20,"<p style=""font-family: Inter, sans-serif;"">Tree in relief on a darkened textured ground.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: None<br>
+<strong>Size:</strong> 10.5mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Charm, Oxidized | Orloff of Denmark",Tree in relief on a darkened textured ground.,,img_0479.jpg,"Identified from the invoice photograph, confidence high"
+491,ORCB176,,,,A,Charm,Nature,Statement,1600,49,7.48,2.6,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: Multi-Colors,20,,,,,,img_0480.jpg,"ONE PRODUCT, NOT TWO. Rows 222 and 491 show the same tree of life bead (same 2.6g, same 11mm, same subject) at different unit prices, $7.22 for 30pcs and $7.48 for 20pcs. Recommend a single SKU with 50 pieces at a blended cost of $7.32. Your decision; nothing merged."
+492,ORCB208,ORCB208,tree-of-life-heart-charm-red,"Tree of Life Heart Charm, Red",A,Charm,Nature,Statement,1600,49,6.52,2.0,23mm,925 Sterling Silver + AAAA CZ +,Oxidized Silver,Enamel,21,"<p style=""font-family: Inter, sans-serif;"">Red enamel heart behind a beaded tree with pink heart leaves.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 23mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Heart Charm, Red | Orloff of Denmark",Red enamel heart behind a beaded tree with pink heart leaves.,,img_0481.jpg,"Identified from the invoice photograph, confidence high"
+493,ORCB209,ORCB209,tree-of-life-heart-charm-turquoise,"Tree of Life Heart Charm, Turquoise",A,Charm,Nature,Signature,1200,39,6.45,1.8,23.5mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,21,"<p style=""font-family: Inter, sans-serif;"">Turquoise enamel heart behind a silver tree with heart shaped leaves.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 23.5mm<br>
+<strong>Weight:</strong> 1.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Heart Charm, Turquoise | Orloff of Denmark",Turquoise enamel heart behind a silver tree with heart shaped leaves.,,img_0482.jpg,"Identified from the invoice photograph, confidence high"
+494,ORCB210,ORCB210,tree-of-life-dangle-scrolled,"Tree of Life Dangle, Scrolled",A,Charm,Nature,Signature,1200,39,5.77,1.8,24mm,925 Sterling Silver,Rhodium Plated,Stone: none,20,"<p style=""font-family: Inter, sans-serif;"">Scrolled tree dangle tipped with clear stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: none<br>
+<strong>Size:</strong> 24mm<br>
+<strong>Weight:</strong> 1.8g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Dangle, Scrolled | Orloff of Denmark",Scrolled tree dangle tipped with clear stones.,,img_0483.jpg,"Identified from the invoice photograph, confidence high"
+495,ORCB211,ORCB211,tree-of-life-heart-dangle-pink,"Tree of Life Heart Dangle, Pink",A,Charm,Nature,Statement,1600,49,6.62,2.0,21mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,21,"<p style=""font-family: Inter, sans-serif;"">Openwork leafed heart layered over a pink enamel heart.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 21mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Heart Dangle, Pink | Orloff of Denmark",Openwork leafed heart layered over a pink enamel heart.,,img_0484.jpg,"Identified from the invoice photograph, confidence high"
+496,ORCB212,ORCB212,tree-of-life-dangle-blue-stones,"Tree of Life Dangle, Blue Stones",A,Charm,Nature,Classic,900,29,4.30,1.3,22mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,20,"<p style=""font-family: Inter, sans-serif;"">Simple branching tree with round blue stones for fruit.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: Blue<br>
+<strong>Size:</strong> 22mm<br>
+<strong>Weight:</strong> 1.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Dangle, Blue Stones | Orloff of Denmark",Simple branching tree with round blue stones for fruit.,,img_0485.jpg,"Identified from the invoice photograph, confidence high"
+497,ORCB213,ORCB213,tree-of-life-dangle-beaded-ring,"Tree of Life Dangle, Beaded Ring",A,Charm,Nature,Signature,1200,39,6.49,2.0,24mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,21,"<p style=""font-family: Inter, sans-serif;"">Tree with stone set leaves inside a beaded circle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Stone: White<br>
+<strong>Size:</strong> 24mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Tree of Life Dangle, Beaded Ring | Orloff of Denmark",Tree with stone set leaves inside a beaded circle.,,img_0486.jpg,"Identified from the invoice photograph, confidence high"
+499,ORCB215,ORCB215,flamingo-charm-magenta,"Flamingo Charm, Magenta",A,Charm,Animals,Signature,1200,39,6.09,2.1,28mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,"<p style=""font-family: Inter, sans-serif;"">Deep pink flamingo dangle with a pave wing.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 28mm<br>
+<strong>Weight:</strong> 2.1g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Flamingo Charm, Magenta | Orloff of Denmark",Deep pink flamingo dangle with a pave wing.,,img_0488.jpg,"Identified from the invoice photograph, confidence high"
+500,ORCB216,ORCB216,flamingo-charm-pale-pink,"Flamingo Charm, Pale Pink",A,Charm,Animals,Statement,1600,49,6.61,2.3,26mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,"<p style=""font-family: Inter, sans-serif;"">Pale pink flamingo dangle with a pave wing and pink stone bail.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 26mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Flamingo Charm, Pale Pink | Orloff of Denmark",Pale pink flamingo dangle with a pave wing and pink stone bail.,,img_0489.jpg,"Identified from the invoice photograph, confidence high"
+501,ORCB217,ORCB217,camel-charm,Camel Charm,A,Charm,Animals,Statement,1600,49,7.13,2.7,24mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,21,"<p style=""font-family: Inter, sans-serif;"">Standing camel under a blanket set with green and orange stones.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 24mm<br>
+<strong>Weight:</strong> 2.7g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Camel Charm | Orloff of Denmark,Standing camel under a blanket set with green and orange stones.,,img_0490.jpg,"Identified from the invoice photograph, confidence high"
+502,ORCB218,ORCB218,dinosaur-charm,Dinosaur Charm,A,Charm,Animals,Statement,1600,49,6.55,2.5,24mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,12,"<p style=""font-family: Inter, sans-serif;"">Green enamel dinosaur dangle with silver spines.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 24mm<br>
+<strong>Weight:</strong> 2.5g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Dinosaur Charm | Orloff of Denmark,Green enamel dinosaur dangle with silver spines.,,img_0491.jpg,"Identified from the invoice photograph, confidence high"
+503,ORCB219,ORCB219,rubber-duck-charm,Rubber Duck Charm,A,Charm,Animals,Signature,1200,39,6.15,2.2,19mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,"<p style=""font-family: Inter, sans-serif;"">Yellow enamel duck sitting in a ring float.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 19mm<br>
+<strong>Weight:</strong> 2.2g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Rubber Duck Charm | Orloff of Denmark,Yellow enamel duck sitting in a ring float.,,img_0492.jpg,"Identified from the invoice photograph, confidence high"
+504,ORCB220,ORCB220,giraffe-charm-brown-spots,"Giraffe Charm, Brown Spots",A,Charm,Animals,Statement,1600,49,7.41,2.0,25mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,"<p style=""font-family: Inter, sans-serif;"">Giraffe with brown enamel markings and a pave mane.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated<br>
+<strong>Stone:</strong> Enamel<br>
+<strong>Size:</strong> 25mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Giraffe Charm, Brown Spots | Orloff of Denmark",Giraffe with brown enamel markings and a pave mane.,,img_0493.jpg,"Identified from the invoice photograph, confidence high"
+505,ORCB221,ORCB221,carousel-horse-charm,Carousel Horse Charm,A,Charm,Animals,Signature,1200,39,6.35,2.0,19mm,925 Sterling Silver + Enamel,Oxidized Silver,Stone: None,19,"<p style=""font-family: Inter, sans-serif;"">Black enamel horse with a red and yellow saddle.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Oxidized Silver<br>
+<strong>Stone:</strong> Stone: None<br>
+<strong>Size:</strong> 19mm<br>
+<strong>Weight:</strong> 2.0g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,Carousel Horse Charm | Orloff of Denmark,Black enamel horse with a red and yellow saddle.,,img_0494.jpg,"Identified from the invoice photograph, confidence high"
+525,ORGCB56-L,ORGCB56-L,love-charm-blue-enamel,"Love Charm, Blue Enamel",A,Charm,Milestones & Sentiment,Statement,1600,49,7.57,4.00,17 x 12 x 2mm,925 Sterling Silver,"Rhodium Plated, Blue Enamel",,27,"<p style=""font-family: Inter, sans-serif;"">Presumed blue version of ORGCB56-B. NO IMAGE IN HD PICTURE.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated, Blue Enamel<br>
+<strong>Size:</strong> 17 x 12 x 2mm<br>
+<strong>Weight:</strong> 4.00g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Love Charm, Blue Enamel | Orloff of Denmark",Presumed blue version of ORGCB56-B.,,img_0504.jpg,"Identified from the invoice photograph, confidence medium. NEEDS CONFIRMATION"
+526,GCB56-R,ORGCB56-R,love-charm-red-enamel,"Love Charm, Red Enamel",A,Charm,Milestones & Sentiment,Statement,1600,49,7.57,4.00,17 x 12 x 2mm,925 Sterling Silver,"Rhodium Plated, Red Enamel",,27,"<p style=""font-family: Inter, sans-serif;"">Chinese character ai in red enamel with the word Love beneath. Confirms the handoff's reading: this is the red sibling of ORGCB56-B (black) and ORGCB56-L (blue). SKU written in canonical OR form though the invoice prints GCB56-R.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> Rhodium Plated, Red Enamel<br>
+<strong>Size:</strong> 17 x 12 x 2mm<br>
+<strong>Weight:</strong> 4.00g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Love Charm, Red Enamel | Orloff of Denmark",Chinese character ai in red enamel with the word Love beneath.,,img_0505.jpg,"Identified from the invoice photograph, confidence high"
+551,ORCB145,ORCB145,daisy-charm-gold-and-white,"Daisy Charm, Gold and White",A,Charm,Nature,Signature,1200,39,6.13,2.3,12mm,925 Sterling Silver + AAAA,14K Gold Plated,CZ+Enamel,15,"<p style=""font-family: Inter, sans-serif;"">Gold and white enamel petals around a yellow stone.</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Material:</strong> 925 Sterling Silver<br>
+<strong>Finish:</strong> 14K Gold Plated<br>
+<strong>Stone:</strong> CZ+Enamel<br>
+<strong>Size:</strong> 12mm<br>
+<strong>Weight:</strong> 2.3g</p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>Fits all Orloff snake chain bracelets.</strong></p>
+
+<p style=""font-family: Inter, sans-serif;""><strong>ORLOFF OF DENMARK.</strong></p>",,"Daisy Charm, Gold and White | Orloff of Denmark",Gold and white enamel petals around a yellow stone.,,img_0521.jpg,"Identified from the invoice photograph, confidence high"

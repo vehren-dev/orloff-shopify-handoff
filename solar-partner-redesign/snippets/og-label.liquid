@@ -1,0 +1,10 @@
+{%- comment -%}
+  Section label (eyebrow).
+
+  Accepts:
+    text     - the label text. Renders nothing when blank.
+    on_navy  - true when sitting on the navy surface.
+{%- endcomment -%}
+{%- if text != blank -%}
+  <p class="og-label{% if on_navy %} og-label--on-navy{% endif %}">{{ text }}</p>
+{%- endif -%}

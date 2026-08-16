@@ -1,0 +1,134 @@
+FAIL
+ROW ARITHMETIC FAILED (2):
+    row 247 ORCB183-R: 4.44 x 9 = 39.96, stated 40.00
+    row 252 ORCB183-W: 4.22 x 10 = 42.20, stated 42.22
+DUPLICATE MODEL NUMBERS: ORCB176 x2, ORSE103 x2
+
+-- observed --
+rows=554  qty_sum=7468  value_sum=55849.61
+
+================================================================
+METHOD
+================================================================
+
+poppler was not installed and could not be, but `pdftotext` is already
+present on this machine via Git for Windows (Xpdf 4.06 build). No install
+was required.
+
+`-layout`, which the job doc mandates, is NOT usable on this document.
+Under -layout the row-number/model column, the weight/qty column and the
+price column are three INDEPENDENT vertical sequences that share physical
+lines by accident. On page 3, rows 19 and 21 carry numbers on their own
+line while rows 20 and 22 carry none. The job doc's anchoring rule
+("everything from one row-number match until the next is one record")
+would have silently misassigned prices by one row across large parts of
+the document, and on page 37 weight/qty and unit/total are on separate
+lines from each other as well.
+
+`pdftotext -table` resolves this completely: it emits one clean stanza
+per record with row number, model number, weight, qty, unit and total all
+on a single physical line. The parser is built on -table output and
+anchors on "Material" labels, of which there are exactly 554.
+
+Model numbers split across two lines (rows 460, 464, 513-521, 523-524,
+531, 532 and others) are reassembled by concatenating the left-column
+region of every line in the stanza. Example: row 532 prints "OR" on one
+line and "532  GCB182-2" on the next, giving ORGCB182-2.
+
+================================================================
+INVESTIGATION OF FAILURES
+================================================================
+
+Both arithmetic failures were checked against the source text.
+Neither is a parse error. Both are defects in the invoice itself.
+
+row 247  ORCB183-R   invoice prints: 1.80g  9pcs  US$4.44  US$40.00
+                     4.44 x 9 = 39.96. Invoice states 40.00. Delta +0.04.
+                     Neighbouring row 248 ORCB183-S is 4.00 x 10 = 40.00
+                     exactly, so 40.00 appears to have been carried across.
+
+row 252  ORCB183-W   invoice prints: 1.50g 10pcs  US$4.22  US$42.22
+                     4.22 x 10 = 42.20. Invoice states 42.22. Delta +0.02.
+                     Rows 249, 251 and 253 are all 4.22 x 10 = 42.20,
+                     so 42.22 is a single-digit typo.
+
+Combined overstatement: +0.06. The invoice grand total of US$55,849.61
+therefore includes 6 cents that unit x qty does not support. True value
+by unit x qty is US$55,849.55. Nothing has been adjusted.
+
+Both failing rows are ORCB183 letters, which ARE in scope for Line A.
+
+DUPLICATE MODEL NUMBERS
+  ORCB176   rows 222 and 491    EXPECTED, documented in the handoff.
+            row 222: 2.60g, 30pcs, $7.22, $216.60
+            row 491: 2.6g,  20pcs, $7.48, $149.60
+            Two different products sharing one model number. Confirmed.
+
+  ORSE103   rows 12 and 268     NOT PREVIOUSLY KNOWN.
+            row  12: 2.00g, 11pcs, $3.61, $39.71
+            row 268: 2.0g,  11pcs, $3.90, $42.90
+            Same weight and quantity, different unit price. A second
+            genuine duplicate model number on the invoice. ORSE is the
+            earring series, so this is out of scope for Line A, but it
+            is a real data defect and is flagged here.
+
+================================================================
+VERIFICATION
+================================================================
+
+Row count                554 / 554                        PASS
+Row numbers 1..554       each present exactly once        PASS
+Quantity sum             7468 / 7468 exact                PASS
+Value sum                55849.61 / 55849.61 exact        PASS
+Per-row arithmetic       552 / 554                        2 source defects
+Model uniqueness         2 duplicates, both diagnosed     see above
+
+20-row random spot check (parser output vs raw text layer)   20/20
+Appendix A cross-check (52 SKUs, cost + stock = 104 values) 52/52
+
+Field completeness across all 554 rows:
+  row_no, model_no, weight_g, qty, unit_price, total_price   0 blank
+  metal_finish  10 blank
+  stone        163 blank (most pieces genuinely have no stone)
+  size          44 blank
+
+Within the 316 Line A rows, every blank size is an ORCB183 letter: 25 of
+them, which is the full series minus ORCB183-A. That matches the handoff
+note exactly and means there are no parse gaps in scope.
+
+LIMITATION: the spot check compares parser output against the PDF text
+layer, not against a visual rendering. pdftoppm is not installed on this
+machine, so the PDF cannot be rasterised for eyeball verification. The
+Appendix A cross-check partly compensates: those values were transcribed
+by hand from the PDF by a human and agree with the extraction on all 104
+data points, which is an independent confirmation of the text layer.
+
+UNVERIFIED FIELDS (no arithmetic cross-check exists for these):
+  weight_g, size, material, metal_finish, stone
+weight_g agreed with the raw text on all 20 spot-checked rows and is
+structurally reliable, since it is harvested from the same line as qty
+and price, both of which reconcile exactly. It is still formally
+unverified against the PDF image.
+
+================================================================
+CROSS-CHECK AGAINST APPENDIX A OF THE HANDOFF
+================================================================
+
+Appendix A unique SKUs                        315
+In-scope SKUs on the invoice                  315 unique across 316 rows
+Appendix A SKUs not found on the invoice        0
+In-scope invoice SKUs missing from Appendix A   0
+
+Appendix A is correct. No additions, no removals, no corrections needed.
+The 316-vs-315 gap is the ORCB176 duplicate and nothing else.
+
+GCB108, GCB176 and GCB178 are ABSENT from all 554 invoice rows in every
+form, with or without the OR prefix. They have image folders but were
+never ordered. They are not Appendix A omissions and should be excluded.
+
+ORPA034 is confirmed as the invoice's own spelling, at row 433, against
+four-digit codes everywhere else in the series. The image folder for the
+same product is named PA0034. Invoice and image disagree; both readings
+are now confirmed from their own source.
+
+Line A totals at invoice cost: 4,302 pieces, US$27,971.93.

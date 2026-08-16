@@ -1,0 +1,676 @@
+<title>Orloff Compliance Pack</title>
+<style>
+  :root {
+    --ground: #FAF8F4;
+    --surface: #FFFFFF;
+    --sunk: #F2EFE8;
+    --ink: #101828;
+    --muted: #59617A;
+    --faint: #7C8398;
+    --line: #E3DED2;
+    --line-strong: #CFC7B4;
+    --accent: #7A5F22;
+    --accent-bright: #BC973F;
+    --navy: #091B36;
+    --on-navy: #F4F1E9;
+    --ok: #2C6E49;
+    --warn: #8A5A00;
+    --crit: #9B2226;
+    --ok-bg: #E6F0E9;
+    --warn-bg: #FBF0DC;
+    --crit-bg: #F8E5E5;
+    --serif: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    --sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    --measure: 74ch;
+    --gutter: clamp(20px, 4vw, 72px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0A0F1A; --surface: #111827; --sunk: #0D1420;
+      --ink: #E9EBF2; --muted: #97A0B8; --faint: #838CA6;
+      --line: #232F45; --line-strong: #35415C;
+      --accent: #D3AE5E; --accent-bright: #E0BE6B;
+      --navy: #060E1D; --on-navy: #EDE8DA;
+      --ok: #7FBF9A; --warn: #E0B057; --crit: #E8827F;
+      --ok-bg: #14251C; --warn-bg: #2A2010; --crit-bg: #2A1516;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0A0F1A; --surface: #111827; --sunk: #0D1420;
+    --ink: #E9EBF2; --muted: #97A0B8; --faint: #838CA6;
+    --line: #232F45; --line-strong: #35415C;
+    --accent: #D3AE5E; --accent-bright: #E0BE6B;
+    --navy: #060E1D; --on-navy: #EDE8DA;
+    --ok: #7FBF9A; --warn: #E0B057; --crit: #E8827F;
+    --ok-bg: #14251C; --warn-bg: #2A2010; --crit-bg: #2A1516;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16.5px;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 0 96px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---- full-bleed masthead ---- */
+  .masthead {
+    background: var(--navy);
+    color: var(--on-navy);
+    padding: 56px var(--gutter) 48px;
+    border-bottom: 3px solid var(--accent-bright);
+    margin-bottom: 56px;
+  }
+  .masthead-grid { display: grid; gap: 28px; align-items: end; }
+  @media (min-width: 1100px) { .masthead-grid { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 64px; } }
+  .eyebrow {
+    font-size: 11.5px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--accent-bright); margin: 0 0 18px; font-weight: 600;
+  }
+  .masthead h1 {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(32px, 4.4vw, 58px); line-height: 1.1;
+    margin: 0; text-wrap: balance;
+  }
+  .masthead p { margin: 0; color: color-mix(in srgb, var(--on-navy) 78%, transparent); font-size: 16.5px; max-width: 56ch; }
+
+  /* ---- the shell: nav rail | main ---- */
+  .shell { padding-inline: var(--gutter); display: grid; gap: 48px; }
+  @media (min-width: 1100px) {
+    .shell { grid-template-columns: 200px minmax(0, 1fr); gap: clamp(40px, 4vw, 72px); align-items: start; }
+  }
+
+  .railnav { display: none; }
+  @media (min-width: 1100px) {
+    .railnav { display: block; position: sticky; top: 32px; }
+    .railnav ol { list-style: none; margin: 0; padding: 0; counter-reset: n; max-width: none; }
+    .railnav li { counter-increment: n; border-top: 1px solid var(--line); margin: 0; }
+    .railnav a {
+      display: grid; grid-template-columns: 24px 1fr; gap: 8px;
+      padding: 10px 0; font-size: 13.5px; line-height: 1.35;
+      color: var(--muted); text-decoration: none;
+    }
+    .railnav a::before { content: counter(n, decimal-leading-zero); font-family: var(--mono); font-size: 11px; color: var(--faint); }
+    .railnav a:hover { color: var(--accent); }
+  }
+
+  /* ---- a section is itself two columns on wide screens ---- */
+  section { margin: 0 0 88px; scroll-margin-top: 24px; }
+  .sec-head { border-top: 2px solid var(--ink); padding-top: 14px; margin-bottom: 28px; }
+  .sec-head h2 {
+    font-family: var(--serif); font-weight: 400;
+    font-size: clamp(26px, 2.4vw, 38px); line-height: 1.15; margin: 0; text-wrap: balance;
+  }
+  .lede { color: var(--muted); max-width: var(--measure); margin: 10px 0 0; }
+
+  .split { display: grid; gap: 32px; }
+  @media (min-width: 1500px) {
+    .split { grid-template-columns: minmax(0, 1fr) minmax(300px, 360px); gap: clamp(40px, 3.5vw, 72px); align-items: start; }
+    .split > .aside { position: sticky; top: 32px; }
+  }
+
+  h3 { font-size: 17px; font-weight: 650; margin: 34px 0 8px; letter-spacing: -.005em; }
+  p { max-width: var(--measure); }
+  ul, ol { max-width: var(--measure); padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible, summary:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent-bright); outline-offset: 3px; border-radius: 2px;
+  }
+  code {
+    font-family: var(--mono); font-size: .86em; background: var(--sunk);
+    border: 1px solid var(--line); padding: 1px 5px; border-radius: 3px;
+    overflow-wrap: anywhere;
+  }
+  strong { font-weight: 650; }
+
+  /* ---- status table ---- */
+  .table-scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; min-width: 620px; }
+  th, td { text-align: left; padding: 12px 18px 12px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th {
+    font-size: 11.5px; letter-spacing: .13em; text-transform: uppercase;
+    color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--line-strong);
+  }
+  .pill {
+    display: inline-block; font-size: 11.5px; font-weight: 650; letter-spacing: .06em;
+    text-transform: uppercase; padding: 3px 9px; border-radius: 2px; white-space: nowrap;
+  }
+  .pill.crit { background: var(--crit-bg); color: var(--crit); }
+  .pill.warn { background: var(--warn-bg); color: var(--warn); }
+  .pill.ok   { background: var(--ok-bg);   color: var(--ok); }
+
+  /* ---- paste-ready draft ---- */
+  .doc { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--accent-bright); }
+  .doc-bar {
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
+    padding: 12px 20px; border-bottom: 1px solid var(--line); background: var(--sunk);
+  }
+  .doc-label { font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 0; max-width: none; }
+  .copy {
+    font-family: var(--sans); font-size: 12.5px; font-weight: 600; letter-spacing: .04em;
+    text-transform: uppercase; padding: 7px 14px; cursor: pointer;
+    background: var(--navy); color: var(--on-navy); border: 1px solid var(--navy); border-radius: 2px;
+  }
+  .copy:hover { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+  .doc-body { padding: 26px 28px; }
+  .doc-body h4 { font-size: 13.5px; letter-spacing: .1em; text-transform: uppercase; margin: 28px 0 8px; font-weight: 650; }
+  .doc-body h4:first-of-type { margin-top: 0; }
+  .doc-body p, .doc-body li { font-size: 15.5px; }
+  .doc-body > p:first-child { margin-top: 0; }
+
+  /* ---- callouts ---- */
+  .note { background: var(--sunk); border: 1px solid var(--line); padding: 16px 18px; margin: 22px 0; font-size: 15px; }
+  .note p { margin: 0; max-width: none; }
+  .note p + p { margin-top: 10px; }
+  .note.flag { border-left: 3px solid var(--warn); }
+  .note.stop { border-left: 3px solid var(--crit); }
+  .note.good { border-left: 3px solid var(--ok); }
+  .note-title { font-size: 11.5px; letter-spacing: .13em; text-transform: uppercase; font-weight: 650; color: var(--muted); display: block; margin-bottom: 7px; }
+  .aside .note:first-child { margin-top: 0; }
+
+  /* ---- numbered sequence ---- */
+  .steps { list-style: none; counter-reset: s; padding: 0; margin: 24px 0 0; max-width: none; }
+  .steps > li { counter-increment: s; position: relative; padding: 0 0 30px 52px; margin: 0; border-left: 1px solid var(--line); }
+  .steps > li:last-child { border-left-color: transparent; padding-bottom: 0; }
+  .steps > li::before {
+    content: counter(s); position: absolute; left: -14px; top: -2px;
+    width: 28px; height: 28px; display: grid; place-items: center;
+    background: var(--navy); color: var(--accent-bright);
+    font-family: var(--mono); font-size: 13px; font-weight: 700; border-radius: 50%;
+  }
+  .steps h3 { margin: 2px 0 6px; }
+  .steps p, .steps ul { margin-top: 0; }
+
+  /* ---- before/after ---- */
+  .ba { display: grid; gap: 14px; margin: 18px 0 0; }
+  @media (min-width: 720px) { .ba { grid-template-columns: 1fr 1fr; } }
+  .ba > div { border: 1px solid var(--line); background: var(--surface); padding: 14px 16px; font-size: 14.5px; }
+  .ba .tag { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 8px; }
+  .ba .was { border-left: 3px solid var(--crit); }
+  .ba .now { border-left: 3px solid var(--ok); }
+  .ba code { background: none; border: none; padding: 0; }
+
+  footer { border-top: 1px solid var(--line-strong); margin: 0 var(--gutter); padding-top: 22px; color: var(--muted); font-size: 14.5px; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="masthead">
+  <div class="masthead-grid">
+    <div>
+      <p class="eyebrow">Orloff of Denmark &middot; Draft for review</p>
+      <h1>Policies, consent and tracking</h1>
+    </div>
+    <p>Four policy bodies written out in full and ready to paste, a working cookie-consent plan, and the order to install analytics in. None of it can be written to the store through the API. Section 02 explains why, and every draft below carries a copy button.</p>
+  </div>
+</div>
+
+<div class="shell">
+
+<nav class="railnav" aria-label="Contents">
+  <ol>
+    <li><a href="#stand">Where things stand</a></li>
+    <li><a href="#blocked">Why nothing uploaded</a></li>
+    <li><a href="#privacy">Privacy policy</a></li>
+    <li><a href="#terms">Terms of service</a></li>
+    <li><a href="#refund">Refund policy</a></li>
+    <li><a href="#shipping">Shipping policy</a></li>
+    <li><a href="#cookies">Cookie consent</a></li>
+    <li><a href="#pixels">Analytics and pixels</a></li>
+    <li><a href="#numerals">The numerals</a></li>
+    <li><a href="#fonts">Google Fonts</a></li>
+  </ol>
+</nav>
+
+<main>
+
+<section id="stand">
+  <div class="sec-head"><h2>Where things stand</h2></div>
+  <p class="lede">Re-verified against the live store on 16 August 2026. Every row below was checked, not remembered.</p>
+
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Item</th><th>Status</th><th>The problem</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><strong>Privacy policy</strong></td>
+          <td><span class="pill crit">Empty</span></td>
+          <td>Zero characters. Linked from checkout and from the cookie banner, which tells visitors to learn more in a privacy policy that does not exist.</td>
+        </tr>
+        <tr>
+          <td><strong>Cookie banner</strong></td>
+          <td><span class="pill crit">Decorative</span></td>
+          <td>One button, "I Accept", and nothing else. It never calls the consent API, so it gates nothing. Verified by reading the live snippet.</td>
+        </tr>
+        <tr>
+          <td><strong>Terms of service</strong></td>
+          <td><span class="pill warn">Placeholders</span></td>
+          <td>Two unfilled <code>[LINK TO ...]</code> markers live on the page, plus one link to a domain you do not use.</td>
+        </tr>
+        <tr>
+          <td><strong>Refund policy</strong></td>
+          <td><span class="pill warn">Wrong goods</span></td>
+          <td>Excludes flowers, beauty products and flammable gases. Missing the EU and UK 14-day withdrawal right. One email link is split in half, twice.</td>
+        </tr>
+        <tr>
+          <td><strong>Shipping policy</strong></td>
+          <td><span class="pill warn">Four lines</span></td>
+          <td>No origin, no delivery times, no customs or duties terms, while shipping high-value goods internationally from Thailand.</td>
+        </tr>
+        <tr>
+          <td><strong>Google Fonts</strong></td>
+          <td><span class="pill warn">EU exposure</span></td>
+          <td>Five Cormorant Garamond faces load from <code>fonts.gstatic.com</code>, sending visitor IPs to Google. Self-hosting is an hour of work, not a one-line deletion. Read section 10 before touching it.</td>
+        </tr>
+        <tr>
+          <td><strong>Numerals</strong></td>
+          <td><span class="pill ok">Fixed</span></td>
+          <td>Done in theme WEB 19 as <code>assets/orloff-numerals.css</code>. Not customer-facing until WEB 19 is published.</td>
+        </tr>
+        <tr>
+          <td><strong>Contact policy</strong></td>
+          <td><span class="pill ok">Fine</span></td>
+          <td>Trade name, phone, email and registered address all present.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note stop">
+    <span class="note-title">One thing worth saying plainly</span>
+    <p>These drafts are written to match how your store actually behaves. They are not legal advice and I am not your lawyer. The privacy policy makes binding statements about retention periods and legal bases. Have someone qualified read it before it goes live, particularly the three items marked for confirmation.</p>
+  </div>
+</section>
+
+<section id="blocked">
+  <div class="sec-head"><h2>Why nothing uploaded</h2></div>
+  <p class="lede">This was previously recorded as a permission prompt that could be retried. That was wrong, and the distinction matters because it changes who can fix it.</p>
+
+  <div class="split">
+    <div>
+      <p>Attempting to write the privacy policy returns this, from Shopify rather than from the client:</p>
+      <div class="note stop">
+        <p><code>Access denied for shopPolicyUpdate field. Required access: write_legal_policies access scope.</code></p>
+      </div>
+      <p>The connected app does not hold the <code>write_legal_policies</code> scope. No retry will succeed, and no permission rule on this end changes it. Policies are the one part of the store that cannot be reached from here at all.</p>
+
+      <h3>Which leaves two routes</h3>
+      <ol>
+        <li><strong>Paste them yourself.</strong> Every policy below is written out in full with a copy button. Shopify admin, Settings, Policies, paste, save. Perhaps fifteen minutes for all four.</li>
+        <li><strong>Grant the scope.</strong> If the app can be reauthorised with <code>write_legal_policies</code>, I can write all four directly and you review them on the live pages instead.</li>
+      </ol>
+    </div>
+    <div class="aside">
+      <div class="note flag">
+        <span class="note-title">Copying into Shopify</span>
+        <p>The copy button puts formatted HTML on the clipboard, so headings and bold survive the paste into Shopify's rich text editor. If your browser blocks the clipboard, the button selects the text instead and you press Ctrl+C.</p>
+        <p>Paste into the editor's normal view, not the <code>&lt;&gt;</code> HTML view.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="privacy">
+  <div class="sec-head"><h2>Privacy policy</h2></div>
+  <p class="lede">Written to cover Thailand's PDPA and EU or UK GDPR together, since you sell from Thailand into Europe. It describes your <em>current</em> data footprint, which is unusually small because you run no third-party trackers today. Revisit it the day you install one.</p>
+
+  <div class="split">
+    <div class="doc">
+      <div class="doc-bar">
+        <p class="doc-label">Draft, replaces the empty policy entirely</p>
+        <button class="copy" type="button" onclick="copyDoc(this)">Copy</button>
+      </div>
+      <div class="doc-body">
+        <p><em>Last updated 16 August 2026.</em></p>
+        <p>Orloff of Denmark (Thailand) Co., Ltd operates orloffofdenmark.com. This policy explains what personal data we collect, why we hold it, and what you can require of us.</p>
+        <p><strong>Who is responsible.</strong> Orloff of Denmark (Thailand) Co., Ltd, 146/51 Natural Hill 2, Hin Lek Fai, Hua Hin, Prachuap Khiri Khan 77110, Thailand. Write to info@orloffofdenmark.com about anything in this policy.</p>
+
+        <h4>What we collect</h4>
+        <p><strong>When you order:</strong> your name, billing and delivery address, email address, telephone number, what you bought, and any ring size or engraving instructions you give us. Card details are entered directly with our payment providers. We never see or store a full card number.</p>
+        <p><strong>When you browse:</strong> your IP address, device and browser type, the pages you view and the site you arrived from. This comes from our store platform's own cookies.</p>
+        <p><strong>When you write to us or subscribe:</strong> your email address and whatever you choose to put in the message.</p>
+
+        <h4>Why we hold it</h4>
+        <ul>
+          <li>To take, make, ship and support your order, because we have a contract with you.</li>
+          <li>To meet tax, accounting, export and customs obligations, because the law requires it.</li>
+          <li>To prevent fraud and keep the store secure, because we have a legitimate interest in doing so.</li>
+          <li>To send marketing email, only if you have consented, and only until you withdraw.</li>
+          <li>To understand how the store is used, with your consent where cookies require it.</li>
+        </ul>
+
+        <h4>Email we send you</h4>
+        <p>There are two kinds, and they are treated differently.</p>
+        <p><strong>Order email</strong>, meaning confirmations, dispatch and delivery notices, and messages about a piece being made for you, is part of fulfilling your order. Every customer receives it. It is not marketing.</p>
+        <p><strong>Marketing email</strong>, meaning new pieces, offers and private viewings, is sent only to people who have asked for it. Every one carries an unsubscribe link, and you can also write to info@orloffofdenmark.com.</p>
+        <p>Some offers are limited to a single country, or to our storefront in Hua Hin. Where that is the case we choose recipients by the country of the address you have given us, so that we do not send you an invitation you cannot use. We do not build profiles of you beyond your location and what you have bought from us.</p>
+
+        <h4>Cookies</h4>
+        <p><strong>Necessary cookies</strong> keep your basket and your chosen language and currency working. The store cannot function without them and they are always on.</p>
+        <p><strong>Analytics cookies</strong> tell us which pages are visited and how people move through the store. They are set by our store platform.</p>
+        <p><strong>Marketing cookies</strong> would let us measure advertising and show you relevant ads. We set these only if you agree, and you can change your mind at any time from the cookie settings in the footer.</p>
+
+        <h4>Who else sees it</h4>
+        <p>Our store and checkout platform; our payment providers; the carriers who deliver your parcel and the customs authorities they must declare it to; our email provider; our accountants and auditors; and any authority we are legally obliged to answer. We do not sell personal data and we never have.</p>
+
+        <h4>Sending data abroad</h4>
+        <p>We operate from Thailand and our suppliers are spread across Europe, the United States and Asia, so your data will cross borders. Where we move data out of the EEA or the UK we rely on the European Commission's standard contractual clauses, or on an adequacy decision where one exists.</p>
+
+        <h4>How long we keep it</h4>
+        <ul>
+          <li>Order, invoice and customs records: ten years, because tax law requires it.</li>
+          <li>Marketing consent: until you withdraw it, then a further three years as evidence that you did.</li>
+          <li>Correspondence with us: three years.</li>
+          <li>Analytics: no more than twenty-four months.</li>
+        </ul>
+
+        <h4>What you can require of us</h4>
+        <p>You may ask for a copy of your data, ask us to correct it, ask us to delete it, object to what we are doing with it, ask us to restrict it, ask for it in a portable form, and withdraw any consent you have given. Write to info@orloffofdenmark.com and we will answer within thirty days.</p>
+        <p>If we get it wrong you can complain. In the EU or UK, to your national data protection authority. In Thailand, to the Office of the Personal Data Protection Committee.</p>
+
+        <h4>Children</h4>
+        <p>This store is not intended for children under sixteen and we do not knowingly collect their data.</p>
+
+        <h4>Changes</h4>
+        <p>The date at the top of this page is the date it last changed. If we change anything that materially affects you, we will email everyone who has subscribed to hear from us.</p>
+      </div>
+    </div>
+
+    <div class="aside">
+      <div class="note flag">
+        <span class="note-title">Confirm before this goes live</span>
+        <p><strong>Ten-year retention.</strong> That follows Thai accounting practice. If your accountant works to a different period, say so and I will change it.</p>
+        <p><strong>Registered entity name.</strong> The contact policy says Orloff of Denmark (Thailand) Co., Ltd. If a separate company is registered in the EU, the controller section needs both.</p>
+        <p><strong>EU representative.</strong> Selling into the EU from outside it can require a named Article 27 representative. One question to your lawyer. If you need one, they get named here.</p>
+      </div>
+      <div class="note">
+        <span class="note-title">Come back to this</span>
+        <p>The moment GA4, Meta or Klaviyo goes live, the "Who else sees it" paragraph needs each one named. That is a five-minute edit, but it is not optional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="terms">
+  <div class="sec-head"><h2>Terms of service</h2></div>
+  <p class="lede">Three precise edits, no rewrite. The body is Shopify's standard template and reads fine. It does not need replacing, it needs the blanks filled.</p>
+
+  <div class="ba">
+    <div class="was"><span class="tag">Section 5, now</span><code>...according to our Refund Policy: [LINK TO REFUND POLICY]</code></div>
+    <div class="now"><span class="tag">Section 5, becomes</span><code>...according to our <a href="/policies/refund-policy">Refund Policy</a>.</code></div>
+  </div>
+  <div class="ba">
+    <div class="was"><span class="tag">Section 10, now</span><code>...which can be viewed here: [LINK TO PRIVACY POLICY]</code></div>
+    <div class="now"><span class="tag">Section 10, becomes</span><code>...which can be viewed <a href="/policies/privacy-policy">here</a>.</code></div>
+  </div>
+  <div class="ba">
+    <div class="was"><span class="tag">Section 6, now</span><code>https://orloffofdenmark.<strong>co.th</strong>/policies/refund-policy</code></div>
+    <div class="now"><span class="tag">Section 6, becomes</span><code>/policies/refund-policy</code></div>
+  </div>
+
+  <div class="note">
+    <p>The third becomes a relative link rather than a corrected absolute one, so it resolves on every domain and locale you ever add and cannot rot again. <code>orloffofdenmark.co.th</code> appears exactly once in the whole document. I checked the full body on 16 August.</p>
+  </div>
+</section>
+
+<section id="refund">
+  <div class="sec-head"><h2>Refund policy</h2></div>
+  <p class="lede">The structure is sound, so this is the existing policy with three things corrected: exclusions that belong to a different kind of shop, a broken email link, and the missing EU withdrawal right.</p>
+
+  <div class="split">
+    <div class="doc">
+      <div class="doc-bar">
+        <p class="doc-label">Draft, replaces the current refund policy</p>
+        <button class="copy" type="button" onclick="copyDoc(this)">Copy</button>
+      </div>
+      <div class="doc-body">
+        <p>We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.</p>
+        <p>To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging. You will also need the receipt or proof of purchase.</p>
+        <p>To start a return, contact us at support@orloffofdenmark.com. Returns are sent to 146/51 Natural Hill 2, Hin Lek Fai, Hua Hin, 77110 Thailand. If your return is accepted we will send you a return shipping label and instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.</p>
+
+        <h4>Your right to cancel, EU and UK</h4>
+        <p>If you are a consumer in the European Union or the United Kingdom you have fourteen days from the day you receive your order to withdraw from the contract, without giving any reason. Our 30-day policy above is more generous and will usually apply instead.</p>
+        <p>The statutory right to withdraw does not apply to goods made to your specification or clearly personalised. Most of our jewellery is made to order once you have chosen the metal, the stone grade, the carat weight and the ring size, and those pieces are therefore excluded from the fourteen-day withdrawal right. Ready-made pieces bought as stocked items are not excluded.</p>
+
+        <h4>Damages and issues</h4>
+        <p>Please inspect your order on arrival and contact us immediately if the item is defective or damaged, or if you receive the wrong item, so that we can evaluate the issue and make it right. Nothing in this policy affects your legal rights in respect of faulty goods.</p>
+
+        <h4>Exceptions and non-returnable items</h4>
+        <p>Certain items cannot be returned:</p>
+        <ul>
+          <li>Pieces made or configured to order, including your choice of metal, stone grade and carat weight.</li>
+          <li>Engraved or otherwise personalised pieces.</li>
+          <li>Rings resized to your specification.</li>
+          <li>Earrings, for hygiene reasons, once the sealed packaging has been opened.</li>
+          <li>Gift cards.</li>
+        </ul>
+        <p>Please get in touch if you have questions about your specific item before you order. We would rather answer first than refuse a return afterwards.</p>
+
+        <h4>Exchanges</h4>
+        <p>The fastest way to get what you want is to return the item you have, and once the return is accepted, make a separate purchase for the new item.</p>
+
+        <h4>Refunds</h4>
+        <p>We will notify you once we have received and inspected your return, and let you know whether the refund was approved. If approved, you will be refunded on your original payment method within 10 business days. Please remember that your bank or credit card company may take further time to process and post the refund.</p>
+        <p>If more than 15 business days have passed since we approved your return, please contact us at support@orloffofdenmark.com.</p>
+      </div>
+    </div>
+
+    <div class="aside">
+      <div class="note flag">
+        <span class="note-title">One decision inside this draft</span>
+        <p>I have written configured rings as <strong>not</strong> returnable, which is the position the law entitles you to take and the one most made-to-order jewellers take.</p>
+        <p>If you would rather accept them anyway as a trust signal, given the prices, delete the second paragraph under "Your right to cancel" and the first three bullets under exceptions. That is a commercial decision, not a legal one, and it is a one-minute edit either way.</p>
+      </div>
+      <div class="note">
+        <span class="note-title">What changed from the current text</span>
+        <p>Flowers, plants, beauty products, hazardous materials and flammable gases are gone. They were never yours.</p>
+        <p>The split email link is repaired. In the live policy a stray <code>s</code> points at info@ and the remaining <code>upport@...</code> points at support@, in two separate places. It reads correctly and sends the first character to the wrong inbox.</p>
+        <p>"We cannot accept returns on sale items" is also gone. It sits awkwardly beside a statutory right and you do not appear to run sales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="shipping">
+  <div class="sec-head"><h2>Shipping policy</h2></div>
+  <p class="lede">The current policy is four lines of prices. For international jewellery the customs position is what generates complaints, and it is the part that is missing entirely.</p>
+
+  <div class="split">
+    <div class="doc">
+      <div class="doc-bar">
+        <p class="doc-label">Draft, replaces the current shipping policy</p>
+        <button class="copy" type="button" onclick="copyDoc(this)">Copy</button>
+      </div>
+      <div class="doc-body">
+        <h4>Where we ship from</h4>
+        <p>Every order is dispatched from our workshop in Hua Hin, Thailand, wherever in the world you are.</p>
+
+        <h4>Rates</h4>
+        <p>Regular shipping is free. Express shipping is $32. Courier shipping is $54. Every parcel is tracked, and you receive the tracking number when it leaves us.</p>
+
+        <h4>Duties, import VAT and customs</h4>
+        <p>Prices at checkout do not include import duty or local sales tax. Because your parcel is exported from Thailand, most countries will charge duty or VAT on arrival, and the carrier will ask you to pay it before delivering. That charge is set by your own customs authority, not by us, and we can neither predict nor refund it.</p>
+        <p>We declare every parcel at its full value. We will not under-declare an order or mark it as a gift. Doing so is illegal, and it would void the insurance protecting your piece in transit.</p>
+        <p>If a parcel is refused or abandoned at customs it returns to us, and we refund the order less shipping and any charges we incur.</p>
+
+        <h4>Getting the address right</h4>
+        <p>We ship to the address exactly as entered at checkout. Tell us within 24 hours if something is wrong and we will correct it if the parcel has not yet gone.</p>
+      </div>
+    </div>
+
+    <div class="aside">
+      <div class="note flag">
+        <span class="note-title">Four blanks I refused to invent</span>
+        <p>This draft is publishable as it stands and is a large improvement on four lines of prices. It is not finished, because four facts are yours alone to supply.</p>
+        <p><strong>Dispatch time.</strong> Stated nowhere on the site. Configured rings are made to order, so what is it: five working days, three weeks? This is the single most asked pre-purchase question in fine jewellery.</p>
+        <p><strong>Delivery windows.</strong> What do regular, express and courier mean in days, to Europe and to the US?</p>
+        <p><strong>Insurance.</strong> Are parcels insured to full value in transit, and up to what amount? The customs paragraph above already asserts that insurance exists.</p>
+        <p><strong>DDP.</strong> Some jewellers pay duties on the customer's behalf and price it in. Worth considering. A surprise customs bill on a $7,000 ring is how chargebacks start.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cookies">
+  <div class="sec-head"><h2>Cookie consent</h2></div>
+  <p class="lede">This has to be fixed <em>before</em> any tracking goes in, not after. Right now the banner is worse than having none, because it claims a consent process that does not exist.</p>
+
+  <div class="split">
+    <div>
+      <h3>What it does today</h3>
+      <p>I read the live snippet on 16 August. It is 735 bytes and contains exactly one button.</p>
+      <ul>
+        <li>Offers <strong>"I Accept"</strong> and nothing else. No reject, no preferences.</li>
+        <li>Never calls <code>Shopify.customerPrivacy</code>. The API is not loaded on the page at all, so nothing is gated by the answer.</li>
+        <li>Links to a privacy policy that is currently blank.</li>
+      </ul>
+
+      <h3>The fix</h3>
+      <p>Do not rebuild the theme banner. Shopify ships a consent banner wired into the Customer Privacy API natively. It updates itself as rules change and applies region by region, so you are not showing a GDPR banner to Thai customers who do not need one.</p>
+      <p>Enable it in <strong>Settings, Customer privacy, Cookie banner</strong>, then delete <code>snippets/cookie-notice.liquid</code> so the two cannot both appear. It is still rendered from <code>layout/theme.liquid</code>, so the deletion is a real step, not a tidy-up.</p>
+    </div>
+    <div class="aside">
+      <div class="note flag">
+        <span class="note-title">Why the order matters</span>
+        <p>Every tracking tool in the next section installs as a Shopify web pixel. Web pixels run sandboxed and are gated automatically by the consent API, but only if something is actually setting consent.</p>
+        <p>Install the pixels first and they fire for everyone regardless of choice, which is the specific thing that draws enforcement.</p>
+      </div>
+      <div class="note">
+        <span class="note-title">This one is yours</span>
+        <p>It is an admin setting, not code. I cannot reach it from here.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pixels">
+  <div class="sec-head"><h2>Analytics and pixels</h2></div>
+  <p class="lede">The order is deliberate. Each step depends on the one before it. The rule throughout: install through Shopify's official channel apps, never by pasting tags into theme code.</p>
+
+  <ol class="steps">
+    <li>
+      <h3>Consent banner live</h3>
+      <p>From the section above. Everything downstream is gated by it, so nothing else starts until it is on and you have watched a real visit set a consent value.</p>
+    </li>
+    <li>
+      <h3>Google Analytics 4</h3>
+      <p>Install through the <strong>Google and YouTube</strong> channel, not by pasting a <code>gtag</code> snippet. The channel wires GA4 to Shopify's consent mode automatically, so denied consent downgrades to cookieless pings instead of silently tracking anyway. It also carries purchase events from checkout, which a theme-pasted tag cannot reach.</p>
+      <p>With zero completed checkouts in thirty days, and in fact zero orders of any kind since 14 July, this is the one that earns its keep first. It will show you where in the funnel people stop.</p>
+    </li>
+    <li>
+      <h3>Klaviyo</h3>
+      <p>Different in kind from the ad pixels, and the one I would do second. This is your email platform: newsletter signup, abandoned cart flows, post-purchase sequences.</p>
+      <p>It also solves the segmentation you asked about. Build one list, then segment by the country on the customer's address, so a Hua Hin storefront event only reaches Thai customers while a new-collection announcement goes to everyone. Keep marketing consent as its own property so unsubscribing from promotions never silences order email.</p>
+    </li>
+    <li>
+      <h3>Meta pixel</h3>
+      <p>Install via the <strong>Facebook and Instagram</strong> channel. Turn on the Conversions API alongside the browser pixel: with iOS tracking prevention, browser-only signal is roughly half the picture. Only worth doing when you are actually spending on Meta ads. An idle pixel collects data you then have to justify holding.</p>
+    </li>
+    <li>
+      <h3>TikTok</h3>
+      <p>Same pattern, via the <strong>TikTok</strong> channel. I would defer this one. It is the weakest fit for a considered, high-price purchase, and every additional pixel widens what your privacy policy has to disclose and defend.</p>
+    </li>
+  </ol>
+</section>
+
+<section id="numerals">
+  <div class="sec-head"><h2>The numerals</h2></div>
+  <p class="lede">You did not need a new typeface. Cormorant was drawing oldstyle figures, numerals that vary in height and drop below the baseline, designed to sit inside flowing lowercase text. In a tracked-out uppercase heading they look like a mistake.</p>
+
+  <div class="split">
+    <div>
+      <p>There is exactly one place on the site where a Cormorant numeral appears: the homepage heading <strong>SINCE 1995</strong>, at 34px. Every other number you see, prices, carat weights, metal grades, is already set in Inter, whose figures are perfectly ordinary.</p>
+      <p>Cormorant carries lining figures as an alternate, so the fix is one declaration.</p>
+
+      <div class="ba">
+        <div class="was"><span class="tag">Was</span><code>font-variant-numeric: normal</code><br>Oldstyle figures. The 9s descend, the 1 is short.</div>
+        <div class="now"><span class="tag">Now</span><code>font-variant-numeric: lining-nums</code><br>Full-height figures aligned to the caps.</div>
+      </div>
+
+      <p>I verified the alternate exists rather than assuming it: rendering the digits with and without the feature produces measurably different glyph widths, so the font genuinely contains both sets.</p>
+      <p>Deliberately not <code>font-feature-settings: 'lnum'</code>. That low-level property replaces the whole feature list and would switch off ligatures and kerning at the same time.</p>
+    </div>
+    <div class="aside">
+      <div class="note good">
+        <span class="note-title">Applied, this one is done</span>
+        <p>Live in theme WEB 19 as <code>assets/orloff-numerals.css</code>. The heading computes <code>lining-nums</code> and "1995" measures 181.41px against the old 167.11px at 100px, so the glyphs really changed.</p>
+        <p>It is a separate file rather than an eighth section of <code>orloff-fixes.css</code> on purpose. Two agents rewriting one 13KB file in the same hour is how work gets silently overwritten.</p>
+        <p>WEB 19 is unpublished, so it is not yet customer-facing.</p>
+      </div>
+      <div class="note flag">
+        <span class="note-title">If you still want to change the face</span>
+        <p>Then do it for a better reason than the numbers, because the numbers are fixed in place. Cormorant's real liabilities are its very light strokes at small sizes and the slanted hyphen we already had to patch.</p>
+        <p>The serifs that keep a Garamond feeling with sturdier figures are <strong>EB Garamond</strong>, <strong>Spectral</strong> and <strong>Lora</strong>. All three are on Google Fonts, so read the next section first.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="fonts">
+  <div class="sec-head"><h2>Google Fonts</h2></div>
+  <p class="lede">Cormorant is loaded from <code>fonts.gstatic.com</code>. That transmits every visitor's IP address to Google before they have consented to anything, which is the practice German courts have already ruled against under GDPR.</p>
+
+  <div class="split">
+    <div>
+      <p>I confirmed the exact request in the live theme's <code>layout/theme.liquid</code> on 16 August:</p>
+      <div class="note">
+        <p><code>family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500</code></p>
+      </div>
+      <p>Five faces: 400, 500 and 600 upright, plus 400 and 500 italic.</p>
+      <p>The real fix is to self-host properly, an hour rather than a minute. Download the five Cormorant Garamond <code>.woff2</code> files, upload them as theme assets, declare them with <code>@font-face</code> pointing at <code>asset_url</code>, and only then remove the Google Fonts link.</p>
+      <p>Done that way it removes the GDPR exposure, removes two DNS lookups and a render-blocking request, and makes the page faster. It also simplifies the hyphen patch, since self-hosted faces can be subset before upload. Worth scheduling alongside the consent banner rather than squeezing into it.</p>
+    </div>
+    <div class="aside">
+      <div class="note stop">
+        <span class="note-title">Correction to an earlier draft of this page</span>
+        <p>I first wrote that this fix was free because Shopify already serves Cormorant from your own domain. That was too quick and it was wrong.</p>
+        <p>Shopify hosts exactly <strong>one</strong> face: <code>cormorant_n5.woff2</code>, weight 500 upright, under the family name <code>Cormorant</code>. Your headings use <code>Cormorant Garamond</code> at three weights plus italics, and all five come from Google.</p>
+        <p>Dropping the link today would silently lose four of the five faces and fall back to a system serif. Do not do it yet.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+</div>
+
+<footer>
+  <p>Drafted 14 August 2026, re-verified against the live store and theme WEB 19 on 16 August. Nothing in this document has been published to the store. The numerals fix is applied to WEB 19, which is itself unpublished. Every policy body above is waiting for you to paste it, or for the <code>write_legal_policies</code> scope to be granted.</p>
+</footer>
+
+<script>
+  function flash(btn, msg) {
+    var original = btn.dataset.label || btn.textContent;
+    btn.dataset.label = original;
+    btn.textContent = msg;
+    setTimeout(function () { btn.textContent = original; }, 2200);
+  }
+
+  async function copyDoc(btn) {
+    var body = btn.closest('.doc').querySelector('.doc-body');
+    try {
+      await navigator.clipboard.write([new ClipboardItem({
+        'text/html': new Blob([body.innerHTML], { type: 'text/html' }),
+        'text/plain': new Blob([body.innerText], { type: 'text/plain' })
+      })]);
+      flash(btn, 'Copied');
+    } catch (e) {
+      // Clipboard API blocked in this context. Select the text so Ctrl+C still works.
+      try {
+        var range = document.createRange();
+        range.selectNodeContents(body);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        flash(btn, 'Selected, press Ctrl+C');
+      } catch (e2) {
+        flash(btn, 'Select it manually');
+      }
+    }
+  }
+</script>

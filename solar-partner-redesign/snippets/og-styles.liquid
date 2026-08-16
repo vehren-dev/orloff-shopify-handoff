@@ -1,0 +1,18 @@
+{%- comment -%}
+  Loads the Solar Grown / Retail Partners design system.
+
+  Rendered by every og-* section. Repeating the tag is the standard
+  Shopify pattern (Dawn does the same): the browser fetches the file
+  once no matter how many sections ask for it.
+
+  No fonts are loaded here. Cormorant Garamond and Inter are already
+  served by the theme (theme.liquid + snippets/head-variables.liquid),
+  so these pages add no font requests.
+
+  On numbers: every figure that is data (prices, statistics, specifications,
+  step numbers) sits in a component set entirely in Inter, so the serif never
+  carries one. Digits inside serif running text are left in the serif on
+  purpose. An earlier build swapped them to Inter with a unicode-range face
+  and it made "18K gold" and "Ring 1" look like typesetting mistakes.
+{%- endcomment -%}
+{{ 'og-brand.css' | asset_url | stylesheet_tag }}

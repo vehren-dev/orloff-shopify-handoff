@@ -1,0 +1,97 @@
+/* ============================================================
+   Orloff of Denmark - wide screen layer
+   Loaded after og-brand.css by snippets/og-styles.liquid.
+   Scoped to .og-section like the rest of the system, so nothing
+   here can reach another template.
+
+   WHY THIS FILE EXISTS
+   og-brand.css caps every section at --og-max: 1180px and centres it.
+   On a 1920 monitor that leaves roughly 740px of dead margin and the
+   page reads as a narrow column floating in space. This layer raises
+   the cap and, above 1300px, gives the extra width a job: the section
+   head moves into a column of its own on the left, so the layout gains
+   structure instead of everything simply stretching.
+
+   Line length does not change. Body copy is still bounded by
+   --og-measure (68ch, 720px). Only the LAYOUT widens, which is the
+   whole difference between a full-width page and an unreadable one.
+
+   Kept as a separate file rather than appended to og-brand.css so the
+   two can be edited independently, following assets/orloff-numerals.css.
+   ============================================================ */
+
+/* Same specificity as the block in og-brand.css, so these win by being
+   declared later. Do not add an id or !important here. */
+.og-section {
+  --og-max: 1720px;
+  --og-gutter: clamp(20px, 4.5vw, 88px);
+}
+
+/* ---------- Hero ---------- */
+
+/* og-brand caps .og-hero__text at 40rem. That filled most of the old
+   1180px layout but leaves a hole in a 1720px one, so the cap and the
+   column both grow and the split tips slightly towards the text. */
+@media (min-width: 1200px) {
+  .og-section .og-hero__grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: clamp(3rem, 5.5vw, 7rem);
+  }
+
+  .og-section .og-hero__text { max-width: 46rem; }
+}
+
+/* ---------- Editorial split: head left, content right ---------- */
+
+/* Every og-* section is .og-wrap > .og-head + <content>, which is what
+   makes this possible in CSS alone with no markup change.
+
+   :has() selects only the three sections whose content is a grid that
+   reads well beside a head. og-process is deliberately left out: its
+   numbered steps are a horizontal band, and keeping one full-width
+   section between the hero and the card grids stops the page settling
+   into a single repeated rhythm. */
+@media (min-width: 1300px) {
+  .og-section .og-wrap:has(> .og-head + .og-cards),
+  .og-section .og-wrap:has(> .og-head + .og-products),
+  .og-section .og-wrap:has(> .og-head + .og-accordion) {
+    display: grid;
+    grid-template-columns: minmax(17rem, 0.85fr) minmax(0, 2.35fr);
+    column-gap: clamp(3rem, 4.5vw, 6.5rem);
+    align-items: start;
+  }
+
+  /* The head holds column one. Everything after it, including footnotes
+     and trailing buttons, stacks down column two. */
+  .og-section .og-wrap:has(> .og-head + .og-cards) > :not(.og-head),
+  .og-section .og-wrap:has(> .og-head + .og-products) > :not(.og-head),
+  .og-section .og-wrap:has(> .og-head + .og-accordion) > :not(.og-head) {
+    grid-column: 2;
+  }
+
+  /* The column is the constraint now, so the measure cap is redundant.
+     Sticky is progressive: if it fails to take, the head simply sits at
+     the top of its column, which is the intended layout regardless. */
+  .og-section .og-wrap:has(> .og-head + .og-cards) > .og-head,
+  .og-section .og-wrap:has(> .og-head + .og-products) > .og-head,
+  .og-section .og-wrap:has(> .og-head + .og-accordion) > .og-head {
+    max-width: none;
+    position: sticky;
+    top: clamp(1.5rem, 7vh, 4.5rem);
+  }
+
+  /* These top margins separated the grid from the head when the two were
+     stacked. Side by side they push column two out of alignment. */
+  .og-section .og-wrap > .og-head + .og-cards,
+  .og-section .og-wrap > .og-head + .og-products,
+  .og-section .og-wrap > .og-head + .og-accordion {
+    margin-top: 0;
+  }
+
+  /* Let the accordion fill its column instead of stopping at 860px. */
+  .og-section .og-accordion { max-width: none; }
+
+  /* Step copy is short. Left unbounded across a 1500px band it becomes
+     three long thin lines. */
+  .og-section .og-step p { max-width: 38ch; }
+}

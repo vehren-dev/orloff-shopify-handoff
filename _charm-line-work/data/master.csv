@@ -1,0 +1,317 @@
+invoice_row,model_no,sku,handle,product_name,line,type,category,price_tier,retail_thb,cost_usd,weight_g,size_mm,material,metal_finish,stone,stock_qty,description_html,image_url_1,seo_title,seo_description,quote_text,notes
+85,ORCB01,ORCB01,,,A,Charm,,,,3.75,1.55,14.5mm * 7mm,925 Sterling Silver,Oxidized Silver,Black CZ + Blue Enamel,10,,,,,,Needs photography for visual identification before naming
+86,ORCB02,ORCB02,,,A,Charm,,,,3.84,1.69,12mm,925 Sterling Silver,Oxidized Silver,Orange+Black+ Blue Enamel,10,,,,,,Needs photography for visual identification before naming
+87,ORCB03,ORCB03,,,A,Charm,,,,4.03,2,13mm,925 Sterling Silver,Oxidized Silver,Black+ Red Enamel,10,,,,,,Needs photography for visual identification before naming
+88,ORCB04,ORCB04,,,A,Charm,,,,4.38,2.79,11.5mm,925 Sterling Silver,Oxidized Silver,White+ Red Enamel,10,,,,,,Needs photography for visual identification before naming
+89,ORCB05,ORCB05,,,A,Charm,,,,5.12,2.84,13mm,925 Sterling Silver,Oxidized Silver,Black Enamel,10,,,,,,Needs photography for visual identification before naming
+90,ORCB06,ORCB06,,,A,Charm,,,,4.15,1.79,12mm,925 Sterling Silver,Rosegold plated,White Enamel,10,,,,,,Needs photography for visual identification before naming
+91,ORCB07,ORCB07,,,A,Charm,,,,2.92,1.18,8mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Needs photography for visual identification before naming
+92,ORCB08,ORCB08,,,A,Charm,,,,4.05,1.77,13.5mm,925 Sterling Silver,Oxidized Silver,Black+ Pink Enamel,10,,,,,,Needs photography for visual identification before naming
+93,ORCB09,ORCB09,,,A,Charm,,,,4.42,2.06,12.5mm,925 Sterling Silver,Oxidized Silver,White CZ+Black Enamel,10,,,,,,Needs photography for visual identification before naming
+94,ORCB10,ORCB10,,,A,Charm,,,,4.76,2.63,21mm,925 Sterling Silver,Oxidized Silver,Stone :None,10,,,,,,Needs photography for visual identification before naming
+95,ORCB11,ORCB11,,,A,Charm,,,,5.24,2.62,12.5mm,925 Sterling Silver,Oxidized Silver,Black+ Red Enamel,10,,,,,,Needs photography for visual identification before naming
+96,ORCB12,ORCB12,,,A,Charm,,,,3.54,1.49,21.5mm,925 Sterling Silver,Oxidized Silver,White CZ,10,,,,,,Needs photography for visual identification before naming
+97,ORCB13,ORCB13,,,A,Charm,,,,3.30,1.45,20mm,925 Sterling Silver,Oxidized Silver,White CZ,9,,,,,,Needs photography for visual identification before naming
+98,ORCB14,ORCB14,,,A,Charm,,,,3.77,1.36,18mm,925 Sterling Silver,Oxidized Silver,White CZ+Red &Blue Enamel,9,,,,,,Needs photography for visual identification before naming
+99,ORCB15,ORCB15,,,A,Charm,,,,3.50,1.97,22mm,925 Sterling Silver,Oxidized Silver,Black Enamel,10,,,,,,Needs photography for visual identification before naming
+100,ORCB16,ORCB16,,,A,Charm,,,,3.72,1.81,11mm,925 Sterling Silver,Oxidized Silver,Blue+ Pink Enamel,10,,,,,,Needs photography for visual identification before naming
+101,ORCB17,ORCB17,,,A,Charm,,,,5.48,2.95,10mm,925 Sterling Silver,Oxidized Silver,Blue+ Pink Enamel,10,,,,,,Needs photography for visual identification before naming
+102,ORCB18,ORCB18,,,A,Charm,,,,5.10,2.52,10.5mm,925 Sterling Silver,Oxidized Silver,Black+ Red +Yellow Enamel,9,,,,,,Needs photography for visual identification before naming
+103,ORCB20,ORCB20,,,A,Charm,,,,3.28,1.64,21.5mm,925 Sterling Silver,Oxidized Silver,Purple Enamel,10,,,,,,Needs photography for visual identification before naming
+104,ORCB21,ORCB21,,,A,Charm,,,,2.87,1.03,22mm,925 Sterling Silver,Oxidized Silver,Green CZ,10,,,,,,Needs photography for visual identification before naming
+105,ORCB22,ORCB22,,,A,Charm,,,,4.59,2.23,10mm,925 Sterling Silver,Oxidized Silver,Pink+Yellow Enamel,10,,,,,,Needs photography for visual identification before naming
+106,ORCB23,ORCB23,,,A,Charm,,,,3.52,1.29,17.5mm,925 Sterling Silver,Oxidized Silver,White CZ +Red &Yellow Enamel,10,,,,,,Needs photography for visual identification before naming
+107,ORCB25,ORCB25,,,A,Charm,,,,4.07,2.01,12mm,925 Sterling Silver,Oxidized Silver,White CZ +Red &Yellow Enamel,10,,,,,,Needs photography for visual identification before naming
+108,ORCB26,ORCB26,,,A,Charm,,,,3.93,1.79,10.5mm,925 Sterling Silver,Oxidized Silver,Red +Brown Enamel,10,,,,,,Needs photography for visual identification before naming
+109,ORCB27,ORCB27,,,A,Charm,,,,4.99,2.64,12.5mm,925 Sterling Silver,Oxidized Silver,Pink CZ +Green &Yellow Enamel,10,,,,,,Needs photography for visual identification before naming
+110,ORCB28,ORCB28,,,A,Charm,,,,2.76,1.11,13mm,925 Sterling Silver,Oxidized Silver,White CZ+Purple &Yellow Enamel,10,,,,,,Needs photography for visual identification before naming
+111,ORCB29,ORCB29,,,A,Charm,,,,3.59,1.42,12mm,925 Sterling Silver,Oxidized Silver,White CZ,10,,,,,,Needs photography for visual identification before naming
+112,ORCB30,ORCB30,,,A,Charm,,,,6.69,3.41,15mm,925 Sterling Silver,Rhodium &Rosegold,White CZ,10,,,,,,Needs photography for visual identification before naming
+113,ORCB34,ORCB34,,,A,Charm,,,,5.03,2.1,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver+Highly,Stone: Pink & White,10,,,,,,Needs photography for visual identification before naming
+114,ORCB35,ORCB35,,,A,Charm,,,,4.59,2.0,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver+Highly,Stone: White,10,,,,,,Needs photography for visual identification before naming
+115,ORCB36,ORCB36,,,A,Charm,,,,7.22,3.8,12mm,925 Sterling Silver+AAAA CZ,Oxidized Silver+Highly,Stone: Multicolor,10,,,,,,Needs photography for visual identification before naming
+116,ORCB37,ORCB37,,,A,Charm,,,,3.94,1.2,11mm,925 Sterling Silver+Enamel,Oxidized Silver+Highly,Stone:NA / Enamel:Light Blue&White,10,,,,,,Needs photography for visual identification before naming
+117,ORCB38,ORCB38,,,A,Charm,,,,4.92,2.3,10mm,925 Sterling Silver+Enamel,Oxidized Silver+Highly,Stone:NA / Enamel:Light Blue,10,,,,,,Needs photography for visual identification before naming
+118,ORCB39,ORCB39,,,A,Charm,,,,5.36,2.3,10mm,925 Sterling Silver+AAAA,Oxidized Silver+Highly,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+119,ORCB40,ORCB40,,,A,Charm,,,,4.27,1.8,26mm,925 Sterling Silver+Enamel,Oxidized Silver+Highly,Stone:NA / Enamel:Red,10,,,,,,Needs photography for visual identification before naming
+120,ORCB41,ORCB41,,,A,Charm,,,,5.58,2.4,24mm,925 Sterling Silver+Enamel,Oxidized Silver+Highly,Stone:NA / Enamel: Blue,9,,,,,,Needs photography for visual identification before naming
+121,ORCB42,ORCB42,,,A,Charm,,,,4.16,1.6,30mm,925 Sterling Silver+Enamel,Oxidized Silver+Highly,Stone:NA / Enamel:Pink,10,,,,,,Needs photography for visual identification before naming
+122,ORCB43,ORCB43,,,A,Charm,,,,4.05,1.7,20mm,925 Sterling Silver+AAAA,Oxidized Silver+Highly,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+123,ORCB44,ORCB44,,,A,Charm,,,,4.92,1.7,20mm,925 Sterling Silver+AAAA CZ,Oxidized Silver+Highly,Stone:Pink,10,,,,,,Needs photography for visual identification before naming
+124,ORCB45,ORCB45,,,A,Charm,,,,4.81,2.1,26mm,925 Sterling Silver+AAAA,Oxidized Silver+Highly,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+125,ORCB46,ORCB46,,,A,Charm,,,,5.14,2.1,27mm,925 Sterling Silver+Enamel,Oxidized Silver+Highly,Stone:NA / Enamel:Black,10,,,,,,Needs photography for visual identification before naming
+126,ORCB47,ORCB47,,,A,Charm,,,,4.48,2.2,25mm,925 Sterling Silver+Enamel,Oxidized Silver+Highly,Stone:NA / Enamel:Brown,10,,,,,,Needs photography for visual identification before naming
+127,ORCB48,ORCB48,,,A,Charm,,,,7.22,3.7,27mm,925 Sterling Silver+AAAA,Oxidized Silver+Highly,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+128,ORCB49,ORCB49,,,A,Charm,,,,6.34,3.1,22mm,925 Sterling Silver+AAAA CZ,Oxidized Silver+Highly,Stone:White,10,,,,,,Needs photography for visual identification before naming
+129,ORCB50,ORCB50,,,A,Charm,,,,6.23,2.6,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver+Highly,Stone:Blue & Orange,10,,,,,,Needs photography for visual identification before naming
+130,ORCB51,ORCB51,,,A,Charm,,,,7.88,4.1,12mm,925 Sterling Silver,Oxidized Silver+Highly,,10,,,,,,Needs photography for visual identification before naming
+131,ORCB52,ORCB52,,,A,Charm,,,,4.16,1.2,22mm,925 Sterling Silver+AAAA,Oxidized Silver+Highly,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+132,ORCB53,ORCB53,,,A,Charm,,,,5.47,2.2,24mm,925 Sterling Silver+AAAA CZ+Shell,Oxidized Silver+Highly,Stone:White,10,,,,,,Needs photography for visual identification before naming
+133,ORCB54,ORCB54,,,A,Charm,,,,5.91,2.6,23mm,925 Sterling Silver+AAAA CZ+Shell,Oxidized Silver+Highly,Stone:Black,10,,,,,,Needs photography for visual identification before naming
+134,ORCB55,ORCB55,,,A,Charm,,,,5.35,1.83,30mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,,,,,,Needs photography for visual identification before naming
+135,ORCB56,ORCB56,,,A,Charm,,,,5.28,2.2,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,,,,,,Needs photography for visual identification before naming
+136,ORCB58,ORCB58,,,A,Charm,,,,4.01,1.3,25mm,925 Sterling Silver,Rhodium Plated,,9,,,,,,Needs photography for visual identification before naming
+137,ORCB59,ORCB59,,,A,Charm,,,,4.27,2.07,11mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+138,ORCB60,ORCB60,,,A,Charm,,,,5.49,3.1,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,+Enamel,10,,,,,,Needs photography for visual identification before naming
+139,ORCB61,ORCB61,,,A,Charm,,,,4.33,1.8,18mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+140,ORCB62,ORCB62,,,A,Charm,,,,5.62,2.3,25mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,,,,,,Needs photography for visual identification before naming
+141,ORCB63,ORCB63,,,A,Charm,,,,4.77,2.17,10mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+142,ORCB64,ORCB64,,,A,Charm,,,,5.46,2.57,12mm,925 Sterling Silver+Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+143,ORCB65,ORCB65,,,A,Charm,,,,5.64,1.95,30mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,+Enamel,10,,,,,,Needs photography for visual identification before naming
+144,ORCB66,ORCB66,,,A,Charm,,,,3.50,0.9,20mm,925 Sterling Silver+ Enamel,Rhodium Plated,,8,,,,,,Needs photography for visual identification before naming
+145,ORCB67,ORCB67,,,A,Charm,,,,3.88,0.98,20mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,,,,,,Needs photography for visual identification before naming
+146,ORCB70,ORCB70,,,A,Charm,,,,5.35,2.57,12mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+147,ORCB71,ORCB71,,,A,Charm,,,,4.13,1.55,20mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+148,ORCB73,ORCB73,,,A,Charm,,,,4.59,2.28,11mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+149,ORCB74,ORCB74,,,A,Charm,,,,5.13,2.9,14mm,925 Sterling Silver+ Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+150,ORCB76,ORCB76,,,A,Charm,,,,7.34,3.9,14mm,925 Sterling Silver+ Enamel,Rhodium Plated,,7,,,,,,Needs photography for visual identification before naming
+151,ORCB77,ORCB77,,,A,Charm,,,,7.22,4.56,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,+Enamel,10,,,,,,Needs photography for visual identification before naming
+152,ORCB78,ORCB78,,,A,Charm,,,,5.80,2.07,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: white,10,,,,,,Needs photography for visual identification before naming
+153,ORCB79,ORCB79,,,A,Charm,,,,9.30,5,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: white,10,,,,,,Needs photography for visual identification before naming
+154,ORCB80,ORCB80,,,A,Charm,,,,4.87,2,21mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,10,,,,,,Needs photography for visual identification before naming
+155,ORCB81,ORCB81,,,A,Charm,,,,4.59,2.35,9mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+156,ORCB82,ORCB82,,,A,Charm,,,,5.50,2.35,9mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,,,,,,Needs photography for visual identification before naming
+157,ORCB83,ORCB83,,,A,Charm,,,,5.21,2.5,12mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+158,ORCB84,ORCB84,,,A,Charm,,,,4.87,2.5,16mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Purple,10,,,,,,Needs photography for visual identification before naming
+159,ORCB85,ORCB85,,,A,Charm,,,,4.81,2.5,11mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+160,ORCB86,ORCB86,,,A,Charm,,,,5.69,2.3,21mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+161,ORCB88,ORCB88,,,A,Charm,,,,3.36,2,12mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+162,ORCB89,ORCB89,,,A,Charm,,,,5.88,3,22mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue+Red,10,,,,,,Needs photography for visual identification before naming
+163,ORCB100,ORCB100,,,A,Charm,,,,6.25,2.5,8mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Purple,9,,,,,,Needs photography for visual identification before naming
+164,ORCB101,ORCB101,,,A,Charm,,,,7.02,2.8,8mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,,,,,,Needs photography for visual identification before naming
+165,ORCB102,ORCB102,,,A,Charm,,,,6.46,2.5,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Purple,10,,,,,,Needs photography for visual identification before naming
+166,ORCB103,ORCB103,,,A,Charm,,,,7.02,2.8,22mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,,,,,,Needs photography for visual identification before naming
+167,ORCB104,ORCB104,,,A,Charm,,,,6.00,3,15mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Red,8,,,,,,Needs photography for visual identification before naming
+168,ORCB106,ORCB106,,,A,Charm,,,,5.17,2.5,13mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Pink,10,,,,,,Needs photography for visual identification before naming
+169,ORCB107,ORCB107,,,A,Charm,,,,6.13,2.5,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White+Blue,9,,,,,,Needs photography for visual identification before naming
+170,ORCB108,ORCB108,,,A,Charm,,,,4.26,1.5,21mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+171,ORCB110,ORCB110,,,A,Charm,,,,6.13,3.8,17mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Pink,10,,,,,,Needs photography for visual identification before naming
+172,ORCB111,ORCB111,,,A,Charm,,,,5.46,2.2,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,,,,,,Needs photography for visual identification before naming
+173,ORCB113,ORCB113,,,A,Charm,,,,6.30,2.2,13mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+174,ORCB114,ORCB114,,,A,Charm,,,,5.19,2.2,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Pink,10,,,,,,Needs photography for visual identification before naming
+175,ORCB115,ORCB115,,,A,Charm,,,,5.03,2.2,10mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+176,ORCB116,ORCB116,,,A,Charm,,,,6.35,3,12mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,10,,,,,,Needs photography for visual identification before naming
+177,ORCB117,ORCB117,,,A,Charm,,,,4.96,2.6,8mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+178,ORCB118,ORCB118,,,A,Charm,,,,6.68,2.3,17mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,7,,,,,,Needs photography for visual identification before naming
+179,ORCB119,ORCB119,,,A,Charm,,,,5.58,2.2,10mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+180,ORCB120,ORCB120,,,A,Charm,,,,5.40,1.5,14mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,,,,,,Needs photography for visual identification before naming
+181,ORCB122,ORCB122,,,A,Charm,,,,5.25,2,11mm,925 Sterling Silver + AAAA CZ,Rose gold Plated,Stone: Black,8,,,,,,Needs photography for visual identification before naming
+182,ORCB123,ORCB123,,,A,Charm,,,,7.00,2,15mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+183,ORCB124,ORCB124,,,A,Charm,,,,7.22,2.4,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Purple,10,,,,,,Needs photography for visual identification before naming
+184,ORCB125,ORCB125,,,A,Charm,,,,5.03,2,9mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,9,,,,,,Needs photography for visual identification before naming
+185,ORCB126,ORCB126,,,A,Charm,,,,3.43,1,10mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Green,10,,,,,,Needs photography for visual identification before naming
+186,ORCB127,ORCB127,,,A,Charm,,,,4.59,1.9,15mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+187,ORCB128,ORCB128,,,A,Charm,,,,6.80,2.5,12mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+188,ORCB129,ORCB129,,,A,Charm,,,,4.55,2,7mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,9,,,,,,Needs photography for visual identification before naming
+189,ORCB135,ORCB135,,,A,Charm,,,,4.97,1.8,16mm,925 Sterling Silver,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+190,ORCB136,ORCB136,,,A,Charm,,,,4.98,2.1,11mm,925 Sterling Silver + AAAA,Rhodium Plated,CZ+Enamel,10,,,,,,Needs photography for visual identification before naming
+191,ORCB137,ORCB137,,,A,Charm,,,,6.07,3.2,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Muti-color,10,,,,,,Needs photography for visual identification before naming
+192,ORCB138,ORCB138,,,A,Charm,,,,4.27,1.7,7mm,925 Sterling Silver,Rose gold Plated,,10,,,,,,Needs photography for visual identification before naming
+193,ORCB139,ORCB139,,,A,Charm,,,,8.40,3.5,7mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Yellow+Green,9,,,,,,Needs photography for visual identification before naming
+194,ORCB140,ORCB140,,,A,Charm,,,,4.69,2.4,12mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+195,ORCB142,ORCB142,,,A,Charm,,,,5.23,2.6,20mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+196,ORCB144,ORCB144,,,A,Charm,,,,5.69,2.7,15mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+197,ORCB146,ORCB146,,,A,Charm,,,,4.20,1,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,10,,,,,,Needs photography for visual identification before naming
+198,ORCB149,ORCB149,,,A,Charm,,,,4.51,1.7,18mm,925 Sterling Silver + Enamel,Rhodium Plated,,10,,,,,,Needs photography for visual identification before naming
+199,ORCB150,ORCB150,,,A,Charm,,,,4.85,3,10mm,925 Sterling Silver,14K gold plated,,9,,,,,,Needs photography for visual identification before naming
+200,ORCB151,ORCB151,,,A,Charm,,,,5.03,1.5,13mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,9,,,,,,Needs photography for visual identification before naming
+201,ORCB152,ORCB152,,,A,Charm,,,,6.82,3,11mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,10,,,,,,Needs photography for visual identification before naming
+202,ORCB153,ORCB153,,,A,Charm,,,,5.47,2.30,10.5mm,925 Sterling Silver,Oxidized Silver,Pink CZ & White CZ + Green Enamel,10,,,,,,Needs photography for visual identification before naming
+203,ORCB154,ORCB154,,,A,Charm,,,,5.47,2.40,12mm,925 Sterling Silver,Oxidized Silver,Red Enamel,10,,,,,,Needs photography for visual identification before naming
+204,ORCB155,ORCB155,,,A,Charm,,,,4.59,1.80,12mm,925 Sterling Silver,Oxidized Silver,Green & Pink Enamel,10,,,,,,Needs photography for visual identification before naming
+205,ORCB156,ORCB156,,,A,Charm,,,,5.03,2.30,11.5mm,925 Sterling Silver,Oxidized Silver,Red CZ,10,,,,,,Needs photography for visual identification before naming
+206,ORCB157,ORCB157,,,A,Charm,,,,5.03,1.80,10mm,925 Sterling Silver,Oxidized Silver,White CZ & Red Enamel,9,,,,,,Needs photography for visual identification before naming
+207,ORCB159,ORCB159,,,A,Charm,,,,5.03,2.20,13mm,925 Sterling Silver,Oxidized Silver,Enamel,10,,,,,,Needs photography for visual identification before naming
+208,ORCB160,ORCB160,,,A,Charm,,,,5.03,2.10,9.5mm,925 Sterling Silver,Oxidized Silver,Light Green Enamel,10,,,,,,Needs photography for visual identification before naming
+209,ORCB161,ORCB161,,,A,Charm,,,,5.47,2.40,11.5mm,925 Sterling Silver,Oxidized Silver,Red & Pink Enamel,10,,,,,,Needs photography for visual identification before naming
+210,ORCB162,ORCB162,,,A,Charm,,,,4.38,1.50,13mm,925 Sterling Silver,Oxidized Silver,Green Enamel,9,,,,,,Needs photography for visual identification before naming
+211,ORCB163,ORCB163,,,A,Charm,,,,5.47,2.20,18mm,925 Sterling Silver,Oxidized Silver,Pink & White CZ + Green & Pink &,10,,,,,,Needs photography for visual identification before naming
+212,ORCB164,ORCB164,,,A,Charm,,,,4.59,2.10,9.5mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Needs photography for visual identification before naming
+213,ORCB165,ORCB165,,,A,Charm,,,,4.59,1.70,12.5mm,925 Sterling Silver,Oxidized Silver,Milky Pink & Brown Enamel,10,,,,,,Needs photography for visual identification before naming
+214,ORCB166,ORCB166,,,A,Charm,,,,4.81,1.80,15mm,925 Sterling Silver,Oxidized Silver,Green & Orange Enamel,10,,,,,,Needs photography for visual identification before naming
+215,ORCB168,ORCB168,,,A,Charm,,,,5.03,2.10,12mm,925 Sterling Silver,Oxidized Silver,Black & Red Enamel,10,,,,,,Needs photography for visual identification before naming
+216,ORCB169,ORCB169,,,A,Charm,,,,6.34,3.10,15mm,925 Sterling Silver,Oxidized Silver,Pink Enamel,10,,,,,,Needs photography for visual identification before naming
+217,ORCB170,ORCB170,,,A,Charm,,,,4.59,2.00,14mm,925 Sterling Silver,Oxidized Silver,White & Blue CZ,9,,,,,,Needs photography for visual identification before naming
+218,ORCB171,ORCB171,,,A,Charm,,,,5.03,2.40,13mm,925 Sterling Silver,Oxidized Silver,Green & Yellow & Pink & Purple CZ,10,,,,,,Needs photography for visual identification before naming
+219,ORCB173,ORCB173,,,A,Charm,,,,5.69,2.50,10mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,10,,,,,,Needs photography for visual identification before naming
+220,ORCB174,ORCB174,,,A,Charm,,,,4.81,2.10,10mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Needs photography for visual identification before naming
+221,ORCB175,ORCB175,,,A,Charm,,,,4.59,1.90,12mm,925 Sterling Silver,Oxidized Silver,,9,,,,,,Needs photography for visual identification before naming
+222,ORCB176,,,,A,Charm,,,,7.22,2.60,11mm,925 Sterling Silver,Oxidized Silver,Green & White & Champange CZ,30,,,,,,"COLLISION: ORCB176 appears at rows 222 and 491, two different products. Unresolved."
+223,ORCB177,ORCB177,,,A,Charm,,,,5.91,2.70,12.5mm,925 Sterling Silver,Oxidized Silver,Green & Orange Enamel,10,,,,,,Needs photography for visual identification before naming
+224,ORCB179,ORCB179,,,A,Charm,,,,6.34,2.60,13mm,925 Sterling Silver,Oxidized Silver,Milky Green Enamel,10,,,,,,Needs photography for visual identification before naming
+225,ORCB180,ORCB180,,,A,Charm,,,,5.03,1.70,12mm,925 Sterling Silver,Oxidized Silver,White CZ,15,,,,,,Needs photography for visual identification before naming
+226,ORCB182,ORCB182,,,A,Charm,,,,5.69,2.70,11mm,925 Sterling Silver,Oxidized Silver,Blue & Yellow Enamel,16,,,,,,Needs photography for visual identification before naming
+227,ORCBB01-17,ORCBB01-17,snake-chain-bracelet-17cm,"Snake Chain Bracelet, 17cm",A,Bracelet,,Base,,22.15,13.16,17 cm,925 Sterling Silver+AAAA CZ,,White CZ,44,,,,,,
+228,ORCBB01-19,ORCBB01-19,snake-chain-bracelet-19cm,"Snake Chain Bracelet, 19cm",A,Bracelet,,Base,,23.95,14.40,19cm,925 Sterling Silver+AAAA CZ,,White CZ,44,,,,,,
+229,ORCBB01-21,ORCBB01-21,snake-chain-bracelet-21cm,"Snake Chain Bracelet, 21cm",A,Bracelet,,Base,,26.85,16.50,21cm,925 Sterling Silver+AAAA CZ,,White CZ,46,,,,,,
+230,ORCB183-A,ORCB183-A,letter-a-charm,Letter A Charm,A,Charm,Personal — Letters,Classic,,4.44,1.80,10.5mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,
+231,ORCB183-B,ORCB183-B,letter-b-charm,Letter B Charm,A,Charm,Personal — Letters,Classic,,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+232,ORCB183-C,ORCB183-C,letter-c-charm,Letter C Charm,A,Charm,Personal — Letters,Classic,,4.22,1.50,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+233,ORCB183-D,ORCB183-D,letter-d-charm,Letter D Charm,A,Charm,Personal — Letters,Classic,,4.67,1.80,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+234,ORCB183-E,ORCB183-E,letter-e-charm,Letter E Charm,A,Charm,Personal — Letters,Classic,,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+235,ORCB183-F,ORCB183-F,letter-f-charm,Letter F Charm,A,Charm,Personal — Letters,Classic,,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+236,ORCB183-G,ORCB183-G,letter-g-charm,Letter G Charm,A,Charm,Personal — Letters,Classic,,4.22,1.60,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+237,ORCB183-H,ORCB183-H,letter-h-charm,Letter H Charm,A,Charm,Personal — Letters,Classic,,4.67,1.90,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+238,ORCB183-I,ORCB183-I,letter-i-charm,Letter I Charm,A,Charm,Personal — Letters,Classic,,4.00,1.30,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+239,ORCB183-J,ORCB183-J,letter-j-charm,Letter J Charm,A,Charm,Personal — Letters,Classic,,4.67,1.90,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+240,ORCB183-K,ORCB183-K,letter-k-charm,Letter K Charm,A,Charm,Personal — Letters,Classic,,4.89,2.10,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+241,ORCB183-L,ORCB183-L,letter-l-charm,Letter L Charm,A,Charm,Personal — Letters,Classic,,4.00,1.40,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+242,ORCB183-M,ORCB183-M,letter-m-charm,Letter M Charm,A,Charm,Personal — Letters,Classic,,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+243,ORCB183-N,ORCB183-N,letter-n-charm,Letter N Charm,A,Charm,Personal — Letters,Classic,,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+244,ORCB183-O,ORCB183-O,letter-o-charm,Letter O Charm,A,Charm,Personal — Letters,Classic,,4.00,1.50,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+245,ORCB183-P,ORCB183-P,letter-p-charm,Letter P Charm,A,Charm,Personal — Letters,Classic,,4.44,1.70,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+246,ORCB183-Q,ORCB183-Q,letter-q-charm,Letter Q Charm,A,Charm,Personal — Letters,Classic,,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+247,ORCB183-R,ORCB183-R,letter-r-charm,Letter R Charm,A,Charm,Personal — Letters,Classic,,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,9,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+248,ORCB183-S,ORCB183-S,letter-s-charm,Letter S Charm,A,Charm,Personal — Letters,Classic,,4.00,1.50,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+249,ORCB183-T,ORCB183-T,letter-t-charm,Letter T Charm,A,Charm,Personal — Letters,Classic,,4.22,1.60,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+250,ORCB183-U,ORCB183-U,letter-u-charm,Letter U Charm,A,Charm,Personal — Letters,Classic,,4.44,1.80,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+251,ORCB183-V,ORCB183-V,letter-v-charm,Letter V Charm,A,Charm,Personal — Letters,Classic,,4.22,1.60,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+252,ORCB183-W,ORCB183-W,letter-w-charm,Letter W Charm,A,Charm,Personal — Letters,Classic,,4.22,1.50,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+253,ORCB183-X,ORCB183-X,letter-x-charm,Letter X Charm,A,Charm,Personal — Letters,Classic,,4.22,1.90,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+254,ORCB183-Y,ORCB183-Y,letter-y-charm,Letter Y Charm,A,Charm,Personal — Letters,Classic,,3.56,1.10,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+255,ORCB183-Z,ORCB183-Z,letter-z-charm,Letter Z Charm,A,Charm,Personal — Letters,Classic,,5.11,2.20,,925 Sterling Silver,Oxidized Silver,,10,,,,,,Invoice Size field blank; series default 10.5mm unconfirmed
+390,ORGCB05-P-18,ORGCB05-P-18,,,A,Charm,,,,5.09,2,12.5*8mm,925 Sterling Silver,Rhodium plated+18k gold,,30,,,,,,Needs photography for visual identification before naming
+391,ORGCB06-P,ORGCB06-P,,,A,Charm,,,,7.09,2.1,11*10mm,925 Sterling Silver,Rhodium plated,Red stone,15,,,,,,Needs photography for visual identification before naming
+392,ORGCB50P,ORGCB50P,,,A,Charm,,,,7.09,2.1,11*10mm,925 Sterling Silver,Rhodium plated+red enamel,,15,,,,,,Needs photography for visual identification before naming
+393,ORGCB07-18K,ORGCB07-18K,,,A,Charm,,,,5.81,1.9,10.5*10.5*11.2mm,925 Sterling Silver,18k gold plated+enamel,,15,,,,,,Needs photography for visual identification before naming
+394,ORGCB07-P,ORGCB07-P,,,A,Charm,,,,6.04,1.9,10.5*10.5*11.2mm,925 Sterling Silver,rhodium plating +enamel,,15,,,,,,Needs photography for visual identification before naming
+395,ORGCB08-P,ORGCB08-P,,,A,Charm,,,,5.49,2.50,10.5*7.3*8.5mm,925 Sterling Silver,Rhodium plated,,15,,,,,,Needs photography for visual identification before naming
+396,ORGCB08-18K,ORGCB08-18K,,,A,Charm,,,,5.26,2.50,10.5*7.3*8.5mm,925 Sterling Silver,18k gold plated,,15,,,,,,Needs photography for visual identification before naming
+397,ORGCB09-P,ORGCB09-P,,,A,Charm,,,,3.99,1.1,11.4*11mm,925 Sterling Silver,Rhodium plated,Blue stone,30,,,,,,Needs photography for visual identification before naming
+398,ORGCB10-P,ORGCB10-P,,,A,Charm,,,,4.88,1.2,12*5mm,925 Sterling Silver,Enamel,,30,,,,,,Needs photography for visual identification before naming
+399,ORGCB11-18K,ORGCB11-18K,,,A,Charm,,,,6.21,2.8,20*11mm,925 Sterling Silver,Rhodium plated+18k gold,,30,,,,,,Needs photography for visual identification before naming
+400,ORGCB12-18K,ORGCB12-18K,,,A,Charm,,,,5.12,2.50,17*9mm,925 Sterling Silver,18K gold plated,,30,,,,,,Needs photography for visual identification before naming
+401,ORGCB18,ORGCB18,,,A,Charm,,,,5.45,2.20,11*11mm,925 Sterling Silver,rhodium plating+ enamel,,30,,,,,,Needs photography for visual identification before naming
+402,ORGCB19-18K,ORGCB19-18K,,,A,Charm,,,,6.13,3.30,13.6*8.2MM,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+403,ORGCB19-P,ORGCB19-P,,,A,Charm,,,,6.13,3.30,13.6*8.2MM,925 Sterling Silver,silver oxidation,,15,,,,,,Needs photography for visual identification before naming
+404,ORGCB20-18K,ORGCB20-18K,,,A,Charm,,,,5.75,3.00,16*13mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+405,ORGCB20-P,ORGCB20-P,,,A,Charm,,,,5.75,3.00,16*13mm,925 Sterling Silver,silver oxidation,,15,,,,,,Needs photography for visual identification before naming
+406,ORGCB21-18K,ORGCB21-18K,,,A,Charm,,,,7.65,4.50,15*10mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+407,ORGCB21-P,ORGCB21-P,,,A,Charm,,,,7.65,4.50,15*10mm,925 Sterling Silver,silver oxidation,,15,,,,,,Needs photography for visual identification before naming
+408,ORGCB22-18K,ORGCB22-18K,,,A,Charm,,,,4.34,1.7,17*15mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+409,ORGCB22-P,ORGCB22-P,,,A,Charm,,,,4.34,1.7,17*15mm,925 Sterling Silver,silver oxidation,,14,,,,,,Needs photography for visual identification before naming
+410,ORGCB23-18K,ORGCB23-18K,,,A,Charm,,,,4.99,2.40,14*11mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+411,ORGCB23-P,ORGCB23-P,,,A,Charm,,,,4.99,2.40,14*11mm,925 Sterling Silver,silver oxidation,,15,,,,,,Needs photography for visual identification before naming
+412,ORGCB24-18K,ORGCB24-18K,,,A,Charm,,,,5.25,2.60,16*14mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+413,ORGCB24-P,ORGCB24-P,,,A,Charm,,,,5.25,2.60,16*14mm,925 Sterling Silver,silver oxidation,,15,,,,,,Needs photography for visual identification before naming
+414,ORGCB25,ORGCB25,,,A,Charm,,,,7.25,3.80,19*14mm,925 Sterling Silver,silver oxidation,,30,,,,,,Needs photography for visual identification before naming
+415,ORGCB26-18K,ORGCB26-18K,,,A,Charm,,,,5.10,2.30,16*6mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+416,ORGCB26-P,ORGCB26-P,,,A,Charm,,,,5.10,2.30,16*6mm,925 Sterling Silver,silver oxidation,,13,,,,,,Needs photography for visual identification before naming
+417,ORGCB27,ORGCB27,,,A,Charm,,,,4.02,1.7,10.5*7.5mm,925 Sterling Silver,rhodium plating,,30,,,,,,Needs photography for visual identification before naming
+418,ORGCB28-18K,ORGCB28-18K,,,A,Charm,,,,5.35,2.50,14.5*5.5mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+419,ORGCB28-P,ORGCB28-P,,,A,Charm,,,,5.35,2.50,14.5*5.5mm,925 Sterling Silver,silver oxidation,,15,,,,,,Needs photography for visual identification before naming
+420,ORGCB29-18K,ORGCB29-18K,,,A,Charm,,,,4.21,1.60,16.5*7.5mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+421,ORGCB29-P,ORGCB29-P,,,A,Charm,,,,4.21,1.60,16.5*7.5mm,925 Sterling Silver,silver oxidation,,14,,,,,,Needs photography for visual identification before naming
+422,ORGCB30-18K,ORGCB30-18K,,,A,Charm,,,,6.03,3.00,15*8mm,925 Sterling Silver,18K gold plated,,15,,,,,,Needs photography for visual identification before naming
+423,ORGCB30-P,ORGCB30-P,,,A,Charm,,,,6.03,3.00,15*8mm,925 Sterling Silver,silver oxidation,,15,,,,,,Needs photography for visual identification before naming
+432,ORPA0010,ORPA0010,fluted-clip-clear-stone,"Fluted Clip, Clear Stone",A,Charm,Spacers & Clips,Classic,,5.92,1.94,4.4*10.2,925 Sterling Silver,Silver palting,,10,,,,,,Named from product photography
+433,ORPA034,ORPA034,polished-dome-spacer,Polished Dome Spacer,A,Charm,Spacers & Clips,Classic,,4.66,1.10,3.3*8.6mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,"Named from product photography; invoice says ORPA034, image file says PA0034"
+434,ORPA0035,ORPA0035,polished-spacer-pink-stone,"Polished Spacer, Pink Stone",A,Charm,Spacers & Clips,Classic,,5.35,1.50,3.6*9.8mm,925 Sterling Silver,Oxidized Silver,,9,,,,,,Named from product photography
+435,ORPA0094,ORPA0094,pink-enamel-spacer,Pink Enamel Spacer,A,Charm,Spacers & Clips,Classic,,4.79,1.40,3.6*10.5mm,925 Sterling Silver,Silver palting,,10,,,,,,Named from product photography
+436,ORPA0097,ORPA0097,lilac-daisy-spacer,Lilac Daisy Spacer,A,Charm,Spacers & Clips,Classic,,5.57,1.50,5.1*10.2mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Named from product photography
+437,ORPA0123,ORPA0123,starry-night-spacer-blue-enamel,"Starry Night Spacer, Blue Enamel",A,Charm,Spacers & Clips,Classic,,4.39,1.23,4.1*9.8mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Named from product photography
+438,ORPA0132,ORPA0132,butterfly-clip-red-stone,"Butterfly Clip, Red Stone",A,Charm,Spacers & Clips,Classic,,5.46,1.63,3.8*11.1mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Named from product photography
+439,ORPA0142,ORPA0142,tulip-spacer-pink-stone,"Tulip Spacer, Pink Stone",A,Charm,Spacers & Clips,Classic,,3.77,0.95,3.5*9.2mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Named from product photography
+440,ORPA0147,ORPA0147,butterfly-spacer-clear-stones,"Butterfly Spacer, Clear Stones",A,Charm,Spacers & Clips,Classic,,3.75,0.93,3.5*9.2mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Named from product photography
+441,ORPA0149,ORPA0149,scroll-spacer-oxidized-silver,"Scroll Spacer, Oxidized Silver",A,Charm,Spacers & Clips,Classic,,3.62,0.90,3.5*9.2mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Named from product photography
+442,ORPA0107,ORPA0107,dragonfly-clip-blue-enamel,"Dragonfly Clip, Blue Enamel",A,Charm,Spacers & Clips,Classic,,5.50,1.50,8.2*10.3mm,925 Sterling Silver,Oxidized Silver,,10,,,,,,Named from product photography
+443,ORGCB51-WY,ORGCB51-WY,,,A,Charm,,,,4.93,1.60,14*14mm,925 Sterling Silver,Rhodium plated+enamel,,30,,,,,,Needs photography for visual identification before naming
+444,ORGCB51-YL,ORGCB51-YL,,,A,Charm,,,,4.93,1.60,14*14mm,925 Sterling Silver,Rhodium plated+enamel,,30,,,,,,Needs photography for visual identification before naming
+445,ORGCB51-YP,ORGCB51-YP,,,A,Charm,,,,4.93,1.60,14*14mm,925 Sterling Silver,Rhodium plated+enamel,,29,,,,,,Needs photography for visual identification before naming
+446,ORGCB51-YR,ORGCB51-YR,,,A,Charm,,,,4.93,1.60,14*14mm,925 Sterling Silver,Rhodium plated+enamel,,30,,,,,,Needs photography for visual identification before naming
+447,ORGCB51-P,ORGCB51-P,,,A,Charm,,,,4.93,1.60,14*14mm,925 Sterling Silver,Rhodium plated+enamel,,30,,,,,,Needs photography for visual identification before naming
+448,ORGCB52-L,ORGCB52-L,,,A,Charm,,,,7.56,4.00,17*12*2mm,925 Sterling Silver,Rhodium plated+enamel,,28,,,,,,Needs photography for visual identification before naming
+449,ORGCB53-L,ORGCB53-L,,,A,Charm,,,,7.60,4.00,17*12*2mm,925 Sterling Silver,Rhodium plated+enamel,,28,,,,,,Needs photography for visual identification before naming
+450,ORGCB54-L,ORGCB54-L,,,A,Charm,,,,7.65,4.00,17*12*2mm,925 Sterling Silver,Rhodium plated+enamel,,28,,,,,,Needs photography for visual identification before naming
+451,ORGCB55-L,ORGCB55-L,,,A,Charm,,,,7.73,4.00,17*12*2mm,925 Sterling Silver,Rhodium plated+enamel,,29,,,,,,Needs photography for visual identification before naming
+452,ORGCB56-B,ORGCB56-B,,,A,Charm,,,,7.57,4.00,17*12*2mm,925 Sterling Silver,Rhodium plated+enamel,,26,,,,,,Needs photography for visual identification before naming
+453,ORGCB57-Z,ORGCB57-Z,,,A,Charm,,,,7.82,3.90,18*13mm,925 Sterling Silver,Rhodium plated+enamel,,27,,,,,,Needs photography for visual identification before naming
+454,ORGCB58-LVR,ORGCB58-LVR,,,A,Charm,,,,5.65,2.70,15*14.5mm,925 Sterling Silver,Rhodium plated+enamel,,23,,,,,,Needs photography for visual identification before naming
+455,ORCB32-Vir,ORCB32-Vir,virgo-zodiac-charm,Virgo Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,,,,,,
+456,ORCB32-Tau,ORCB32-Tau,taurus-zodiac-charm,Taurus Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.42,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,,,,,,
+457,ORCB32-Ari,ORCB32-Ari,aries-zodiac-charm,Aries Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.26,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,15,,,,,,
+458,ORCB32-Sco,ORCB32-Sco,scorpio-zodiac-charm,Scorpio Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,11,,,,,,
+459,ORCB32-Psc,ORCB32-Psc,pisces-zodiac-charm,Pisces Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.17,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,15,,,,,,
+460,ORCB32-Cap,ORCB32-Cap,capricorn-zodiac-charm,Capricorn Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.42,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,13,,,,,,
+461,ORCB32-Cnc,ORCB32-Cnc,cancer-zodiac-charm,Cancer Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.26,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,,,,,,
+462,ORCB32-Sgr,ORCB32-Sgr,sagittarius-zodiac-charm,Sagittarius Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,,,,,,
+463,ORCB32-Leo,ORCB32-Leo,leo-zodiac-charm,Leo Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,,,,,,
+464,ORCB32-Gem,ORCB32-Gem,gemini-zodiac-charm,Gemini Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.31,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,16,,,,,,
+465,ORCB32-Lib,ORCB32-Lib,libra-zodiac-charm,Libra Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.35,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,15,,,,,,
+466,ORCB32-Agr,ORCB32-Agr,aquarius-zodiac-charm,Aquarius Zodiac Charm,A,Charm,Personal — Zodiac,Signature,,4.47,2.54,11mm,925 Sterling Silver,Oxidized Silver,Blue Enamel,13,,,,,,Invoice spells Aquarius as Agr; SKU keeps invoice spelling
+467,ORCB33-R,ORCB33-R,january-birthstone-charm-garnet,"January Birthstone Charm, Garnet",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,Garnet (invoice spelling corrected),20,,,,,,
+468,ORCB33-P,ORCB33-P,february-birthstone-charm-amethyst,"February Birthstone Charm, Amethyst",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,Amethyst (invoice spelling corrected),20,,,,,,
+469,ORCB33-Q,ORCB33-Q,march-birthstone-charm-aquamarine,"March Birthstone Charm, Aquamarine",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Aquamarine,20,,,,,,
+470,ORCB33-W,ORCB33-W,april-birthstone-charm-white,"April Birthstone Charm, White",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm White,20,,,,,,
+471,ORCB33-LV,ORCB33-LV,may-birthstone-charm-emerald,"May Birthstone Charm, Emerald",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,Emerald (invoice spelling corrected),20,,,,,,
+472,ORCB33-PL,ORCB33-PL,june-birthstone-charm-alexandrite,"June Birthstone Charm, Alexandrite",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,Alexandrite (invoice spelling corrected),20,,,,,,
+473,ORCB33-M,ORCB33-M,july-birthstone-charm-ruby,"July Birthstone Charm, Ruby",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Ruby,19,,,,,,
+474,ORCB33-G,ORCB33-G,august-birthstone-charm-peridot,"August Birthstone Charm, Peridot",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Peridot,20,,,,,,
+475,ORCB33-BL,ORCB33-BL,september-birthstone-charm-sapphire,"September Birthstone Charm, Sapphire",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Sapphire,20,,,,,,
+476,ORCB33-F,ORCB33-F,october-birthstone-charm-tourmaline,"October Birthstone Charm, Tourmaline",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Tourmaline,20,,,,,,
+477,ORCB33-X,ORCB33-X,november-birthstone-charm-yellow-topaz,"November Birthstone Charm, Yellow Topaz",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Yellow Topaz,20,,,,,,
+478,ORCB33-L,ORCB33-L,december-birthstone-charm-turquoise,"December Birthstone Charm, Turquoise",A,Charm,Personal — Birthstone,Classic,,3.50,1.56,11mm,925 Sterling Silver+AAAA CZ,Oxidized Silver,3mm Turquoise,20,,,,,,
+483,ORCB199,ORCB199,,,A,Charm,,,,6.62,2.3,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: Multi-Colors,21,,,,,,Needs photography for visual identification before naming
+484,ORCB200,ORCB200,,,A,Charm,,,,4.60,1.5,10mm,925 Sterling Silver,Oxidized Silver,Stone: None,20,,,,,,Needs photography for visual identification before naming
+485,ORCB201,ORCB201,,,A,Charm,,,,6.62,1.9,12mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: White,21,,,,,,Needs photography for visual identification before naming
+486,ORCB202,ORCB202,,,A,Charm,,,,5.34,2.0,11mm,925 Sterling Silver,Oxidized Silver,Stone: None,19,,,,,,Needs photography for visual identification before naming
+487,ORCB203,ORCB203,,,A,Charm,,,,4.35,1.5,11.5mm,925 Sterling Silver,Oxidized Silver,Stone: None,19,,,,,,Needs photography for visual identification before naming
+488,ORCB204,ORCB204,,,A,Charm,,,,5.40,2.3,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: White,19,,,,,,Needs photography for visual identification before naming
+489,ORCB205,ORCB205,,,A,Charm,,,,6.73,2.7,10.5mm,925 Sterling Silver,Oxidized Silver,Stone: None,21,,,,,,Needs photography for visual identification before naming
+490,ORCB206,ORCB206,,,A,Charm,,,,5.24,2.0,10.5mm,925 Sterling Silver,Oxidized Silver,Stone: None,20,,,,,,Needs photography for visual identification before naming
+491,ORCB176,,,,A,Charm,,,,7.48,2.6,11mm,925 Sterling Silver + AAAA CZ,Oxidized Silver,Stone: Multi-Colors,20,,,,,,"COLLISION: ORCB176 appears at rows 222 and 491, two different products. Unresolved."
+492,ORCB208,ORCB208,,,A,Charm,,,,6.52,2.0,23mm,925 Sterling Silver + AAAA CZ +,Oxidized Silver,Enamel,21,,,,,,Needs photography for visual identification before naming
+493,ORCB209,ORCB209,,,A,Charm,,,,6.45,1.8,23.5mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,21,,,,,,Needs photography for visual identification before naming
+494,ORCB210,ORCB210,,,A,Charm,,,,5.77,1.8,24mm,925 Sterling Silver,Rhodium Plated,Stone: none,20,,,,,,Needs photography for visual identification before naming
+495,ORCB211,ORCB211,,,A,Charm,,,,6.62,2.0,21mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,21,,,,,,Needs photography for visual identification before naming
+496,ORCB212,ORCB212,,,A,Charm,,,,4.30,1.3,22mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: Blue,20,,,,,,Needs photography for visual identification before naming
+497,ORCB213,ORCB213,,,A,Charm,,,,6.49,2.0,24mm,925 Sterling Silver + AAAA CZ,Rhodium Plated,Stone: White,21,,,,,,Needs photography for visual identification before naming
+498,ORCB214,ORCB214,,,A,Charm,,,,4.60,1.6,11mm,925 Sterling Silver,Oxidized Silver,Stone: None,19,,,,,,Needs photography for visual identification before naming
+499,ORCB215,ORCB215,,,A,Charm,,,,6.09,2.1,28mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,,,,,,Needs photography for visual identification before naming
+500,ORCB216,ORCB216,,,A,Charm,,,,6.61,2.3,26mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,,,,,,Needs photography for visual identification before naming
+501,ORCB217,ORCB217,,,A,Charm,,,,7.13,2.7,24mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,21,,,,,,Needs photography for visual identification before naming
+502,ORCB218,ORCB218,,,A,Charm,,,,6.55,2.5,24mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,12,,,,,,Needs photography for visual identification before naming
+503,ORCB219,ORCB219,,,A,Charm,,,,6.15,2.2,19mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,,,,,,Needs photography for visual identification before naming
+504,ORCB220,ORCB220,,,A,Charm,,,,7.41,2.0,25mm,925 Sterling Silver + AAAA CZ +,Rhodium Plated,Enamel,20,,,,,,Needs photography for visual identification before naming
+505,ORCB221,ORCB221,,,A,Charm,,,,6.35,2.0,19mm,925 Sterling Silver + Enamel,Oxidized Silver,Stone: None,19,,,,,,Needs photography for visual identification before naming
+508,ORGCBB1-17-W,ORGCBB1-17-W,snake-chain-bracelet-with-enamel-accent-17cm-white,"Snake Chain Bracelet with Enamel Accent, 17cm, White",A,Bracelet,,Base,,22.15,13.16,17 cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+509,ORGCBB1-17-R,ORGCBB1-17-R,snake-chain-bracelet-with-enamel-accent-17cm-red,"Snake Chain Bracelet with Enamel Accent, 17cm, Red",A,Bracelet,,Base,,22.15,13.16,17 cm,925 Sterling Silver,Rhodium plating + enamel,,5,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+510,ORGCBB1-17-K,ORGCBB1-17-K,snake-chain-bracelet-with-enamel-accent-17cm-black,"Snake Chain Bracelet with Enamel Accent, 17cm, Black",A,Bracelet,,Base,,22.15,13.16,17 cm,925 Sterling Silver,Rhodium plating + enamel,,6,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+511,ORGCBB1-17-B,ORGCBB1-17-B,snake-chain-bracelet-with-enamel-accent-17cm-blue,"Snake Chain Bracelet with Enamel Accent, 17cm, Blue",A,Bracelet,,Base,,22.15,13.16,17 cm,925 Sterling Silver,Rhodium plating + enamel,,6,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+512,ORGCBB1-17-G,ORGCBB1-17-G,snake-chain-bracelet-with-enamel-accent-17cm-flower,"Snake Chain Bracelet with Enamel Accent, 17cm, Flower",A,Bracelet,,Base,,22.15,13.16,17 cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+513,ORGCBB1-19-W,ORGCBB1-19-W,snake-chain-bracelet-with-enamel-accent-19cm-white,"Snake Chain Bracelet with Enamel Accent, 19cm, White",A,Bracelet,,Base,,23.95,14.40,19cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+514,ORGCBB1-19-R,ORGCBB1-19-R,snake-chain-bracelet-with-enamel-accent-19cm-red,"Snake Chain Bracelet with Enamel Accent, 19cm, Red",A,Bracelet,,Base,,23.95,14.40,19cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+515,ORGCBB1-19-K,ORGCBB1-19-K,snake-chain-bracelet-with-enamel-accent-19cm-black,"Snake Chain Bracelet with Enamel Accent, 19cm, Black",A,Bracelet,,Base,,23.95,16.50,19cm,925 Sterling Silver,Rhodium plating + enamel,,7,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+516,ORGCBB1-19-B,ORGCBB1-19-B,snake-chain-bracelet-with-enamel-accent-19cm-blue,"Snake Chain Bracelet with Enamel Accent, 19cm, Blue",A,Bracelet,,Base,,23.95,16.50,19cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+517,ORGCBB1-19-G,ORGCBB1-19-G,snake-chain-bracelet-with-enamel-accent-19cm-flower,"Snake Chain Bracelet with Enamel Accent, 19cm, Flower",A,Bracelet,,Base,,23.95,14.40,19cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+518,ORGCBB1-21-W,ORGCBB1-21-W,snake-chain-bracelet-with-enamel-accent-21cm-white,"Snake Chain Bracelet with Enamel Accent, 21cm, White",A,Bracelet,,Base,,26.85,16.50,21cm,925 Sterling Silver,Rhodium plating + enamel,,5,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+519,ORGCBB1-21-R,ORGCBB1-21-R,snake-chain-bracelet-with-enamel-accent-21cm-red,"Snake Chain Bracelet with Enamel Accent, 21cm, Red",A,Bracelet,,Base,,26.85,16.50,21cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+520,ORGCBB1-21-K,ORGCBB1-21-K,snake-chain-bracelet-with-enamel-accent-21cm-black,"Snake Chain Bracelet with Enamel Accent, 21cm, Black",A,Bracelet,,Base,,26.85,16.50,21cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+521,ORGCBB1-21-B,ORGCBB1-21-B,snake-chain-bracelet-with-enamel-accent-21cm-blue,"Snake Chain Bracelet with Enamel Accent, 21cm, Blue",A,Bracelet,,Base,,26.85,16.50,21cm,925 Sterling Silver,Rhodium plating + enamel,,8,,,,,,"Model as real Shopify variants (Colour x Size), per Appendix A9"
+525,ORGCB56-L,ORGCB56-L,,,A,Charm,,,,7.57,4.00,17*12*2mm,925 Sterling Silver,Rhodium plated+blue enamel,,27,,,,,,Needs photography for visual identification before naming
+526,GCB56-R,GCB56-R,,,A,Charm,,,,7.57,4.00,17*12*2mm,925 Sterling Silver,Rhodium plated+red enamel,,27,,,,,,Needs photography for visual identification before naming
+527,ORGCB177,ORGCB177,,,A,Charm,,,,5.62,2.5,11mm,925 Sterling Silver,Rhodium plated,,28,,,,,,Needs photography for visual identification before naming
+528,ORGCB175,ORGCB175,,,A,Charm,,,,5.62,2.5,11mm,925 Sterling Silver,Rhodium plated,,26,,,,,,Needs photography for visual identification before naming
+529,ORGCB109,ORGCB109,,,A,Charm,,,,15.58,8.73,20*11mm,925 Sterling Silver,Oxide silver,,28,,,,,,Needs photography for visual identification before naming
+530,ORGCB110,ORGCB110,,,A,Charm,,,,3.05,1,16.5*10mm,925 Sterling Silver,Oxide silver,,27,,,,,,Needs photography for visual identification before naming
+531,ORGCB182-1,ORGCB182-1,aristotle-quote-charm-through-discipline-comes-freedom,"Aristotle Quote Charm, Through discipline comes freedom.",A,Charm,,Statement,,8.33,3.1,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,12,,,,,Through discipline comes freedom.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+532,ORGCB182-2,ORGCB182-2,aristotle-quote-charm-happiness-depends-upon-ourselves,"Aristotle Quote Charm, Happiness depends upon ourselves.",A,Charm,,Statement,,8.33,3.1,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,12,,,,,Happiness depends upon ourselves.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+533,ORGCB182-3,ORGCB182-3,aristotle-quote-charm-a-friend-is-a-second-self,"Aristotle Quote Charm, A friend is a second self.",A,Charm,,Statement,,8.33,3.1,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,12,,,,,A friend is a second self.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+534,ORGCB182-5,ORGCB182-5,aristotle-quote-charm-the-more-you-know-the-more-you-know-you-dont-know,"Aristotle Quote Charm, The more you know, the more you know you don't know.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,11,,,,,"The more you know, the more you know you don't know.",NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+535,ORGCB182-6,ORGCB182-6,aristotle-quote-charm-the-roots-of-education-are-bitter-but-the-fruit-is-sweet,"Aristotle Quote Charm, The roots of education are bitter, but the fruit is sweet.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,11,,,,,"The roots of education are bitter, but the fruit is sweet.",NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+536,ORGCB182-7,ORGCB182-7,aristotle-quote-charm-happiness-is-the-meaning-and-the-purpose-of-life-the-whole-aim-and-end-of-human-existence,"Aristotle Quote Charm, Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,11,,,,,"Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+537,ORGCB182-8,ORGCB182-8,aristotle-quote-charm-knowing-yourself-is-the-beginning-of-all-wisdom,"Aristotle Quote Charm, Knowing yourself is the beginning of all wisdom.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,12,,,,,Knowing yourself is the beginning of all wisdom.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+538,ORGCB184-1,ORGCB184-1,lao-tzu-quote-charm-the-journey-of-a-thousand-miles-begins-with-one-step,"Lao Tzu Quote Charm, The journey of a thousand miles begins with one step.",A,Charm,,Statement,,8.33,3.1,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,11,,,,,The journey of a thousand miles begins with one step.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+539,ORGCB184-2,ORGCB184-2,lao-tzu-quote-charm-care-about-what-other-people-think-and-you-will-always-be-their-prisoner,"Lao Tzu Quote Charm, Care about what other people think and you will always be their prisoner.",A,Charm,,Statement,,8.33,3.1,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,10,,,,,Care about what other people think and you will always be their prisoner.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+540,ORGCB184-3,ORGCB184-3,lao-tzu-quote-charm-silence-is-a-source-of-great-strength,"Lao Tzu Quote Charm, Silence is a source of Great Strength.",A,Charm,,Statement,,8.33,3.1,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,12,,,,,Silence is a source of Great Strength.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+541,ORGCB184-4,ORGCB184-4,lao-tzu-quote-charm-the-flame-that-burns-twice-as-bright-burns-half-as-long,"Lao Tzu Quote Charm, The flame that burns Twice as bright burns half as long.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,10,,,,,The flame that burns Twice as bright burns half as long.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+542,ORGCB184-5,ORGCB184-5,lao-tzu-quote-charm-being-deeply-loved-by-someone-gives-you-strength-while-loving-someone-deeply-gives-you-courage,"Lao Tzu Quote Charm, Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,12,,,,,"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+543,ORGCB184-6,ORGCB184-6,lao-tzu-quote-charm-a-good-traveler-has-no-fixed-plans-and-is-not-intent-on-arriving,"Lao Tzu Quote Charm, A good traveler has no fixed plans and is not intent on arriving.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,12,,,,,A good traveler has no fixed plans and is not intent on arriving.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+544,ORGCB184-7,ORGCB184-7,lao-tzu-quote-charm-the-best-fighter-is-never-angry,"Lao Tzu Quote Charm, The best fighter is never angry.",A,Charm,,Statement,,8.33,3,12*17*2.5mm,925 Sterling Silver,Rhodium plated+sand effect,,10,,,,,The best fighter is never angry.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+545,ORGCB185-14K,ORGCB185-14K,,,A,Charm,,,,7.86,3.5,18.2*14*4.5mm,925 Sterling Silver,gold plating + yellow enamel,,27,,,,,,Needs photography for visual identification before naming
+546,ORGCB186-1,ORGCB186-1,engraved-quote-charm-every-time-you-smile-at-someone-it-is-an-action-of-love-a-gift-to-that-person-a-beautiful-thing,"Engraved Quote Charm, Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.",A,Charm,,Statement,,7.86,3.3,16.4*14*3mm,925 Sterling Silver,Rhodium plated+black enamel,,12,,,,,"Every time you smile at someone, it is an action of love, a gift to that person, a beautiful thing.",NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+547,ORGCB186-2,ORGCB186-2,engraved-quote-charm-life-is-like-a-mirror-smile-at-it-and-it-smiles-back-at-you,"Engraved Quote Charm, Life is like a mirror. Smile at it and it smiles back at you.",A,Charm,,Statement,,7.86,3.3,16.4*14*3mm,925 Sterling Silver,Rhodium plated+black enamel,,13,,,,,Life is like a mirror. Smile at it and it smiles back at you.,NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+548,ORGCB181,ORGCB181,,,A,Charm,,,,5.60,2,17*12mm,925 Sterling Silver,gold plating + purple+green,enamel,27,,,,,,Needs photography for visual identification before naming
+549,ORGCB187-14K-1,ORGCB187-14K-1,engraved-quote-charm-shoot-for-the-moon-even-if-you-miss-youll-land-among-the-stars-1414mm,"Engraved Quote Charm, Shoot for the moon. Even if you miss, you'll land among the stars. 14.14mm",A,Charm,,Statement,,5.48,2,14.14mm,925 Sterling Silver,gold plating + dark blue,enamel,13,,,,,"Shoot for the moon. Even if you miss, you'll land among the stars. 14.14mm",NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+550,ORGCB187-14K-2,ORGCB187-14K-2,engraved-quote-charm-nothing-is-impossible-the-word-itself-says-im-possible-1414mm,"Engraved Quote Charm, Nothing is impossible, the word itself says, I'm possible. 14.14mm",A,Charm,,Statement,,5.48,2,14.14mm,925 Sterling Silver,gold plating + dark blue,enamel,12,,,,,"Nothing is impossible, the word itself says, I'm possible. 14.14mm",NAME FORMAT NEEDS DECISION: handoff says quote verbatim in name; some run 90+ chars
+551,ORCB145,ORCB145,,,A,Charm,,,,6.13,2.3,12mm,925 Sterling Silver + AAAA,14K gold plated,CZ+Enamel,15,,,,,,Needs photography for visual identification before naming

@@ -1,0 +1,1043 @@
+<title>Orloff of Denmark — Site Audit</title>
+
+<style>
+:root {
+  --paper: #fbfbfc;
+  --surface: #ffffff;
+  --sunk: #f2f3f6;
+  --navy: #091b36;
+  --gold: #8a6d33;
+  --ink: #101825;
+  --ink-soft: #4d5666;
+  --ink-faint: #79828f;
+  --rule: #dee1e8;
+  --rule-soft: #eceef2;
+  --critical: #a81f16;
+  --critical-bg: #fbeceb;
+  --high: #94590a;
+  --high-bg: #fdf2e4;
+  --medium: #4f5a69;
+  --medium-bg: #edeff3;
+  --good: #1c6248;
+  --good-bg: #e8f3ee;
+  --shadow: 0 1px 2px rgba(9,27,54,.06), 0 10px 26px -18px rgba(9,27,54,.30);
+  --display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0a111d;
+    --surface: #121a29;
+    --sunk: #0e1624;
+    --navy: #c3d2ea;
+    --gold: #d3ab6c;
+    --ink: #e8ecf3;
+    --ink-soft: #a9b3c2;
+    --ink-faint: #7a8698;
+    --rule: #253044;
+    --rule-soft: #1b2536;
+    --critical: #ff9086;
+    --critical-bg: #35181b;
+    --high: #efb469;
+    --high-bg: #332710;
+    --medium: #9aa6b8;
+    --medium-bg: #1e2736;
+    --good: #6cc9a3;
+    --good-bg: #102b22;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.7);
+  }
+}
+
+:root[data-theme="light"] {
+  --paper: #fbfbfc; --surface: #ffffff; --sunk: #f2f3f6;
+  --navy: #091b36; --gold: #8a6d33;
+  --ink: #101825; --ink-soft: #4d5666; --ink-faint: #79828f;
+  --rule: #dee1e8; --rule-soft: #eceef2;
+  --critical: #a81f16; --critical-bg: #fbeceb;
+  --high: #94590a; --high-bg: #fdf2e4;
+  --medium: #4f5a69; --medium-bg: #edeff3;
+  --good: #1c6248; --good-bg: #e8f3ee;
+  --shadow: 0 1px 2px rgba(9,27,54,.06), 0 10px 26px -18px rgba(9,27,54,.30);
+}
+
+:root[data-theme="dark"] {
+  --paper: #0a111d; --surface: #121a29; --sunk: #0e1624;
+  --navy: #c3d2ea; --gold: #d3ab6c;
+  --ink: #e8ecf3; --ink-soft: #a9b3c2; --ink-faint: #7a8698;
+  --rule: #253044; --rule-soft: #1b2536;
+  --critical: #ff9086; --critical-bg: #35181b;
+  --high: #efb469; --high-bg: #332710;
+  --medium: #9aa6b8; --medium-bg: #1e2736;
+  --good: #6cc9a3; --good-bg: #102b22;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 26px -18px rgba(0,0,0,.7);
+}
+
+.wrap {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 24px 96px;
+}
+.inner { max-width: 940px; margin: 0 auto; }
+
+/* ---------- masthead ---------- */
+.masthead {
+  border-bottom: 2px solid var(--navy);
+  padding: 56px 0 22px;
+  margin-bottom: 40px;
+}
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 18px;
+}
+.masthead h1 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: clamp(2.1rem, 5.2vw, 3.15rem);
+  line-height: 1.08;
+  letter-spacing: -.015em;
+  color: var(--navy);
+  margin: 0 0 16px;
+  text-wrap: balance;
+}
+.standfirst {
+  font-size: 1.06rem;
+  color: var(--ink-soft);
+  max-width: 62ch;
+  margin: 0 0 26px;
+}
+.meta-row {
+  display: flex; flex-wrap: wrap; gap: 10px 28px;
+  font-family: var(--mono); font-size: 11.5px;
+  letter-spacing: .04em; color: var(--ink-faint);
+}
+.meta-row b { color: var(--ink-soft); font-weight: 600; }
+
+/* ---------- scorecard ---------- */
+.scorecard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.score {
+  background: var(--surface);
+  padding: 18px 16px 16px;
+  display: flex; flex-direction: column; gap: 7px;
+}
+.score-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--ink-faint);
+}
+.score-grade {
+  font-family: var(--display); font-size: 2.15rem; line-height: 1;
+  font-weight: 500; letter-spacing: -.02em;
+}
+.score-note { font-size: 12.5px; color: var(--ink-soft); line-height: 1.4; }
+.g-crit { color: var(--critical); }
+.g-high { color: var(--high); }
+.g-med  { color: var(--medium); }
+.g-good { color: var(--good); }
+.scorekey {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-faint);
+  margin: 0 0 52px; letter-spacing: .02em;
+}
+
+/* ---------- sections ---------- */
+.section { margin: 0 0 60px; scroll-margin-top: 20px; }
+.section-head {
+  display: flex; align-items: baseline; gap: 14px;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 12px; margin-bottom: 26px;
+}
+.section-num {
+  font-family: var(--mono); font-size: 12px; font-weight: 600;
+  color: var(--gold); letter-spacing: .08em;
+}
+.section-head h2 {
+  font-family: var(--display); font-weight: 500;
+  font-size: clamp(1.42rem, 3vw, 1.78rem);
+  letter-spacing: -.01em; color: var(--navy); margin: 0;
+  text-wrap: balance;
+}
+.section > p { max-width: 68ch; color: var(--ink-soft); }
+.section h3 {
+  font-family: var(--body); font-size: 12px; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase;
+  color: var(--ink-faint); margin: 34px 0 14px;
+}
+
+/* ---------- findings ---------- */
+.finding {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--medium);
+  border-radius: 3px;
+  padding: 17px 20px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
+.finding.is-critical { border-left-color: var(--critical); }
+.finding.is-high { border-left-color: var(--high); }
+.finding.is-good { border-left-color: var(--good); }
+.f-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.chip {
+  font-family: var(--mono); font-size: 9.5px; font-weight: 600;
+  letter-spacing: .12em; text-transform: uppercase;
+  padding: 3px 8px; border-radius: 2px; white-space: nowrap;
+}
+.chip.is-critical { color: var(--critical); background: var(--critical-bg); }
+.chip.is-high { color: var(--high); background: var(--high-bg); }
+.chip.is-medium { color: var(--medium); background: var(--medium-bg); }
+.chip.is-good { color: var(--good); background: var(--good-bg); }
+.f-title { font-weight: 650; font-size: 1rem; color: var(--ink); letter-spacing: -.005em; }
+.finding p { margin: 0 0 9px; color: var(--ink-soft); font-size: 14.5px; max-width: 72ch; }
+.finding p:last-child { margin-bottom: 0; }
+.finding code, .inline-code {
+  font-family: var(--mono); font-size: 12.5px;
+  background: var(--sunk); color: var(--ink);
+  padding: 1.5px 5px; border-radius: 2px;
+  border: 1px solid var(--rule-soft);
+}
+.fix {
+  font-size: 14px; color: var(--ink); background: var(--sunk);
+  border-radius: 2px; padding: 9px 12px; margin-top: 10px;
+}
+.fix b {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--gold);
+  display: block; margin-bottom: 3px;
+}
+
+/* ---------- evidence ---------- */
+.evidence { overflow-x: auto; margin: 14px 0 18px; border: 1px solid var(--rule); border-radius: 3px; }
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; background: var(--surface); }
+th, td { text-align: left; padding: 9px 14px; border-bottom: 1px solid var(--rule-soft); vertical-align: top; }
+thead th {
+  background: var(--sunk);
+  font-family: var(--mono); font-size: 10px; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-faint); font-weight: 600;
+  white-space: nowrap;
+}
+tbody tr:last-child td { border-bottom: none; }
+.num { font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: 12.5px; white-space: nowrap; }
+.bad { color: var(--critical); font-weight: 600; }
+.ok { color: var(--good); font-weight: 600; }
+
+/* ---------- action plan ---------- */
+.plan { counter-reset: step; margin-top: 8px; }
+.step {
+  display: grid; grid-template-columns: 46px 1fr; gap: 18px;
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 3px; padding: 20px; margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
+.step-rank {
+  font-family: var(--display); font-size: 2rem; line-height: .9;
+  color: var(--gold); font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.step h4 {
+  font-family: var(--body); font-size: 1.02rem; font-weight: 650;
+  margin: 0 0 7px; color: var(--ink); letter-spacing: -.005em;
+}
+.step p { margin: 0 0 9px; font-size: 14.5px; color: var(--ink-soft); max-width: 68ch; }
+.step-tags { display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 9px; }
+.effort {
+  font-family: var(--mono); font-size: 10px; letter-spacing: .08em;
+  color: var(--ink-faint); border: 1px solid var(--rule);
+  padding: 2px 7px; border-radius: 2px; text-transform: uppercase;
+}
+
+.callout {
+  border: 1px solid var(--rule); border-left: 3px solid var(--gold);
+  background: var(--surface); border-radius: 3px;
+  padding: 16px 20px; margin: 26px 0; font-size: 14.5px; color: var(--ink-soft);
+}
+.callout b { color: var(--ink); }
+
+footer.report-foot {
+  border-top: 1px solid var(--rule); margin-top: 60px; padding-top: 20px;
+  font-family: var(--mono); font-size: 11px; color: var(--ink-faint);
+  letter-spacing: .03em; line-height: 1.7;
+}
+
+@media (max-width: 560px) {
+  .wrap { padding: 0 16px 64px; }
+  .step { grid-template-columns: 1fr; gap: 8px; }
+  .step-rank { font-size: 1.5rem; }
+}
+</style>
+
+<div class="wrap">
+<div class="inner">
+
+<header class="masthead">
+  <p class="eyebrow">Full site audit · orloffofdenmark.com</p>
+  <h1>A beautifully art-directed storefront that is quietly hiding its own products.</h1>
+  <p class="standfirst">
+    The brand work is genuinely strong and the deep templates — collection and product pages — are
+    better optimised than most jewellery stores. The damage is concentrated in three places: the
+    homepage ships 2.3&nbsp;MB of unresized imagery, the entire 151-product catalogue sits behind a
+    single nav item labelled "BROWSE", and tag-filtered collections are generating duplicate
+    content against themselves.
+  </p>
+  <div class="meta-row">
+    <span><b>Audited</b> 29 July 2026</span>
+    <span><b>Platform</b> Shopify</span>
+    <span><b>Pages sampled</b> 20</span>
+    <span><b>Products analysed</b> 151 / 5,172 variants</span>
+    <span><b>Method</b> Live DOM, computed styles, network timing</span>
+  </div>
+</header>
+
+<section class="scorecard">
+  <div class="score">
+    <span class="score-label">SEO</span>
+    <span class="score-grade g-high">C+</span>
+    <span class="score-note">Deep pages strong; homepage and tag pages weak.</span>
+  </div>
+  <div class="score">
+    <span class="score-label">Performance</span>
+    <span class="score-grade g-crit">D</span>
+    <span class="score-note">3.58 MB homepage, no responsive images.</span>
+  </div>
+  <div class="score">
+    <span class="score-label">Design</span>
+    <span class="score-grade g-good">B+</span>
+    <span class="score-note">Confident identity, inconsistent type scale.</span>
+  </div>
+  <div class="score">
+    <span class="score-label">UX</span>
+    <span class="score-grade g-high">C</span>
+    <span class="score-note">Navigation buries the catalogue.</span>
+  </div>
+  <div class="score">
+    <span class="score-label">Accessibility</span>
+    <span class="score-grade g-high">C</span>
+    <span class="score-note">Gold-on-white fails AA; small touch targets.</span>
+  </div>
+</section>
+<p class="scorekey">Grades reflect measured evidence against WCAG 2.1 AA, Core Web Vitals thresholds, and standard commerce SEO practice.</p>
+
+<!-- ============ 1 ============ -->
+<section class="section">
+  <div class="section-head">
+    <span class="section-num">01</span>
+    <h2>SEO &amp; Core Web Vitals</h2>
+  </div>
+
+  <p>
+    There is a sharp split here. Collection and product templates have been carefully worked —
+    unique titles, hand-written meta descriptions, correct canonicals, single H1s, and valid
+    <span class="inline-code">ProductGroup</span> schema carrying all 70 variants with live pricing.
+    The homepage and the tag-filtered pages have had none of that attention.
+  </p>
+
+  <h3>Titles, meta &amp; URL structure</h3>
+
+  <div class="finding is-critical">
+    <div class="f-top">
+      <span class="chip is-critical">Critical</span>
+      <span class="f-title">The homepage title is the brand name and nothing else</span>
+    </div>
+    <p>
+      <span class="inline-code">&lt;title&gt;Orloff of Denmark&lt;/title&gt;</span> — 17 characters against
+      roughly 60 available. It contains no product category, no material, no geography. This is the
+      single highest-authority tag on the domain and it is currently ranking for nothing beyond a
+      brand-name search. The meta description (92 chars) is similarly generic and also under-uses its space.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Something like "Fine Jewellery &amp; Engagement Rings in Gold and Platinum | Orloff of Denmark"
+      — category, material, brand, ~72 chars. Extend the description toward 155 and name the
+      Hua&nbsp;Hin / Bangkok geography that the collection pages already use well.
+    </div>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">Tag-filtered collections are competing with themselves</span>
+    </div>
+    <p>
+      <span class="inline-code">/collections/wedding-bands/male</span> and
+      <span class="inline-code">/collections/wedding-bands/female</span> each canonicalise to
+      <em>themselves</em> while sharing an identical title, an identical meta description and an
+      identical H1. The same pattern repeats across the Fine Jewelry tag views. Google is being handed
+      several near-identical pages and asked to pick one.
+    </p>
+    <p>
+      Those titles also leak Shopify's raw separator into search results:
+      <span class="inline-code">Wedding Bands | Orloff of Denmark – Tag</span>.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Either canonicalise tag views to the parent collection, or give each a genuinely unique
+      title, H1 and description ("Men's Wedding Bands", "Women's Wedding Bands"). Strip the
+      "– Tag" suffix from the template either way.
+    </div>
+  </div>
+
+  <div class="evidence">
+    <table>
+      <thead>
+        <tr><th>Page</th><th>Title</th><th class="num">Len</th><th>H1s</th><th class="num">Meta</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Homepage</td><td>Orloff of Denmark</td><td class="num bad">17</td><td class="bad">4</td><td class="num">92</td></tr>
+        <tr><td>/collections/engagement-rings</td><td>Engagement Rings | Orloff of Denmark</td><td class="num ok">36</td><td class="ok">1</td><td class="num ok">145</td></tr>
+        <tr><td>/products/katarina-lab-grown</td><td>KATARINA - Solitaire Engagement Ring | …</td><td class="num ok">56</td><td class="ok">1</td><td class="num ok">123</td></tr>
+        <tr><td>/collections/engagement-rings-halo</td><td>Halo Engagement Rings | Orloff of Denmark</td><td class="num ok">41</td><td class="bad">0</td><td class="num ok">107</td></tr>
+        <tr><td>/collections/wedding-bands/male</td><td>Wedding Bands | Orloff of Denmark – Tag</td><td class="num">45</td><td>1</td><td class="num">126</td></tr>
+        <tr><td>/collections/wedding-bands/female</td><td class="bad">(identical to above)</td><td class="num">45</td><td>1</td><td class="num bad">dup</td></tr>
+        <tr><td>/pages/diamonds</td><td>Diamonds – Orloff of Denmark</td><td class="num">34</td><td class="bad">0</td><td class="num bad">0</td></tr>
+        <tr><td>/pages/sizing</td><td>SIZING – Orloff of Denmark</td><td class="num">32</td><td>1</td><td class="num bad">0</td></tr>
+        <tr><td>/pages/about-diamonds</td><td>ABOUT DIAMONDS – Orloff of Denmark</td><td class="num">40</td><td class="bad">2</td><td class="num bad">324</td></tr>
+        <tr><td>/pages/about-us</td><td>ABOUT ORLOFF OF DENMARK – Orloff of Denmark</td><td class="num">49</td><td class="bad">0</td><td class="num bad">320</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">Four H1s on the homepage; zero on three key pages</span>
+    </div>
+    <p>
+      The homepage declares <span class="inline-code">H1</span> four times — SOLAR GROWN DIAMONDS,
+      ENGAGEMENT RINGS, WEDDING BANDS, ONE OF A KIND — because every hero section reuses the same
+      block. Meanwhile <span class="inline-code">/collections/engagement-rings-halo</span>,
+      <span class="inline-code">/pages/diamonds</span> and <span class="inline-code">/pages/about-us</span>
+      have no H1 at all, and <span class="inline-code">/pages/about-diamonds</span> has two.
+    </p>
+    <div class="fix"><b>Fix</b>
+      One H1 per page. On the homepage, promote the first hero to H1 and demote the rest to H2.
+    </div>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">Auto-generated meta descriptions on content pages</span>
+    </div>
+    <p>
+      About Us, Solar Grown Diamonds and About Diamonds all carry 320–324 character descriptions that
+      are plainly the first paragraph of body copy scraped verbatim — one begins
+      "Sunlight in, diamond out The Process A diamond is carbon, pressure, an…". These truncate at
+      roughly 160 characters in search results, mid-sentence.
+    </p>
+  </div>
+
+  <h3>Structured data</h3>
+
+  <div class="finding is-good">
+    <div class="f-top">
+      <span class="chip is-good">Working well</span>
+      <span class="f-title">Product schema is correctly implemented</span>
+    </div>
+    <p>
+      Product pages emit a valid <span class="inline-code">ProductGroup</span> with 70
+      <span class="inline-code">hasVariant</span> entries, each a full
+      <span class="inline-code">Product</span> with SKU, price, currency, availability and canonical
+      variant URL. Brand is set. This is better than most competitors will have.
+    </p>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">Missing breadcrumb, ItemList and review markup</span>
+    </div>
+    <p>
+      Breadcrumbs render visually on product pages but emit no
+      <span class="inline-code">BreadcrumbList</span> schema, so the breadcrumb rich result is
+      forfeited. Collection pages carry only <span class="inline-code">Organization</span> — no
+      <span class="inline-code">ItemList</span>. And with no review system anywhere on the site there
+      is no <span class="inline-code">aggregateRating</span>, which is the single most visible
+      SERP enhancement in jewellery retail.
+    </p>
+    <p>
+      Minor but sloppy: the <span class="inline-code">Organization</span> block's
+      <span class="inline-code">sameAs</span> array contains five empty strings alongside the two real
+      social URLs.
+    </p>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">Thin product copy across a third of the catalogue</span>
+    </div>
+    <p>
+      48 of 151 products carry fewer than 150 characters of description; the catalogue average is 307.
+      For a category where buyers research heavily and competitors publish 600–1,000 words on cut,
+      setting, and certification, this is the largest untapped organic-content opportunity on the site.
+    </p>
+  </div>
+
+  <h3>Core Web Vitals &amp; performance blocks</h3>
+
+  <div class="finding is-critical">
+    <div class="f-top">
+      <span class="chip is-critical">Critical</span>
+      <span class="f-title">Full-resolution masters are being served into thumbnail slots</span>
+    </div>
+    <p>
+      The homepage transfers <b>3.58 MB across 159 requests</b>, of which <b>2.26 MB is imagery</b>.
+      The Fine Jewelry tiles are the worst case: four source files at 4096×4096, 3760×3760 and
+      3568×3532 are rendered into <b>279×279</b> tiles on desktop and <b>164×164</b> on mobile.
+    </p>
+    <p>
+      One file, <span class="inline-code">BRACELET_WEBSITE_4.jpg</span>, is <b>1.22 MB at origin</b>.
+      Requested through Shopify's own CDN as
+      <span class="inline-code">?width=400&amp;format=webp</span> the identical image is
+      <b>27.6 KB</b> — a <b>97.8% reduction</b>, available today with no new tooling and no
+      re-uploading.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Append <span class="inline-code">width</span> and <span class="inline-code">format=webp</span>
+      params and emit a proper <span class="inline-code">srcset</span> on the homepage sections.
+      Expect the page to drop from ~3.6 MB to well under 1 MB.
+    </div>
+  </div>
+
+  <div class="evidence">
+    <table>
+      <thead>
+        <tr><th>Image</th><th class="num">Intrinsic</th><th class="num">Displayed</th><th class="num">Oversize</th><th class="num">Transferred</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>BRACELET_WEBSITE_4.jpg</td><td class="num">4096×4096</td><td class="num">279×279</td><td class="num bad">14.7×</td><td class="num bad">895 KB</td></tr>
+        <tr><td>RING_WEBSITE_2.jpg</td><td class="num">4096×4096</td><td class="num">279×279</td><td class="num bad">14.7×</td><td class="num">238 KB</td></tr>
+        <tr><td>EARRINGS_WEBSITE_2.jpg</td><td class="num">3760×3760</td><td class="num">279×279</td><td class="num bad">13.5×</td><td class="num bad">339 KB</td></tr>
+        <tr><td>PENDANT_WEBSITE_3.jpg</td><td class="num">3568×3532</td><td class="num">279×279</td><td class="num bad">12.8×</td><td class="num">293 KB</td></tr>
+        <tr><td>SOLAR_copy.jpg (hero)</td><td class="num">5504×3072</td><td class="num">1265×800</td><td class="num bad">4.4×</td><td class="num">291 KB</td></tr>
+        <tr><td>ENGAGEMENT_IMAGE.png</td><td class="num">2496×1728</td><td class="num">1265×650</td><td class="num">2.0×</td><td class="num">205 KB</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">No responsive images and almost no lazy-loading on the homepage</span>
+    </div>
+    <p>
+      Of 19 homepage images, <b>one</b> has a <span class="inline-code">srcset</span> and
+      <b>zero</b> use <span class="inline-code">&lt;picture&gt;</span>. Every file is JPG or PNG —
+      no WebP or AVIF is served anywhere on the page. Only 2 of 19 images are
+      <span class="inline-code">loading="lazy"</span>; the other 17 are eager, so the browser fetches
+      every below-the-fold section image before first paint. Notably, the collection and product
+      templates <em>do</em> use <span class="inline-code">srcset</span> correctly — this is a
+      homepage-specific regression.
+    </p>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">Render-blocking scripts and a duplicated font strategy</span>
+    </div>
+    <p>
+      Five theme scripts load with neither <span class="inline-code">async</span> nor
+      <span class="inline-code">defer</span> — <span class="inline-code">vendor.min.js</span>,
+      <span class="inline-code">header.min.js</span>,
+      <span class="inline-code">predictive-search.min.js</span>,
+      <span class="inline-code">quantity-input.min.js</span> and
+      <span class="inline-code">app.min.js</span> — each one a parser stall.
+    </p>
+    <p>
+      Fonts are loaded twice over: Inter self-hosts four separate WOFF2 files (~157 KB) while
+      Cormorant Garamond is pulled from <span class="inline-code">fonts.googleapis.com</span>, a
+      render-blocking third-party stylesheet on the critical path.
+    </p>
+    <p>
+      Separately, roughly 500 KB of Shopify checkout bundles
+      (<span class="inline-code">hydrate.js</span> 207 KB,
+      <span class="inline-code">useShopPayExternalAppContext</span> 102 KB,
+      <span class="inline-code">OnePage</span> 71 KB) are preloaded on a homepage that has no cart
+      and no checkout.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Add <span class="inline-code">defer</span> to the four non-critical theme scripts, and
+      self-host Cormorant Garamond alongside Inter to remove the third-party font hop entirely.
+    </div>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">Layout-shift risk from undimensioned and non-decoding images</span>
+    </div>
+    <p>
+      Four homepage images carry no <span class="inline-code">width</span>/<span class="inline-code">height</span>
+      attributes, leaving no reserved box and inviting CLS as they arrive. Both header logo
+      <span class="inline-code">&lt;img&gt;</span> elements report an intrinsic size of
+      <b>0×0</b> — they never decode — while still occupying a 100×100 slot. On mobile, the
+      Engagement Rings collection banner has an intrinsic size of 375×195 but is painted at
+      375×890, so it renders visibly upscaled and soft.
+    </p>
+  </div>
+
+  <div class="finding is-good">
+    <div class="f-top">
+      <span class="chip is-good">Working well</span>
+      <span class="f-title">Delivery layer is properly configured</span>
+    </div>
+    <p>
+      Brotli compression is active on HTML, CDN assets carry
+      <span class="inline-code">max-age=31557600</span>, HSTS and a sensible CSP are present, and
+      server-side render time is 27 ms with a 430 ms TTFB from the Bangkok edge. The infrastructure
+      is not the problem — the payload is.
+    </p>
+  </div>
+</section>
+
+<!-- ============ 2 ============ -->
+<section class="section">
+  <div class="section-head">
+    <span class="section-num">02</span>
+    <h2>Design &amp; Visual Hierarchy</h2>
+  </div>
+
+  <p>
+    The identity is the strongest asset here. Navy <span class="inline-code">#091b36</span> with a
+    warm gold accent, a Cormorant Garamond display face against Inter, square-cornered buttons and
+    generous full-bleed photography add up to a coherent, genuinely premium register that suits the
+    category. The problems are consistency and emphasis, not taste.
+  </p>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">The type scale has drifted into 27 variants on a single page</span>
+    </div>
+    <p>
+      The homepage renders <b>27 distinct combinations</b> of element, family, weight, size and
+      letter-spacing. Inter appears at four weights (300/400/500/600) across nine sizes — 11, 12, 13,
+      13.6, 14, 15, 16, 18 and 20 px. The <span class="inline-code">H2</span> is set at 30 px with
+      three <em>different</em> letter-spacings (−0.15px, −0.3px, normal) and once at 32 px / weight 400
+      / +1.6px. These are differences a visitor will not name but will feel as looseness.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Collapse to a six-step scale (12 / 14 / 16 / 20 / 30 / 42) with two weights per face, defined
+      once as CSS custom properties and referenced everywhere.
+    </div>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">Two golds are in circulation</span>
+    </div>
+    <p>
+      The computed accent on the live site is <span class="inline-code">#bc973f</span>, while the
+      brand standard recorded for this theme is <span class="inline-code">#b08d57</span> — a warmer,
+      less saturated tone. Both appear. Pick one and drive it from a single token.
+    </p>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">Every call-to-action has identical visual weight</span>
+    </div>
+    <p>
+      All eight homepage CTAs — READ, SHOP NOW ×3, SEARCH DIAMONDS, READ — are the same outline
+      treatment: transparent background, 1px border, 0px radius, 13.6px letter-spaced caps. Nothing on
+      the page is styled as <em>the</em> action. The eye has no rank to follow, so it treats an
+      editorial "READ" and a commercial "SHOP NOW" as equals.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Introduce a filled navy primary button for commercial actions and reserve the outline style for
+      secondary/editorial links. One primary per viewport.
+    </div>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">A long, evenly-weighted editorial rhythm with no product in it</span>
+    </div>
+    <p>
+      The homepage runs <b>6,600 px on desktop and 7,345 px on mobile</b> across 13 content sections
+      that alternate, almost metronomically, between a full-bleed image-with-overlay and a centred
+      rich-text block. Because every section is roughly the same size and the same shape, nothing
+      reads as more important than anything else, and the visitor never encounters a product card, a
+      price, or a piece of social proof. The footer alone is 883 px — 13% of the page.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Break the rhythm: insert a featured-product row with real prices after the engagement hero, and
+      compress two or three of the rich-text interludes.
+    </div>
+  </div>
+
+  <div class="finding is-good">
+    <div class="f-top">
+      <span class="chip is-good">Working well</span>
+      <span class="f-title">Restraint in colour and generous whitespace</span>
+    </div>
+    <p>
+      The palette is disciplined — navy, gold, white, near-black — with no decorative gradients or
+      competing hues. Square button corners and uppercase letter-spaced labels are applied
+      consistently and give the site a recognisable signature.
+    </p>
+  </div>
+</section>
+
+<!-- ============ 3 ============ -->
+<section class="section">
+  <div class="section-head">
+    <span class="section-num">03</span>
+    <h2>UX &amp; User Journey</h2>
+  </div>
+
+  <div class="finding is-critical">
+    <div class="f-top">
+      <span class="chip is-critical">Critical</span>
+      <span class="f-title">The whole catalogue is hidden behind one word: "BROWSE"</span>
+    </div>
+    <p>
+      The desktop header offers exactly three top-level items: <b>BROWSE</b>, <b>DIAMONDS</b> and
+      <b>ABOUT US</b>. Every one of 151 products, across 19 collections, sits inside the BROWSE
+      mega-menu — which is itself an <span class="inline-code">&lt;a href="#"&gt;</span>.
+    </p>
+    <p>
+      This costs on three fronts at once. Commercially, a first-time visitor sees no shopping entry
+      point without hovering a generic verb. For SEO, the site's most valuable internal anchor text
+      ("Engagement Rings", "Wedding Bands") is demoted a level. For accessibility, a menu trigger built
+      on an empty-fragment link is not a reliable keyboard or screen-reader control.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Promote ENGAGEMENT RINGS, WEDDING BANDS and FINE JEWELRY to top-level nav items in their own
+      right, and rebuild the trigger as a <span class="inline-code">&lt;button&gt;</span> with
+      <span class="inline-code">aria-expanded</span>.
+    </div>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">Two navigation links silently deliver the wrong page</span>
+    </div>
+    <p>
+      Under Fine Jewelry, <b>RINGS</b> points to
+      <span class="inline-code">/collections/fine-jewelry/rings</span>, which 301s to the
+      <em>unfiltered</em> parent collection — the visitor asks for rings and receives all 24 fine
+      jewellery products with no indication anything was ignored.
+      <b>NECKLACES</b> and <b>PENDANTS</b> are two separate menu entries pointing at the identical
+      URL, and the "necklaces+pendants" variant redirects onward to a 3-product tag page.
+    </p>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">The Add to Cart button is the quietest element on the product page</span>
+    </div>
+    <p>
+      On <span class="inline-code">/products/katarina-lab-grown</span> the Add to Cart control is
+      rendered with a <b>white background and navy text</b> — visually a secondary or ghost button.
+      It is the single most valuable interaction on the site and it is styled to recede. There is
+      also no sticky Add to Cart on mobile, so on a page of this length the button scrolls away and
+      is never seen again.
+    </p>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">Seventy variants, no guidance, no proof</span>
+    </div>
+    <p>
+      Each engagement ring exposes <b>70 variants</b> across five axes — Diamond Origin, Metal,
+      Diamond Grade, Carat Weight and Size — on a page carrying roughly 2,100 characters of total
+      text. A buyer is asked to make five consequential decisions about a $1,000–$35,000 purchase with
+      no explanation of what "Prestige VS1/F" means in that flow.
+    </p>
+    <p>
+      Compounding it, the page carries <b>no reviews, no ratings, no GIA or certification content,
+      and no warranty or guarantee statement</b> — despite the collection meta description promising
+      "GIA-certified diamonds". The reassurance a high-consideration buyer needs is absent at the
+      exact moment of decision.
+    </p>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">A published $0.00 product with no images</span>
+    </div>
+    <p>
+      <span class="inline-code">/products/micro</span> is live and indexable with a price of
+      <b>$0.00</b>, zero images and no SKU. It is <em>not</em> purchasable — the variant is marked
+      unavailable, so there is no checkout exposure — but it is a thin, empty page in the index, and
+      it drags the Engagement Rings price filter down to read
+      <b>"$0.00 — $35,630.00"</b>, which undermines the price framing on a luxury collection page.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Archive or unpublish it. This appears to be a legacy duplicate of MICRO ETERNITY BAND.
+    </div>
+  </div>
+
+  <h3>Journey friction, entry to conversion</h3>
+  <div class="evidence">
+    <table>
+      <thead>
+        <tr><th>Stage</th><th>What happens now</th><th>Friction</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Land</td><td>Full-bleed editorial hero, no product or price above the fold</td><td class="bad">High</td></tr>
+        <tr><td>Orient</td><td>Must hover a generic "BROWSE" to discover any category</td><td class="bad">High</td></tr>
+        <tr><td>Browse</td><td>Collection pages are clean and well-built; filters and sort present</td><td class="ok">Low</td></tr>
+        <tr><td>Evaluate</td><td>70 variants, ~2,100 chars of copy, no reviews, no certification</td><td class="bad">High</td></tr>
+        <tr><td>Add to cart</td><td>Ghost-styled button; no sticky CTA on mobile</td><td class="bad">High</td></tr>
+        <tr><td>Reassure</td><td>Shipping/returns reachable but only from the 883px footer</td><td>Medium</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 4 ============ -->
+<section class="section">
+  <div class="section-head">
+    <span class="section-num">04</span>
+    <h2>Mobile Responsiveness &amp; Accessibility</h2>
+  </div>
+
+  <div class="finding is-good">
+    <div class="f-top">
+      <span class="chip is-good">Working well</span>
+      <span class="f-title">Layout integrity at 375px is sound</span>
+    </div>
+    <p>
+      No horizontal overflow: <span class="inline-code">scrollWidth</span> equals the 375px viewport
+      exactly, and the off-canvas panels are correctly parked off-screen rather than leaking. The
+      viewport meta is properly formed and permits zoom to 5×. Adjacent tap targets are not crowded —
+      zero overlapping-pair violations were measured.
+    </p>
+  </div>
+
+  <div class="finding is-critical">
+    <div class="f-top">
+      <span class="chip is-critical">Critical</span>
+      <span class="f-title">The gold accent fails WCAG AA everywhere it is used as a label</span>
+    </div>
+    <p>
+      Gold <span class="inline-code">#bc973f</span> on white measures <b>2.75:1</b> against a
+      required <b>4.5:1</b> — and it is used at 12px, the size most in need of contrast. This affects
+      every section eyebrow on the homepage: Solar Grown, Philosophy, Eternity, Craftsmanship, Rarity,
+      Heritage.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Darken the label gold to roughly <span class="inline-code">#7a6129</span> (≈4.6:1) for small
+      text, and keep the brighter gold for large display type and non-text ornament only.
+    </div>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">32 touch targets below the 44×44 minimum</span>
+    </div>
+    <p>
+      Measured at a 375px viewport. The footer is the main offender — every link there
+      (Sizing, Returns, Shipping, Privacy Policy, Terms, the two email addresses and both phone
+      numbers) is <b>20px tall</b>. The two social icons are <b>18×18</b>, the cart link 39×50, the
+      newsletter consent checkbox 13×13, and the skip link 24px. Hero CTAs sit exactly on the 44px
+      line, which passes but leaves no margin.
+    </p>
+    <div class="fix"><b>Fix</b>
+      Add vertical padding to footer anchors to reach a 44px hit area — the visual type size need not
+      change at all.
+    </div>
+  </div>
+
+  <div class="finding is-high">
+    <div class="f-top">
+      <span class="chip is-high">High</span>
+      <span class="f-title">Thirteen homepage images carry an empty alt attribute</span>
+    </div>
+    <p>
+      No image is missing <span class="inline-code">alt</span> outright — but 13 of 19 are set to
+      <span class="inline-code">alt=""</span>, which declares them purely decorative. Several of
+      those are the hero and section images that carry the actual editorial meaning of the page. A
+      screen-reader user gets the headline and nothing else. Product and collection templates, by
+      contrast, have genuine descriptive alt text ("Katarina Engagement Ring") — again a
+      homepage-specific gap.
+    </p>
+  </div>
+
+  <div class="finding">
+    <div class="f-top">
+      <span class="chip is-medium">Medium</span>
+      <span class="f-title">Unlabelled controls and a very long mobile scroll</span>
+    </div>
+    <p>
+      Two icon-only buttons expose no accessible name, and two links resolve to
+      <span class="inline-code">href="#"</span>. Body copy is set in Inter 300 — a light weight at
+      16px that, while it passes contrast at roughly 8:1, is thinner than ideal for extended reading
+      on a phone. Six text runs fall below 14px. The homepage itself is <b>7,345px</b> of mobile
+      scroll before the footer.
+    </p>
+  </div>
+</section>
+
+<!-- ============ 5 ============ -->
+<section class="section">
+  <div class="section-head">
+    <span class="section-num">05</span>
+    <h2>Priority Action Plan</h2>
+  </div>
+
+  <p>
+    Ranked by impact per hour of work. The first three are performance and SEO; the last two are UX
+    and design. All five are achievable inside a single sprint on the draft theme.
+  </p>
+
+  <div class="plan">
+
+    <div class="step">
+      <div class="step-rank">1</div>
+      <div>
+        <div class="step-tags">
+          <span class="chip is-critical">SEO / Performance</span>
+          <span class="effort">~2 hours</span>
+        </div>
+        <h4>Resize and re-format every homepage image through the Shopify CDN</h4>
+        <p>
+          Append <span class="inline-code">width</span> and
+          <span class="inline-code">format=webp</span> parameters, emit
+          <span class="inline-code">srcset</span> for the tile and hero sections, and set
+          <span class="inline-code">loading="lazy"</span> on the 17 images currently eager. The
+          collection template already does this correctly — the markup can be lifted directly.
+        </p>
+        <p>
+          <b>Expected result:</b> homepage payload falls from 3.58 MB toward roughly 0.9 MB.
+          The single worst asset drops from 1.22 MB to 27.6 KB. This is the largest available
+          Core Web Vitals gain on the site by a wide margin.
+        </p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-rank">2</div>
+      <div>
+        <div class="step-tags">
+          <span class="chip is-critical">SEO</span>
+          <span class="effort">~30 minutes</span>
+        </div>
+        <h4>Write a real homepage title and fix the H1 structure</h4>
+        <p>
+          Replace the 17-character brand-only title with a keyword-bearing one, extend the meta
+          description to ~155 characters, promote a single hero to H1 and demote the other three to
+          H2. While in the template, add an H1 to the Halo collection, Diamonds and About Us pages,
+          and remove the duplicate on About Diamonds.
+        </p>
+        <p>
+          <b>Expected result:</b> the homepage becomes eligible to rank for category terms it
+          currently cannot compete for at all. Highest ratio of impact to effort in this list.
+        </p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-rank">3</div>
+      <div>
+        <div class="step-tags">
+          <span class="chip is-high">SEO</span>
+          <span class="effort">~1 hour</span>
+        </div>
+        <h4>Resolve the tag-page duplicate content and strip the "– Tag" suffix</h4>
+        <p>
+          Point tag-filtered collection views at the parent canonical, or give each a unique title,
+          H1 and description. Remove the literal "– Tag" string from the title template. Then archive
+          the published $0.00 <span class="inline-code">/products/micro</span> page, which also repairs
+          the "$0.00 — $35,630.00" price filter on the Engagement Rings collection.
+        </p>
+        <p>
+          <b>Expected result:</b> consolidated ranking signals on wedding-band and fine-jewellery
+          terms, and cleaner SERP snippets.
+        </p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-rank">4</div>
+      <div>
+        <div class="step-tags">
+          <span class="chip is-critical">UX</span>
+          <span class="effort">~3 hours</span>
+        </div>
+        <h4>Surface the catalogue in the navigation and fix the broken category links</h4>
+        <p>
+          Promote ENGAGEMENT RINGS, WEDDING BANDS and FINE JEWELRY to top-level header items instead
+          of hiding all 151 products behind "BROWSE". Rebuild the mega-menu trigger as a
+          <span class="inline-code">&lt;button&gt;</span> with
+          <span class="inline-code">aria-expanded</span> rather than
+          <span class="inline-code">href="#"</span>. Repoint the Fine&nbsp;Jewelry <b>RINGS</b> link so
+          it stops redirecting to the unfiltered parent, and merge the duplicate
+          NECKLACES / PENDANTS entries.
+        </p>
+        <p>
+          <b>Expected result:</b> shorter path to product for every visitor, stronger internal anchor
+          text, and a keyboard-accessible menu.
+        </p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-rank">5</div>
+      <div>
+        <div class="step-tags">
+          <span class="chip is-high">Design / Accessibility</span>
+          <span class="effort">~2 hours</span>
+        </div>
+        <h4>Establish a CTA hierarchy and fix the gold contrast</h4>
+        <p>
+          Make Add to Cart a filled navy button — it is currently white-on-navy ghost styling — and
+          add a sticky mobile variant. Introduce one filled primary per viewport on the homepage and
+          leave the rest as outline. In the same pass, darken the small-text gold from
+          <span class="inline-code">#bc973f</span> (2.75:1, failing) to about
+          <span class="inline-code">#7a6129</span>, and pad footer links to a 44px hit area.
+        </p>
+        <p>
+          <b>Expected result:</b> a clear visual path to conversion, plus WCAG AA compliance on the
+          two most widespread accessibility failures.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="callout">
+    <b>One note before you apply any of this.</b> The live theme reported by the server is
+    <span class="inline-code">189476995362</span>, which is not the WEB&nbsp;11 draft
+    (<span class="inline-code">189332062498</span>) recorded in your earlier working notes — a newer
+    theme has been published since. Confirm which copy is current before editing, so these fixes don't
+    land on a theme that has already been superseded.
+  </div>
+</section>
+
+<footer class="report-foot">
+  Audit performed 29 July 2026 against the live production site.<br />
+  Evidence gathered from rendered DOM, computed styles, Resource Timing, response headers and the
+  public products/collections JSON endpoints. Contrast ratios calculated per WCAG 2.1 relative
+  luminance; touch targets measured at a 375×812 viewport; payload figures from a cold load at a
+  1280×800 viewport.
+</footer>
+
+</div>
+</div>

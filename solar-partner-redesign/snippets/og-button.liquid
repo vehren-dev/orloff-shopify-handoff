@@ -1,0 +1,12 @@
+{%- comment -%}
+  Button.
+
+  Accepts:
+    label - text. Renders nothing when blank.
+    href  - destination. Falls back to "#" so the editor preview stays clickable.
+    style - "primary" (solid navy) or "secondary" (gold outline). Default primary.
+{%- endcomment -%}
+{%- if label != blank -%}
+  {%- assign og_btn_style = style | default: 'primary' -%}
+  <a class="og-btn og-btn--{{ og_btn_style }}" href="{{ href | default: '#' }}">{{ label }}</a>
+{%- endif -%}

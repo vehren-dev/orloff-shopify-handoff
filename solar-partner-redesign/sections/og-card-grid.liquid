@@ -1,0 +1,115 @@
+{% render 'og-styles' %}
+
+{%- comment -%}
+  One grid, three jobs:
+    - specification cards  (small gold key + serif value + note)
+    - "what you receive"   (line icon + serif value + note)
+    - comparison cards     (serif value + note)
+  Set the columns to 3 for a 2 x 3 grid, or 2 for a balanced 2 x 2.
+{%- endcomment -%}
+
+<div class="og-section">
+  <div class="{% if section.settings.color_scheme == 'alt' %}og-on-alt{% endif %}">
+    <div class="og-wrap og-pad">
+
+      {%- if section.settings.label != blank or section.settings.heading != blank or section.settings.intro != blank -%}
+        <div class="og-head">
+          {% render 'og-label', text: section.settings.label %}
+          {%- if section.settings.heading != blank -%}
+            <h2 class="og-h2">{{ section.settings.heading }}</h2>
+          {%- endif -%}
+          {%- if section.settings.intro != blank -%}
+            <div class="og-body">{{ section.settings.intro }}</div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+
+      <div class="og-cards og-cards--{{ section.settings.columns }}">
+        {%- for block in section.blocks -%}
+          <div class="og-card" {{ block.shopify_attributes }}>
+            {%- if block.settings.icon != 'none' -%}
+              <span class="og-card__icon">{% render 'og-icon', icon: block.settings.icon, size: 26 %}</span>
+            {%- endif -%}
+            {%- if block.settings.key != blank -%}
+              <span class="og-card__key">{{ block.settings.key }}</span>
+            {%- endif -%}
+            {%- if block.settings.value != blank -%}
+              <h3 class="og-card__value">{{ block.settings.value }}</h3>
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}{{ block.settings.text }}{%- endif -%}
+          </div>
+        {%- endfor -%}
+      </div>
+
+      {%- if section.settings.footnote != blank -%}
+        <div class="og-note" style="margin-top:1.5rem">{{ section.settings.footnote }}</div>
+      {%- endif -%}
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Orloff | Card grid",
+  "tag": "section",
+  "class": "og-shopify-section",
+  "max_blocks": 8,
+  "settings": [
+    {
+      "type": "select", "id": "color_scheme", "label": "Background",
+      "options": [ { "value": "base", "label": "Warm white" }, { "value": "alt", "label": "Light grey-green" } ],
+      "default": "base"
+    },
+    { "type": "text", "id": "label", "label": "Section label" },
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "richtext", "id": "intro", "label": "Introduction" },
+    {
+      "type": "select", "id": "columns", "label": "Columns on desktop",
+      "options": [ { "value": "2", "label": "Two" }, { "value": "3", "label": "Three" } ],
+      "default": "3"
+    },
+    { "type": "richtext", "id": "footnote", "label": "Footnote" }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "select", "id": "icon", "label": "Line icon",
+          "options": [
+            { "value": "none", "label": "None" },
+            { "value": "ring", "label": "Ring" },
+            { "value": "diamond", "label": "Diamond" },
+            { "value": "certificate", "label": "Certificate" },
+            { "value": "camera", "label": "Camera" },
+            { "value": "display", "label": "Display" },
+            { "value": "academic", "label": "Training" },
+            { "value": "truck", "label": "Delivery" },
+            { "value": "box", "label": "Box" },
+            { "value": "document", "label": "Document" },
+            { "value": "chat", "label": "Conversation" },
+            { "value": "handshake", "label": "Handshake" },
+            { "value": "scale", "label": "Scale" },
+            { "value": "ruler", "label": "Ruler" },
+            { "value": "sun", "label": "Sun" },
+            { "value": "layers", "label": "Layers" },
+            { "value": "pin", "label": "Location" }
+          ],
+          "default": "none"
+        },
+        { "type": "text", "id": "key", "label": "Small label", "info": "Optional. Small gold capitals above the title." },
+        { "type": "text", "id": "value", "label": "Title" },
+        { "type": "richtext", "id": "text", "label": "Text" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Orloff | Card grid",
+      "blocks": [ { "type": "card" }, { "type": "card" }, { "type": "card" } ]
+    }
+  ]
+}
+{% endschema %}

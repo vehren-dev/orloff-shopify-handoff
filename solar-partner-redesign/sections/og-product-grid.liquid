@@ -1,0 +1,106 @@
+{% render 'og-styles' %}
+
+<div class="og-section">
+  <div class="{% if section.settings.color_scheme == 'alt' %}og-on-alt{% endif %}">
+    <div class="og-wrap og-pad">
+
+      <div class="og-head">
+        {% render 'og-label', text: section.settings.label %}
+        {%- if section.settings.heading != blank -%}
+          <h2 class="og-h2">{{ section.settings.heading }}</h2>
+        {%- endif -%}
+        {%- if section.settings.intro != blank -%}
+          <div class="og-body">{{ section.settings.intro }}</div>
+        {%- endif -%}
+      </div>
+
+      <div class="og-products og-products--{{ section.settings.title_style }}">
+        {%- for block in section.blocks -%}
+          <div {{ block.shopify_attributes }}>
+            {% render 'og-product-card',
+               product: block.settings.product,
+               name: block.settings.name,
+               spec: block.settings.spec,
+               image: block.settings.image,
+               show_price: section.settings.show_price,
+               position: forloop.index %}
+          </div>
+        {%- endfor -%}
+      </div>
+
+      {%- if section.settings.footnote != blank -%}
+        <div class="og-note" style="margin-top:2rem">{{ section.settings.footnote }}</div>
+      {%- endif -%}
+
+      {%- if section.settings.button_label != blank -%}
+        <div class="og-btns" style="margin-top:2rem">
+          {% render 'og-button', label: section.settings.button_label, href: section.settings.button_link, style: section.settings.button_style %}
+        </div>
+      {%- endif -%}
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Orloff | Product cards",
+  "tag": "section",
+  "class": "og-shopify-section",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "select", "id": "color_scheme", "label": "Background",
+      "options": [ { "value": "base", "label": "Warm white" }, { "value": "alt", "label": "Light grey-green" } ],
+      "default": "base"
+    },
+    { "type": "text", "id": "label", "label": "Section label" },
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "richtext", "id": "intro", "label": "Introduction" },
+    {
+      "type": "select", "id": "title_style", "label": "Card title style",
+      "info": "Use Figure when the title is a carat weight or any other number. Numbers are never set in the serif.",
+      "options": [
+        { "value": "name", "label": "Name (serif)" },
+        { "value": "figure", "label": "Figure (Inter)" }
+      ],
+      "default": "name"
+    },
+    {
+      "type": "checkbox", "id": "show_price", "label": "Show the product's price", "default": false,
+      "info": "Only applies to cards where a product has been chosen. Leave off on trade pages."
+    },
+    { "type": "richtext", "id": "footnote", "label": "Footnote" },
+
+    { "type": "header", "content": "Button" },
+    { "type": "text", "id": "button_label", "label": "Button label" },
+    { "type": "url", "id": "button_link", "label": "Button link" },
+    {
+      "type": "select", "id": "button_style", "label": "Button style",
+      "options": [ { "value": "primary", "label": "Navy" }, { "value": "secondary", "label": "Gold outline" } ],
+      "default": "secondary"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product card",
+      "settings": [
+        {
+          "type": "product", "id": "product", "label": "Product",
+          "info": "Choose a product and the card uses its real photograph, name, link and price. Leave empty and the card shows a clearly labelled replaceable slot."
+        },
+        { "type": "text", "id": "name", "label": "Title override", "info": "Leave blank to use the product's own name." },
+        { "type": "text", "id": "spec", "label": "Supporting line", "info": "Optional. For example the colour, clarity, cut and metal." },
+        { "type": "image_picker", "id": "image", "label": "Image override", "info": "Leave blank to use the product's own photograph." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Orloff | Product cards",
+      "blocks": [ { "type": "product" }, { "type": "product" }, { "type": "product" } ]
+    }
+  ]
+}
+{% endschema %}

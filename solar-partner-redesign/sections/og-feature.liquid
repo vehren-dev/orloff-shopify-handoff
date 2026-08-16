@@ -1,0 +1,98 @@
+{% render 'og-styles' %}
+
+<div class="og-section">
+  <div class="{% if section.settings.color_scheme == 'alt' %}og-on-alt{% endif %}">
+    <div class="og-wrap og-pad">
+      <div class="og-feature__grid{% if section.settings.image_position == 'left' %} og-feature--media-left{% endif %}">
+
+        <div class="og-feature__text">
+          {% render 'og-label', text: section.settings.label %}
+
+          {%- if section.settings.heading != blank -%}
+            <h2 class="og-h2">{{ section.settings.heading }}</h2>
+          {%- endif -%}
+
+          {%- if section.settings.body != blank -%}
+            <div class="og-body">{{ section.settings.body }}</div>
+          {%- endif -%}
+
+          {%- if section.settings.note != blank -%}
+            <div class="og-note">{{ section.settings.note }}</div>
+          {%- endif -%}
+
+          {%- if section.settings.signoff != blank -%}
+            <p class="og-signoff">{{ section.settings.signoff }}</p>
+          {%- endif -%}
+
+          {%- if section.settings.button_label != blank -%}
+            <div class="og-btns">
+              {% render 'og-button', label: section.settings.button_label, href: section.settings.button_link, style: section.settings.button_style %}
+            </div>
+          {%- endif -%}
+        </div>
+
+        <div class="og-feature__media">
+          {% render 'og-image',
+             image: section.settings.image,
+             ratio: section.settings.image_ratio,
+             sizes: '(min-width: 900px) 48vw, 100vw',
+             alt: section.settings.image_alt,
+             slot_title: section.settings.slot_title,
+             slot_text: section.settings.slot_text %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Orloff | Image and text",
+  "tag": "section",
+  "class": "og-shopify-section",
+  "settings": [
+    {
+      "type": "select", "id": "color_scheme", "label": "Background",
+      "options": [ { "value": "base", "label": "Warm white" }, { "value": "alt", "label": "Light grey-green" } ],
+      "default": "base"
+    },
+    { "type": "text", "id": "label", "label": "Section label" },
+    { "type": "text", "id": "heading", "label": "Heading" },
+    { "type": "richtext", "id": "body", "label": "Body" },
+    { "type": "richtext", "id": "note", "label": "Smaller supporting note" },
+    { "type": "text", "id": "signoff", "label": "Sign-off line", "info": "Set in the serif, e.g. Solar Grown. Orloff of Denmark." },
+
+    { "type": "header", "content": "Button" },
+    { "type": "text", "id": "button_label", "label": "Button label" },
+    { "type": "url", "id": "button_link", "label": "Button link" },
+    {
+      "type": "select", "id": "button_style", "label": "Button style",
+      "options": [ { "value": "primary", "label": "Navy" }, { "value": "secondary", "label": "Gold outline" } ],
+      "default": "secondary"
+    },
+
+    { "type": "header", "content": "Image" },
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "text", "id": "image_alt", "label": "Image alt text" },
+    {
+      "type": "select", "id": "image_position", "label": "Image position",
+      "info": "Alternate this between image sections so the page reads as an editorial layout.",
+      "options": [ { "value": "right", "label": "Right" }, { "value": "left", "label": "Left" } ],
+      "default": "left"
+    },
+    {
+      "type": "select", "id": "image_ratio", "label": "Image shape",
+      "options": [
+        { "value": "4 / 3", "label": "Landscape" },
+        { "value": "1 / 1", "label": "Square" },
+        { "value": "4 / 5", "label": "Portrait" }
+      ],
+      "default": "4 / 3"
+    },
+    { "type": "text", "id": "slot_title", "label": "Empty slot label", "default": "Image" },
+    { "type": "text", "id": "slot_text", "label": "Empty slot guidance", "default": "Replaceable. Add the photograph in the theme editor." }
+  ],
+  "presets": [ { "name": "Orloff | Image and text" } ]
+}
+{% endschema %}

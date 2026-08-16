@@ -1,0 +1,102 @@
+sku,in_appendix_a,invoice_rows,folder,folder_label_matches,resolved_by,match_type,file_count,primary_can_be_auto_picked,suggested_primary,all_files
+ORCB214,YES,498,ORCB214,yes,foldername,exact,5,no,333.jpg,333.jpg|CB214-MAIN-IMG_00-S.jpg|CB214-MAIN-IMG_0079-(1)-S.jpg|CB214-MAIN-IMG_0079-(2)-S.jpg|CB214-MAIN-IMG_0079-(3)-S.jpg
+ORCBB01-17,YES,227,Orloff customized design/CBB01,yes,foldername (shared),one-to-many,10,no,1.jpg,1.jpg|12.jpg|122.jpg|13.jpg|2.jpg|3.jpg|30.jpg|IMG_0815.jpg|IMG_0822.jpg|IMG_0837.jpg
+ORCBB01-19,YES,228,Orloff customized design/CBB01,yes,foldername (shared),one-to-many,10,no,1.jpg,1.jpg|12.jpg|122.jpg|13.jpg|2.jpg|3.jpg|30.jpg|IMG_0815.jpg|IMG_0822.jpg|IMG_0837.jpg
+ORCBB01-21,YES,229,Orloff customized design/CBB01,yes,foldername (shared),one-to-many,10,no,1.jpg,1.jpg|12.jpg|122.jpg|13.jpg|2.jpg|3.jpg|30.jpg|IMG_0815.jpg|IMG_0822.jpg|IMG_0837.jpg
+ORGCB05-P-18,YES,390,Orloff customized design/GCB05,NO,filename,suffix-dropped,8,yes,GCB05.jpg,03.jpg|1.jpg|2.jpg|GCB05.jpg|IMG_0188.jpg|IMG_0310.jpg|IMG_0469.jpg|IMG_9370.jpg
+ORGCB06-P,YES,391,Orloff customized design/GCB06,NO,filename,suffix-dropped,7,yes,GCB06.jpg,1.jpg|2.jpg|GCB06.jpg|IMG_0095.jpg|IMG_0135.jpg|IMG_0324.jpg|IMG_0536.jpg
+ORGCB07-18K,YES,393,Orloff customized design/GCB07-18K,yes,foldername,exact,5,no,1.jpg,1.jpg|IMG_2049.jpg|IMG_2287.jpg|IMG_3062.jpg|IMG_9307.jpg
+ORGCB07-P,YES,394,Orloff customized design/GCB07-P,yes,filename,exact,6,yes,GCB07-P.jpg,1.jpg|GCB07-P.jpg|IMG_0174.jpg|IMG_0330.jpg|IMG_0528.jpg|IMG_9307.jpg
+ORGCB08-18K,YES,396,Orloff customized design/GCB08-18K,yes,foldername,exact,7,no,1.jpg,1.jpg|2.jpg|3.jpg|IMG_2257.jpg|IMG_2513.jpg|IMG_3065.jpg|IMG_9384.jpg
+ORGCB08-P,YES,395,Orloff customized design/GCB08-P,yes,filename,exact,8,yes,GCB08-P.jpg,1.jpg|2.jpg|3.jpg|GCB08-P.jpg|IMG_0179.jpg|IMG_0319.jpg|IMG_0410.jpg|IMG_9384.jpg
+ORGCB09-P,YES,397,Orloff customized design/GCB09,NO,filename,suffix-dropped,8,yes,GCB09.jpg,1.jpg|2.jpg|3.jpg|GCB09.jpg|IMG_0166.jpg|IMG_0313.jpg|IMG_0476.jpg|IMG_9366.jpg
+ORGCB10-P,YES,398,Orloff customized design/GCB10,NO,filename,suffix-dropped,8,yes,GCB10.jpg,07.jpg|1.jpg|2.jpg|GCB10.jpg|IMG_0159.jpg|IMG_0161.jpg|IMG_0315.jpg|IMG_0425.jpg
+ORGCB109,YES,529,GCB109,yes,filename,exact,13,yes,GCB109.jpg,2 (2).jpg|2.jpg|GCB109-1.jpg|GCB109-2.jpg|GCB109-3.jpg|GCB109.jpg|IMG_23462 (2).jpg|IMG_23462.jpg|IMG_9210 (2).jpg|IMG_9210.jpg|IMG_9375-R.jpg|IMG_9378.jpg|IMG_9379-S.jpg
+ORGCB11-18K,YES,399,Orloff customized design/GCB11,NO,filename,suffix-dropped,6,yes,GCB11.jpg,02.jpg|GCB11.jpg|IMG_0138.jpg|IMG_0297.jpg|IMG_0481.jpg|IMG_9377.jpg
+ORGCB110,YES,530,GCB110,yes,filename,exact,13,yes,GCB110.jpg,4 (2).jpg|4.jpg|GCB110-1.jpg|GCB110-2.jpg|GCB110-3.jpg|GCB110.jpg|IMG_23461 (2).jpg|IMG_23461.jpg|IMG_9223 (2).jpg|IMG_9223.jpg|IMG_9378-R.jpg|IMG_9378-S.jpg|IMG_9379.jpg
+ORGCB12-18K,YES,400,Orloff customized design/GCB12,NO,filename,suffix-dropped,6,yes,GCB12.jpg,004.jpg|GCB12.jpg|IMG_0163.jpg|IMG_0300.jpg|IMG_0451.jpg|IMG_9360.jpg
+ORGCB175,YES,528,GCB175,yes,filename,exact,10,yes,GCB175.jpg,6 (2).jpg|6.jpg|GCB175-1.jpg|GCB175-2.jpg|GCB175-3.jpg|GCB175.jpg|IMG_23466 (2).jpg|IMG_23466.jpg|IMG_9230 (2).jpg|IMG_9230.jpg
+ORGCB177,YES,527,GCB177,yes,filename,exact,10,yes,GCB177.jpg,5 (2).jpg|5.jpg|GCB177-1.jpg|GCB177-2.jpg|GCB177-3.jpg|GCB177.jpg|IMG_23465 (2).jpg|IMG_23465.jpg|IMG_9228 (2).jpg|IMG_9228.jpg
+ORGCB18,YES,401,Orloff customized design/GCB18,yes,filename,exact,8,yes,GCB18.jpg,1.jpg|2.jpg|3.jpg|GCB18.jpg|IMG_0150.jpg|IMG_0327.jpg|IMG_0503.jpg|IMG_9284.jpg
+ORGCB181,YES,548,GCB181,yes,foldername,exact,15,no,04-R.jpg,04-R.jpg|04-S.jpg|04.jpg|1.jpg|14-R.jpg|14-S.jpg|14.jpg|4-R.jpg|4-S.jpg|4.jpg|IMG_9474-S.jpg|IMG_9474.jpg|IMG_9539-R.jpg|IMG_9539-S.jpg|IMG_9539.jpg
+ORGCB182-1,YES,531,GCB182-1,yes,foldername,exact,16,no,05-R.jpg,05-R.jpg|05-S.jpg|05.jpg|16-R.jpg|16-S.jpg|16.jpg|5-R.jpg|5-S.jpg|5.jpg|IMG_9481-S.jpg|IMG_9481.jpg|IMG_9512-S.jpg|IMG_9512.jpg|IMG_95431-R.jpg|IMG_95431-S.jpg|IMG_95431.jpg
+ORGCB182-2,YES,532,GCB182-2,yes,foldername,exact,16,no,05-R.jpg,05-R.jpg|05-S.jpg|05.jpg|16-R.jpg|16-S.jpg|16.jpg|5-R.jpg|5-S.jpg|5.jpg|IMG_9481-S.jpg|IMG_9481.jpg|IMG_9509-S.jpg|IMG_9509.jpg|IMG_95436-R.jpg|IMG_95436-S.jpg|IMG_95436.jpg
+ORGCB182-3,YES,533,GCB182-3,yes,foldername,exact,16,no,05-R.jpg,05-R.jpg|05-S.jpg|05.jpg|16-R.jpg|16-S.jpg|16.jpg|5-R.jpg|5-S.jpg|5.jpg|IMG_9481-S.jpg|IMG_9481.jpg|IMG_9503-S.jpg|IMG_9503.jpg|IMG_95432-R.jpg|IMG_95432-S.jpg|IMG_95432.jpg
+ORGCB182-5,YES,534,GCB182-5,yes,foldername,exact,16,no,05-R.jpg,05-R.jpg|05-S.jpg|05.jpg|16-R.jpg|16-S.jpg|16.jpg|5-R.jpg|5-S.jpg|5.jpg|IMG_9481-S.jpg|IMG_9481.jpg|IMG_9504-S.jpg|IMG_9504.jpg|IMG_95433-R.jpg|IMG_95433-S.jpg|IMG_95433.jpg
+ORGCB182-6,YES,535,GCB182-6,yes,foldername,exact,16,no,05-R.jpg,05-R.jpg|05-S.jpg|05.jpg|16-R.jpg|16-S.jpg|16.jpg|5-R.jpg|5-S.jpg|5.jpg|IMG_9481-S.jpg|IMG_9481.jpg|IMG_9507-S.jpg|IMG_9507.jpg|IMG_95435-R.jpg|IMG_95435-S.jpg|IMG_95435.jpg
+ORGCB182-7,YES,536,GCB182-7,yes,foldername,exact,16,no,05-R.jpg,05-R.jpg|05-S.jpg|05.jpg|16-R.jpg|16-S.jpg|16.jpg|5-R.jpg|5-S.jpg|5.jpg|IMG_9481-S.jpg|IMG_9481.jpg|IMG_9505-S.jpg|IMG_9505.jpg|IMG_95434-R.jpg|IMG_95434-S.jpg|IMG_95434.jpg
+ORGCB182-8,YES,537,GCB182-8,yes,foldername,exact,16,no,05-R.jpg,05-R.jpg|05-S.jpg|05.jpg|16-R.jpg|16-S.jpg|16.jpg|5-R.jpg|5-S.jpg|5.jpg|IMG_9481-S.jpg|IMG_9481.jpg|IMG_9511-S.jpg|IMG_9511.jpg|IMG_95437-R.jpg|IMG_95437-S.jpg|IMG_95437.jpg
+ORGCB184-1,YES,538,GCB184-1,yes,foldername,exact,16,no,06-R.jpg,06-R.jpg|06-S.jpg|06.jpg|15-R.jpg|15-S.jpg|15.jpg|6-R.jpg|6-S.jpg|6.jpg|IMG_9489-S.jpg|IMG_9489.jpg|IMG_9494-S.jpg|IMG_9494.jpg|IMG_95413-R.jpg|IMG_95413-S.jpg|IMG_95413.jpg
+ORGCB184-2,YES,539,GCB184-2,yes,foldername,exact,16,no,06-R.jpg,06-R.jpg|06-S.jpg|06.jpg|15-R.jpg|15-S.jpg|15.jpg|6-R.jpg|6-S.jpg|6.jpg|IMG_9489-S.jpg|IMG_9489.jpg|IMG_9492-S.jpg|IMG_9492.jpg|IMG_95412-R.jpg|IMG_95412-S.jpg|IMG_95412.jpg
+ORGCB184-3,YES,540,GCB184-3,yes,foldername,exact,16,no,06-R.jpg,06-R.jpg|06-S.jpg|06.jpg|15-R.jpg|15-S.jpg|15.jpg|6-R.jpg|6-S.jpg|6.jpg|IMG_9489-S.jpg|IMG_9489.jpg|IMG_9497-S.jpg|IMG_9497.jpg|IMG_95415-R.jpg|IMG_95415-S.jpg|IMG_95415.jpg
+ORGCB184-4,YES,541,GCB184-4,yes,foldername,exact,16,no,06-R.jpg,06-R.jpg|06-S.jpg|06.jpg|15-R.jpg|15-S.jpg|15.jpg|6-R.jpg|6-S.jpg|6.jpg|IMG_9489-S.jpg|IMG_9489.jpg|IMG_9496-S.jpg|IMG_9496.jpg|IMG_95414-R.jpg|IMG_95414-S.jpg|IMG_95414.jpg
+ORGCB184-5,YES,542,GCB184-5,yes,foldername,exact,16,no,06-R.jpg,06-R.jpg|06-S.jpg|06.jpg|15-R.jpg|15-S.jpg|15.jpg|6-R.jpg|6-S.jpg|6.jpg|IMG_9489-S.jpg|IMG_9489.jpg|IMG_9500-S.jpg|IMG_9500.jpg|IMG_95416-R.jpg|IMG_95416-S.jpg|IMG_95416.jpg
+ORGCB184-6,YES,543,GCB184-6,yes,foldername,exact,16,no,06-R.jpg,06-R.jpg|06-S.jpg|06.jpg|15-R.jpg|15-S.jpg|15.jpg|6-R.jpg|6-S.jpg|6.jpg|IMG_9489-S.jpg|IMG_9489.jpg|IMG_9502-S.jpg|IMG_9502.jpg|IMG_95417-R.jpg|IMG_95417-S.jpg|IMG_95417.jpg
+ORGCB184-7,YES,544,GCB184-7,yes,foldername,exact,16,no,06-R.jpg,06-R.jpg|06-S.jpg|06.jpg|15-R.jpg|15-S.jpg|15.jpg|6-R.jpg|6-S.jpg|6.jpg|IMG_9489-S.jpg|IMG_9489.jpg|IMG_9493-S.jpg|IMG_9493.jpg|IMG_95411-R.jpg|IMG_95411-S.jpg|IMG_95411.jpg
+ORGCB185-14K,YES,545,GCB185-14K,yes,foldername,exact,16,no,01-R.jpg,01-R.jpg|01-S.jpg|01.jpg|13-R.jpg|13-S.jpg|13.jpg|3-R.jpg|3-S.jpg|3.jpg|IMG_9441-S.jpg|IMG_9441.jpg|IMG_9444-S.jpg|IMG_9444.jpg|IMG_9537-R.jpg|IMG_9537-S.jpg|IMG_9537.jpg
+ORGCB186-1,YES,546,GCB186-1,yes,foldername,exact,16,no,03-R.jpg,03-R.jpg|03-S.jpg|03.jpg|12-R.jpg|12-S.jpg|12.jpg|2-R.jpg|2-S.jpg|2.jpg|IMG_9468-S.jpg|IMG_9468.jpg|IMG_9471-S.jpg|IMG_9471.jpg|IMG_9525-R.jpg|IMG_9525-S.jpg|IMG_9525.jpg
+ORGCB186-2,YES,547,GCB186-2,yes,foldername,exact,16,no,03-R.jpg,03-R.jpg|03-S.jpg|03.jpg|12-R.jpg|12-S.jpg|12.jpg|2-R.jpg|2-S.jpg|2.jpg|IMG_9468-S.jpg|IMG_9468.jpg|IMG_9469-S.jpg|IMG_9469.jpg|IMG_9524-R.jpg|IMG_9524-S.jpg|IMG_9524.jpg
+ORGCB187-14K-1,YES,549,GCB187-14K-1,yes,foldername,exact,16,no,02-R.jpg,02-R.jpg|02-S.jpg|02.jpg|1-R.jpg|1-S.jpg|1.jpg|11-R.jpg|11-S.jpg|11.jpg|IMG_9450-S.jpg|IMG_9450.jpg|IMG_9454-S.jpg|IMG_9454.jpg|IMG_9532-R.jpg|IMG_9532-S.jpg|IMG_9532.jpg
+ORGCB187-14K-2,YES,550,GCB187-14K-2,yes,foldername,exact,16,no,02-R.jpg,02-R.jpg|02-S.jpg|02.jpg|1-R.jpg|1-S.jpg|1.jpg|11-R.jpg|11-S.jpg|11.jpg|IMG_9450-S.jpg|IMG_9450.jpg|IMG_9459-S.jpg|IMG_9459.jpg|IMG_9531-R.jpg|IMG_9531-S.jpg|IMG_9531.jpg
+ORGCB19-18K,YES,402,Orloff customized design/GCB19-18K,yes,filename,exact,7,yes,GCB19-18K.jpg,001.jpg|1.jpg|GCB19-18K.jpg|IMG_0206.jpg|IMG_0255.jpg|IMG_0475.jpg|IMG_9316.jpg
+ORGCB19-P,YES,403,Orloff customized design/GCB19-P,yes,foldername,exact,6,no,07.jpg,07.jpg|1.jpg|IMG_1925.jpg|IMG_2143.jpg|IMG_2519.jpg|IMG_9316.jpg
+ORGCB20-18K,YES,404,Orloff customized design/GCB20-18K,yes,filename,exact,7,yes,GCB20-18K.jpg,005.jpg|1.jpg|GCB20-18K.jpg|IMG_0148.jpg|IMG_0294.jpg|IMG_0415.jpg|IMG_9335.jpg
+ORGCB20-P,YES,405,Orloff customized design/GCB20-P,yes,foldername,exact,6,no,09.jpg,09.jpg|1.jpg|IMG_1930.jpg|IMG_2172.jpg|IMG_2538.jpg|IMG_9335.jpg
+ORGCB21-18K,YES,406,Orloff customized design/GCB21-18K,yes,filename,exact,7,yes,GCB21-18K.jpg,01.jpg|1.jpg|GCB21-18K.jpg|IMG_0197.jpg|IMG_0272.jpg|IMG_0461.jpg|IMG_0594.jpg
+ORGCB21-P,YES,407,Orloff customized design/GCB21-P,yes,foldername,exact,6,no,03.jpg,03.jpg|1.jpg|IMG_0594.jpg|IMG_1923.jpg|IMG_2125.jpg|IMG_2513.jpg
+ORGCB22-18K,YES,408,Orloff customized design/GCB22-18K,yes,filename,exact,7,yes,GCB22-18K.jpg,003.jpg|1.jpg|GCB22-18K.jpg|IMG_0060.jpg|IMG_0153.jpg|IMG_0285.jpg|IMG_0433.jpg
+ORGCB22-P,YES,409,GCB22-P,yes,foldername,exact,8,no,01---副本.jpg,01---副本.jpg|1.jpg|2.jpg|3.jpg|IMG_0060.jpg|IMG_2103.jpg|IMG_2350.jpg|IMG_3409.jpg
+ORGCB22-P,YES,409,Orloff customized design/GCB22-P,yes,foldername,exact,6,no,01---副本.jpg,01---副本.jpg|1.jpg|IMG_0060.jpg|IMG_2103.jpg|IMG_2350.jpg|IMG_3409.jpg
+ORGCB23-18K,YES,410,Orloff customized design/GCB23-18K,yes,filename,exact,8,yes,GCB23-18K.jpg,002.jpg|1.jpg|2.jpg|GCB23-18K.jpg|IMG_0144.jpg|IMG_0268.jpg|IMG_0403.jpg|IMG_9324.jpg
+ORGCB23-P,YES,411,Orloff customized design/GCB23-P,yes,foldername,exact,7,no,08.jpg,08.jpg|1.jpg|2.jpg|IMG_1936.jpg|IMG_2277.jpg|IMG_2526.jpg|IMG_9324.jpg
+ORGCB24-18K,YES,412,Orloff customized design/GCB24-18K,yes,filename,exact,8,yes,GCB24-18K.jpg,07.jpg|1.jpg|2.jpg|GCB24-18K.jpg|IMG_0195.jpg|IMG_0264.jpg|IMG_0441.jpg|IMG_0760.jpg
+ORGCB24-P,YES,413,Orloff customized design/GCB24-P,yes,foldername,exact,7,no,06.jpg,06.jpg|1.jpg|2.jpg|IMG_0760.jpg|IMG_1934.jpg|IMG_2268.jpg|IMG_2542.jpg
+ORGCB25,YES,414,Orloff customized design/GCB25,yes,filename,exact,8,yes,GCB25.jpg,06.jpg|1.jpg|2.jpg|GCB25.jpg|IMG_0181.jpg|IMG_0305.jpg|IMG_0420.jpg|IMG_0740.jpg
+ORGCB26-18K,YES,415,Orloff customized design/GCB26-18K,yes,foldername,exact,8,no,05.jpg,05.jpg|1.jpg|2.jpg|GCB26.jpg|IMG_0191.jpg|IMG_0276.jpg|IMG_0454.jpg|IMG_0620.jpg
+ORGCB26-P,YES,416,Orloff customized design/GCB26-P,yes,foldername,exact,7,no,1.jpg,1.jpg|2.jpg|20.jpg|IMG_0620.jpg|IMG_1927.jpg|IMG_2166.jpg|IMG_2530.jpg
+ORGCB27,YES,417,Orloff customized design/GCB27,yes,filename,exact,8,yes,GCB27.jpg,1.jpg|2.jpg|3.jpg|GCB27.jpg|IMG_0142.jpg|IMG_0333.jpg|IMG_0524.jpg|IMG_9302.jpg
+ORGCB28-18K,YES,418,Orloff customized design/GCB28-18K,yes,filename,exact,8,yes,GCB28-18K.jpg,02.jpg|1.jpg|2.jpg|GCB28-18K.jpg|IMG_0184.jpg|IMG_0281.jpg|IMG_0429.jpg|IMG_0598.jpg
+ORGCB28-P,YES,419,Orloff customized design/GCB28-P,yes,foldername,exact,7,no,04.jpg,04.jpg|1.jpg|2.jpg|IMG_0598.jpg|IMG_1941.jpg|IMG_2152.jpg|IMG_2553.jpg
+ORGCB29-18K,YES,420,Orloff customized design/GCB29-18K,yes,filename,exact,8,yes,GCB29-18K.jpg,03.jpg|1.jpg|3.jpg|GCB29-18K.jpg|IMG_0170.jpg|IMG_0289.jpg|IMG_0396.jpg|IMG_0608.jpg
+ORGCB29-P,YES,421,Orloff customized design/GCB29-P,yes,foldername,exact,7,no,05.jpg,05.jpg|1.jpg|2.jpg|IMG_0608.jpg|IMG_1932.jpg|IMG_2257.jpg|IMG_2547.jpg
+ORGCB30-18K,YES,422,Orloff customized design/GCB30-18K,yes,filename,exact,8,yes,GCB30-18K.jpg,04.jpg|1.jpg|2.jpg|GCB30-18K.jpg|IMG_0517.jpg|IMG_0615.jpg|IMG_0746.jpg|IMG_0752.jpg
+ORGCB30-P,YES,423,GCB30-P,yes,foldername,exact,8,no,04.jpg,04.jpg|1.jpg|2.jpg|3.jpg|IMG_0615.jpg|IMG_2113.jpg|IMG_2346.jpg|IMG_3412.jpg
+ORGCB30-P,YES,423,Orloff customized design/GCB30-P,yes,foldername,exact,7,no,04.jpg,04.jpg|1.jpg|2.jpg|IMG_0615.jpg|IMG_2113.jpg|IMG_2346.jpg|IMG_3412.jpg
+ORGCB50P,YES,392,Orloff customized design/GCB50,NO,filename,suffix-dropped,8,yes,GCB50.jpg,071.jpg|1.jpg|2.jpg|GCB50.jpg|IMG_05316.jpg|IMG_0716.jpg|IMG_0749.jpg|IMG_0755.jpg
+ORGCB51-P,YES,447,GCB51-P,yes,foldername,exact,6,no,11.jpg,11.jpg|IMG_1749.jpg|IMG_1917.jpg|IMG_2221.jpg|IMG_2370.jpg|IMG_2899.jpg
+ORGCB51-WY,YES,443,GCB51-WY,yes,foldername,exact,6,no,13.jpg,13.jpg|IMG_1755.jpg|IMG_1915.jpg|IMG_2245.jpg|IMG_2503.jpg|IMG_2899.jpg
+ORGCB51-YL,YES,444,GCB51-YL,yes,foldername,exact,6,no,02.jpg,02.jpg|IMG_1743.jpg|IMG_1919.jpg|IMG_2113.jpg|IMG_2367.jpg|IMG_2899.jpg
+ORGCB51-YP,YES,445,GCB51-YP,yes,foldername,exact,6,no,12.jpg,12.jpg|IMG_1754.jpg|IMG_1921.jpg|IMG_2118.jpg|IMG_2359.jpg|IMG_2899.jpg
+ORGCB51-YR,YES,446,GCB51-YR,yes,foldername,exact,6,no,10.jpg,10.jpg|IMG_1746.jpg|IMG_1913.jpg|IMG_2103.jpg|IMG_2355.jpg|IMG_2899.jpg
+ORGCB52-L,YES,448,GCB52-L,yes,foldername,exact,12,no,001.jpg,001.jpg|1.jpg|16.jpg|2.jpg|3.jpg|4.jpg|5.jpg|IMG_1772.jpg|IMG_1900.jpg|IMG_2049.jpg|IMG_2050.jpg|IMG_2287.jpg
+ORGCB53-L,YES,449,GCB53-L,yes,foldername,exact,11,no,002.jpg,002.jpg|1.jpg|18.jpg|2.jpg|3.jpg|4.jpg|IMG_1780.jpg|IMG_1911.jpg|IMG_2058.jpg|IMG_2059.jpg|IMG_2343.jpg
+ORGCB54-L,YES,450,GCB54-L,yes,foldername,exact,11,no,003.jpg,003.jpg|1.jpg|17.jpg|2.jpg|3.jpg|4.jpg|IMG_1776.jpg|IMG_1898.jpg|IMG_2042.jpg|IMG_2043.jpg|IMG_2497.jpg
+ORGCB55-L,YES,451,GCB55-L,yes,foldername,exact,11,no,004.jpg,004.jpg|1.jpg|14.jpg|2.jpg|3.jpg|4.jpg|IMG_1760.jpg|IMG_1906.jpg|IMG_2037.jpg|IMG_2038.jpg|IMG_2284.jpg
+ORGCB56-B,YES,452,GCB56-B,yes,foldername,exact,9,no,1.jpg,1.jpg|15.jpg|2.jpg|3.jpg|IMG_1767.jpg|IMG_1904.jpg|IMG_2069.jpg|IMG_2070.jpg|IMG_2346.jpg
+ORGCB57-Z,YES,453,GCB57-Z,yes,foldername,exact,8,no,1.jpg,1.jpg|19.jpg|2.jpg|3.jpg|IMG_1741.jpg|IMG_1894.jpg|IMG_2091.jpg|IMG_2509.jpg
+ORGCB58-LVR,YES,454,GCB58-LVR,yes,foldername,exact,8,no,01.jpg,01.jpg|1.jpg|2.jpg|3.jpg|IMG_1735.jpg|IMG_1892.jpg|IMG_2076.jpg|IMG_2350.jpg
+ORGCBB1-17-B,YES,511,ORGCBB1-B,yes,foldername (shared),one-to-many,7,no,2.jpg,2.jpg|22.jpg|222.jpg|7.jpg|IMG_6379.jpg|IMG_6787.jpg|IMG_9234.jpg
+ORGCBB1-17-G,YES,512,ORGCBB1-G,yes,foldername (shared),one-to-many,5,no,1.jpg,1.jpg|6.jpg|IMG_6371.jpg|IMG_63842.jpg|IMG_6790.jpg
+ORGCBB1-17-K,YES,510,ORGCBB1-K,yes,foldername (shared),one-to-many,4,no,4.jpg,4.jpg|9.jpg|IMG_6382.jpg|IMG_63841.jpg
+ORGCBB1-17-R,YES,509,ORGCBB1-R,yes,foldername (shared),one-to-many,3,no,10.jpg,10.jpg|5.jpg|IMG_6384.jpg
+ORGCBB1-17-W,YES,508,ORGCBB1-W,yes,foldername (shared),one-to-many,3,no,3.jpg,3.jpg|8.jpg|IMG_6380.jpg
+ORGCBB1-19-B,YES,516,ORGCBB1-B,yes,foldername (shared),one-to-many,7,no,2.jpg,2.jpg|22.jpg|222.jpg|7.jpg|IMG_6379.jpg|IMG_6787.jpg|IMG_9234.jpg
+ORGCBB1-19-G,YES,517,ORGCBB1-G,yes,foldername (shared),one-to-many,5,no,1.jpg,1.jpg|6.jpg|IMG_6371.jpg|IMG_63842.jpg|IMG_6790.jpg
+ORGCBB1-19-K,YES,515,ORGCBB1-K,yes,foldername (shared),one-to-many,4,no,4.jpg,4.jpg|9.jpg|IMG_6382.jpg|IMG_63841.jpg
+ORGCBB1-19-R,YES,514,ORGCBB1-R,yes,foldername (shared),one-to-many,3,no,10.jpg,10.jpg|5.jpg|IMG_6384.jpg
+ORGCBB1-19-W,YES,513,ORGCBB1-W,yes,foldername (shared),one-to-many,3,no,3.jpg,3.jpg|8.jpg|IMG_6380.jpg
+ORGCBB1-21-B,YES,521,ORGCBB1-B,yes,foldername (shared),one-to-many,7,no,2.jpg,2.jpg|22.jpg|222.jpg|7.jpg|IMG_6379.jpg|IMG_6787.jpg|IMG_9234.jpg
+ORGCBB1-21-K,YES,520,ORGCBB1-K,yes,foldername (shared),one-to-many,4,no,4.jpg,4.jpg|9.jpg|IMG_6382.jpg|IMG_63841.jpg
+ORGCBB1-21-R,YES,519,ORGCBB1-R,yes,foldername (shared),one-to-many,3,no,10.jpg,10.jpg|5.jpg|IMG_6384.jpg
+ORGCBB1-21-W,YES,518,ORGCBB1-W,yes,foldername (shared),one-to-many,3,no,3.jpg,3.jpg|8.jpg|IMG_6380.jpg
+ORPA0010,YES,432,GCB39,NO,filename,exact,3,yes,PA0010.jpg,PA0010-2.jpg|PA0010-4.jpg|PA0010.jpg
+ORPA0035,YES,434,GCB41,NO,filename,exact,3,yes,PA0035.jpg,PA0035-2.JPG|PA0035-5.JPG|PA0035.jpg
+ORPA0094,YES,435,GCB42,NO,filename,exact,2,yes,PA0094-2.jpg,PA0094-2.jpg|PA0094-3.jpg
+ORPA0097,YES,436,GCB43,NO,filename,exact,3,yes,PA0097-2.jpg,PA0097-2 拷贝.jpg|PA0097-2.jpg|PA0097-3.jpg
+ORPA0107,YES,442,GCB49,NO,filename,exact,3,yes,PA0107.jpg,PA0107-2.jpg|PA0107-3.jpg|PA0107.jpg
+ORPA0123,YES,437,GCB44,NO,filename,exact,2,yes,PA0123-2.JPG,PA0123-2.JPG|PA0123-3.JPG
+ORPA0132,YES,438,GCB45,NO,filename,exact,3,yes,PA0132.jpg,PA0132-2.JPG|PA0132-3.JPG|PA0132.jpg
+ORPA0142,YES,439,GCB46,NO,filename,exact,3,yes,PA0142.jpg,PA0142-2.JPG|PA0142-3.JPG|PA0142.jpg
+ORPA0147,YES,440,GCB47,NO,filename,exact,3,yes,PA0147.jpg,PA0147-2.JPG|PA0147-3.JPG|PA0147.jpg
+ORPA0149,YES,441,GCB48,NO,filename,exact,3,yes,PA0149.jpg,PA0149-2.JPG|PA0149-3.JPG|PA0149.jpg
+ORPA034,YES,433,GCB40,NO,filename,zero-padding,3,yes,PA0034.jpg,PA0034-2.JPG|PA0034-4.JPG|PA0034.jpg
